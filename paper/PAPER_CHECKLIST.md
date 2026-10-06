@@ -1,10 +1,13 @@
 # Paper Review Checklist
 
-Author: Aravind Karthigeyan. Affiliation: University of Illinois Urbana-Champaign,
-as explicitly provided by the author. No department, title, or contact email was
-provided or invented. `paper.tex` is a new CC-BY-4.0 review manuscript, not a claim of peer
-review. It describes the actual selected D60/Bernstein/ambient-Hessian route.
-The paper and this checklist do not alter the frozen proof release.
+Generation credit: Claude Opus 5.5 and Codex (GPT-6 Astra, Ultra reasoning
+effort), as verified in task metadata. Imported Astra Pro artifacts are credited
+separately; their underlying model is unverified. Aravind Karthigeyan directed
+the project and hosted publication, but does not claim proof or manuscript
+authorship. No human author or institutional author affiliation is asserted.
+`paper.tex` is a CC-BY-4.0 review manuscript, not a claim of peer review. It
+describes the selected D60/Bernstein/ambient-Hessian route. Version 0.1.1
+corrects attribution only; its mathematical body and proof sources are unchanged.
 
 ## Source Inspection
 
@@ -72,17 +75,19 @@ leave these mathematical inputs unchanged and verify these hashes.
 - This is a newly written review draft, not an externally refereed paper.
 - The actual GitHub repository is
   `https://github.com/aravindkarthigeyan/thomson-n9-lean`.
-  Zenodo reserved `10.5281/zenodo.23192843` for version 0.1.0 during publication
-  preparation. The paper links these real identifiers and explicitly distinguishes
-  DOI reservation from completed archive deposit and publication. Confirm the
-  released record before describing the DOI as published or registered.
+  Zenodo DOI `10.5281/zenodo.23192843` is published for historical version 0.1.0;
+  its files retain the now-superseded human manuscript byline. Version 0.1.1 is
+  an attribution correction on GitHub only, not a new Zenodo version or DOI.
+  Published version-0.1.0 assets were downloaded from both platforms and their
+  SHA-256 hashes matched the local assets.
 - Existing counts and checker evidence refer to the recorded baseline proof.
   A newly added upstream-challenge bridge should receive its own stated checks;
   do not silently extend the baseline nanoda claim to another root.
 - The full N8 projects were not independently rebuilt successfully here.
 - The explanatory mathematical text is not itself kernel checked.
 - No claim of first-ever priority is made.
-- Significant Codex, Claude, and Astra assistance is disclosed. Claude stopped
+- AI generation by the verified Claude and Codex systems is explicit; imported
+  Astra Pro artifacts are distinguished from verified model identities. Claude stopped
   before final verification; no final Claude approval is claimed.
 - No numerical solver or Python certificate check is presented as a substitute
   for the Lean proof build.
@@ -104,10 +109,25 @@ leave these mathematical inputs unchanged and verify these hashes.
    hashes should be recorded by the final publication packager. The fontconfig
    warning emitted by portable Tectonic did not prevent the PDF from rendering.
    A final extracted-text check found the exact reproduction command and the
-   supplied UIUC affiliation; no text span lies outside a PDF page.
-3. The actual repository and reserved version-0.1.0 DOI are now cited. Confirm
-   the final immutable Git tag and Zenodo publication receipt in release metadata.
-4. Have Aravind read and approve the title, attribution, assistance disclosure,
-   and public claims before arXiv or journal submission.
+   then-supplied UIUC affiliation; no text span lay outside a PDF page. These
+   are historical version-0.1.0 checks. For the version-0.1.1 correction,
+   portable Tectonic compiled the revised source successfully to 11 pages,
+   with no overfull or underfull box warnings. All pages were rendered;
+   the first and final pages and an all-page contact sheet were inspected.
+   No extracted text span lies outside its page. A source comparison against
+   tag `v0.1.0` confirmed the entire mathematical body, from `Statement and
+   scope` through the verification discussion, is unchanged. The updated
+   byline has no human author name or institutional affiliation.
+   Revised PDF SHA-256:
+   `ede0c9373213b18bd7a791f711456e531af13702d086343f02894599bf1d4daf`.
+3. The actual repository and published historical version-0.1.0 DOI are cited.
+   Do not label that DOI as the archive of version 0.1.1.
+4. arXiv submission is blocked pending genuine eligible human authorship and
+   compliance with its policies: AI tools cannot occupy its Authors field,
+   and anonymous submissions are not accepted. Project direction or hosting
+   must not be silently converted into proof/manuscript authorship. Any future
+   submission requires accurate attribution, responsible authors, and their
+   explicit manuscript approval. See https://info.arxiv.org/help/prep.html and
+   https://info.arxiv.org/help/policies/submission_agreement.html.
 5. Consider shortening verification-operation details for a journal version,
    while preserving them in the reproducibility supplement.

@@ -1,5 +1,11 @@
 # Publication Provenance
 
+Version 0.1.1 changes attribution and publication metadata only. The AI
+generation credits replace the v0.1.0 human byline; see
+[ATTRIBUTION_CORRECTION.md](ATTRIBUTION_CORRECTION.md). Original proof inputs
+and verification evidence remain unchanged. A new inventory binds the current
+version; earlier inventories and Git tags remain historical records.
+
 This is a separately identified public derivative, not an alteration of the
 frozen verified source archive.
 

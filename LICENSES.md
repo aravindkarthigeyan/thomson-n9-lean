@@ -21,3 +21,9 @@ text, upstream notices, and bibliographic metadata do not become exclusively
 licensed project prose. No endorsement by prior authors, tool maintainers,
 or AI providers is implied. Historical records are distributed for audit;
 the project does not claim ownership of underlying mathematical facts.
+
+Version 0.1.1 corrects generation credits, not third-party licensing. Retained
+human licensor notices concern applicable rights and grant history, not a claim
+that the named person wrote the proof or manuscript. AI generation credits do
+not transfer copyright to an AI system or its provider, or assert that
+copyright subsists in every generated component.

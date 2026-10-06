@@ -1,14 +1,12 @@
 cff-version: 1.2.0
-message: "Please cite the exact version and commit or DOI of this research release."
+message: "Cite this exact GitHub version and its AI generation credits; the v0.1.0 DOI does not identify v0.1.1."
 type: software
 title: "The Nine-Point Coulomb Thomson Problem: Lean Proof and Certificates"
 authors:
-  - family-names: Karthigeyan
-    given-names: Aravind
-    affiliation: University of Illinois Urbana-Champaign
+  - name: "Claude Opus 5.5 (AI generation system)"
+  - name: "Codex (GPT-6 Astra, Ultra reasoning effort; AI generation system)"
 repository-code: "https://github.com/aravindkarthigeyan/thomson-n9-lean"
-doi: "10.5281/zenodo.23192843"
-version: 0.1.0
+version: 0.1.1
 date-released: "2026-10-06"
 license:
   - MIT
@@ -17,8 +15,10 @@ license:
 abstract: >-
   Lean 4 global optimality and uniqueness proof for the nine-point classical
   Coulomb Thomson problem, with exact certificates, provenance, and
-  reproduction instructions. Developed with substantial AI assistance.
-  External review and fresh-machine reproduction are requested.
+  reproduction instructions. AI-generated under human direction; the listed
+  names are generation credits, not human authors. Additional imported Astra
+  Pro artifacts are disclosed separately. Attribution-only correction of v0.1.0;
+  external review and fresh-machine reproduction are requested.
 keywords:
   - Thomson problem
   - Lean

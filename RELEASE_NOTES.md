@@ -1,8 +1,23 @@
-# Version 0.1.0: Research Release
+# Version 0.1.1: Attribution Correction
 
-Global optimality and uniqueness for the classical nine-point Coulomb Thomson
-problem, formalized in Lean 4.34.1 with pinned Mathlib. External review and
-fresh-machine reproduction are requested.
+This attribution-only release removes Aravind Karthigeyan from the proof and
+paper author byline at his request. He directed and published the project,
+but does not claim to have written the proof or manuscript.
+
+The artifact now prominently credits **Claude Opus 5.5** and **Codex using
+GPT-6 Astra with Ultra reasoning effort** as the generating systems. Separate
+imported Astra Pro contributions are disclosed without inventing their backend
+model. These are AI generation credits, not human academic authors or provider
+endorsements. See `ATTRIBUTION_CORRECTION.md` and `CONTRIBUTIONS.md`.
+
+The Lean proof, exact certificates, and prior verification evidence are
+unchanged. The regenerated paper and attribution documents have a new release
+inventory and checksums. No new full Lean build or new independent-kernel run
+is claimed for this attribution update.
+
+The v0.1.0 tag remains unchanged. Its Zenodo DOI
+`10.5281/zenodo.23192843` identifies the older files, not v0.1.1. Current
+v0.1.1 is a GitHub release; no new Zenodo DOI or arXiv submission is claimed.
 
 ## Included
 
@@ -10,8 +25,8 @@ fresh-machine reproduction are requested.
   numerical discovery code, and exact certificate checking data.
 - The selected D60/Bernstein/Gram-rigidity/ambient-Hessian proof guide.
 - Historical source-only build evidence and successful nanoda result.
-- A new, separately checked bridge to the actual N9 target in the N7 project.
-- An AI-assisted review-paper draft, not an externally reviewed article.
+- The separately checked bridge to the actual N9 target in the N7 project.
+- An AI-generated review-paper draft, not an externally reviewed article.
 - Privacy-redaction provenance, release inventory, attribution, and licenses.
 
 ## Verification Scope

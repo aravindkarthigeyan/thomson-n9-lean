@@ -72,4 +72,7 @@ The raw `upstream-build.log` is retained locally; it contains local filesystem
 paths and the three expected upstream placeholder warnings. It need not be
 published. The script reproduces that log from the separately obtained source.
 
-Author: Aravind Karthigeyan. Developed with Codex assistance.
+Generated and checked through Codex under human direction. The corrected
+project credits identify Codex as using GPT-6 Astra with Ultra reasoning
+effort. Aravind Karthigeyan arranged the project and publication, not the
+authorship of this bridge. See the publication-level CONTRIBUTIONS.md.
