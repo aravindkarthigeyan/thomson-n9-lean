@@ -1,0 +1,77 @@
+{
+ "phases": {
+  "selftest": {
+   "steps": 1,
+   "failed": 0,
+   "wall_seconds": 1.0,
+   "cpu_seconds": 0.9,
+   "max_peak_job_commit_gb": 0.743,
+   "max_peak_tree_ws_gb": 0.0,
+   "min_free_physical_gb": 13.023,
+   "max_step": "selftest:export"
+  },
+  "control": {
+   "steps": 11,
+   "failed": 7,
+   "wall_seconds": 1.8,
+   "cpu_seconds": 0.7,
+   "max_peak_job_commit_gb": 0.01,
+   "max_peak_tree_ws_gb": 0.0,
+   "min_free_physical_gb": 12.302,
+   "max_step": "control:accept_good"
+  }
+ },
+ "total_wall_seconds": 2.7,
+ "slowest_steps": [
+  [
+   "selftest:export",
+   0.97,
+   0.743
+  ],
+  [
+   "control:missing_export",
+   0.81,
+   0.01
+  ],
+  [
+   "control:accept_good",
+   0.11,
+   0.01
+  ],
+  [
+   "control:reject_projfromprop",
+   0.11,
+   0.01
+  ],
+  [
+   "control:invalid_config_json",
+   0.1,
+   0.01
+  ],
+  [
+   "control:wrong_format",
+   0.1,
+   0.01
+  ],
+  [
+   "control:malformed_export",
+   0.1,
+   0.01
+  ],
+  [
+   "control:missing_pp",
+   0.1,
+   0.01
+  ],
+  [
+   "control:forced_resource_4194304bytes",
+   0.09,
+   0.01
+  ],
+  [
+   "control:forced_resource_524288bytes",
+   0.09,
+   0.01
+  ]
+ ]
+}

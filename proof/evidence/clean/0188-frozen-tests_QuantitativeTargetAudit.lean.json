@@ -1,0 +1,51 @@
+{
+  "name": "frozen-tests/QuantitativeTargetAudit.lean",
+  "executable": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\toolchains\\lean-4.34.1-windows\\bin\\lake.exe",
+  "arguments": [
+    "env",
+    "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\toolchains\\lean-4.34.1-windows\\bin\\lean.exe",
+    "-j1",
+    "frozen-tests/QuantitativeTargetAudit.lean"
+  ],
+  "exitCode": 0,
+  "expectation": "pass",
+  "passed": true,
+  "seconds": 26.239500999999997,
+  "sampledPeakPrivateBytes": 5888307200,
+  "sampledPeakWorkingBytes": 2432503808,
+  "sampledLargestOwnedPrivateBytes": 4888043520,
+  "resourcePolicy": {
+    "classification": "unprofiled-large",
+    "gateGiB": 11.75,
+    "physicalFloorGiB": 6.5,
+    "reason": "No exact named command and source-bound profile",
+    "module": null,
+    "sourceSha256": null,
+    "helperSha256": null,
+    "baselines": []
+  },
+  "resourceOutcome": "WITHIN_SAMPLED_PROFILE_OR_UNPROFILED",
+  "profileGrowthViolations": [],
+  "ownedProcessIdentities": [
+    {
+      "pid": 33680,
+      "creationUtcTicks": "639268645747530070"
+    },
+    {
+      "pid": 54760,
+      "creationUtcTicks": "639268645747690880"
+    },
+    {
+      "pid": 4512,
+      "creationUtcTicks": "639268645763589490"
+    }
+  ],
+  "stdout": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\fresh-evidence\\20261006T024511Z\\0188-frozen-tests_QuantitativeTargetAudit.lean.stdout.log",
+  "stderr": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\fresh-evidence\\20261006T024511Z\\0188-frozen-tests_QuantitativeTargetAudit.lean.stderr.log",
+  "stdoutSha256": "9475c884600915f8bb32961f223c6a174d35db2ab7f9ecd772c4c24ada7eec97",
+  "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "effectiveEnvironment": {
+    "LEAN_NUM_THREADS": "1"
+  },
+  "compilerThreadControl": "explicit -j1 for direct Lean; package moreLeanArgs=-j1 for Lake builds"
+}

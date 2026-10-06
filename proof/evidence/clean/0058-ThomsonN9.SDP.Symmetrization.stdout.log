@@ -1,0 +1,6 @@
+⚠ [3162/3164] Replayed ThomsonN9.SDP.Counting
+warning: ThomsonN9/SDP/Counting.lean:107:56: `if_false` has been deprecated: Use `ite_false` instead
+warning: ThomsonN9/SDP/Counting.lean:120:19: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: ThomsonN9/SDP/Counting.lean:120:31: `if_neg` has been deprecated: Use `ite_eq_right` instead
+✔ [3164/3164] Built ThomsonN9.SDP.Symmetrization (10s)
+Build completed successfully (3164 jobs).

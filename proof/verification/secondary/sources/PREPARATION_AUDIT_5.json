@@ -1,0 +1,807 @@
+{
+  "schema": 1,
+  "status": "PREPARATION_ONLY",
+  "originalSourcesUnchanged": true,
+  "realVerificationPerformed": false,
+  "sourceFiles": [
+    {
+      "path": "HARDENING.md",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\HARDENING.md",
+      "bytes": 51839,
+      "originalSha256": "9db6b0eddda4675a390b8ab293ab0ca9325418b1605b8721574261baaa1b11a5",
+      "copiedSha256": "9db6b0eddda4675a390b8ab293ab0ca9325418b1605b8721574261baaa1b11a5",
+      "modified": false
+    },
+    {
+      "path": "statement/STATEMENT_AUDIT.md",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\statement\\STATEMENT_AUDIT.md",
+      "bytes": 17110,
+      "originalSha256": "7c0d2acea64abd9ee7f3dfcc2e2ffaf048bbb54154a044b7a8e14d5c1a5478c8",
+      "copiedSha256": "7c0d2acea64abd9ee7f3dfcc2e2ffaf048bbb54154a044b7a8e14d5c1a5478c8",
+      "modified": false
+    },
+    {
+      "path": "statement/StatementPins.lean",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\statement\\StatementPins.lean",
+      "bytes": 20787,
+      "originalSha256": "aa72e0868c8b8a675306d594e2ca80d6eaf34c148c2438010afa867ea178143c",
+      "copiedSha256": "aa72e0868c8b8a675306d594e2ca80d6eaf34c148c2438010afa867ea178143c",
+      "modified": false
+    },
+    {
+      "path": "statement/StatementPinsCore.lean",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\statement\\StatementPinsCore.lean",
+      "bytes": 16318,
+      "originalSha256": "816547a041e61679f4cd23d5561046591fa16906f67b487283f23532ec89e3ac",
+      "copiedSha256": "816547a041e61679f4cd23d5561046591fa16906f67b487283f23532ec89e3ac",
+      "modified": false
+    },
+    {
+      "path": "statement/make_core.sh",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\statement\\make_core.sh",
+      "bytes": 994,
+      "originalSha256": "7b3e0c0208f4d635ba12cd4a82b5dc8d717190299d0ea997af39fc7478e20198",
+      "copiedSha256": "7b3e0c0208f4d635ba12cd4a82b5dc8d717190299d0ea997af39fc7478e20198",
+      "modified": false
+    },
+    {
+      "path": "statement/make_pin_mutants.py",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\statement\\make_pin_mutants.py",
+      "bytes": 5803,
+      "originalSha256": "296bf286570da84b043ce97ae020caf50a4339b097cf6a163fa1b6238d8f80e1",
+      "copiedSha256": "296bf286570da84b043ce97ae020caf50a4339b097cf6a163fa1b6238d8f80e1",
+      "modified": false
+    },
+    {
+      "path": "statement/mutants/MANIFEST.tsv",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\statement\\mutants\\MANIFEST.tsv",
+      "bytes": 355,
+      "originalSha256": "890fbe1e9cdc29483ef91d876243c1e87dd768230734bbb34198692246e04c5c",
+      "copiedSha256": "890fbe1e9cdc29483ef91d876243c1e87dd768230734bbb34198692246e04c5c",
+      "modified": false
+    },
+    {
+      "path": "statement/mutants/PinMutant_bracket_lower_digit.lean",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\statement\\mutants\\PinMutant_bracket_lower_digit.lean",
+      "bytes": 16445,
+      "originalSha256": "fe9bd0f820bdbb938946c6142930797ba8585222b5acc4843be3b6980916ddfc",
+      "copiedSha256": "fe9bd0f820bdbb938946c6142930797ba8585222b5acc4843be3b6980916ddfc",
+      "modified": false
+    },
+    {
+      "path": "statement/mutants/PinMutant_cap_sign.lean",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\statement\\mutants\\PinMutant_cap_sign.lean",
+      "bytes": 16429,
+      "originalSha256": "3124923d13ec4e96e05cf6fcabc010d487cc2c5250440387cdf7bd075ec805db",
+      "copiedSha256": "3124923d13ec4e96e05cf6fcabc010d487cc2c5250440387cdf7bd075ec805db",
+      "modified": false
+    },
+    {
+      "path": "statement/mutants/PinMutant_congruent_isometry_equiv.lean",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\statement\\mutants\\PinMutant_congruent_isometry_equiv.lean",
+      "bytes": 16475,
+      "originalSha256": "f80dc054bfbfad83f9a7d5636f48c9cb2043c6647803180b60221d775b970bfc",
+      "copiedSha256": "f80dc054bfbfad83f9a7d5636f48c9cb2043c6647803180b60221d775b970bfc",
+      "modified": false
+    },
+    {
+      "path": "statement/mutants/PinMutant_congruent_no_relabel.lean",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\statement\\mutants\\PinMutant_congruent_no_relabel.lean",
+      "bytes": 16422,
+      "originalSha256": "7d312007dcacdc45dc55a56b0b054b261dbde11775510bf0111a9ef0acb72d06",
+      "copiedSha256": "7d312007dcacdc45dc55a56b0b054b261dbde11775510bf0111a9ef0acb72d06",
+      "modified": false
+    },
+    {
+      "path": "statement/mutants/PinMutant_energy_Iio.lean",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\statement\\mutants\\PinMutant_energy_Iio.lean",
+      "bytes": 16485,
+      "originalSha256": "0aa7f38d718821da118d83d69d957eba93c01523818e7cba4149780400f78199",
+      "copiedSha256": "0aa7f38d718821da118d83d69d957eba93c01523818e7cba4149780400f78199",
+      "modified": false
+    },
+    {
+      "path": "statement/mutants/PinMutant_energy_no_inverse.lean",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\statement\\mutants\\PinMutant_energy_no_inverse.lean",
+      "bytes": 16444,
+      "originalSha256": "8fb922a8fb7809b0947cf39563a56afa054f881447e7b9bfc88b57e0acdf4ec5",
+      "copiedSha256": "8fb922a8fb7809b0947cf39563a56afa054f881447e7b9bfc88b57e0acdf4ec5",
+      "modified": false
+    },
+    {
+      "path": "statement/mutants/PinMutant_energy_ordered_double.lean",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\statement\\mutants\\PinMutant_energy_ordered_double.lean",
+      "bytes": 16455,
+      "originalSha256": "fdf92eda6511521f780c775f37f363dc007a8b531ad05ba52ef5e568ec495609",
+      "copiedSha256": "fdf92eda6511521f780c775f37f363dc007a8b531ad05ba52ef5e568ec495609",
+      "modified": false
+    },
+    {
+      "path": "statement/mutants/PinMutant_energy_riesz2.lean",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\statement\\mutants\\PinMutant_energy_riesz2.lean",
+      "bytes": 16439,
+      "originalSha256": "8334e33ddd6ec09d62cb45d23a367abae8b5c19ca4bc003137af6dbe1664beda",
+      "copiedSha256": "8334e33ddd6ec09d62cb45d23a367abae8b5c19ca4bc003137af6dbe1664beda",
+      "modified": false
+    },
+    {
+      "path": "statement/mutants/PinMutant_prism_twist.lean",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\statement\\mutants\\PinMutant_prism_twist.lean",
+      "bytes": 16458,
+      "originalSha256": "a0d5f85f33ac7744411b921a2d0e00c6bf14d664eec7a4da94d1f4b304ea4950",
+      "copiedSha256": "a0d5f85f33ac7744411b921a2d0e00c6bf14d664eec7a4da94d1f4b304ea4950",
+      "modified": false
+    },
+    {
+      "path": "statement/mutants/PinMutant_sphere_ball.lean",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\statement\\mutants\\PinMutant_sphere_ball.lean",
+      "bytes": 16431,
+      "originalSha256": "20c6abb8b8c9d473de59c2da771b1132f10add3944c48f9a27b4a6106cc5d3ff",
+      "copiedSha256": "20c6abb8b8c9d473de59c2da771b1132f10add3944c48f9a27b4a6106cc5d3ff",
+      "modified": false
+    },
+    {
+      "path": "statement/mutants/PinMutant_sphere_no_injective.lean",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\statement\\mutants\\PinMutant_sphere_no_injective.lean",
+      "bytes": 16462,
+      "originalSha256": "676151ba5257c828a1a7ab14bdf5aef8aef81ad8a27cc89c800c4746393d8c30",
+      "copiedSha256": "676151ba5257c828a1a7ab14bdf5aef8aef81ad8a27cc89c800c4746393d8c30",
+      "modified": false
+    },
+    {
+      "path": "statement/mutants/PinMutant_stationarity_sign.lean",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\statement\\mutants\\PinMutant_stationarity_sign.lean",
+      "bytes": 16441,
+      "originalSha256": "b9fdff2cbfc8878f54f33f7e5651839204fa474e763f08dee4403ceb6a311e9c",
+      "copiedSha256": "b9fdff2cbfc8878f54f33f7e5651839204fa474e763f08dee4403ceb6a311e9c",
+      "modified": false
+    },
+    {
+      "path": "statement/mutants/PinMutant_symE_coefficient.lean",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\statement\\mutants\\PinMutant_symE_coefficient.lean",
+      "bytes": 16442,
+      "originalSha256": "6c12581c675fb28119c842622612a4d86c42b160c12299995d1486ca976e1e26",
+      "copiedSha256": "6c12581c675fb28119c842622612a4d86c42b160c12299995d1486ca976e1e26",
+      "modified": false
+    },
+    {
+      "path": "statement/mutants/PinMutant_target_exists_not_unique.lean",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\statement\\mutants\\PinMutant_target_exists_not_unique.lean",
+      "bytes": 16453,
+      "originalSha256": "f6167d3e57ca1626fdb60f977611afb753dce71a0bce2dcb9b5b329433ce6b21",
+      "copiedSha256": "f6167d3e57ca1626fdb60f977611afb753dce71a0bce2dcb9b5b329433ce6b21",
+      "modified": false
+    },
+    {
+      "path": "statement/mutants/PinMutant_target_optimality_flipped.lean",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\statement\\mutants\\PinMutant_target_optimality_flipped.lean",
+      "bytes": 16460,
+      "originalSha256": "77d94abca58e149c3c3ae3a248683a8835b87790eac8d90768ebe4b3f46d8cc8",
+      "copiedSha256": "77d94abca58e149c3c3ae3a248683a8835b87790eac8d90768ebe4b3f46d8cc8",
+      "modified": false
+    },
+    {
+      "path": "statement/mutants/PinMutant_target_uniqueness_implies.lean",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\statement\\mutants\\PinMutant_target_uniqueness_implies.lean",
+      "bytes": 16453,
+      "originalSha256": "7c6057cc2cfa22be6c5e4eb8187052a9b3eaaca3c9748f401701dc6d37661dec",
+      "copiedSha256": "7c6057cc2cfa22be6c5e4eb8187052a9b3eaaca3c9748f401701dc6d37661dec",
+      "modified": false
+    },
+    {
+      "path": "statement/run_pins.sh",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\statement\\run_pins.sh",
+      "bytes": 8115,
+      "originalSha256": "39bc8b5425a795762979901213e9d29417a152e60dd77bfb7d2abf305f1e91c4",
+      "copiedSha256": "a0b64d288fcbcdca4328c886a10ae759e9125247d9352dce444261eeb68ab3cc",
+      "modified": true
+    },
+    {
+      "path": "statement/statement_numerics.json",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\statement\\statement_numerics.json",
+      "bytes": 2917,
+      "originalSha256": "1255685c8be658838851d1424fd8adebadb949c12837508e8ad7b81afc17750e",
+      "copiedSha256": "1255685c8be658838851d1424fd8adebadb949c12837508e8ad7b81afc17750e",
+      "modified": false
+    },
+    {
+      "path": "statement/statement_numerics.py",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\statement\\statement_numerics.py",
+      "bytes": 11101,
+      "originalSha256": "cfb2fff8b8882a9391a96a6553c1b644380e789089ad05e3ab941f0f1e385116",
+      "copiedSha256": "cfb2fff8b8882a9391a96a6553c1b644380e789089ad05e3ab941f0f1e385116",
+      "modified": false
+    },
+    {
+      "path": "statement/statement_symbolic.json",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\statement\\statement_symbolic.json",
+      "bytes": 737,
+      "originalSha256": "c40864bd5bde0413b14e3334d476a7aaa0faca0630a89a7378a29cb92f1c478f",
+      "copiedSha256": "c40864bd5bde0413b14e3334d476a7aaa0faca0630a89a7378a29cb92f1c478f",
+      "modified": false
+    },
+    {
+      "path": "statement/statement_symbolic.py",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\statement\\statement_symbolic.py",
+      "bytes": 3371,
+      "originalSha256": "b6bc69b57ddfa444d57b135c7a2d1f0cb1fff2886799956e109204c33621d525",
+      "copiedSha256": "b6bc69b57ddfa444d57b135c7a2d1f0cb1fff2886799956e109204c33621d525",
+      "modified": false
+    },
+    {
+      "path": "tools/FINAL_PINS.json",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\FINAL_PINS.json",
+      "bytes": 3169,
+      "originalSha256": "8a5f31a7fc70be327e9b3594127e7be73d614cebaad3fdb7622471e27f182a6e",
+      "copiedSha256": "cddbfe242244383c592bcf187994ca3550e0c5c6749c53439c13b38ed3f6844a",
+      "modified": true
+    },
+    {
+      "path": "tools/README.md",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\README.md",
+      "bytes": 32830,
+      "originalSha256": "6ee218d47df8ed752a51b7cd55f698fd11136c5fdf4f6a3074e381a8224ec999",
+      "copiedSha256": "6ee218d47df8ed752a51b7cd55f698fd11136c5fdf4f6a3074e381a8224ec999",
+      "modified": false
+    },
+    {
+      "path": "tools/checkone/CheckOne.lean",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\checkone\\CheckOne.lean",
+      "bytes": 3372,
+      "originalSha256": "941c1ffff38bca037a330619773ca641b8f1cd8fb3e52cc14d44185b2efa475f",
+      "copiedSha256": "941c1ffff38bca037a330619773ca641b8f1cd8fb3e52cc14d44185b2efa475f",
+      "modified": false
+    },
+    {
+      "path": "tools/run_final_verification.sh",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\run_final_verification.sh",
+      "bytes": 37232,
+      "originalSha256": "28eb64382afa8d7d46de9e3a8e14098d645f62e0f57d7c29feec07f81434d94e",
+      "copiedSha256": "69294ad3f489882e25b7a5638d5b1862877050adffb7347d37fc302d5928755b",
+      "modified": true
+    },
+    {
+      "path": "tools/run_step.py",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\run_step.py",
+      "bytes": 10745,
+      "originalSha256": "4c5068029066ed0276d07e1cb6c1555962b8e79bc6144a3809ac99870b72da3f",
+      "copiedSha256": "52e307d0669b1f7cdceb92be6705497bb0368d9958f3c4719d9bffe42462e879",
+      "modified": true
+    },
+    {
+      "path": "tools/second_kernel/PINS.json",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\PINS.json",
+      "bytes": 5656,
+      "originalSha256": "9e46c1ffda9cb5e78b605d18015eaf5c1bf867808eb332b5cc34029550c42bee",
+      "copiedSha256": "9e46c1ffda9cb5e78b605d18015eaf5c1bf867808eb332b5cc34029550c42bee",
+      "modified": false
+    },
+    {
+      "path": "tools/second_kernel/SECOND_KERNEL.md",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\SECOND_KERNEL.md",
+      "bytes": 27129,
+      "originalSha256": "2b1463df3eee1d95dce1ebdc7be4a0fab151f3e4d6854fc74526fbcbc71f2888",
+      "copiedSha256": "2b1463df3eee1d95dce1ebdc7be4a0fab151f3e4d6854fc74526fbcbc71f2888",
+      "modified": false
+    },
+    {
+      "path": "tools/second_kernel/build_second_kernel.sh",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\build_second_kernel.sh",
+      "bytes": 17065,
+      "originalSha256": "3e83a1f6d55e79c2d0ac5831ee09ababf12e24fe9ff2c51331fed258e307d0d1",
+      "copiedSha256": "78d0300ed810efcd14ff7376744f7e5d91a3bf3f8447bdb132149116f61a1ade",
+      "modified": true
+    },
+    {
+      "path": "tools/second_kernel/env.sh",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\env.sh",
+      "bytes": 6460,
+      "originalSha256": "71117116309304fca9c1bf49d6a9e9e7e2f07cca793dbe1fced215803998a99b",
+      "copiedSha256": "c994d3d975ea82b1a200f49d0a8faed53ca90062f4cdbd978514bd114b66bd5c",
+      "modified": true
+    },
+    {
+      "path": "tools/second_kernel/make_semantic_sites.py",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\make_semantic_sites.py",
+      "bytes": 10269,
+      "originalSha256": "cbedb02d955400032747dad1f3685083321e4e52fa447074b0b9be29f3a707eb",
+      "copiedSha256": "cbedb02d955400032747dad1f3685083321e4e52fa447074b0b9be29f3a707eb",
+      "modified": false
+    },
+    {
+      "path": "tools/second_kernel/nanoda_failure_sites.tsv",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\nanoda_failure_sites.tsv",
+      "bytes": 33907,
+      "originalSha256": "8122e897ffd8843faada424afff2e58dcd7b318e01d504a4d2114e3e0516501f",
+      "copiedSha256": "8122e897ffd8843faada424afff2e58dcd7b318e01d504a4d2114e3e0516501f",
+      "modified": false
+    },
+    {
+      "path": "tools/second_kernel/nanoda_semantic_sites.json",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\nanoda_semantic_sites.json",
+      "bytes": 5910,
+      "originalSha256": "ff6fb1166da58ddb0af8f154ac284961c96371ff4d95be5d20e698ec903f4b2f",
+      "copiedSha256": "ff6fb1166da58ddb0af8f154ac284961c96371ff4d95be5d20e698ec903f4b2f",
+      "modified": false
+    },
+    {
+      "path": "tools/second_kernel/redirect.py",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\redirect.py",
+      "bytes": 5203,
+      "originalSha256": "29145c6ef16e4a205566aa50a59e5607e4fba18dd3e60a85344d6f75279c55ba",
+      "copiedSha256": "054a02a3a1f7e9d36e262ed37af4218a6e37b174805e9356ba0486d167805148",
+      "modified": true
+    },
+    {
+      "path": "tools/second_kernel/run_second_kernel.sh",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\run_second_kernel.sh",
+      "bytes": 29579,
+      "originalSha256": "faa7942e1230c20c0489542b882e8d092fb862b160afd13a54cc98d8d6ad7c14",
+      "copiedSha256": "10ccd7c30c05108cd11c7e30aaf688f92562fdd7f8fb0288eb8c227aab56a0ec",
+      "modified": true
+    },
+    {
+      "path": "tools/second_kernel/sk_tool.py",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\sk_tool.py",
+      "bytes": 67080,
+      "originalSha256": "da7e5d155245e24ec53189b328168db5d28bf78f488229c71eb31bed50c634a5",
+      "copiedSha256": "b20645f1a745b8e54c52dcaac27bbc8310d7fbd22887d0acf5dcb23e82b2473d",
+      "modified": true
+    },
+    {
+      "path": "tools/second_kernel/src/nanoda_lib/src/debug_printer.rs",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\src\\nanoda_lib\\src\\debug_printer.rs",
+      "bytes": 8921,
+      "originalSha256": "184918c06946c0efcc57868e47098428bd1d98179725344ba81b1103eb940c81",
+      "copiedSha256": "184918c06946c0efcc57868e47098428bd1d98179725344ba81b1103eb940c81",
+      "modified": false
+    },
+    {
+      "path": "tools/second_kernel/src/nanoda_lib/src/env.rs",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\src\\nanoda_lib\\src\\env.rs",
+      "bytes": 12757,
+      "originalSha256": "52c1593f0e08c4e7b9b9f8a97e48bfdde1d449253bf0c3e4967321b46dbece01",
+      "copiedSha256": "52c1593f0e08c4e7b9b9f8a97e48bfdde1d449253bf0c3e4967321b46dbece01",
+      "modified": false
+    },
+    {
+      "path": "tools/second_kernel/src/nanoda_lib/src/expr.rs",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\src\\nanoda_lib\\src\\expr.rs",
+      "bytes": 33675,
+      "originalSha256": "7ea1a70e11c7adf1fa2f4be8e8a2f10f7fcd6441d73117fdc206a55ac2d76e3c",
+      "copiedSha256": "7ea1a70e11c7adf1fa2f4be8e8a2f10f7fcd6441d73117fdc206a55ac2d76e3c",
+      "modified": false
+    },
+    {
+      "path": "tools/second_kernel/src/nanoda_lib/src/inductive.rs",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\src\\nanoda_lib\\src\\inductive.rs",
+      "bytes": 85499,
+      "originalSha256": "e4be60335f8c0eda18eae074acbf1ea6a6a2b709b31d4d50dbb92dd3443263fc",
+      "copiedSha256": "e4be60335f8c0eda18eae074acbf1ea6a6a2b709b31d4d50dbb92dd3443263fc",
+      "modified": false
+    },
+    {
+      "path": "tools/second_kernel/src/nanoda_lib/src/level.rs",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\src\\nanoda_lib\\src\\level.rs",
+      "bytes": 11272,
+      "originalSha256": "aaf68c6bb4af87fc026f8560df90c5576abb86e8c59c530aa671465912a998bf",
+      "copiedSha256": "aaf68c6bb4af87fc026f8560df90c5576abb86e8c59c530aa671465912a998bf",
+      "modified": false
+    },
+    {
+      "path": "tools/second_kernel/src/nanoda_lib/src/lib.rs",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\src\\nanoda_lib\\src\\lib.rs",
+      "bytes": 420,
+      "originalSha256": "23074a173a2ce6c3ca6ef39c9a8da488c7556f9aa95360a50fec7c154dcbee77",
+      "copiedSha256": "23074a173a2ce6c3ca6ef39c9a8da488c7556f9aa95360a50fec7c154dcbee77",
+      "modified": false
+    },
+    {
+      "path": "tools/second_kernel/src/nanoda_lib/src/main.rs",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\src\\nanoda_lib\\src\\main.rs",
+      "bytes": 2524,
+      "originalSha256": "245ceaef34e8925cacaa3c5b99ce096a8c744710ce1f9184423e5a0333e8b35a",
+      "copiedSha256": "245ceaef34e8925cacaa3c5b99ce096a8c744710ce1f9184423e5a0333e8b35a",
+      "modified": false
+    },
+    {
+      "path": "tools/second_kernel/src/nanoda_lib/src/name.rs",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\src\\nanoda_lib\\src\\name.rs",
+      "bytes": 2823,
+      "originalSha256": "0e5ea2028ff4d87cc39100d49120f4b08113597d39eb3e916c66ca3c06427478",
+      "copiedSha256": "0e5ea2028ff4d87cc39100d49120f4b08113597d39eb3e916c66ca3c06427478",
+      "modified": false
+    },
+    {
+      "path": "tools/second_kernel/src/nanoda_lib/src/parser.rs",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\src\\nanoda_lib\\src\\parser.rs",
+      "bytes": 38690,
+      "originalSha256": "51c0208cbb07660a3af5b26f54eeda012e2c983567aed779f1b8acacf5c14ada",
+      "copiedSha256": "51c0208cbb07660a3af5b26f54eeda012e2c983567aed779f1b8acacf5c14ada",
+      "modified": false
+    },
+    {
+      "path": "tools/second_kernel/src/nanoda_lib/src/pretty_printer.rs",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\src\\nanoda_lib\\src\\pretty_printer.rs",
+      "bytes": 37053,
+      "originalSha256": "9e45e1951d06d84631d0fee1fdcef60161a757abef53d428625257a0fbe6deb3",
+      "copiedSha256": "9e45e1951d06d84631d0fee1fdcef60161a757abef53d428625257a0fbe6deb3",
+      "modified": false
+    },
+    {
+      "path": "tools/second_kernel/src/nanoda_lib/src/quot.rs",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\src\\nanoda_lib\\src\\quot.rs",
+      "bytes": 10612,
+      "originalSha256": "0131ae36f3daea5262f280aca44085c15e5335a8657cefd2afcec4c2bc388463",
+      "copiedSha256": "0131ae36f3daea5262f280aca44085c15e5335a8657cefd2afcec4c2bc388463",
+      "modified": false
+    },
+    {
+      "path": "tools/second_kernel/src/nanoda_lib/src/tc.rs",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\src\\nanoda_lib\\src\\tc.rs",
+      "bytes": 58990,
+      "originalSha256": "59d8a7d5b4481a9038031fabe819d3e2384f2dd68eb343805fa946e3499b3fda",
+      "copiedSha256": "59d8a7d5b4481a9038031fabe819d3e2384f2dd68eb343805fa946e3499b3fda",
+      "modified": false
+    },
+    {
+      "path": "tools/second_kernel/src/nanoda_lib/src/tests.rs",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\src\\nanoda_lib\\src\\tests.rs",
+      "bytes": 63,
+      "originalSha256": "8af730f36984da57fe8ef62818cf3d83c993ed44d1452abc028cc16fcf952f0e",
+      "copiedSha256": "8af730f36984da57fe8ef62818cf3d83c993ed44d1452abc028cc16fcf952f0e",
+      "modified": false
+    },
+    {
+      "path": "tools/second_kernel/src/nanoda_lib/src/union_find.rs",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\src\\nanoda_lib\\src\\union_find.rs",
+      "bytes": 5571,
+      "originalSha256": "2728ab1d2dcd84489a6bb4fa984af22c40236bf813205e42a1c55ca825bdc757",
+      "copiedSha256": "2728ab1d2dcd84489a6bb4fa984af22c40236bf813205e42a1c55ca825bdc757",
+      "modified": false
+    },
+    {
+      "path": "tools/second_kernel/src/nanoda_lib/src/unique_hasher.rs",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\src\\nanoda_lib\\src\\unique_hasher.rs",
+      "bytes": 881,
+      "originalSha256": "e457ec69139dee08c4f21f3fee5bc9a2cfe6bb14e5d5bd217ca35d6a368daea5",
+      "copiedSha256": "e457ec69139dee08c4f21f3fee5bc9a2cfe6bb14e5d5bd217ca35d6a368daea5",
+      "modified": false
+    },
+    {
+      "path": "tools/second_kernel/src/nanoda_lib/src/util.rs",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\src\\nanoda_lib\\src\\util.rs",
+      "bytes": 41987,
+      "originalSha256": "57b2022b743ad5f31cc08d18dfa5092f2246b6a57b2b49770deb0f53cd3e7561",
+      "copiedSha256": "57b2022b743ad5f31cc08d18dfa5092f2246b6a57b2b49770deb0f53cd3e7561",
+      "modified": false
+    },
+    {
+      "path": "tools/smoke/src/VFNeg/AddFalse.lean",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\smoke\\src\\VFNeg\\AddFalse.lean",
+      "bytes": 673,
+      "originalSha256": "f13eb83e8f066bcfd3377feb0185c08a6fe1ff893aea9bb900bdfc4b0740334e",
+      "copiedSha256": "f13eb83e8f066bcfd3377feb0185c08a6fe1ff893aea9bb900bdfc4b0740334e",
+      "modified": false
+    },
+    {
+      "path": "tools/smoke/src/VFNeg/UsesFalse.lean",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\smoke\\src\\VFNeg\\UsesFalse.lean",
+      "bytes": 303,
+      "originalSha256": "598aeb364e7dc1ed9796cd4017327c09df8dc9309830ed620131477a94e3a381",
+      "copiedSha256": "598aeb364e7dc1ed9796cd4017327c09df8dc9309830ed620131477a94e3a381",
+      "modified": false
+    },
+    {
+      "path": "tools/smoke/src/VFSmoke/Mathy.lean",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\smoke\\src\\VFSmoke\\Mathy.lean",
+      "bytes": 303,
+      "originalSha256": "c4f22f950d8a4c7f169e74c3f3bca65f0c74f05e82d61f249587fd82aee83bf1",
+      "copiedSha256": "c4f22f950d8a4c7f169e74c3f3bca65f0c74f05e82d61f249587fd82aee83bf1",
+      "modified": false
+    },
+    {
+      "path": "tools/smoke/src/VFSmoke/Mathy2.lean",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\smoke\\src\\VFSmoke\\Mathy2.lean",
+      "bytes": 303,
+      "originalSha256": "556dbd83fa3fcebe71af8a8a4f1090bce2c162c718f8c40ca32b36fc0fccb813",
+      "copiedSha256": "556dbd83fa3fcebe71af8a8a4f1090bce2c162c718f8c40ca32b36fc0fccb813",
+      "modified": false
+    },
+    {
+      "path": "tools/smoke/src/VFSmoke/Tiny.lean",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\smoke\\src\\VFSmoke\\Tiny.lean",
+      "bytes": 190,
+      "originalSha256": "5bb9cfeed203f934cbd52b8a4a91210a87cf8168963deab49822b5ddca3b23c4",
+      "copiedSha256": "5bb9cfeed203f934cbd52b8a4a91210a87cf8168963deab49822b5ddca3b23c4",
+      "modified": false
+    },
+    {
+      "path": "tools/tests/_util.py",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\tests\\_util.py",
+      "bytes": 19261,
+      "originalSha256": "fc315d988d973becb19bd6a97acb16299fedc259fd087e15bad0e9f1fce9b3c6",
+      "copiedSha256": "9dbb62a98a3bada7b45a9da062b5c63d2313362ebc42ee6bf523ce7f4a9b0e28",
+      "modified": true
+    },
+    {
+      "path": "tools/tests/fakes/fake_lean.py",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\tests\\fakes\\fake_lean.py",
+      "bytes": 4077,
+      "originalSha256": "d15d3b8702f8d728ee044ab0fff14054f1a00ef29b393ffa6304273f5aa7163f",
+      "copiedSha256": "d15d3b8702f8d728ee044ab0fff14054f1a00ef29b393ffa6304273f5aa7163f",
+      "modified": false
+    },
+    {
+      "path": "tools/tests/fakes/fake_lean4export.py",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\tests\\fakes\\fake_lean4export.py",
+      "bytes": 2630,
+      "originalSha256": "0a9e17607c6bb9dc96e3dd07928a965bb4607bf5da29015af819f00a2a543674",
+      "copiedSha256": "0a9e17607c6bb9dc96e3dd07928a965bb4607bf5da29015af819f00a2a543674",
+      "modified": false
+    },
+    {
+      "path": "tools/tests/fakes/fake_lean_pins.py",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\tests\\fakes\\fake_lean_pins.py",
+      "bytes": 2675,
+      "originalSha256": "c8f1f6edbe6fe2caff4eb352a4d59b0711c28574628eb8d2ceea7ce34891d081",
+      "copiedSha256": "c8f1f6edbe6fe2caff4eb352a4d59b0711c28574628eb8d2ceea7ce34891d081",
+      "modified": false
+    },
+    {
+      "path": "tools/tests/fakes/fake_leanchecker.py",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\tests\\fakes\\fake_leanchecker.py",
+      "bytes": 1798,
+      "originalSha256": "bc4b4cf7ecfdb059f234be84d4d7a345cec2c5981e64d6eda80d41b0148a22ab",
+      "copiedSha256": "bc4b4cf7ecfdb059f234be84d4d7a345cec2c5981e64d6eda80d41b0148a22ab",
+      "modified": false
+    },
+    {
+      "path": "tools/tests/fakes/fake_nanoda.py",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\tests\\fakes\\fake_nanoda.py",
+      "bytes": 7581,
+      "originalSha256": "00e4f2a33751197646e3c8ff0f5c8ce65092831c11f4a1d483ba52c72846d9d9",
+      "copiedSha256": "00e4f2a33751197646e3c8ff0f5c8ce65092831c11f4a1d483ba52c72846d9d9",
+      "modified": false
+    },
+    {
+      "path": "tools/tests/fixtures/phase2/EXPORTS.sha256",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\tests\\fixtures\\phase2\\EXPORTS.sha256",
+      "bytes": 326,
+      "originalSha256": "2e44c4dfdf005d105d4fe9f6aec29f5e34ca4793d5f16e59d8b2acaaf5a44a38",
+      "copiedSha256": "2e44c4dfdf005d105d4fe9f6aec29f5e34ca4793d5f16e59d8b2acaaf5a44a38",
+      "modified": false
+    },
+    {
+      "path": "tools/tests/fixtures/phase2/FIXTURES.json",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\tests\\fixtures\\phase2\\FIXTURES.json",
+      "bytes": 4732,
+      "originalSha256": "187a49ad133cb67e8820c7adf2daeaf642fc9bf845134b249225097fd8627552",
+      "copiedSha256": "187a49ad133cb67e8820c7adf2daeaf642fc9bf845134b249225097fd8627552",
+      "modified": false
+    },
+    {
+      "path": "tools/tests/fixtures/phase2/neg_bundled.out",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\tests\\fixtures\\phase2\\neg_bundled.out",
+      "bytes": 147,
+      "originalSha256": "98a18a1f6bf64a4fdb758ad70b6b5e45ea38f9fb8594ceaad06f628bccf7707e",
+      "copiedSha256": "98a18a1f6bf64a4fdb758ad70b6b5e45ea38f9fb8594ceaad06f628bccf7707e",
+      "modified": false
+    },
+    {
+      "path": "tools/tests/fixtures/phase2/negctl.ndjson",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\tests\\fixtures\\phase2\\negctl.ndjson",
+      "bytes": 12300,
+      "originalSha256": "6870b7b7a405f8d3da30b2e3728171dfd396a4018edbd1b62456f6efc4c82cf9",
+      "copiedSha256": "6870b7b7a405f8d3da30b2e3728171dfd396a4018edbd1b62456f6efc4c82cf9",
+      "modified": false
+    },
+    {
+      "path": "tools/tests/fixtures/phase2/negctl.out",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\tests\\fixtures\\phase2\\negctl.out",
+      "bytes": 167,
+      "originalSha256": "86c9384f6f12624b646e625e6e6376bffafc83698885c733bc3f9a53eb86de40",
+      "copiedSha256": "86c9384f6f12624b646e625e6e6376bffafc83698885c733bc3f9a53eb86de40",
+      "modified": false
+    },
+    {
+      "path": "tools/tests/fixtures/phase2/pos.ndjson",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\tests\\fixtures\\phase2\\pos.ndjson",
+      "bytes": 32588,
+      "originalSha256": "08f7eb14df195ba592bc6b807fd7e518e361ac5b20b180fdd9f5a5459a3c2b83",
+      "copiedSha256": "08f7eb14df195ba592bc6b807fd7e518e361ac5b20b180fdd9f5a5459a3c2b83",
+      "modified": false
+    },
+    {
+      "path": "tools/tests/fixtures/phase2/pos.out",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\tests\\fixtures\\phase2\\pos.out",
+      "bytes": 137,
+      "originalSha256": "8f25a770e1b91864397b282cf0c471b7f0536c749acdbbf6b8bfbf8f0e92317e",
+      "copiedSha256": "8f25a770e1b91864397b282cf0c471b7f0536c749acdbbf6b8bfbf8f0e92317e",
+      "modified": false
+    },
+    {
+      "path": "tools/tests/fixtures/phase2/tiny.ndjson",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\tests\\fixtures\\phase2\\tiny.ndjson",
+      "bytes": 145446,
+      "originalSha256": "4869f509ca3878af37c330e4765f1f728e8d46f2de184312cd0d2de44d65514c",
+      "copiedSha256": "4869f509ca3878af37c330e4765f1f728e8d46f2de184312cd0d2de44d65514c",
+      "modified": false
+    },
+    {
+      "path": "tools/tests/fixtures/phase2/tiny.out",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\tests\\fixtures\\phase2\\tiny.out",
+      "bytes": 493,
+      "originalSha256": "d15aa26cf71509dcf00bb2d940b803304c0e911a950915f7f2e39f5c4e05972b",
+      "copiedSha256": "d15aa26cf71509dcf00bb2d940b803304c0e911a950915f7f2e39f5c4e05972b",
+      "modified": false
+    },
+    {
+      "path": "tools/tests/fixtures/phase2/tiny_tampered_lit.out",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\tests\\fixtures\\phase2\\tiny_tampered_lit.out",
+      "bytes": 167,
+      "originalSha256": "848b21f7b74f8b1ced1062788bd70b4c1590fb4ce25e178dc58dc3e8c1319aec",
+      "copiedSha256": "848b21f7b74f8b1ced1062788bd70b4c1590fb4ce25e178dc58dc3e8c1319aec",
+      "modified": false
+    },
+    {
+      "path": "tools/tests/fixtures/phase2/wrong_input_declined.err",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\tests\\fixtures\\phase2\\wrong_input_declined.err",
+      "bytes": 105,
+      "originalSha256": "526479c86eeae5c9bdbc89b3efda87d1af83d0cf15ea24ed227f56aceda45f4d",
+      "copiedSha256": "526479c86eeae5c9bdbc89b3efda87d1af83d0cf15ea24ed227f56aceda45f4d",
+      "modified": false
+    },
+    {
+      "path": "tools/tests/fixtures/phase2/wrong_input_eof.err",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\tests\\fixtures\\phase2\\wrong_input_eof.err",
+      "bytes": 90,
+      "originalSha256": "321f6e23ffb25c77a38d4abeaa1aac98d25286fd4a0112fe50e34be2d2e52d2e",
+      "copiedSha256": "321f6e23ffb25c77a38d4abeaa1aac98d25286fd4a0112fe50e34be2d2e52d2e",
+      "modified": false
+    },
+    {
+      "path": "tools/tests/run_tests.py",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\tests\\run_tests.py",
+      "bytes": 1368,
+      "originalSha256": "2e8a015bf4aedfdc3fafac1ecce2116f04c5be2a080cf3a48f972ef8031d24be",
+      "copiedSha256": "2e8a015bf4aedfdc3fafac1ecce2116f04c5be2a080cf3a48f972ef8031d24be",
+      "modified": false
+    },
+    {
+      "path": "tools/tests/test_e2e_final.py",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\tests\\test_e2e_final.py",
+      "bytes": 13270,
+      "originalSha256": "7b39b325cebfb60f226d9653d010bfcb362c53286524e385bdb61718fb7f02d8",
+      "copiedSha256": "7b39b325cebfb60f226d9653d010bfcb362c53286524e385bdb61718fb7f02d8",
+      "modified": false
+    },
+    {
+      "path": "tools/tests/test_e2e_second_kernel.py",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\tests\\test_e2e_second_kernel.py",
+      "bytes": 13687,
+      "originalSha256": "08096bdcbaa9b4b439b21312b18d050a120836e298e6f84e69d2238fafb88a48",
+      "copiedSha256": "08096bdcbaa9b4b439b21312b18d050a120836e298e6f84e69d2238fafb88a48",
+      "modified": false
+    },
+    {
+      "path": "tools/tests/test_nanoda_whitelist.py",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\tests\\test_nanoda_whitelist.py",
+      "bytes": 14105,
+      "originalSha256": "21f430f7b7260b0805b30521b527036fbf1da0f1bb32479c5137592435ec0ace",
+      "copiedSha256": "21f430f7b7260b0805b30521b527036fbf1da0f1bb32479c5137592435ec0ace",
+      "modified": false
+    },
+    {
+      "path": "tools/tests/test_run_pins.py",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\tests\\test_run_pins.py",
+      "bytes": 4456,
+      "originalSha256": "c9c16bf460e12b3150444f08956e580bb7d9b1350bc1021a9c033536f9592c07",
+      "copiedSha256": "c9c16bf460e12b3150444f08956e580bb7d9b1350bc1021a9c033536f9592c07",
+      "modified": false
+    },
+    {
+      "path": "tools/tests/test_runners.py",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\tests\\test_runners.py",
+      "bytes": 10861,
+      "originalSha256": "6fe41121c1fa1d05e4ace4b4d9b2ce93f2eae538a6f7c8fbd1294e76ac8a4bc8",
+      "copiedSha256": "6fe41121c1fa1d05e4ace4b4d9b2ce93f2eae538a6f7c8fbd1294e76ac8a4bc8",
+      "modified": false
+    },
+    {
+      "path": "tools/tests/test_sk_tool.py",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\tests\\test_sk_tool.py",
+      "bytes": 38141,
+      "originalSha256": "2d4e15ad326c1295581dd3d07953ddc20a44820f093eaa4f618f49991ca2a8e3",
+      "copiedSha256": "2d4e15ad326c1295581dd3d07953ddc20a44820f093eaa4f618f49991ca2a8e3",
+      "modified": false
+    },
+    {
+      "path": "tools/tests/test_vf_common.py",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\tests\\test_vf_common.py",
+      "bytes": 20986,
+      "originalSha256": "6fe204820360e0e3937efabe8cc6b1c4f023f13c7c36a3299210a4e6173b83bd",
+      "copiedSha256": "6fe204820360e0e3937efabe8cc6b1c4f023f13c7c36a3299210a4e6173b83bd",
+      "modified": false
+    },
+    {
+      "path": "tools/tests/test_vf_tool.py",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\tests\\test_vf_tool.py",
+      "bytes": 26588,
+      "originalSha256": "ddd2799479e2c319fba2e63e74917f20ef6168e87b8be55afd3773b14b6cfe77",
+      "copiedSha256": "ddd2799479e2c319fba2e63e74917f20ef6168e87b8be55afd3773b14b6cfe77",
+      "modified": false
+    },
+    {
+      "path": "tools/vf_common.py",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\vf_common.py",
+      "bytes": 37287,
+      "originalSha256": "b9dd60684ce318e29094e74a3dc35bb00f57791a82c69147945b3ffc8c80e96b",
+      "copiedSha256": "b9dd60684ce318e29094e74a3dc35bb00f57791a82c69147945b3ffc8c80e96b",
+      "modified": false
+    },
+    {
+      "path": "tools/vf_tool.py",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\vf_tool.py",
+      "bytes": 58414,
+      "originalSha256": "8ed5bcd7f71ec8b248fba311e5afae089716199ec3b267ad0de77282be631a9b",
+      "copiedSha256": "8ed5bcd7f71ec8b248fba311e5afae089716199ec3b267ad0de77282be631a9b",
+      "modified": false
+    },
+    {
+      "path": "tools/second_kernel/src/lean4export/LICENSE",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\src\\lean4export\\LICENSE",
+      "bytes": 11357,
+      "originalSha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "copiedSha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "modified": false
+    },
+    {
+      "path": "tools/second_kernel/src/nanoda_lib/LICENSE",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\src\\nanoda_lib\\LICENSE",
+      "bytes": 10141,
+      "originalSha256": "c8858a5a76440bbca484e134cf7df46385d090dd18b2c58e650f939258802e5b",
+      "copiedSha256": "c8858a5a76440bbca484e134cf7df46385d090dd18b2c58e650f939258802e5b",
+      "modified": false
+    }
+  ],
+  "newAuthoredFiles": [
+    {
+      "path": "README.md",
+      "sha256": "cd678b8e68d849fee60069422aa90cd45090564d3dddd8df30892de0e315d957"
+    },
+    {
+      "path": "audit_preparation.py",
+      "sha256": "e7101be8dc51c53dc4eee35691562037f5bc8bafdb6c0474a80120fa105e544c"
+    },
+    {
+      "path": "run_light_tests.py",
+      "sha256": "fa2110a90ecfcc27bab7c3f32f206006474cb51063c750ba71781e113b9c518c"
+    },
+    {
+      "path": "tools/resource_policy.py",
+      "sha256": "1d8ae7abd34016b228e8c2776a17ceaaf22a5e300e2e265193496a5623c5b6be"
+    },
+    {
+      "path": "tools/tests/test_codex_preparation.py",
+      "sha256": "45fd80fba1ecdcf8f4b003ec09a60bec40fe95fd0a321e469beda5f66e93b6b8"
+    }
+  ],
+  "externalBinaries": [
+    {
+      "name": "lean4export",
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\src\\lean4export\\.lake\\build\\bin\\lean4export.exe",
+      "sha256": "065218c1214642e01ad8e9660782df31af78537eb9ba7d5f3d47c0f3b347ed52",
+      "bytes": 333824,
+      "access": "read-only hash; not executed"
+    },
+    {
+      "name": "nanoda",
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\src\\nanoda_lib\\target\\release\\nanoda_bin.exe",
+      "sha256": "04493a1415eb07e638a76b5f3f02dd653fc415ec0d17992e51228fc3ef22eb11",
+      "bytes": 1271534,
+      "access": "read-only hash; not executed"
+    }
+  ],
+  "originalManifestSha256": "91506689a41d50d023fa6d2aab8d0ba7a5a3b3f228eb5a4e86819692de64e1e2"
+}

@@ -1,0 +1,11 @@
+⚠ [982/987] Replayed ClaudeWindow.WindowBoxes
+warning: ClaudeWindow/WindowBoxes.lean:65:48: This simp argument is unused:
+  Rat.cast_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [palette, plo, phi, Rat.cast_sub, Rat.cast_mul, Rat.cast_pow, Rat.cast_div, Rat.cast_neg,
+    Rat.cast_one, Rat.cast_ofNat]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [2430/2430] Built ClaudeWindow.AnchorFree (10s)
+Build completed successfully (2430 jobs).

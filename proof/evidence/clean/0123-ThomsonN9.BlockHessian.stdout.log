@@ -1,0 +1,41 @@
+⚠ [3160/3168] Replayed ThomsonN9.CandidateEnergy
+warning: ThomsonN9/CandidateEnergy.lean:61:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3161/3168] Replayed ThomsonN9.LocalStationarity
+warning: ThomsonN9/LocalStationarity.lean:71:55: This simp argument is unused:
+  mul_inv
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [a, b, c, d, e, f, mul_pow]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3165/3168] Replayed ThomsonN9.LocalPotential
+warning: ThomsonN9/LocalPotential.lean:102:8: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: ThomsonN9/LocalPotential.lean:102:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: ThomsonN9/LocalPotential.lean:115:8: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3167/3168] Replayed ThomsonN9.LocalEstimate
+warning: ThomsonN9/LocalEstimate.lean:66:58: This simp argument is unused:
+  one_div
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pairSecondVariation, div_eq_mul_inv, mul_inv]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ThomsonN9/LocalEstimate.lean:96:47: Variable name `hr` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hr
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3168/3168] Built ThomsonN9.BlockHessian (14s)
+warning: ThomsonN9/BlockHessian.lean:93:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Build completed successfully (3168 jobs).

@@ -1,0 +1,8 @@
+'ThomsonN9.Claude.L1.IndependentMutations.genuine_assembly' depends on axioms: [propext]
+'ThomsonN9.Claude.L1.IndependentMutations.genuine_kernel_total' depends on axioms: [propext]
+'ThomsonN9.Claude.L1.IndependentMutations.reject_sos_scale_two' depends on axioms: [propext]
+'ThomsonN9.Claude.L1.IndependentMutations.reject_u_exponent_outside_box' depends on axioms: [propext]
+'ThomsonN9.Claude.L1.IndependentMutations.reject_v_exponent_outside_box' depends on axioms: [propext]
+'ThomsonN9.Claude.L1.IndependentMutations.reject_t_exponent_outside_box' depends on axioms: [propext]
+'ThomsonN9.Claude.L1.IndependentMutations.reject_zero_digit_width' depends on axioms: [propext]
+'ThomsonN9.Claude.L1.IndependentMutations.reject_insufficient_digit_width' depends on axioms: [propext]

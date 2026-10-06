@@ -1,0 +1,51 @@
+{
+  "name": "frozen-tests/MutKernel.lean",
+  "executable": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\toolchains\\lean-4.34.1-windows\\bin\\lake.exe",
+  "arguments": [
+    "env",
+    "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\toolchains\\lean-4.34.1-windows\\bin\\lean.exe",
+    "-j1",
+    "frozen-tests/MutKernel.lean"
+  ],
+  "exitCode": 1,
+  "expectation": "reject",
+  "passed": true,
+  "seconds": 5.7248377,
+  "sampledPeakPrivateBytes": 1902878720,
+  "sampledPeakWorkingBytes": 1178472448,
+  "sampledLargestOwnedPrivateBytes": 998043648,
+  "resourcePolicy": {
+    "classification": "unprofiled-large",
+    "gateGiB": 11.75,
+    "physicalFloorGiB": 6.5,
+    "reason": "No exact named command and source-bound profile",
+    "module": null,
+    "sourceSha256": null,
+    "helperSha256": null,
+    "baselines": []
+  },
+  "resourceOutcome": "WITHIN_SAMPLED_PROFILE_OR_UNPROFILED",
+  "profileGrowthViolations": [],
+  "ownedProcessIdentities": [
+    {
+      "pid": 15104,
+      "creationUtcTicks": "639268649376898930"
+    },
+    {
+      "pid": 49836,
+      "creationUtcTicks": "639268649377093760"
+    },
+    {
+      "pid": 49948,
+      "creationUtcTicks": "639268649392814730"
+    }
+  ],
+  "stdout": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\fresh-evidence\\20261006T024511Z\\0202-frozen-tests_MutKernel.lean.stdout.log",
+  "stderr": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\fresh-evidence\\20261006T024511Z\\0202-frozen-tests_MutKernel.lean.stderr.log",
+  "stdoutSha256": "803e40217c12ee304b20d44ad9c69f1fb258b46831b1ff192d74b6c5129c4be1",
+  "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "effectiveEnvironment": {
+    "LEAN_NUM_THREADS": "1"
+  },
+  "compilerThreadControl": "explicit -j1 for direct Lean; package moreLeanArgs=-j1 for Lake builds"
+}

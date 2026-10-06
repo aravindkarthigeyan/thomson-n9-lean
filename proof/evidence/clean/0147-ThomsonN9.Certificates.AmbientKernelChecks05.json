@@ -1,0 +1,62 @@
+{
+  "name": "ThomsonN9.Certificates.AmbientKernelChecks05",
+  "executable": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\toolchains\\lean-4.34.1-windows\\bin\\lake.exe",
+  "arguments": [
+    "build",
+    "+ThomsonN9.Certificates.AmbientKernelChecks05"
+  ],
+  "exitCode": 0,
+  "expectation": "pass",
+  "passed": true,
+  "seconds": 202.822522,
+  "sampledPeakPrivateBytes": 5594517504,
+  "sampledPeakWorkingBytes": 2518269952,
+  "sampledLargestOwnedPrivateBytes": 4541640704,
+  "resourcePolicy": {
+    "classification": "exact-source-profile",
+    "gateGiB": 8.5,
+    "physicalFloorGiB": 6.5,
+    "reason": "Exact module/source SHA; reduced gates require direct <=5 GiB/tree <=6 GiB, or Assembly direct <=6 GiB; metric-specific growth check after exit",
+    "module": "ThomsonN9.Certificates.AmbientKernelChecks05",
+    "sourceSha256": "5f8aa8c9dc35e2c9168ec011ccfda4ebb84e70abc1050f941480707f07adaf3a",
+    "helperSha256": null,
+    "baselines": [
+      {
+        "metric": "single-process-private",
+        "peakBytes": 4548759552
+      }
+    ]
+  },
+  "resourceOutcome": "WITHIN_SAMPLED_PROFILE_OR_UNPROFILED",
+  "profileGrowthViolations": [],
+  "ownedProcessIdentities": [
+    {
+      "pid": 71452,
+      "creationUtcTicks": "639268598677049900"
+    },
+    {
+      "pid": 47552,
+      "creationUtcTicks": "639268598677614430"
+    },
+    {
+      "pid": 53088,
+      "creationUtcTicks": "639268598721176910"
+    },
+    {
+      "pid": 31972,
+      "creationUtcTicks": "639268598721421510"
+    },
+    {
+      "pid": 46244,
+      "creationUtcTicks": "639268598997007050"
+    }
+  ],
+  "stdout": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\fresh-evidence\\20261006T024511Z\\0147-ThomsonN9.Certificates.AmbientKernelChecks05.stdout.log",
+  "stderr": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\fresh-evidence\\20261006T024511Z\\0147-ThomsonN9.Certificates.AmbientKernelChecks05.stderr.log",
+  "stdoutSha256": "f0f21b874c0bb08bdd27ec81970dab0b276c3c00473824a5bda77d77544702f3",
+  "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "effectiveEnvironment": {
+    "LEAN_NUM_THREADS": "1"
+  },
+  "compilerThreadControl": "explicit -j1 for direct Lean; package moreLeanArgs=-j1 for Lake builds"
+}

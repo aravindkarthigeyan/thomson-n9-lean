@@ -1,0 +1,4 @@
+⚠ [979/979] Built ClaudeWindow.Soundness (8.5s)
+warning: ClaudeWindow/Soundness.lean:199:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: ClaudeWindow/Soundness.lean:201:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+Build completed successfully (979 jobs).

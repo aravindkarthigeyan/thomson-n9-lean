@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "started_utc": "2026-10-06T15:51:59.7400408Z",
+  "completed_utc": "2026-10-06T15:54:30.3461200Z",
+  "lean_version": "Lean (version 4.34.1, x86_64-w64-windows-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "upstream_repository": "https://github.com/huwngtran/thomson-n7-lean",
+  "upstream_commit": "25f2fa53119273458cfbb3c4230904bffdd61e53",
+  "upstream_source_sha256": "2cf12e8ca6bd6ebfb31ae7343ca87ed75a3ba37cbe3d6eb5abbfae483dafbaae",
+  "bridge_source_sha256": "8fa5cb52ed188fdcdab402b0a632f291c32b83ff91461ababf24edcd23cbcfe4",
+  "checker_source_sha256": "8e32b6b8b8d48f7562f37a3b2d8af5cf4ff776cf917474d7ef06ac96bd4cfed7",
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "target_type_definitionally_equal": true,
+  "lean_comparator_invoked": false,
+  "independent_kernel_recheck_of_bridge": false
+}

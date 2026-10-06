@@ -1,0 +1,344 @@
+⚠ [3162/3171] Replayed ThomsonN9.SDP.ProjectionComplex
+warning: ThomsonN9/SDP/ProjectionComplex.lean:30:4: Try `simp at ha` instead of `simpa using ha`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+info: ThomsonN9/SDP/ProjectionComplex.lean:96:0: 'ThomsonN9.SDP.anchorComplex_mul_star_re' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/SDP/ProjectionComplex.lean:97:0: 'ThomsonN9.SDP.anchorComplex_normSq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/SDP/ProjectionComplex.lean:98:0: 'ThomsonN9.SDP.anchorComplex_mul_star_normSq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/SDP/ProjectionComplex.lean:99:0: 'ThomsonN9.SDP.exists_anchorComplex' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/SDP/ProjectionComplex.lean:100:0: 'ThomsonN9.SDP.spherical_threePointKernel_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/SDP/ProjectionComplex.lean:101:0: 'ThomsonN9.SDP.anchored_spherical_kernel_sum_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3163/3171] Replayed ThomsonN9.SDP.Counting
+warning: ThomsonN9/SDP/Counting.lean:107:56: `if_false` has been deprecated: Use `ite_false` instead
+warning: ThomsonN9/SDP/Counting.lean:120:19: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: ThomsonN9/SDP/Counting.lean:120:31: `if_neg` has been deprecated: Use `ite_eq_right` instead
+⚠ [3166/3171] Replayed ThomsonN9.SDP.FactoredKernels
+warning: ThomsonN9/SDP/FactoredKernels.lean:97:66: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3173/3188] Replayed ClaudeL1.KC.Check
+warning: ClaudeL1/KC/Check.lean:52:15: `cond_false` has been deprecated: Use `Bool.cond_false` instead
+
+Note: The updated constant has a different type:
+  ∀ {α : Sort u} {a b : α}, (bif false then a else b) = b
+instead of
+  ∀ {α : Sort u_1} (a b : α), (bif false then a else b) = b
+warning: ClaudeL1/KC/Check.lean:54:15: `cond_true` has been deprecated: Use `Bool.cond_true` instead
+
+Note: The updated constant has a different type:
+  ∀ {α : Sort u} {a b : α}, (bif true then a else b) = a
+instead of
+  ∀ {α : Sort u_1} (a b : α), (bif true then a else b) = a
+warning: ClaudeL1/KC/Check.lean:142:17: `cond_false` has been deprecated: Use `Bool.cond_false` instead
+
+Note: The updated constant has a different type:
+  ∀ {α : Sort u} {a b : α}, (bif false then a else b) = b
+instead of
+  ∀ {α : Sort u_1} (a b : α), (bif false then a else b) = b
+warning: ClaudeL1/KC/Check.lean:151:17: `cond_true` has been deprecated: Use `Bool.cond_true` instead
+
+Note: The updated constant has a different type:
+  ∀ {α : Sort u} {a b : α}, (bif true then a else b) = a
+instead of
+  ∀ {α : Sort u_1} (a b : α), (bif true then a else b) = a
+warning: ClaudeL1/KC/Check.lean:209:36: `cond_true` has been deprecated: Use `Bool.cond_true` instead
+
+Note: The updated constant has a different type:
+  ∀ {α : Sort u} {a b : α}, (bif true then a else b) = a
+instead of
+  ∀ {α : Sort u_1} (a b : α), (bif true then a else b) = a
+warning: ClaudeL1/KC/Check.lean:210:31: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: ClaudeL1/KC/Check.lean:215:14: `cond_false` has been deprecated: Use `Bool.cond_false` instead
+
+Note: The updated constant has a different type:
+  ∀ {α : Sort u} {a b : α}, (bif false then a else b) = b
+instead of
+  ∀ {α : Sort u_1} (a b : α), (bif false then a else b) = b
+⚠ [3179/3188] Replayed ClaudeL1.Bridge
+warning: ClaudeL1/Bridge.lean:17:0: 'Mathlib.Data.Real.Basic' has been deprecated: please replace this import by
+
+import Mathlib.Basic.Real.Basic
+warning: ClaudeL1/Bridge.lean:254:65: This simp argument is unused:
+  Int.cast_negSucc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Data.gtree, w6, PTree.toPoly, eval_cons_R, eval_nil_R]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3185/3196] Replayed ClaudeL1.Numbers
+warning: ClaudeL1/Numbers.lean:4:0: 'Mathlib.Data.Real.Basic' has been deprecated: please replace this import by
+
+import Mathlib.Basic.Real.Basic
+⚠ [3216/3242] Replayed ClaudeL1.Identity
+warning: ClaudeL1/Identity.lean:171:75: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ClaudeL1/Identity.lean:172:72: Unused tactic linter: `norm_num` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: ClaudeL1/Identity.lean:172:72: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: ClaudeL1/Identity.lean:173:69: Unused tactic linter: `norm_num` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: ClaudeL1/Identity.lean:173:69: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+ℹ [3217/3242] Replayed ClaudeL1.Main
+info: ClaudeL1/Main.lean:111:0: 'ThomsonN9.Claude.L1.reduced_pair_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL1/Main.lean:112:0: 'ThomsonN9.Claude.L1.l1_hidentity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL1/Main.lean:113:0: 'ThomsonN9.Claude.L1.kernel_block_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL1/Main.lean:114:0: 'ThomsonN9.Claude.L1.kernel_total_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL1/Main.lean:115:0: 'ThomsonN9.Claude.L1.sosWeight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL1/Main.lean:117:0: 'ThomsonN9.Claude.L1.l1_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL1/Main.lean:118:0: 'ThomsonN9.Claude.L1.res_l1_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL1/Main.lean:119:0: 'ThomsonN9.Claude.L1.expr_eq_corrected' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL1/Main.lean:120:0: 'ThomsonN9.Claude.L1.eval_eq_box' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL1/Main.lean:121:0: 'ThomsonN9.Claude.L1.Data.ktotal_ok' depends on axioms: [propext]
+info: ClaudeL1/Main.lean:122:0: 'ThomsonN9.Claude.L1.Data.asm_ok' depends on axioms: [propext]
+info: ClaudeL1/Main.lean:123:0: 'ThomsonN9.Claude.L1.Data.SOS.chunk01_ok' does not depend on any axioms
+info: ClaudeL1/Main.lean:124:0: 'ThomsonN9.Claude.L1.Data.SOS.sos_total' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3223/3242] Replayed ThomsonN9.Bernstein.Minorant
+info: ThomsonN9/Bernstein/Minorant.lean:252:0: 'ThomsonN9.Bernstein.minorant_le_phi' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Bernstein/Minorant.lean:253:0: 'ThomsonN9.Bernstein.minorant_le_inv_sqrt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Bernstein/Minorant.lean:254:0: 'ThomsonN9.Bernstein.minorant_le_inv_dist' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Bernstein/Minorant.lean:255:0: 'ThomsonN9.Bernstein.exterior_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Bernstein/Minorant.lean:256:0: 'ThomsonN9.Bernstein.exterior_gap'' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Bernstein/Minorant.lean:257:0: 'ThomsonN9.Bernstein.minorant_eq_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Bernstein/Minorant.lean:258:0: 'ThomsonN9.Bernstein.phi_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Bernstein/Minorant.lean:259:0: 'ThomsonN9.Bernstein.checkInterval_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Bernstein/Minorant.lean:260:0: 'ThomsonN9.Bernstein.checkCover_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Bernstein/Minorant.lean:261:0: 'ThomsonN9.Bernstein.runSteps_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3224/3242] Replayed ClaudeL2b.ReducedMinorant
+info: ClaudeL2b/ReducedMinorant.lean:165:0: 'ThomsonN9.Claude.L2b.hNewRat_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/ReducedMinorant.lean:166:0: 'ThomsonN9.Claude.L2b.hNew_eq_polyEval' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/ReducedMinorant.lean:167:0: 'ThomsonN9.Claude.L2b.deltaNum_cert' does not depend on any axioms
+info: ClaudeL2b/ReducedMinorant.lean:168:0: 'ThomsonN9.Claude.L2b.hNew_le_minorant_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/ReducedMinorant.lean:169:0: 'ThomsonN9.Claude.L2b.hNew_le_phi' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/ReducedMinorant.lean:170:0: 'ThomsonN9.Claude.L2b.hNew_add_le_phi' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/ReducedMinorant.lean:171:0: 'ThomsonN9.Claude.L2b.hNew_le_inv_sqrt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/ReducedMinorant.lean:172:0: 'ThomsonN9.Claude.L2b.hNew_le_inv_dist' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/ReducedMinorant.lean:173:0: 'ThomsonN9.Claude.L2b.exterior_gap_new' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/ReducedMinorant.lean:174:0: 'ThomsonN9.Claude.L2b.exterior_gap_new'' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3226/3242] Replayed ClaudeL2b.RefinedWindows
+info: ClaudeL2b/RefinedWindows.lean:158:0: 'ThomsonN9.Claude.L2b.ref_cert0' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/RefinedWindows.lean:159:0: 'ThomsonN9.Claude.L2b.refined_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/RefinedWindows.lean:160:0: 'ThomsonN9.Claude.L2b.refined_gap'' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/RefinedWindows.lean:161:0: 'ThomsonN9.Claude.L2b.refined_gap_new' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/RefinedWindows.lean:162:0: 'ThomsonN9.Claude.L2b.refined_gap_new'' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3228/3242] Replayed ClaudeL2b.LPCovers
+info: ClaudeL2b/LPCovers.lean:187:0: 'ThomsonN9.Claude.L2b.cov_global_cert' depends on axioms: [propext]
+info: ClaudeL2b/LPCovers.lean:188:0: 'ThomsonN9.Claude.L2b.sep_global_cert' depends on axioms: [propext]
+info: ClaudeL2b/LPCovers.lean:189:0: 'ThomsonN9.Claude.L2b.sep_tail_cert' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/LPCovers.lean:190:0: 'ThomsonN9.Claude.L2b.covariance_le_inv_sqrt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/LPCovers.lean:191:0: 'ThomsonN9.Claude.L2b.separation_le_inv_sqrt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/LPCovers.lean:192:0: 'ThomsonN9.Claude.L2b.separation_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/LPCovers.lean:193:0: 'ThomsonN9.Claude.L2b.covariance_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/LPCovers.lean:194:0: 'ThomsonN9.Claude.L2b.hminor_of_horner_cov' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/LPCovers.lean:195:0: 'ThomsonN9.Claude.L2b.hminor_of_horner_sep' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/LPCovers.lean:196:0: 'ThomsonN9.Claude.L2b.htail_of_horner_sep' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3229/3242] Replayed ClaudeL2b.LPAdapterCodex
+info: ClaudeL2b/LPAdapterCodex.lean:61:0: 'ThomsonN9.Claude.L2b.covariance_le_coulombPotential' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/LPAdapterCodex.lean:62:0: 'ThomsonN9.Claude.L2b.separation_le_coulombPotential' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/LPAdapterCodex.lean:63:0: 'ThomsonN9.Claude.L2b.separation_tail_coulombPotential' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/LPAdapterCodex.lean:64:0: 'ThomsonN9.Claude.L2b.hminor_cov' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/LPAdapterCodex.lean:65:0: 'ThomsonN9.Claude.L2b.hminor_sep' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/LPAdapterCodex.lean:66:0: 'ThomsonN9.Claude.L2b.htail_sep' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3234/3242] Replayed ThomsonN9.CandidateEnergy
+warning: ThomsonN9/CandidateEnergy.lean:61:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3238/3267] Replayed ThomsonN9.GramSchmidtFrame
+warning: ThomsonN9/GramSchmidtFrame.lean:21:4: This simp argument is unused:
+  real_inner_self_eq_norm_sq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [gsResidual, inner_sub_right, real_inner_smul_right, hx]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ThomsonN9/GramSchmidtFrame.lean:78:4: This simp argument is unused:
+  real_inner_self_eq_norm_sq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [gsFinalResidual, inner_sub_right, real_inner_smul_right, hx, gsUnit_inner hx]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ThomsonN9/GramSchmidtFrame.lean:84:4: This simp argument is unused:
+  real_inner_self_eq_norm_sq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [gsFinalResidual, inner_sub_right, real_inner_smul_right, gsUnit_norm hs, he]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3239/3267] Replayed ThomsonN9.GramStability
+warning: ThomsonN9/GramStability.lean:33:75: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: ThomsonN9/GramStability.lean:33:75: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+⚠ [3242/3267] Replayed ThomsonN9.LocalStationarity
+warning: ThomsonN9/LocalStationarity.lean:71:55: This simp argument is unused:
+  mul_inv
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [a, b, c, d, e, f, mul_pow]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3243/3267] Replayed ThomsonN9.LocalPotential
+warning: ThomsonN9/LocalPotential.lean:102:8: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: ThomsonN9/LocalPotential.lean:102:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: ThomsonN9/LocalPotential.lean:115:8: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3245/3267] Replayed ThomsonN9.LocalEstimate
+warning: ThomsonN9/LocalEstimate.lean:66:58: This simp argument is unused:
+  one_div
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pairSecondVariation, div_eq_mul_inv, mul_inv]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ThomsonN9/LocalEstimate.lean:96:47: Variable name `hr` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hr
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3246/3267] Replayed ThomsonN9.BlockHessian
+warning: ThomsonN9/BlockHessian.lean:93:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+ℹ [3256/3267] Replayed ThomsonN9.Certificates.Interval
+info: ThomsonN9/Certificates/Interval.lean:177:0: 'ThomsonN9.Certificates.RatInterval.contains_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/Interval.lean:178:0: 'ThomsonN9.Certificates.RatInterval.contains_inv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/Interval.lean:179:0: 'ThomsonN9.Certificates.RatInterval.contains_sqrt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/Interval.lean:180:0: 'ThomsonN9.Certificates.RatInterval.contains_horner' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/Interval.lean:181:0: 'ThomsonN9.Certificates.RatInterval.sqrt_two_enclosure' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/Interval.lean:182:0: 'ThomsonN9.Certificates.RatInterval.rejected_sqrt_two_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/Interval.lean:183:0: 'ThomsonN9.Certificates.RatInterval.posDef_of_ldl_enclosures' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3370/3396] Replayed ThomsonN9.Certificates.DiagonalDominance
+info: ThomsonN9/Certificates/DiagonalDominance.lean:216:0: 'ThomsonN9.Certificates.RatInterval.abs_le_absBound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/DiagonalDominance.lean:217:0: 'ThomsonN9.Certificates.contains_matrix_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/DiagonalDominance.lean:218:0: 'ThomsonN9.Certificates.posDef_of_interval_strictDD' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/DiagonalDominance.lean:219:0: 'ThomsonN9.Certificates.posDef_of_unit_upper_interval_congruence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomsonN9/Certificates/DiagonalDominance.lean:220:0: 'ThomsonN9.Certificates.localCongruenceBounds_strictDD' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/DiagonalDominance.lean:221:0: 'ThomsonN9.Certificates.local_posDef_of_congruence_enclosures' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomsonN9/Certificates/DiagonalDominance.lean:222:0: 'ThomsonN9.Certificates.ambientCongruenceBounds_strictDD' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/DiagonalDominance.lean:223:0: 'ThomsonN9.Certificates.ambient_posDef_of_congruence_enclosures' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomsonN9/Certificates/DiagonalDominance.lean:224:0: 'ThomsonN9.Certificates.quadratic_lower_on_augmentation_kernel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomsonN9/Certificates/DiagonalDominance.lean:225:0: 'ThomsonN9.Certificates.quadratic_lower_with_orthogonal_augmentations' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomsonN9/Certificates/DiagonalDominance.lean:226:0: 'ThomsonN9.Certificates.normalColumns_annihilate_tangent' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/DiagonalDominance.lean:227:0: 'ThomsonN9.Certificates.normalColumns_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3376/3396] Replayed ClaudeWindow.WindowBoxes
+warning: ClaudeWindow/WindowBoxes.lean:65:48: This simp argument is unused:
+  Rat.cast_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [palette, plo, phi, Rat.cast_sub, Rat.cast_mul, Rat.cast_pow, Rat.cast_div, Rat.cast_neg,
+    Rat.cast_one, Rat.cast_ofNat]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3382/3396] Replayed ClaudeWindow.Soundness
+warning: ClaudeWindow/Soundness.lean:199:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: ClaudeWindow/Soundness.lean:201:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+⚠ [3386/3396] Replayed ClaudeWindow.Main
+warning: ClaudeWindow/Main.lean:79:16: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: ClaudeWindow/Main.lean:82:16: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: ClaudeWindow/Main.lean:115:22: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: ClaudeWindow/Main.lean:116:22: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+warning: ClaudeWindow/Main.lean:119:20: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: ClaudeWindow/Main.lean:144:20: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+ℹ [3391/3396] Replayed ThomsonN9.GlobalReduction
+info: ThomsonN9/GlobalReduction.lean:63:0: 'ThomsonN9.refined_gram_of_scalar_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/GlobalReduction.lean:64:0: 'ThomsonN9.complete_of_refined_gram_and_hessian' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3407/3432] Replayed Delsarte.Harmonic.Fischer
+warning: vendor/Delsarte/Harmonic/Fischer.lean:7:0: 'Mathlib.Data.Real.Basic' has been deprecated: please replace this import by
+
+import Mathlib.Basic.Real.Basic
+warning: vendor/Delsarte/Harmonic/Fischer.lean:136:47: `MvPolynomial.coeff_add` has been deprecated: Use `AddMonoidAlgebra.coeff_add` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] (x y : AddMonoidAlgebra R M), (x + y).coeff = x.coeff + y.coeff
+instead of
+  ∀ {R : Type u} {σ : Type u_1} [inst : CommSemiring R] (m : σ →₀ ℕ) (p q : MvPolynomial σ R),
+    (p + q).coeff m = p.coeff m + q.coeff m
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.coeff_add` to `AddMonoidAlgebra.coeff_add x`).
+warning: vendor/Delsarte/Harmonic/Fischer.lean:182:63: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/Delsarte/Harmonic/Fischer.lean:230:58: `MvPolynomial.monomial_mul` has been deprecated: Use `MvPolynomial.monomial_mul_monomial` instead
+warning: vendor/Delsarte/Harmonic/Fischer.lean:348:65: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/Delsarte/Harmonic/Fischer.lean:369:22: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/Delsarte/Harmonic/Fischer.lean:369:34: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: vendor/Delsarte/Harmonic/Fischer.lean:387:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/Delsarte/Harmonic/Fischer.lean:387:18: `if_neg` has been deprecated: Use `ite_eq_right` instead
+⚠ [3418/3432] Replayed Delsarte.Sphere.DegreeTwo
+warning: vendor/Delsarte/Sphere/DegreeTwo.lean:167:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/Delsarte/Sphere/DegreeTwo.lean:167:20: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/Delsarte/Sphere/DegreeTwo.lean:169:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: vendor/Delsarte/Sphere/DegreeTwo.lean:169:20: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: vendor/Delsarte/Sphere/DegreeTwo.lean:179:32: `if_true` has been deprecated: Use `ite_true` instead
+⚠ [3419/3432] Replayed Delsarte.Sphere.DegreeThree
+warning: vendor/Delsarte/Sphere/DegreeThree.lean:101:83: `if_true` has been deprecated: Use `ite_true` instead
+warning: vendor/Delsarte/Sphere/DegreeThree.lean:104:84: `if_true` has been deprecated: Use `ite_true` instead
+⚠ [3422/3432] Replayed ThomsonN9.LP.EnergyBound
+warning: ThomsonN9/LP/EnergyBound.lean:42:12: This simp argument is unused:
+  real_inner_self_eq_norm_sq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hx i]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+ℹ [3427/3448] Replayed ThomsonN9.LP.ConcreteLinkage
+info: ThomsonN9/LP/ConcreteLinkage.lean:24:0: 'ThomsonN9.LPConcrete.covariance_horner_minorant' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/LP/ConcreteLinkage.lean:25:0: 'ThomsonN9.LPConcrete.separation_horner_minorant' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3432/3448] Replayed ThomsonN9.FamilyEnergy
+warning: ThomsonN9/FamilyEnergy.lean:19:91: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ThomsonN9/FamilyEnergy.lean:21:91: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ThomsonN9/FamilyEnergy.lean:23:97: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ThomsonN9/FamilyEnergy.lean:25:83: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ThomsonN9/FamilyEnergy.lean:41:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+ℹ [3447/3448] Replayed ThomsonN9.Certificates.ReducedEnergy
+info: ThomsonN9/Certificates/ReducedEnergy.lean:302:2: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: ThomsonN9/Certificates/ReducedEnergy.lean:323:0: 'ThomsonN9.Certificates.ReducedEnergy.candidate_energy_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3448/3448] Built ThomsonN9.ScalarCertificates (16s)
+info: ThomsonN9/ScalarCertificates.lean:88:0: 'ThomsonN9.reduced_coefficient_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/ScalarCertificates.lean:89:0: 'ThomsonN9.reduced_minorant_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/ScalarCertificates.lean:90:0: 'ThomsonN9.reduced_upper_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/ScalarCertificates.lean:91:0: 'ThomsonN9.reduced_loss_small' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/ScalarCertificates.lean:92:0: 'ThomsonN9.separation_minorant_certified' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/ScalarCertificates.lean:93:0: 'ThomsonN9.separation_tail_certified' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/ScalarCertificates.lean:94:0: 'ThomsonN9.candidate_below_energy_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/ScalarCertificates.lean:95:0: 'ThomsonN9.sublevel_separation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/ScalarCertificates.lean:96:0: 'ThomsonN9.sublevel_refined_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3448 jobs).

@@ -1,0 +1,21 @@
+date: 2026-10-06T10:20:20-04:00
+run: n9-complete-v4-20261006-export-01 preset=final scope=FINAL stage=check expect=accept threads=1
+modules: Solution
+theorems: ThomsonN9.thomson_nine_complete
+pp: ThomsonN9.thomson_nine_complete ThomsonN9.Challenge.CompleteTarget ThomsonN9.Challenge.ParameterExistsUnique ThomsonN9.Challenge.GlobalOptimality ThomsonN9.Challenge.GlobalUniqueness
+axioms: propext Classical.choice Quot.sound
+tamper: none (all=0)
+Lean (version 4.34.1, x86_64-w64-windows-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)
+lean4export 076e8e57707e813375e8f9da8bf989799ace9680 local:  M lean-toolchain 
+nanoda_lib  3a2407216ee84a75f9e1aead6803d0578be06ae7 local: 
+065218c1214642e01ad8e9660782df31af78537eb9ba7d5f3d47c0f3b347ed52 */c/Users/REDACTED/Documents/Codex/2026-10-05/analyze-what-s-u/claude/verify_final/tools/second_kernel/src/lean4export/.lake/build/bin/lean4export.exe
+04493a1415eb07e638a76b5f3f02dd653fc415ec0d17992e51228fc3ef22eb11 */c/Users/REDACTED/Documents/Codex/2026-10-05/analyze-what-s-u/claude/verify_final/tools/second_kernel/src/nanoda_lib/target/release/nanoda_bin.exe
+fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b */c/Users/REDACTED/Documents/Codex/2026-10-05/analyze-what-s-u/work/toolchains/lean-4.34.1-windows/bin/lean.exe
+\10ccd7c30c05108cd11c7e30aaf688f92562fdd7f8fb0288eb8c227aab56a0ec *C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\run_second_kernel.sh
+c994d3d975ea82b1a200f49d0a8faed53ca90062f4cdbd978514bd114b66bd5c */c/Users/REDACTED/Documents/Codex/2026-10-05/analyze-what-s-u/work/n9-independent-verification/tools/second_kernel/env.sh
+b20645f1a745b8e54c52dcaac27bbc8310d7fbd22887d0acf5dcb23e82b2473d */c/Users/REDACTED/Documents/Codex/2026-10-05/analyze-what-s-u/work/n9-independent-verification/tools/second_kernel/sk_tool.py
+054a02a3a1f7e9d36e262ed37af4218a6e37b174805e9356ba0486d167805148 */c/Users/REDACTED/Documents/Codex/2026-10-05/analyze-what-s-u/work/n9-independent-verification/tools/second_kernel/redirect.py
+52e307d0669b1f7cdceb92be6705497bb0368d9958f3c4719d9bffe42462e879 */c/Users/REDACTED/Documents/Codex/2026-10-05/analyze-what-s-u/work/n9-independent-verification/tools/run_step.py
+cddbfe242244383c592bcf187994ca3550e0c5c6749c53439c13b38ed3f6844a */c/Users/REDACTED/Documents/Codex/2026-10-05/analyze-what-s-u/work/n9-independent-verification/tools/FINAL_PINS.json
+nanoda_bin stack reserve: 1073741824
+free physical 15.09 GB, free commit 25.34 GB (commit limit 51.6 GB)

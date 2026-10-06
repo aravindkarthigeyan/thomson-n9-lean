@@ -1,0 +1,19 @@
+{
+ "lines": 577,
+ "declarations": 33,
+ "counts": {
+  "axiom": 0,
+  "thm": 1,
+  "def": 13,
+  "opaque": 0,
+  "quot": 0,
+  "inductive_items": 19
+ },
+ "decls_required": [
+  "Nat.add_succ"
+ ],
+ "decls_missing": [],
+ "errors": [],
+ "sha256": "08f7eb14df195ba592bc6b807fd7e518e361ac5b20b180fdd9f5a5459a3c2b83",
+ "bytes": 32588
+}

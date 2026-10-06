@@ -1,0 +1,70 @@
+{
+  "name": "ThomsonN9.Certificates.ReducedEnergy",
+  "executable": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\toolchains\\lean-4.34.1-windows\\bin\\lake.exe",
+  "arguments": [
+    "build",
+    "+ThomsonN9.Certificates.ReducedEnergy"
+  ],
+  "exitCode": 0,
+  "expectation": "pass",
+  "passed": true,
+  "seconds": 114.54292939999999,
+  "sampledPeakPrivateBytes": 5414567936,
+  "sampledPeakWorkingBytes": 2456109056,
+  "sampledLargestOwnedPrivateBytes": 4357046272,
+  "resourcePolicy": {
+    "classification": "exact-source-profile",
+    "gateGiB": 8.5,
+    "physicalFloorGiB": 6.5,
+    "reason": "Exact module/source SHA; reduced gates require direct <=5 GiB/tree <=6 GiB, or Assembly direct <=6 GiB; metric-specific growth check after exit",
+    "module": "ThomsonN9.Certificates.ReducedEnergy",
+    "sourceSha256": "a39d9ffd65721967b938c9c8505e0b3b556f79f91cd12ce3bc38e1399ba5c3e4",
+    "helperSha256": null,
+    "baselines": [
+      {
+        "metric": "single-process-private",
+        "peakBytes": 4372062208
+      }
+    ]
+  },
+  "resourceOutcome": "WITHIN_SAMPLED_PROFILE_OR_UNPROFILED",
+  "profileGrowthViolations": [],
+  "ownedProcessIdentities": [
+    {
+      "pid": 53424,
+      "creationUtcTicks": "639268616879584100"
+    },
+    {
+      "pid": 71564,
+      "creationUtcTicks": "639268616881185400"
+    },
+    {
+      "pid": 48720,
+      "creationUtcTicks": "639268616929365800"
+    },
+    {
+      "pid": 70884,
+      "creationUtcTicks": "639268616929675340"
+    },
+    {
+      "pid": 34060,
+      "creationUtcTicks": "639268616948525870"
+    },
+    {
+      "pid": 12840,
+      "creationUtcTicks": "639268616949923230"
+    },
+    {
+      "pid": 10544,
+      "creationUtcTicks": "639268617401909870"
+    }
+  ],
+  "stdout": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\fresh-evidence\\20261006T024511Z\\0162-ThomsonN9.Certificates.ReducedEnergy.stdout.log",
+  "stderr": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\fresh-evidence\\20261006T024511Z\\0162-ThomsonN9.Certificates.ReducedEnergy.stderr.log",
+  "stdoutSha256": "4ac630331b1a797a64fc8d779e72be269e8f38f42c43129e68fc62ee3a4975f2",
+  "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "effectiveEnvironment": {
+    "LEAN_NUM_THREADS": "1"
+  },
+  "compilerThreadControl": "explicit -j1 for direct Lean; package moreLeanArgs=-j1 for Lake builds"
+}

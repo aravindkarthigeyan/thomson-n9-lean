@@ -1,0 +1,75 @@
+{
+ "schema": 1,
+ "comment": "Final-release pins for run_final_verification.sh and run_second_kernel.sh --preset final. Read from the scripts' own directory, never from the environment. A run whose tools/target/axioms/statement pins differ from these values is reported as non-final (scope CUSTOM) or refused. Editing this file is a reviewed code change; its sha256 is recorded in every VERDICT.json / RUN_MANIFEST.json.",
+ "target_theorem": "ThomsonN9.thomson_nine_complete",
+ "target_type": "ThomsonN9.Challenge.CompleteTarget",
+ "challenge_components": [
+  "ThomsonN9.Challenge.ParameterExistsUnique",
+  "ThomsonN9.Challenge.GlobalOptimality",
+  "ThomsonN9.Challenge.GlobalUniqueness"
+ ],
+ "allowed_axioms": [
+  "propext",
+  "Classical.choice",
+  "Quot.sound"
+ ],
+ "lean_version": "4.34.1",
+ "lean_commit": "5045d0056413266e57c625dcd7c365b10e377c52",
+ "lean_toolchain_line": "leanprover/lean4:v4.34.1",
+ "mathlib_rev": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+ "tool_sha256": {
+  "lean.exe": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "leanchecker.exe": "1f18d5f13e24519bc7e21217500b45be36bc6bfde70229556c857e6ad066811f",
+  "CheckOne.lean": "941c1ffff38bca037a330619773ca641b8f1cd8fb3e52cc14d44185b2efa475f"
+ },
+ "toolchain_dll_sha256": {
+  "libleanshared.dll": "15c58bd73f6512d16117f9c25b23bbfeadd0205ce52de564d6984dee3767cdde",
+  "libleanshared_1.dll": "926c094fc8ea9d4c4f574c2799e3acda8b7bc09efcaa2b758398c98379139cce",
+  "libleanshared_2.dll": "a94e0ebf3f4503a48698db739c88fd9358fe373a3bfdfab4927697f259ffc1da",
+  "libInit_shared.dll": "7509a43b6ebca02ad1593360dc7d7e88987318eccd56388ed5e0922d64c7b7cf"
+ },
+ "statement_pins_sha256": "aa72e0868c8b8a675306d594e2ca80d6eaf34c148c2438010afa867ea178143c",
+ "statement_pins_required_lines": [
+  "Part 5a OK:",
+  "Part 5b OK: headline ThomsonN9.thomson_nine_complete : ThomsonN9.Challenge.CompleteTarget"
+ ],
+ "statement_pins_axiom_reports": [
+  "ThomsonN9.thomson_nine_complete",
+  "ClaudeStatementPins.humanTarget_iff_completeTarget"
+ ],
+ "second_kernel": {
+  "lean4export_rev": "076e8e57707e813375e8f9da8bf989799ace9680",
+  "nanoda_rev": "3a2407216ee84a75f9e1aead6803d0578be06ae7",
+  "nanoda_cargo_lock_sha256": "9b921e794ce5ed515eb31db9ada0c2f34df999b6c9b5135ad308a412872e42be",
+  "lean4export_upstream_toolchain_line": "leanprover/lean4:v4.34.0",
+  "export_format": "3.1.0",
+  "lean4export_sha256": "065218c1214642e01ad8e9660782df31af78537eb9ba7d5f3d47c0f3b347ed52",
+  "nanoda_sha256": "04493a1415eb07e638a76b5f3f02dd653fc415ec0d17992e51228fc3ef22eb11",
+  "semantic_sites_sha256": "ff6fb1166da58ddb0af8f154ac284961c96371ff4d95be5d20e698ec903f4b2f",
+  "modules": [
+   "Solution"
+  ],
+  "theorems": [
+   "ThomsonN9.thomson_nine_complete"
+  ],
+  "pp_declars": [
+   "ThomsonN9.thomson_nine_complete",
+   "ThomsonN9.Challenge.CompleteTarget",
+   "ThomsonN9.Challenge.ParameterExistsUnique",
+   "ThomsonN9.Challenge.GlobalOptimality",
+   "ThomsonN9.Challenge.GlobalUniqueness"
+  ],
+  "pp_regex": "^theorem ThomsonN9\\.thomson_nine_complete : ThomsonN9\\.Challenge\\.CompleteTarget( |$)",
+  "expect": "accept",
+  "required_controls": [
+   "accept_good",
+   "reject_projfromprop",
+   "missing_export",
+   "invalid_config_json",
+   "wrong_format",
+   "malformed_export",
+   "missing_pp",
+   "forced_resource"
+  ]
+ }
+}

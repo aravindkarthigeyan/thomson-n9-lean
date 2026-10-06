@@ -1,0 +1,91 @@
+{
+  "status": "CANDIDATE_ARCHIVE_INDEPENDENT_AUDIT_PASS",
+  "scope": "Read-only audit, no regeneration/extraction/compiler/checker rerun",
+  "zipSha256": "4091fba227a76fe00096a67600943407cca93e6367b058cc6e4977eee22e63ba",
+  "zipBytes": 31570299,
+  "members": 996,
+  "frozenFiles": 222,
+  "leanSources": 199,
+  "cleanEvidenceFiles": 633,
+  "checks": [
+    {
+      "command": [
+        "powershell.exe",
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-archive-supervision\\runs\\candidate-v4-20261006-02\\extracted\\thomson-n9\\release-tools\\archive_source_scan.ps1",
+        "-ProjectRoot",
+        "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-archive-supervision\\runs\\candidate-v4-20261006-02\\extracted\\thomson-n9\\lean"
+      ],
+      "exitCode": 0,
+      "log": "source-scan.log",
+      "logSha256": "c4672fd7a7e961f84fc825143d4e91320bd48201418d52131be70f88bc15596d"
+    },
+    {
+      "command": [
+        "powershell.exe",
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-archive-supervision\\runs\\candidate-v4-20261006-02\\extracted\\thomson-n9\\lean\\verification\\Build.ps1",
+        "-ListTargets"
+      ],
+      "exitCode": 0,
+      "log": "targets.log",
+      "logSha256": "a61fcf0bce0218b67dc81133936ecf82f7defdf2a3961dd1d3f99dfe9e44ad5e"
+    },
+    {
+      "command": [
+        "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\venv\\Scripts\\python.exe",
+        "verify_global.py",
+        "--reduced",
+        "--refined",
+        "--report",
+        "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-archive-supervision\\runs\\candidate-v4-20261006-02\\thomson-n9-source.zip.audit\\replayed-global.json"
+      ],
+      "exitCode": 0,
+      "log": "exact-global.log",
+      "logSha256": "cb6a4a1b227cf60bc341e1e0b817d4de509d94a8323b00fb144297d43dea53ab"
+    },
+    {
+      "command": [
+        "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\venv\\Scripts\\python.exe",
+        "ambient_circuit/check.py",
+        "ambient_circuit/ambient-circuit-k0.json",
+        "--negative-controls",
+        "--report",
+        "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-archive-supervision\\runs\\candidate-v4-20261006-02\\thomson-n9-source.zip.audit\\replayed-ambient.json"
+      ],
+      "exitCode": 0,
+      "log": "exact-ambient.log",
+      "logSha256": "f3d85d511c09f3673846e5a61147a844f0199994fb4f1414018e570e801a5de8"
+    },
+    {
+      "command": [
+        "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\venv\\Scripts\\python.exe",
+        "ambient_circuit/check_recipes.py",
+        "--report",
+        "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-archive-supervision\\runs\\candidate-v4-20261006-02\\thomson-n9-source.zip.audit\\replayed-recipes.json"
+      ],
+      "exitCode": 0,
+      "log": "exact-recipes.log",
+      "logSha256": "d0d59133731834f67f9c999f0cea40b75fb143a981b6a08dbe1b39efcf32b6e1"
+    }
+  ],
+  "originalStatus": "B; candidate archive is not the final status-A artifact",
+  "archiveResultSha256": "dc4c79da1897df2d6daba1159fb289d47000d732947853f6255a5428f50ff26d",
+  "supervisionSha256": "cd463c26b5c506be7deeae8f933a3b4aff5366f3a2fd5013b16b89ea05fdd694",
+  "auditSourceSha256": "4fd913175caa9c62f07403d55d3ee0d3f4e9ef3bfb5b67f1bb6257d782ce417b",
+  "requiredLicenses": [
+    "lean/vendor/DELSARTE_LICENSE",
+    "lean/vendor/DELSARTE_PROVENANCE.md"
+  ],
+  "exactReports": {
+    "replayed-global.json": "ac04ca4726d775460008e67e2832c87d41752920d43e7b2300d3d6491bf6b318",
+    "replayed-ambient.json": "06015442c39452695454ad7d18820a36c1a0d34f23bfd292ea276c225abf8ca1",
+    "replayed-recipes.json": "8ba94fb6f1e1bc12b6a504a48ff31001c16359f6d2b85817d33663302269007a"
+  }
+}

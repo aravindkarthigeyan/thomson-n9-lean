@@ -1,0 +1,65 @@
+{
+  "name": "all-axioms",
+  "executable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "arguments": [
+    "-NoProfile",
+    "-ExecutionPolicy",
+    "Bypass",
+    "-File",
+    "verification/CheckAxioms.ps1",
+    "-Lake",
+    "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\toolchains\\lean-4.34.1-windows\\bin\\lake.exe",
+    "-LogName",
+    "FRESH_AXIOMS.log"
+  ],
+  "exitCode": 0,
+  "expectation": "pass",
+  "passed": true,
+  "seconds": 38.8676841,
+  "sampledPeakPrivateBytes": 6264205312,
+  "sampledPeakWorkingBytes": 2674683904,
+  "sampledLargestOwnedPrivateBytes": 5184565248,
+  "resourcePolicy": {
+    "classification": "exact-source-profile",
+    "gateGiB": 8.5,
+    "physicalFloorGiB": 6.5,
+    "reason": "Exact module/source SHA; reduced gates require direct <=5 GiB/tree <=6 GiB, or Assembly direct <=6 GiB; metric-specific growth check after exit",
+    "module": "Solution",
+    "sourceSha256": "8995b0faf7e2a75c6f838e21c74c19e4e420203f53e00a8f6c3e730baf2386ec",
+    "helperSha256": "58a9d80ff7ce1f7a4c4f232640d64abd6eab6b43869486fd73203324e48f165c",
+    "baselines": [
+      {
+        "metric": "single-process-private",
+        "peakBytes": 5188198400
+      }
+    ]
+  },
+  "resourceOutcome": "WITHIN_SAMPLED_PROFILE_OR_UNPROFILED",
+  "profileGrowthViolations": [],
+  "ownedProcessIdentities": [
+    {
+      "pid": 28248,
+      "creationUtcTicks": "639268644803674350"
+    },
+    {
+      "pid": 62244,
+      "creationUtcTicks": "639268644803828200"
+    },
+    {
+      "pid": 46404,
+      "creationUtcTicks": "639268644808027180"
+    },
+    {
+      "pid": 7572,
+      "creationUtcTicks": "639268644824477740"
+    }
+  ],
+  "stdout": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\fresh-evidence\\20261006T024511Z\\0185-all-axioms.stdout.log",
+  "stderr": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\fresh-evidence\\20261006T024511Z\\0185-all-axioms.stderr.log",
+  "stdoutSha256": "1b49667832d41f6787a9c3bfb019758faf859b30943e5c41f5b68e3280fa16a8",
+  "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "effectiveEnvironment": {
+    "LEAN_NUM_THREADS": "1"
+  },
+  "compilerThreadControl": "explicit -j1 for direct Lean; package moreLeanArgs=-j1 for Lake builds"
+}

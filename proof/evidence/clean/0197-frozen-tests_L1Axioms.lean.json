@@ -1,0 +1,51 @@
+{
+  "name": "frozen-tests/L1Axioms.lean",
+  "executable": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\toolchains\\lean-4.34.1-windows\\bin\\lake.exe",
+  "arguments": [
+    "env",
+    "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\toolchains\\lean-4.34.1-windows\\bin\\lean.exe",
+    "-j1",
+    "frozen-tests/L1Axioms.lean"
+  ],
+  "exitCode": 0,
+  "expectation": "pass",
+  "passed": true,
+  "seconds": 23.868468399999998,
+  "sampledPeakPrivateBytes": 5311713280,
+  "sampledPeakWorkingBytes": 2332086272,
+  "sampledLargestOwnedPrivateBytes": 4311412736,
+  "resourcePolicy": {
+    "classification": "unprofiled-large",
+    "gateGiB": 11.75,
+    "physicalFloorGiB": 6.5,
+    "reason": "No exact named command and source-bound profile",
+    "module": null,
+    "sourceSha256": null,
+    "helperSha256": null,
+    "baselines": []
+  },
+  "resourceOutcome": "WITHIN_SAMPLED_PROFILE_OR_UNPROFILED",
+  "profileGrowthViolations": [],
+  "ownedProcessIdentities": [
+    {
+      "pid": 52532,
+      "creationUtcTicks": "639268648226534710"
+    },
+    {
+      "pid": 10592,
+      "creationUtcTicks": "639268648226670310"
+    },
+    {
+      "pid": 65104,
+      "creationUtcTicks": "639268648243483020"
+    }
+  ],
+  "stdout": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\fresh-evidence\\20261006T024511Z\\0197-frozen-tests_L1Axioms.lean.stdout.log",
+  "stderr": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\fresh-evidence\\20261006T024511Z\\0197-frozen-tests_L1Axioms.lean.stderr.log",
+  "stdoutSha256": "78e8c96d68c6daf5701d55a01afb510919954759129d4035fe1bfd40f7001b04",
+  "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "effectiveEnvironment": {
+    "LEAN_NUM_THREADS": "1"
+  },
+  "compilerThreadControl": "explicit -j1 for direct Lean; package moreLeanArgs=-j1 for Lake builds"
+}

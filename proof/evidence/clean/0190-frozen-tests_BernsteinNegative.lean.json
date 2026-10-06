@@ -1,0 +1,51 @@
+{
+  "name": "frozen-tests/BernsteinNegative.lean",
+  "executable": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\toolchains\\lean-4.34.1-windows\\bin\\lake.exe",
+  "arguments": [
+    "env",
+    "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\toolchains\\lean-4.34.1-windows\\bin\\lean.exe",
+    "-j1",
+    "frozen-tests/BernsteinNegative.lean"
+  ],
+  "exitCode": 0,
+  "expectation": "pass",
+  "passed": true,
+  "seconds": 12.198923299999999,
+  "sampledPeakPrivateBytes": 3279876096,
+  "sampledPeakWorkingBytes": 1474138112,
+  "sampledLargestOwnedPrivateBytes": 2279550976,
+  "resourcePolicy": {
+    "classification": "unprofiled-large",
+    "gateGiB": 11.75,
+    "physicalFloorGiB": 6.5,
+    "reason": "No exact named command and source-bound profile",
+    "module": null,
+    "sourceSha256": null,
+    "helperSha256": null,
+    "baselines": []
+  },
+  "resourceOutcome": "WITHIN_SAMPLED_PROFILE_OR_UNPROFILED",
+  "profileGrowthViolations": [],
+  "ownedProcessIdentities": [
+    {
+      "pid": 29672,
+      "creationUtcTicks": "639268646194057980"
+    },
+    {
+      "pid": 35680,
+      "creationUtcTicks": "639268646194299410"
+    },
+    {
+      "pid": 27948,
+      "creationUtcTicks": "639268646209919040"
+    }
+  ],
+  "stdout": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\fresh-evidence\\20261006T024511Z\\0190-frozen-tests_BernsteinNegative.lean.stdout.log",
+  "stderr": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\fresh-evidence\\20261006T024511Z\\0190-frozen-tests_BernsteinNegative.lean.stderr.log",
+  "stdoutSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "effectiveEnvironment": {
+    "LEAN_NUM_THREADS": "1"
+  },
+  "compilerThreadControl": "explicit -j1 for direct Lean; package moreLeanArgs=-j1 for Lake builds"
+}

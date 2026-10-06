@@ -1,0 +1,157 @@
+param(
+    [string]$Snapshot = 'work/clean-n9/20261006-adaptive-v4',
+    [string]$RunName = '20261006T024511Z',
+    [string]$Report = 'work/n9-lean-drafts/verification/adaptive-v4/V4_INTEGRITY_AUDIT.json'
+)
+$ErrorActionPreference = 'Stop'
+Set-StrictMode -Version Latest
+$Started = [DateTime]::UtcNow
+$Snapshot = [IO.Path]::GetFullPath($Snapshot)
+$Run = Join-Path $Snapshot ('fresh-evidence/' + $RunName)
+$Report = [IO.Path]::GetFullPath($Report)
+if (Test-Path -LiteralPath $Report) { throw 'Refusing to overwrite an existing audit report.' }
+if ($Report.StartsWith($Snapshot, [StringComparison]::OrdinalIgnoreCase)) { throw 'Report must be outside the snapshot.' }
+$Summary = [ordered]@{
+    schema = 1
+    claim = 'Read-only source/object integrity audit; not a Lean compilation or recovered build result'
+    status = 'INCOMPLETE'
+    startedUtc = $Started.ToString('o')
+    snapshot = $Snapshot
+    evidenceRun = $Run
+    scriptSha256 = (Get-FileHash -LiteralPath $PSCommandPath -Algorithm SHA256).Hash.ToLowerInvariant()
+}
+function HashFile([string]$Path) {
+    $Stream = [IO.File]::OpenRead($Path)
+    $Hasher = [Security.Cryptography.SHA256]::Create()
+    try { return [Convert]::ToHexString($Hasher.ComputeHash($Stream)).ToLowerInvariant() }
+    finally { $Stream.Dispose(); $Hasher.Dispose() }
+}
+function InventoryMap($Rows, [string]$Label) {
+    $Map = [Collections.Generic.Dictionary[string,object]]::new([StringComparer]::Ordinal)
+    $Folded = [Collections.Generic.HashSet[string]]::new([StringComparer]::OrdinalIgnoreCase)
+    foreach ($Row in $Rows) {
+        $Name = [string]$Row.path
+        if ($Name -match '(^/|\\|:|(^|/)\.\.?(/|$))' -or -not $Name) { throw "Unsafe inventory path in ${Label}: $Name" }
+        if (-not $Folded.Add($Name)) { throw "Duplicate or case-alias path in ${Label}: $Name" }
+        if ($Row.sha256 -cnotmatch '^[0-9a-f]{64}$') { throw "Malformed digest in ${Label}: $Name" }
+        $Map.Add($Name,$Row)
+    }
+    return ,$Map
+}
+function CheckRows($Rows, [string]$Root, [string]$Label, [bool]$HasBytes) {
+    [long]$Bytes = 0
+    $Count = 0
+    foreach ($Row in $Rows) {
+        $Path = Join-Path $Root $Row.path
+        $File = Get-Item -LiteralPath $Path -Force
+        if ($File.PSIsContainer -or ($File.Attributes -band [IO.FileAttributes]::ReparsePoint)) { throw "Not a plain file: $Path" }
+        if ($HasBytes -and $File.Length -ne $Row.bytes) { throw "Length mismatch: $Path" }
+        if ((HashFile $Path) -cne $Row.sha256) { throw "Hash mismatch: $Path" }
+        $Bytes += $File.Length
+        $Count++
+        if ($Count % 5000 -eq 0) { Write-Host "$Label rehashed $Count files" }
+    }
+    return [ordered]@{files=$Count;bytes=$Bytes;allHashesMatch=$true}
+}
+try {
+    $FreezePath = Join-Path $Snapshot 'FREEZE.json'
+    $FreezeHash = HashFile $FreezePath
+    if ($FreezeHash -cne '22bb7406fef5a4379c856c8dbca26c8f964685e2bd036f24bdb45e0f5af3d10e') { throw 'Unexpected FREEZE digest.' }
+    $Summary.freezeSha256 = $FreezeHash
+    $Manifest = Get-Content -LiteralPath $FreezePath -Raw | ConvertFrom-Json
+    $SourceMap = InventoryMap @($Manifest.files) 'frozen sources'
+    if ($SourceMap.Count -ne 222) { throw 'Wrong source inventory count.' }
+    $Summary.sources = CheckRows @($Manifest.files) $Snapshot 'sources' $true
+    $Summary.leanSources = @($Manifest.files | Where-Object { $_.path.EndsWith('.lean',[StringComparison]::Ordinal) }).Count
+    if ($Summary.leanSources -ne 199) { throw 'Wrong Lean source/fixture count.' }
+    $Summary.toolchain = @(
+        foreach ($Name in @('lean','lake')) {
+            $Path = $Manifest.$Name
+            $Expected = $Manifest.($Name+'Sha256')
+            $Actual = HashFile $Path
+            if ($Actual -cne $Expected) { throw "Pinned $Name binary changed." }
+            [ordered]@{name=$Name;path=$Path;sha256=$Actual;matchesFreeze=$true}
+        }
+    )
+    $TargetPath = Join-Path $Run 'targets.txt'
+    $Targets = @(Get-Content -LiteralPath $TargetPath | Where-Object { $_.Trim() })
+    $TargetSet = [Collections.Generic.HashSet[string]]::new([StringComparer]::Ordinal)
+    foreach ($Target in $Targets) { if (-not $TargetSet.Add($Target)) { throw 'Duplicate target.' } }
+    if ($Targets.Count -ne 181) { throw 'Wrong local target count.' }
+    $LocalPath = Join-Path $Run 'local-objects.json'
+    $Local = @(Get-Content -LiteralPath $LocalPath -Raw | ConvertFrom-Json)
+    $LocalMap = InventoryMap $Local 'local objects'
+    $Summary.localObjects = CheckRows $Local $Snapshot 'local objects' $false
+    $Summary.localObjects.inventorySha256 = HashFile $LocalPath
+    foreach ($Row in $Local) { if (-not $TargetSet.Contains($Row.module)) { throw 'Object for an unexpected module.' } }
+    foreach ($Target in $Targets) {
+        $Prefix = '.lake/build/lib/lean/' + $Target.Replace('.','/')
+        if (-not $LocalMap.ContainsKey($Prefix+'.olean')) { throw "Missing recorded .olean for $Target" }
+        $Path = Join-Path $Snapshot ($Prefix+'.olean')
+        $Stem = [IO.Path]::GetFileNameWithoutExtension($Path)
+        foreach ($File in (Get-ChildItem -LiteralPath (Split-Path -Parent $Path) -File)) {
+            if ($File.Name -ceq ($Stem+'.olean') -or $File.Name.StartsWith($Stem+'.olean.',[StringComparison]::Ordinal) -or $File.Name -ceq ($Stem+'.ilean')) {
+                $Relative = $File.FullName.Substring($Snapshot.Length+1).Replace('\','/')
+                if (-not $LocalMap.ContainsKey($Relative)) { throw "Unrecorded local companion object: $Relative" }
+            }
+        }
+    }
+    $ActualOleans = @(Get-ChildItem -LiteralPath (Join-Path $Snapshot '.lake/build/lib/lean') -Recurse -File -Filter '*.olean')
+    foreach ($File in $ActualOleans) {
+        $Relative = $File.FullName.Substring($Snapshot.Length+1).Replace('\','/')
+        if (-not $LocalMap.ContainsKey($Relative)) { throw "Unrecorded local Lean import object: $Relative" }
+    }
+    if ($ActualOleans.Count -ne 181) { throw 'Wrong current local .olean count.' }
+    $Summary.localObjects.modules = $Targets.Count
+    $Summary.localObjects.currentOleans = $ActualOleans.Count
+    $BeforePath = Join-Path $Run 'external-objects-before.json'
+    $AfterPath = Join-Path $Run 'external-objects-after.json'
+    $Before = @(Get-Content -LiteralPath $BeforePath -Raw | ConvertFrom-Json)
+    $After = @(Get-Content -LiteralPath $AfterPath -Raw | ConvertFrom-Json)
+    $BeforeMap = InventoryMap $Before 'external before'
+    $AfterMap = InventoryMap $After 'external after'
+    foreach ($Name in $BeforeMap.Keys) {
+        if (-not $AfterMap.ContainsKey($Name) -or $BeforeMap[$Name].sha256 -cne $AfterMap[$Name].sha256 -or $BeforeMap[$Name].bytes -ne $AfterMap[$Name].bytes) { throw "Recorded external cache changed: $Name" }
+    }
+    $New = @($AfterMap.Keys | Where-Object { -not $BeforeMap.ContainsKey($_) } | Sort-Object)
+    $Summary.externalRecorded = [ordered]@{
+        beforeFiles=$BeforeMap.Count; afterFiles=$AfterMap.Count; newlyBuiltFiles=$New.Count
+        beforeSha256=(HashFile $BeforePath); afterSha256=(HashFile $AfterPath)
+        allBeforeRowsUnchanged=$true
+    }
+    $BeforeDirsPath = Join-Path $Run 'external-objects-before.directories.json'
+    $AfterDirsPath = Join-Path $Run 'external-objects-after.directories.json'
+    if ((HashFile $BeforeDirsPath) -cne (HashFile $AfterDirsPath)) { throw 'External directory inventories differ.' }
+    $Dirs = @(Get-Content -LiteralPath $AfterDirsPath -Raw | ConvertFrom-Json)
+    if ($Dirs.Count -ne 9) { throw 'Unexpected dependency-directory count.' }
+    $CurrentMembership = [Collections.Generic.HashSet[string]]::new([StringComparer]::Ordinal)
+    $ExternalRoot = [IO.Path]::GetFullPath($Manifest.externalPackages)
+    foreach ($Dir in $Dirs) {
+        $Path = [IO.Path]::GetFullPath($Dir.directory)
+        if (-not $Path.StartsWith($ExternalRoot+'\',[StringComparison]::OrdinalIgnoreCase)) { throw 'External cache outside recorded dependency root.' }
+        if ((Test-Path -LiteralPath $Path -PathType Container) -ne $Dir.present) { throw "External directory presence changed: $Path" }
+        if (-not $Dir.present) { continue }
+        Get-ChildItem -LiteralPath $Path -File -Recurse | ForEach-Object {
+            if ($_.Name -match '\.(olean|ilean)(\.|$)') {
+                $Relative = $_.FullName.Substring($ExternalRoot.Length+1).Replace('\','/')
+                if (-not $CurrentMembership.Add($Relative)) { throw 'Duplicate actual external object.' }
+                if (-not $AfterMap.ContainsKey($Relative)) { throw "Unrecorded current external object: $Relative" }
+            }
+        }
+    }
+    if ($CurrentMembership.Count -ne $AfterMap.Count) { throw 'Current external membership differs.' }
+    $Summary.externalCurrent = CheckRows $After $ExternalRoot 'external objects' $true
+    $Summary.externalCurrent.exactRecordedMembership = $true
+    $Summary.externalCurrent.absentCachePackages = @($Dirs | Where-Object { -not $_.present } | ForEach-Object {$_.package})
+    if ((HashFile $FreezePath) -cne $FreezeHash -or (HashFile $LocalPath) -cne $Summary.localObjects.inventorySha256 -or (HashFile $BeforePath) -cne $Summary.externalRecorded.beforeSha256 -or (HashFile $AfterPath) -cne $Summary.externalRecorded.afterSha256) { throw 'An audited inventory changed during the audit.' }
+    $Summary.status = 'PASS_INTEGRITY_ONLY'
+    $Summary.warning = 'The run still has no RESULT. This audit does not create one or claim a clean-driver completion.'
+} catch {
+    $Summary.error = $_.Exception.Message
+    throw
+} finally {
+    $Summary.completedUtc = [DateTime]::UtcNow.ToString('o')
+    $Summary.elapsedSeconds = ([DateTime]::UtcNow - $Started).TotalSeconds
+    $Summary | ConvertTo-Json -Depth 15 | Set-Content -LiteralPath $Report -Encoding utf8
+    Write-Output "Audit report: $Report"
+}

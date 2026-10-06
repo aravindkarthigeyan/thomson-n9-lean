@@ -1,0 +1,118 @@
+{
+  "status": "CLOSED_TIMEOUT_AUDITED_NOT_PROOF_REJECTION",
+  "completedUtc": "2026-10-06T14:17:19.600750+00:00",
+  "priorSummary": {
+    "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-check-01\\summary.json",
+    "sha256": "f936398ec3e978fb8265aac7d9cc1f9eb846e01be3e3e9127d4ebfb31458d1cd",
+    "bytes": 3683
+  },
+  "cleanupComplete": true,
+  "wallSeconds": 1200.1089999999967,
+  "peakJobCommitBytes": 3103342592,
+  "rawCheckerStdoutBytes": 0,
+  "rawCheckerStderrBytes": 0,
+  "oldArtifacts": [
+    {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-check-01\\summary.json",
+      "sha256": "f936398ec3e978fb8265aac7d9cc1f9eb846e01be3e3e9127d4ebfb31458d1cd",
+      "bytes": 3683
+    },
+    {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\check-plan-v4-20261006-01.json",
+      "sha256": "7d1b286b4bf325a1d9b35c0ff2afb5a773647c3688a9ca2f51248aa24e2db9e3",
+      "bytes": 143461
+    },
+    {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\ROOT_CHECK_AUTHORIZATION_01.json",
+      "sha256": "542e9f9850106e133fd7b437a97ff2740c62c2f1b976d08b322a8d60441c214a",
+      "bytes": 1543
+    },
+    {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-check-01\\process\\events.jsonl",
+      "sha256": "d25debdb5e49dc7ed23a4d4bc2498de952c47e86899321e0f3447b001a9a6e73",
+      "bytes": 4421040
+    },
+    {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-check-01\\process\\manifest.json",
+      "sha256": "5f359019830f22d65c26d75cb8caa6878f611785768fe35fcdb23e2eab1968d3",
+      "bytes": 94992
+    },
+    {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-check-01\\process\\result.json",
+      "sha256": "f809dcdd18b4b13fe41b337a481704b04a06d5fec075dacbade56d7a790fa66f",
+      "bytes": 3895
+    },
+    {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-check-01\\process\\stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-check-01\\process\\stdout.log",
+      "sha256": "a4d57b76c1c45be52ca23ee01dd141d8694f0422c721785424cf13aa39436616",
+      "bytes": 4173
+    },
+    {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-095413\\environment.txt",
+      "sha256": "fd0666d44cf59eba7d6284e93e9d3cd0822afe02a6ef0272dc6935fecedbeb45",
+      "bytes": 2522
+    },
+    {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-095413\\nanoda.config.json",
+      "sha256": "95392725424189d9a706753101b7d0e291919e606563758485149c0df5cfc6be",
+      "bytes": 725
+    },
+    {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-095413\\nanoda.err",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-095413\\nanoda.out",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-095413\\OLEAN_SHA256.txt",
+      "sha256": "8b134d0d775af5ed4b892afcb92b3a8b2903244f5823a2164255951fc9f696a1",
+      "bytes": 37819
+    },
+    {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-095413\\run.log",
+      "sha256": "a4d57b76c1c45be52ca23ee01dd141d8694f0422c721785424cf13aa39436616",
+      "bytes": 4173
+    },
+    {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-095413\\runner-nanoda.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-095413\\STATUS.tsv",
+      "sha256": "28332bc6504b5034f30e12aae019ea21ac70ad189417a019e4fb2f0628c8b673",
+      "bytes": 334
+    },
+    {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-095413\\tool-record-check.txt",
+      "sha256": "44af2d3f885eedfa8343b4dc5b24396c9ca48c4ea4ac738b6803ea8096f9bd75",
+      "bytes": 26
+    },
+    {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-095413\\VERDICT",
+      "sha256": "dbf7a5c672e5f677d0ed72b585dc3670286030d253e2a67c622a2f8d31025164",
+      "bytes": 11
+    }
+  ],
+  "staleSlotAtPreparation": {
+    "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\.lean_slot\\owner.txt",
+    "sha256": "ede448301280b34e72fd4f18ba716bd26550c4348436ccbbbc0abead36214ca5",
+    "bytesHex": "7365636f6e645f6b65726e656c2072756e206e392d636f6d706c6574652d76342d32303236313030362d6578706f72742d30312070696420363837332073696e636520323032362d31302d30365430393a35353a34392d30343a30300a",
+    "action": "No modification; root must separately preserve/clear the proven-stale owned lease before retry"
+  },
+  "source": {
+    "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\prepare_actual_v4_retry.py",
+    "sha256": "a06999b66ab2f26227ec1027dd2b2a5af9003254050b82d48898f1976626b62a",
+    "bytes": 6974
+  },
+  "newProcessLaunched": false
+}

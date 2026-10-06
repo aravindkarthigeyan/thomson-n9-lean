@@ -1,0 +1,17 @@
+{
+ "lines": 9727409,
+ "declarations": 55248,
+ "counts": {
+  "axiom": 3,
+  "thm": 35665,
+  "def": 16850,
+  "opaque": 33,
+  "quot": 4,
+  "inductive_items": 2693
+ },
+ "decls_required": [],
+ "decls_missing": [],
+ "errors": [],
+ "sha256": "6ea32a64e1aabdfbf06dc731537de0083f7e60e5eb76b408e5c418ccf1a93b3c",
+ "bytes": 514465728
+}

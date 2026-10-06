@@ -1,0 +1,34 @@
+{
+  "schema": "n9-second-kernel-process-authorization-v1",
+  "root_authorized": true,
+  "user_continuation_authorized": true,
+  "exclusive_slot_released": true,
+  "continuation_evidence": "[Private continuation message redacted]",
+  "latest_continuation_evidence": "[Private continuation message redacted]",
+  "claude_stop_handoff": "2026-10-05 21:39 EDT",
+  "stage": "check",
+  "purpose": "Fresh 3600-second check of the identical complete N9 export after the independently audited 1200-second timeout. Keep the same memory cap and unchanged verifier; preserve prior timeout and stale lease receipts. No automatic retry or proof-source edit.",
+  "plan": {
+    "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\check-plan-v4-20261006-02-slot-bound.json",
+    "bytes": 155754,
+    "sha256": "d79119e1be3d15bf3886712a9b5233bed567a4d7b5d9672f8dafbe8265be17b6"
+  },
+  "environment_sha256": "9e3821ab44894bc3345178dcf8f361cc0a4cada7f58b0ca80f7d8d5784dace26",
+  "argv": [
+    "C:\\Program Files\\Git\\usr\\bin\\bash.exe",
+    "--noprofile",
+    "--norc",
+    "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\run_second_kernel.sh",
+    "--preset",
+    "final"
+  ],
+  "limits": {
+    "launch_commit": 12616466432,
+    "launch_physical": 6979321856,
+    "reserve_commit": 2147483648,
+    "private_tree_cap": 8589934592,
+    "wall_seconds": 3600
+  },
+  "issued_utc": "2026-10-06T14:20:00+00:00",
+  "expires_utc": "2026-10-06T15:35:00+00:00"
+}

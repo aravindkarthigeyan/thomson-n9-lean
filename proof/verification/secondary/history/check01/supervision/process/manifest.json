@@ -1,0 +1,1337 @@
+{
+  "schema": "owned-windows-command-v1",
+  "supervisor": {
+    "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n8_orchestration\\ordinary_job_guard.py",
+    "sha256": "6def5e9bfd0209dcc7f02a8413b979b35fc32b2a266894625b31d2a5ff944b52"
+  },
+  "supervisor_interpreter": {
+    "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\venv\\Scripts\\python.exe",
+    "sha256": "dfeb18fc415c323e0cd6fb5eb818ac76d90c35d8021cdddb32c26c08267c3644"
+  },
+  "argv": [
+    "C:\\Program Files\\Git\\usr\\bin\\bash.exe",
+    "--noprofile",
+    "--norc",
+    "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\run_second_kernel.sh",
+    "--preset",
+    "final"
+  ],
+  "windows_command_line": "\"C:\\Program Files\\Git\\usr\\bin\\bash.exe\" --noprofile --norc C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\run_second_kernel.sh --preset final",
+  "cwd": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification",
+  "bindings": {
+    "tool": {
+      "path": "C:\\Program Files\\Git\\usr\\bin\\bash.exe",
+      "sha256": "5490d0da5e7cf9d92068cc48fcc590f2bcf8564add8ff91c3b5fe541eb2d72e3"
+    },
+    "sources": [
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\HARDENING.md",
+        "sha256": "9db6b0eddda4675a390b8ab293ab0ca9325418b1605b8721574261baaa1b11a5"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\statement\\STATEMENT_AUDIT.md",
+        "sha256": "7c0d2acea64abd9ee7f3dfcc2e2ffaf048bbb54154a044b7a8e14d5c1a5478c8"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\statement\\StatementPins.lean",
+        "sha256": "aa72e0868c8b8a675306d594e2ca80d6eaf34c148c2438010afa867ea178143c"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\statement\\StatementPinsCore.lean",
+        "sha256": "816547a041e61679f4cd23d5561046591fa16906f67b487283f23532ec89e3ac"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\statement\\make_core.sh",
+        "sha256": "7b3e0c0208f4d635ba12cd4a82b5dc8d717190299d0ea997af39fc7478e20198"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\statement\\make_pin_mutants.py",
+        "sha256": "296bf286570da84b043ce97ae020caf50a4339b097cf6a163fa1b6238d8f80e1"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\statement\\mutants\\MANIFEST.tsv",
+        "sha256": "890fbe1e9cdc29483ef91d876243c1e87dd768230734bbb34198692246e04c5c"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\statement\\mutants\\PinMutant_bracket_lower_digit.lean",
+        "sha256": "fe9bd0f820bdbb938946c6142930797ba8585222b5acc4843be3b6980916ddfc"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\statement\\mutants\\PinMutant_cap_sign.lean",
+        "sha256": "3124923d13ec4e96e05cf6fcabc010d487cc2c5250440387cdf7bd075ec805db"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\statement\\mutants\\PinMutant_congruent_isometry_equiv.lean",
+        "sha256": "f80dc054bfbfad83f9a7d5636f48c9cb2043c6647803180b60221d775b970bfc"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\statement\\mutants\\PinMutant_congruent_no_relabel.lean",
+        "sha256": "7d312007dcacdc45dc55a56b0b054b261dbde11775510bf0111a9ef0acb72d06"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\statement\\mutants\\PinMutant_energy_Iio.lean",
+        "sha256": "0aa7f38d718821da118d83d69d957eba93c01523818e7cba4149780400f78199"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\statement\\mutants\\PinMutant_energy_no_inverse.lean",
+        "sha256": "8fb922a8fb7809b0947cf39563a56afa054f881447e7b9bfc88b57e0acdf4ec5"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\statement\\mutants\\PinMutant_energy_ordered_double.lean",
+        "sha256": "fdf92eda6511521f780c775f37f363dc007a8b531ad05ba52ef5e568ec495609"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\statement\\mutants\\PinMutant_energy_riesz2.lean",
+        "sha256": "8334e33ddd6ec09d62cb45d23a367abae8b5c19ca4bc003137af6dbe1664beda"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\statement\\mutants\\PinMutant_prism_twist.lean",
+        "sha256": "a0d5f85f33ac7744411b921a2d0e00c6bf14d664eec7a4da94d1f4b304ea4950"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\statement\\mutants\\PinMutant_sphere_ball.lean",
+        "sha256": "20c6abb8b8c9d473de59c2da771b1132f10add3944c48f9a27b4a6106cc5d3ff"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\statement\\mutants\\PinMutant_sphere_no_injective.lean",
+        "sha256": "676151ba5257c828a1a7ab14bdf5aef8aef81ad8a27cc89c800c4746393d8c30"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\statement\\mutants\\PinMutant_stationarity_sign.lean",
+        "sha256": "b9fdff2cbfc8878f54f33f7e5651839204fa474e763f08dee4403ceb6a311e9c"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\statement\\mutants\\PinMutant_symE_coefficient.lean",
+        "sha256": "6c12581c675fb28119c842622612a4d86c42b160c12299995d1486ca976e1e26"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\statement\\mutants\\PinMutant_target_exists_not_unique.lean",
+        "sha256": "f6167d3e57ca1626fdb60f977611afb753dce71a0bce2dcb9b5b329433ce6b21"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\statement\\mutants\\PinMutant_target_optimality_flipped.lean",
+        "sha256": "77d94abca58e149c3c3ae3a248683a8835b87790eac8d90768ebe4b3f46d8cc8"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\statement\\mutants\\PinMutant_target_uniqueness_implies.lean",
+        "sha256": "7c6057cc2cfa22be6c5e4eb8187052a9b3eaaca3c9748f401701dc6d37661dec"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\statement\\run_pins.sh",
+        "sha256": "a0b64d288fcbcdca4328c886a10ae759e9125247d9352dce444261eeb68ab3cc"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\statement\\statement_numerics.json",
+        "sha256": "1255685c8be658838851d1424fd8adebadb949c12837508e8ad7b81afc17750e"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\statement\\statement_numerics.py",
+        "sha256": "cfb2fff8b8882a9391a96a6553c1b644380e789089ad05e3ab941f0f1e385116"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\statement\\statement_symbolic.json",
+        "sha256": "c40864bd5bde0413b14e3334d476a7aaa0faca0630a89a7378a29cb92f1c478f"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\statement\\statement_symbolic.py",
+        "sha256": "b6bc69b57ddfa444d57b135c7a2d1f0cb1fff2886799956e109204c33621d525"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\FINAL_PINS.json",
+        "sha256": "cddbfe242244383c592bcf187994ca3550e0c5c6749c53439c13b38ed3f6844a"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\README.md",
+        "sha256": "6ee218d47df8ed752a51b7cd55f698fd11136c5fdf4f6a3074e381a8224ec999"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\checkone\\CheckOne.lean",
+        "sha256": "941c1ffff38bca037a330619773ca641b8f1cd8fb3e52cc14d44185b2efa475f"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\run_final_verification.sh",
+        "sha256": "69294ad3f489882e25b7a5638d5b1862877050adffb7347d37fc302d5928755b"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\run_step.py",
+        "sha256": "52e307d0669b1f7cdceb92be6705497bb0368d9958f3c4719d9bffe42462e879"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\PINS.json",
+        "sha256": "9e46c1ffda9cb5e78b605d18015eaf5c1bf867808eb332b5cc34029550c42bee"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\SECOND_KERNEL.md",
+        "sha256": "2b1463df3eee1d95dce1ebdc7be4a0fab151f3e4d6854fc74526fbcbc71f2888"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build_second_kernel.sh",
+        "sha256": "78d0300ed810efcd14ff7376744f7e5d91a3bf3f8447bdb132149116f61a1ade"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\env.sh",
+        "sha256": "c994d3d975ea82b1a200f49d0a8faed53ca90062f4cdbd978514bd114b66bd5c"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\make_semantic_sites.py",
+        "sha256": "cbedb02d955400032747dad1f3685083321e4e52fa447074b0b9be29f3a707eb"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\nanoda_failure_sites.tsv",
+        "sha256": "8122e897ffd8843faada424afff2e58dcd7b318e01d504a4d2114e3e0516501f"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\nanoda_semantic_sites.json",
+        "sha256": "ff6fb1166da58ddb0af8f154ac284961c96371ff4d95be5d20e698ec903f4b2f"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\redirect.py",
+        "sha256": "054a02a3a1f7e9d36e262ed37af4218a6e37b174805e9356ba0486d167805148"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\run_second_kernel.sh",
+        "sha256": "10ccd7c30c05108cd11c7e30aaf688f92562fdd7f8fb0288eb8c227aab56a0ec"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\sk_tool.py",
+        "sha256": "b20645f1a745b8e54c52dcaac27bbc8310d7fbd22887d0acf5dcb23e82b2473d"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\src\\nanoda_lib\\src\\debug_printer.rs",
+        "sha256": "184918c06946c0efcc57868e47098428bd1d98179725344ba81b1103eb940c81"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\src\\nanoda_lib\\src\\env.rs",
+        "sha256": "52c1593f0e08c4e7b9b9f8a97e48bfdde1d449253bf0c3e4967321b46dbece01"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\src\\nanoda_lib\\src\\expr.rs",
+        "sha256": "7ea1a70e11c7adf1fa2f4be8e8a2f10f7fcd6441d73117fdc206a55ac2d76e3c"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\src\\nanoda_lib\\src\\inductive.rs",
+        "sha256": "e4be60335f8c0eda18eae074acbf1ea6a6a2b709b31d4d50dbb92dd3443263fc"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\src\\nanoda_lib\\src\\level.rs",
+        "sha256": "aaf68c6bb4af87fc026f8560df90c5576abb86e8c59c530aa671465912a998bf"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\src\\nanoda_lib\\src\\lib.rs",
+        "sha256": "23074a173a2ce6c3ca6ef39c9a8da488c7556f9aa95360a50fec7c154dcbee77"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\src\\nanoda_lib\\src\\main.rs",
+        "sha256": "245ceaef34e8925cacaa3c5b99ce096a8c744710ce1f9184423e5a0333e8b35a"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\src\\nanoda_lib\\src\\name.rs",
+        "sha256": "0e5ea2028ff4d87cc39100d49120f4b08113597d39eb3e916c66ca3c06427478"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\src\\nanoda_lib\\src\\parser.rs",
+        "sha256": "51c0208cbb07660a3af5b26f54eeda012e2c983567aed779f1b8acacf5c14ada"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\src\\nanoda_lib\\src\\pretty_printer.rs",
+        "sha256": "9e45e1951d06d84631d0fee1fdcef60161a757abef53d428625257a0fbe6deb3"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\src\\nanoda_lib\\src\\quot.rs",
+        "sha256": "0131ae36f3daea5262f280aca44085c15e5335a8657cefd2afcec4c2bc388463"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\src\\nanoda_lib\\src\\tc.rs",
+        "sha256": "59d8a7d5b4481a9038031fabe819d3e2384f2dd68eb343805fa946e3499b3fda"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\src\\nanoda_lib\\src\\tests.rs",
+        "sha256": "8af730f36984da57fe8ef62818cf3d83c993ed44d1452abc028cc16fcf952f0e"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\src\\nanoda_lib\\src\\union_find.rs",
+        "sha256": "2728ab1d2dcd84489a6bb4fa984af22c40236bf813205e42a1c55ca825bdc757"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\src\\nanoda_lib\\src\\unique_hasher.rs",
+        "sha256": "e457ec69139dee08c4f21f3fee5bc9a2cfe6bb14e5d5bd217ca35d6a368daea5"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\src\\nanoda_lib\\src\\util.rs",
+        "sha256": "57b2022b743ad5f31cc08d18dfa5092f2246b6a57b2b49770deb0f53cd3e7561"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\smoke\\src\\VFNeg\\AddFalse.lean",
+        "sha256": "f13eb83e8f066bcfd3377feb0185c08a6fe1ff893aea9bb900bdfc4b0740334e"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\smoke\\src\\VFNeg\\UsesFalse.lean",
+        "sha256": "598aeb364e7dc1ed9796cd4017327c09df8dc9309830ed620131477a94e3a381"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\smoke\\src\\VFSmoke\\Mathy.lean",
+        "sha256": "c4f22f950d8a4c7f169e74c3f3bca65f0c74f05e82d61f249587fd82aee83bf1"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\smoke\\src\\VFSmoke\\Mathy2.lean",
+        "sha256": "556dbd83fa3fcebe71af8a8a4f1090bce2c162c718f8c40ca32b36fc0fccb813"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\smoke\\src\\VFSmoke\\Tiny.lean",
+        "sha256": "5bb9cfeed203f934cbd52b8a4a91210a87cf8168963deab49822b5ddca3b23c4"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\tests\\_util.py",
+        "sha256": "9dbb62a98a3bada7b45a9da062b5c63d2313362ebc42ee6bf523ce7f4a9b0e28"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\tests\\fakes\\fake_lean.py",
+        "sha256": "d15d3b8702f8d728ee044ab0fff14054f1a00ef29b393ffa6304273f5aa7163f"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\tests\\fakes\\fake_lean4export.py",
+        "sha256": "0a9e17607c6bb9dc96e3dd07928a965bb4607bf5da29015af819f00a2a543674"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\tests\\fakes\\fake_lean_pins.py",
+        "sha256": "c8f1f6edbe6fe2caff4eb352a4d59b0711c28574628eb8d2ceea7ce34891d081"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\tests\\fakes\\fake_leanchecker.py",
+        "sha256": "bc4b4cf7ecfdb059f234be84d4d7a345cec2c5981e64d6eda80d41b0148a22ab"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\tests\\fakes\\fake_nanoda.py",
+        "sha256": "00e4f2a33751197646e3c8ff0f5c8ce65092831c11f4a1d483ba52c72846d9d9"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\tests\\fixtures\\phase2\\EXPORTS.sha256",
+        "sha256": "2e44c4dfdf005d105d4fe9f6aec29f5e34ca4793d5f16e59d8b2acaaf5a44a38"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\tests\\fixtures\\phase2\\FIXTURES.json",
+        "sha256": "187a49ad133cb67e8820c7adf2daeaf642fc9bf845134b249225097fd8627552"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\tests\\fixtures\\phase2\\neg_bundled.out",
+        "sha256": "98a18a1f6bf64a4fdb758ad70b6b5e45ea38f9fb8594ceaad06f628bccf7707e"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\tests\\fixtures\\phase2\\negctl.ndjson",
+        "sha256": "6870b7b7a405f8d3da30b2e3728171dfd396a4018edbd1b62456f6efc4c82cf9"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\tests\\fixtures\\phase2\\negctl.out",
+        "sha256": "86c9384f6f12624b646e625e6e6376bffafc83698885c733bc3f9a53eb86de40"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\tests\\fixtures\\phase2\\pos.ndjson",
+        "sha256": "08f7eb14df195ba592bc6b807fd7e518e361ac5b20b180fdd9f5a5459a3c2b83"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\tests\\fixtures\\phase2\\pos.out",
+        "sha256": "8f25a770e1b91864397b282cf0c471b7f0536c749acdbbf6b8bfbf8f0e92317e"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\tests\\fixtures\\phase2\\tiny.ndjson",
+        "sha256": "4869f509ca3878af37c330e4765f1f728e8d46f2de184312cd0d2de44d65514c"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\tests\\fixtures\\phase2\\tiny.out",
+        "sha256": "d15aa26cf71509dcf00bb2d940b803304c0e911a950915f7f2e39f5c4e05972b"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\tests\\fixtures\\phase2\\tiny_tampered_lit.out",
+        "sha256": "848b21f7b74f8b1ced1062788bd70b4c1590fb4ce25e178dc58dc3e8c1319aec"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\tests\\fixtures\\phase2\\wrong_input_declined.err",
+        "sha256": "526479c86eeae5c9bdbc89b3efda87d1af83d0cf15ea24ed227f56aceda45f4d"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\tests\\fixtures\\phase2\\wrong_input_eof.err",
+        "sha256": "321f6e23ffb25c77a38d4abeaa1aac98d25286fd4a0112fe50e34be2d2e52d2e"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\tests\\run_tests.py",
+        "sha256": "2e8a015bf4aedfdc3fafac1ecce2116f04c5be2a080cf3a48f972ef8031d24be"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\tests\\test_e2e_final.py",
+        "sha256": "7b39b325cebfb60f226d9653d010bfcb362c53286524e385bdb61718fb7f02d8"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\tests\\test_e2e_second_kernel.py",
+        "sha256": "08096bdcbaa9b4b439b21312b18d050a120836e298e6f84e69d2238fafb88a48"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\tests\\test_nanoda_whitelist.py",
+        "sha256": "21f430f7b7260b0805b30521b527036fbf1da0f1bb32479c5137592435ec0ace"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\tests\\test_run_pins.py",
+        "sha256": "c9c16bf460e12b3150444f08956e580bb7d9b1350bc1021a9c033536f9592c07"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\tests\\test_runners.py",
+        "sha256": "6fe41121c1fa1d05e4ace4b4d9b2ce93f2eae538a6f7c8fbd1294e76ac8a4bc8"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\tests\\test_sk_tool.py",
+        "sha256": "2d4e15ad326c1295581dd3d07953ddc20a44820f093eaa4f618f49991ca2a8e3"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\tests\\test_vf_common.py",
+        "sha256": "6fe204820360e0e3937efabe8cc6b1c4f023f13c7c36a3299210a4e6173b83bd"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\tests\\test_vf_tool.py",
+        "sha256": "ddd2799479e2c319fba2e63e74917f20ef6168e87b8be55afd3773b14b6cfe77"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\vf_common.py",
+        "sha256": "b9dd60684ce318e29094e74a3dc35bb00f57791a82c69147945b3ffc8c80e96b"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\vf_tool.py",
+        "sha256": "8ed5bcd7f71ec8b248fba311e5afae089716199ec3b267ad0de77282be631a9b"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\src\\lean4export\\LICENSE",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\src\\nanoda_lib\\LICENSE",
+        "sha256": "c8858a5a76440bbca484e134cf7df46385d090dd18b2c58e650f939258802e5b"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\README.md",
+        "sha256": "cd678b8e68d849fee60069422aa90cd45090564d3dddd8df30892de0e315d957"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\audit_preparation.py",
+        "sha256": "e7101be8dc51c53dc4eee35691562037f5bc8bafdb6c0474a80120fa105e544c"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\run_light_tests.py",
+        "sha256": "fa2110a90ecfcc27bab7c3f32f206006474cb51063c750ba71781e113b9c518c"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\resource_policy.py",
+        "sha256": "1d8ae7abd34016b228e8c2776a17ceaaf22a5e300e2e265193496a5623c5b6be"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\tests\\test_codex_preparation.py",
+        "sha256": "45fd80fba1ecdcf8f4b003ec09a60bec40fe95fd0a321e469beda5f66e93b6b8"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\supervise_stage_v5.py",
+        "sha256": "4b92025fb9bf59657e5629c83a652a421fe33a239644ff3b471b7fee494fc94a"
+      },
+      {
+        "path": "C:\\Program Files\\Git\\usr\\bin\\bash.exe",
+        "sha256": "5490d0da5e7cf9d92068cc48fcc590f2bcf8564add8ff91c3b5fe541eb2d72e3"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\toolchains\\lean-4.34.1-windows\\bin\\lean.exe",
+        "sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\toolchains\\lean-4.34.1-windows\\bin\\lake.exe",
+        "sha256": "9780a6abfb6d751c7958f2fd7f696154bdda8b46c0de9755c4080ffb8a8788e6"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\venv\\Scripts\\python.exe",
+        "sha256": "dfeb18fc415c323e0cd6fb5eb818ac76d90c35d8021cdddb32c26c08267c3644"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\src\\lean4export\\.lake\\build\\bin\\lean4export.exe",
+        "sha256": "065218c1214642e01ad8e9660782df31af78537eb9ba7d5f3d47c0f3b347ed52"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\src\\nanoda_lib\\target\\release\\nanoda_bin.exe",
+        "sha256": "04493a1415eb07e638a76b5f3f02dd653fc415ec0d17992e51228fc3ef22eb11"
+      },
+      {
+        "path": "C:\\Program Files\\Git\\mingw64\\bin\\git.exe",
+        "sha256": "d1b62b94aa15e5c3bbcdd6440d5f716f78daa2736a951b0f1fad11d38c5f16da"
+      },
+      {
+        "path": "C:\\Program Files\\Git\\usr\\bin\\cygpath.exe",
+        "sha256": "811122a0ca70c5e046b7c6e48f26daaaa5288341add85e4212fff2bb5b8f9bae"
+      },
+      {
+        "path": "C:\\Program Files\\Git\\usr\\bin\\tee.exe",
+        "sha256": "5b956ac9d6bb6d457665709bbcf71326ecd66bb5111b280c124a68405ce5da46"
+      },
+      {
+        "path": "C:\\Program Files\\Git\\usr\\bin\\msys-2.0.dll",
+        "sha256": "e55be2d89f2756f540a8f2acf18cd14bf275d1187a32d5189946ee5c896bcf03"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\toolchains\\lean-4.34.1-windows\\bin\\lean.exe",
+        "sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\toolchains\\lean-4.34.1-windows\\bin\\lake.exe",
+        "sha256": "9780a6abfb6d751c7958f2fd7f696154bdda8b46c0de9755c4080ffb8a8788e6"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\venv\\Scripts\\python.exe",
+        "sha256": "dfeb18fc415c323e0cd6fb5eb818ac76d90c35d8021cdddb32c26c08267c3644"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\src\\lean4export\\.lake\\build\\bin\\lean4export.exe",
+        "sha256": "065218c1214642e01ad8e9660782df31af78537eb9ba7d5f3d47c0f3b347ed52"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\src\\nanoda_lib\\target\\release\\nanoda_bin.exe",
+        "sha256": "04493a1415eb07e638a76b5f3f02dd653fc415ec0d17992e51228fc3ef22eb11"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\src\\nanoda_lib\\Cargo.lock",
+        "sha256": "9b921e794ce5ed515eb31db9ada0c2f34df999b6c9b5135ad308a412872e42be"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\src\\nanoda_lib\\src\\tc.rs",
+        "sha256": "59d8a7d5b4481a9038031fabe819d3e2384f2dd68eb343805fa946e3499b3fda"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\src\\nanoda_lib\\src\\parser.rs",
+        "sha256": "51c0208cbb07660a3af5b26f54eeda012e2c983567aed779f1b8acacf5c14ada"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\src\\nanoda_lib\\test_resources\\ProjFromProp\\config.json",
+        "sha256": "c898525fcb5347fc9f60961201d93d7663afb1867197a46a5753e21b24fc3cc8"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\src\\nanoda_lib\\test_resources\\ProjFromProp\\export",
+        "sha256": "5fc8f25b717c2dd56880064e43d87489b1bea202f5b5ef96d0d06a6ba7ce2022"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\FREEZE.json",
+        "sha256": "22bb7406fef5a4379c856c8dbca26c8f964685e2bd036f24bdb45e0f5af3d10e"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\fresh-evidence\\20261006T024511Z\\RESULT.json",
+        "sha256": "1e10416d6f0e6abfd4c60dc12acf3fc8ba1d97c73c12d3078bcbe7076b25214f"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\fresh-evidence\\20261006T024511Z\\local-objects.json",
+        "sha256": "72fb2993cf28d5c00a71ffe8b21b6743e43a3241054620e3564f1581b2c1b309"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\fresh-evidence\\20261006T024511Z\\external-objects-after.json",
+        "sha256": "4af1f70cbdd2fbd56cf33b9b53dbd24ad1ad26dd821c253efd883c8bf1b721f3"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\TOOL_BUILD_RECORD.json",
+        "sha256": "c2ee08adb397c1495ff406f2ba122f8a6e00e6371ac3b57b0ce032f18e3ef9e9"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\RUN_MANIFEST.json",
+        "sha256": "2f82f92d9dc35e309bd4508970ca308354bee5714fb0be5cce780bfb91ce140e"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\export.ndjson",
+        "sha256": "6ea32a64e1aabdfbf06dc731537de0083f7e60e5eb76b408e5c418ccf1a93b3c"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\VERDICT.json",
+        "sha256": "0c467d078ae91e98957655b98011f19a86bc2fb2749f3f22aeaf45527b63dab2"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-export-01\\summary.json",
+        "sha256": "2bfb704376e465700fc96e3a77056c7edeca9e8956d0e5caf33cf0c62398ed60"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\export-plan-v4-20261006-01.json",
+        "sha256": "d88103ee3aeb675031b2a95bf85dbf6747d82abc71a768ebd3e49c5fdcbda8dd"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-export-01\\process\\result.json",
+        "sha256": "6df6fa7c87a5d99b311bea7acac2848287c31ef9547617e2d5ea12dc1e172b1a"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\ROOT_EXPORT_AUTHORIZATION_01.json",
+        "sha256": "70551d2402e55b6ec074f960b21f7c2892fbe0cacbae050d291d5ac34a598249"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\RELOCATION.json",
+        "sha256": "f2cd9587683687940a1b92c0ec08169a7191b266ceec632ab889536d5f60f3d0"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserve_ilean_hashes.py",
+        "sha256": "d9e7ddcf5ce08cdb34838a93893980caf829b35154a37aa7e78b53922c6b73c4"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-lean-drafts\\verification\\finalized-v4-full-bind-audit-20261006.json",
+        "sha256": "1889b25f973b8dcd75253fe8c70651bb2a3e43421d71855612591e1cec98bb2d"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\prepare_actual_v4_export.py",
+        "sha256": "2005adb497d3d31aee27320801bafd2db98e12db43846fae178a006c74148c26"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\Challenge.ilean.hash",
+        "sha256": "bcb774aa2ff10da6853ceaf65a443b783979c00225f7a6930d982684838bb753"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Bridge.ilean.hash",
+        "sha256": "52b7f9aebf5d5496292fbcd6658ee8b041fe95475699f66f581bf4ec7b3ea7b5"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\Assembly.ilean.hash",
+        "sha256": "5f9599e9752f2c5c6c2149e3092295a60027a1c02b6048b5c6754de884f26a39"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\Kernel.ilean.hash",
+        "sha256": "0e4b4dbacca5b0dfb4c85abc6b8dfa3ed60a3ce1904a019aca6805566d21f590"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\Mult.ilean.hash",
+        "sha256": "2fc1bea6418331997d1d0157b75cc86b18fe3a3241081b7d6c7634f6a4e416df"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\C01.ilean.hash",
+        "sha256": "2eff868e15851ec76a767707c0e92b4965b7e7ab180df0231f1ef88421457746"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\C02.ilean.hash",
+        "sha256": "ac762e15b108e83a9381e40e965c930fac2ff8203b980cc65c09434085160485"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\C03.ilean.hash",
+        "sha256": "1bc06e998f614f81300c6e168d6c113b05f17f4de0c9573b49f0ac281f92829d"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\C04.ilean.hash",
+        "sha256": "0379f3b431ff69806a774422663808b1d9f4243f29d1eb17deaeb134ccc04ba8"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\C05.ilean.hash",
+        "sha256": "f2c71b50a63702303c803aaf99ec5f9139dd85aefa950cafbab162c04a8ab344"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\C06.ilean.hash",
+        "sha256": "47bd3d521a800ef540c0edcfc8e27c9b7a19adbdfcfa678853347de3014dff5e"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\C07.ilean.hash",
+        "sha256": "d428f72f54e7a263c6b1d7d7fe9db6a92b108cdc6408f3a5a5b834646c6b4496"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\C08.ilean.hash",
+        "sha256": "09ebf8e26e30466702d06259b2d8488e194c70d4c773feca47880d7ee1bdce68"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\C09.ilean.hash",
+        "sha256": "bf33ea6d51c6fbce9a7c727d0a4b851789033eb9d6c30f1dbce20e3f48673136"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\C10.ilean.hash",
+        "sha256": "56b4e3d3afa7c65e9652ae2ffd54a91fac2a53a9fb92e879d0e1480049483067"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\C11.ilean.hash",
+        "sha256": "cb68abe1c4aff93be1930187780c031dd9a64c46c3eebc9f93b319ed326cb571"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\C12.ilean.hash",
+        "sha256": "c524ade8a25939c483a649af05137371dd7e4595db385aec9a69aba5b3f8a405"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\C13.ilean.hash",
+        "sha256": "d0266c49d22daaf79facec9f74e17f22141d983b286a1d22f48e63ffd3c8f1de"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\C14.ilean.hash",
+        "sha256": "c371e4ec7821817b21c0cbc28e5a2e22202dcfa14249ac12931335ff18b806c1"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\C15.ilean.hash",
+        "sha256": "2613a3fb93653e7be6bb63c55f233745c7020cd8c300983bab567ccc92870a1d"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\Glue.ilean.hash",
+        "sha256": "486d29726edbbc86687afc2db8c94c2668720967ad615839e980e1ef2f4596ff"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\Last.ilean.hash",
+        "sha256": "8c3de577abb3319a2e02db208596baea6fc482db67e06c9ca34f1f3a76c42e1a"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\T00.ilean.hash",
+        "sha256": "8154f7ac941edc1e7497351aa071d82bca5f59019a3e21d3c93f8c45de19d1ba"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\T01.ilean.hash",
+        "sha256": "cde140901174b831e92db3285f8a463178837ec331813dd53f7a0d5e4a362bed"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\T02.ilean.hash",
+        "sha256": "fa44d292eaf862713b6bcf0105a6ac591a5321892c91cd6ff2b559284a014d9e"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\T03.ilean.hash",
+        "sha256": "8c20071a56e9c101d465cb5e9c21be85440703bd8113066b4987fc6bf1368184"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\T04.ilean.hash",
+        "sha256": "8d3e05ee236433317fb89119a8ddfafaa2298bc450323c3448c04fbaaa4724fc"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\T05.ilean.hash",
+        "sha256": "6c26c45436188fc8bfafb73273048d1c9e7008ff2a0e04e444901242693993d9"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\T06.ilean.hash",
+        "sha256": "38767c9edda0dad49e1e1b5922744c6c3fd91d334f1db8f73801b34b29ec2bd2"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\T07.ilean.hash",
+        "sha256": "2f70a71d5888ebb023288a216c6b2369dd0c31b11bb11923785ea6ebc8d1ee27"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\T08.ilean.hash",
+        "sha256": "951178f89f41b9380a76e63fc36ffe7c9702cf63a0e7e379e811231beef8a61f"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\T09.ilean.hash",
+        "sha256": "d04a9da485c4eff2ac932facf97423ecab879fb7f2501722cd95e16d17e8d94a"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\T10.ilean.hash",
+        "sha256": "5ff2b66dac39657f7f41b9030cc29e580ad904de478daf65579764cad7e05ae4"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\T11.ilean.hash",
+        "sha256": "286ce661d8caf0c46fba50b3195719371f3c4886bfa58c8ddb33793192b1a29b"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\T12.ilean.hash",
+        "sha256": "cc7f5fb6cd99b54e635c44b71ca4c24635b99bdefb180aa0f161db1235a04f2f"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\T13.ilean.hash",
+        "sha256": "ed355f32fedb3482c94f1ae4894cf50b0211f178551a850f4d6055464eda2601"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\T14.ilean.hash",
+        "sha256": "78ed349e0253ae40ad9add997c63f31ea61373cf9ba25a530ac3cf1930c2dcb7"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\T15.ilean.hash",
+        "sha256": "de35915b3a43741a8295079bb775229bb6b02af2c4d1ed64ee99a3cf17a4786e"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Identity.ilean.hash",
+        "sha256": "a7a5c7b1aa2e91d2829f5e607f701cb53c370598308ee899670d19590de75bbd"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\KC\\Assembly.ilean.hash",
+        "sha256": "e4c0958eab5d21e660c6bd46f31888cb7ff11f79277a3ced0eb7257bbf6105fc"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\KC\\Chain.ilean.hash",
+        "sha256": "48a2600fcfaf7499a0facc1ae17588084d1be96d4e9825cd76299a8ba0359b36"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\KC\\Check.ilean.hash",
+        "sha256": "9c32df056ce2a01531095dd00da9346ef2f6206723c13aa3e657b852b160b750"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\KC\\Extra.ilean.hash",
+        "sha256": "59deb2ec0f7c9489b3a08ef374444163fcced74f1ad5a4d52339636468797b47"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\KC\\Kernel.ilean.hash",
+        "sha256": "2343c0cf4222569e6a64842d2ba3a7bafc74435907fde0dd884f93a85f6c5b5e"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\KC\\Kronecker.ilean.hash",
+        "sha256": "7e4d71f3ffd0598c267b1bff9ffa0f0627a89d4343569f56f087672459a03839"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\KC\\Ops.ilean.hash",
+        "sha256": "07ed929574cac7ec0cfb60691c9f853ba96267d7358224bcddbcc34dba1533de"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\KC\\Poly.ilean.hash",
+        "sha256": "2bac2d40046050d6d2d492ea200ade332162d0afdad976f770a4b331ba5b1da4"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Main.ilean.hash",
+        "sha256": "af69386f46728a9fbbd40d71eb20649b62add1afcd25b71cf042ee0063e2b0b1"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Numbers.ilean.hash",
+        "sha256": "662fd667631c4b155df2d98eaa4194ba2b287f9efa9395bda86fd49a6ddbbad3"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Test\\Negative.ilean.hash",
+        "sha256": "fca1f4b3af4a5d64789e4bf0e00e121bd5a4525ef84654b8f8f17d5a0aea6139"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL2b\\Integration.ilean.hash",
+        "sha256": "5c09423d188ca923a0496e9432bbf9423df58601f4b0e7ec6bce471426ad4789"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL2b\\LPAdapterCodex.ilean.hash",
+        "sha256": "f8718b637055ab50a06cf90757e835461b8ddd528b766f419b534a287c4642a3"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL2b\\LPCovers.ilean.hash",
+        "sha256": "6e9a79c091c8d6a8b103614b7e915fbb20f279c6e263621cd39aa740aa2377c1"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL2b\\LPData.ilean.hash",
+        "sha256": "ebcbc1e4ab160e5992395262b6e5085ba10f5565f28bd632eca19c7088f6c6fe"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL2b\\ReducedData.ilean.hash",
+        "sha256": "d070e5285869cd66638839d84c47abbccb3da9e677e70e0d69bc734bc2c68fba"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL2b\\ReducedMinorant.ilean.hash",
+        "sha256": "f6842198c9fa3780366a2dae236684b0f19eed22f827c1569ec3e657073e3b88"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL2b\\RefinedData.ilean.hash",
+        "sha256": "e0eeb437e4ddf3a17f46585c1e268da9c4c5f3cb56fb3c97fda758372f594c87"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL2b\\RefinedWindows.ilean.hash",
+        "sha256": "98b3f341493926a882980888c86de403917ca9a69046c7d2b03e1084f3615a70"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL2b\\WindowAdapter.ilean.hash",
+        "sha256": "dc0a4e1c78a142f53bd3bcfd58d26ea34abc18d409d3ea5bd682c08209fddfa1"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeWindow\\AnchorFree.ilean.hash",
+        "sha256": "8dfc6254b29d8632ca6383de279f8a9c513fb925c6d7aed15ec737af83231a75"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeWindow\\Antipodal.ilean.hash",
+        "sha256": "f95876d54e23b25b0bb56551de37dac270f78c270870249da8bf7d0d5be75266"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeWindow\\Bridge.ilean.hash",
+        "sha256": "67b68ceb75c7348218d1a396e878d7d85814ddc263ff60e8613bae3a90d6adc9"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeWindow\\CandidateGram.ilean.hash",
+        "sha256": "c5eddde1fd9ba347aafee73bc94cc1425c0a49b3182a566240418f1ec6d6894c"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeWindow\\FormulaSound.ilean.hash",
+        "sha256": "9d0dee97823ff4319dbd0b19d7f3172d5f6f78c7f72c88c51f9436c468ea5684"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeWindow\\Geometry.ilean.hash",
+        "sha256": "521b0af5686fa8c77e52ad5eafd70236c2da1e8941f500cd2dc8e889d8d1d5ca"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeWindow\\Interval.ilean.hash",
+        "sha256": "57c676abba735142da2edd190094a0392dd3297313bde5f7beb6cbc4478e7fe6"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeWindow\\Main.ilean.hash",
+        "sha256": "61f38f0c92a7e3ca178419eef5f4eaf42d1620a66725d754630753acc19d3a51"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeWindow\\Soundness.ilean.hash",
+        "sha256": "bf9743da54c51595d1ca53a7df84845f42da5bca22225c75120a648366a7dc43"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeWindow\\WindowBoxes.ilean.hash",
+        "sha256": "fca178b95d1c9ede7672850a3bd6b0ade7f1ad12fe3fe5bc9469cd1d73f7de8b"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeWindow\\WindowCheck.ilean.hash",
+        "sha256": "657f6bab3f450cc563051532c4ecf05d0c480ff20c40455fc41d8274f1efa71a"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeWindow\\WindowData.ilean.hash",
+        "sha256": "5d38c38b924eab43a929ec9d51cbc7722710675d6fb7f299c048c9979f444519"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeWindow\\WindowKernel.ilean.hash",
+        "sha256": "e6e0793c2d841a37d7233e638d4e14243f2a69a6145d30e5a5e7c119a76cf29e"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeWindow\\WindowKernelA.ilean.hash",
+        "sha256": "118c40d72557dc48f5e04ba0e80736dc3a61e1bf5815670b5e0bf017c4bc36f3"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeWindow\\WindowKernelB.ilean.hash",
+        "sha256": "19e04dd35d72a19485e45eec55e13645aba8aea432cd4ce17f1ee12c15015dfe"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\Delsarte\\Certificate\\Interval.ilean.hash",
+        "sha256": "1734d7e972b55909eee35bb7312b838ce4d8f98d01916dbe9fb31b17dbde6f68"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\Delsarte\\Gegenbauer\\Basic.ilean.hash",
+        "sha256": "a130d8d207ff9de78008d49210e7afccd705e9cb5ff76559ffe9a2d22f4aba6f"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\Delsarte\\Harmonic\\Fischer.ilean.hash",
+        "sha256": "b5e54712176b47ed0f4d705362a120bb8ad7b5173285813d27792a00fa9292db"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\Delsarte\\Harmonic\\Zonal.ilean.hash",
+        "sha256": "19ecca17cb84ead858bd5d83e8c51875409812c598e8db42f56d5abfd1148427"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\Delsarte\\Sphere\\DegreeThree.ilean.hash",
+        "sha256": "3c2f10ecb246df753504143e54e6660b32a495843dc2c1e2964bad8a17c47358"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\Delsarte\\Sphere\\DegreeTwo.ilean.hash",
+        "sha256": "5545076977b757da08ae47d867a8c1c9e5a40c2dbd45a062282816099c6f5f99"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\Delsarte\\Sphere\\LP.ilean.hash",
+        "sha256": "ae76ec7b8a3a1cfb0c8c5f49bdf7490964f5d4d6ade58d49ce235a7dd290b893"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\Delsarte\\Sphere\\Schoenberg.ilean.hash",
+        "sha256": "0d04239276d3ec254ccbdf66af1027d94cb47f9c42500c8ae36d2950fc14d084"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\Solution.ilean.hash",
+        "sha256": "e788352501dc4669ce22a303a6f9b1fe2c71beca1865628a3356edc9c6d876c6"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9.ilean.hash",
+        "sha256": "200dfd5398935e0647778556f6a5654c56860a52bc7a4fb1404ee41827b4061d"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Alignment.ilean.hash",
+        "sha256": "d8ebf90a167e941b6a0814ba740da178e876d3c5046bb381f7ae72deac59984e"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Basic.ilean.hash",
+        "sha256": "c33d94aac73153da9468f45ef22f6f3eeea4e62aa5d2131481242dc4f2dcddef"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Bernstein\\Checker.ilean.hash",
+        "sha256": "3862fe5d3244d84476b800db2a115c4579354e3f67facbe991f253b9ffeb69c5"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Bernstein\\Minorant.ilean.hash",
+        "sha256": "069095d06c1806d8747a3fdcd6d6cbe199183046d36302f566b462ed2b745e62"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Bernstein\\MinorantCert.ilean.hash",
+        "sha256": "d0c9c324798b2e698c36354b4a08930127388d78a679bd3a2da50eeb76eacaee"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Bernstein\\MinorantData.ilean.hash",
+        "sha256": "1fe07894d693106b81b13aa4a40ce22b9c3d64f4c3cd719627114e14aa0f8384"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\BlockHessian.ilean.hash",
+        "sha256": "61064d2b3a93a27bf889d5d1bee9b5b00845414e69652580cbcae5e0a207aee6"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Candidate.ilean.hash",
+        "sha256": "aa70d6c97019bd8f5b1ac47f7e9ae3178cd67936fa23f73a256b1c09d284e186"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\CandidateAlignment.ilean.hash",
+        "sha256": "50d6fd4afe414452cce9148700140f78837edb89b69de7c75d135212a474ea2b"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\CandidateEnergy.ilean.hash",
+        "sha256": "97c76ca299fa6ed6e933a870eff8ce3eaa2c95950145a820a63dbe0391472bdf"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\CentroidBound.ilean.hash",
+        "sha256": "3de4c13266d17c61820cd3eb835c54c2a4cbbdeff0733bdbfab69fe3eebdc263"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientCongruence.ilean.hash",
+        "sha256": "9d1c696c7a0dffc2bc5ff6c3b45415776fc20e4534ca4d03c8c95488ce782e2e"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientCongruenceChecks00.ilean.hash",
+        "sha256": "977823672b87b731eaf9230cebd85610cf4c67767e4f7c6fcd983986d7b5233a"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientCongruenceChecks01.ilean.hash",
+        "sha256": "5b28623277ddf03c6f64cccc8e22cb64421a433758ba75570ab9b6e7d40edc5e"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientCongruenceChecks02.ilean.hash",
+        "sha256": "54d3cf8fcadeac936a09be4813763b35f0934b229fedcd011e103a0ce0965488"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientCongruenceChecks03.ilean.hash",
+        "sha256": "51464268eace74a252678cc48bc9df09d9ff847b5d6f2fb69aae09a524cd335f"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientCongruenceChecks04.ilean.hash",
+        "sha256": "68776fe0812cdd498395c55aaad6494093886e17a0bec67fe249358961e28f66"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientCongruenceChecks05.ilean.hash",
+        "sha256": "538fee91c02727541847abc000a188823872d838406b6f9c52c1b3bd29baee1e"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientCongruenceChecks06.ilean.hash",
+        "sha256": "91b40e71bc7d1ef09b398901126706758e24199d872007bfc6c9f9e60a7bef23"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientCongruenceChecks07.ilean.hash",
+        "sha256": "f166d214fc15a1b0e074705b375bfddf28c6e743cb82b52f9b7b0194af9fac02"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientCongruenceChecks08.ilean.hash",
+        "sha256": "262493334c3b383ec1c08087707951560d75ebdc898777ba41db78dfd4316ec4"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientCongruenceData.ilean.hash",
+        "sha256": "e0bdc86da6e1c0fbb539d37474c0e7583639d431ae07065cf559d1f671cb06dc"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientHessian.ilean.hash",
+        "sha256": "3628ff59aafcd5be782e5830653090edf8621b137ba506b425b6f43f259b7be5"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientKernelAll.ilean.hash",
+        "sha256": "60ff8e8f0300be326ed3cfcfedbfe0eb213f19df3c3dcf4dd6383c6174ed6db3"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientKernelAssembly.ilean.hash",
+        "sha256": "6f161b243d75ad08f5ffe86b0e71e2d41fc2080182cfab0981aa33b2abe680c8"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientKernelBounds.ilean.hash",
+        "sha256": "0ca99b17fe297310d2dbf268706cbdba3aad98edeb1f5ea41d0ee289aa062e1f"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientKernelChecks00.ilean.hash",
+        "sha256": "6d4f20c08532f74447c9b8c35a634ea3dda1c966d00b8dcbea4ebb8d938600e0"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientKernelChecks01.ilean.hash",
+        "sha256": "08a2b1f1f9154ba3daccfd48427f5f2cda9253ac0a19af48cc503d3667ab8783"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientKernelChecks02.ilean.hash",
+        "sha256": "e7a2bbda586be124faad7b32573b6d8377ee5ddaa2e5bc63f8b8aed36d9fafc3"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientKernelChecks03.ilean.hash",
+        "sha256": "7e1d144d3b8c1a79139b932c30ecd1344577dffd7a6430a9a9c517cdf3798376"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientKernelChecks04.ilean.hash",
+        "sha256": "d1817fdcd5a6afb69b88712b1a8e15ba86fd2241e647a84f5b1fb29d7af0487d"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientKernelChecks05.ilean.hash",
+        "sha256": "c164ac05ec70da11933ad95a1d65bc64a78f43cd23a8dc17104444612cbc501f"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientKernelChecks06.ilean.hash",
+        "sha256": "480c25f34c8568b9594a22964d647c7c70fa947e624d3731198c92e68bf0c7bf"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientKernelChecks07.ilean.hash",
+        "sha256": "ad6bc70f29f3d8399a60011ba69b9f97740bae2d29a6a68f30ff618d8ce705d1"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientKernelChecks08.ilean.hash",
+        "sha256": "c6ddf5ee22e92b9200ded4ce639827035965103496bfb38e67803096ba27df41"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientKernelChecks09.ilean.hash",
+        "sha256": "4652bc25373ab9de1be1d6a116202d29056cf9be0dcaf3385671092ce9b3e823"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientKernelData.ilean.hash",
+        "sha256": "bd34fe6614e9fc285a1fb3054994ee094c39518a29f900a8518475d82d9b7c0a"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientKernelGeometry.ilean.hash",
+        "sha256": "891ff3a18d4df92a61b29d4128644770d30679328edfc6d449355a3a1c93008b"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\CircuitAlgebra.ilean.hash",
+        "sha256": "c9d40aeec8e08a8b8b828ec6905f5318ab0a13a43c080212595ea3b5a3272a81"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\CircuitConstants.ilean.hash",
+        "sha256": "4bf3c6f13122ffffee745840a3ea7bdd912fd59b560ff9a61821676fbd756f54"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\CircuitCoordinates.ilean.hash",
+        "sha256": "148a01f72894f9ff3cd939f3a8dec92de39b7ebe1c4e882be5badc45c9903467"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\CircuitDifferences.ilean.hash",
+        "sha256": "664de678eac28ff98f85f5f8bcf15d1f1799ce1f2ac23300c38b6a342e922797"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\CircuitMatrices.ilean.hash",
+        "sha256": "dc566bda15d2b09b7c6bc698aa8b14e4154e174639f795e81f6ff8e84365255e"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\CircuitPairBlock.ilean.hash",
+        "sha256": "b9a5f72d7670d84202f41df4f8c11e021fe1e05a5ce1570f478349abf49d1671"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\CircuitRadial.ilean.hash",
+        "sha256": "3635e59e7df0b9e816d45d9ecf6fc7fb510e2963db5733c64ffee4139e4bb911"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\CircuitRotation.ilean.hash",
+        "sha256": "99d32d21f752fab09c0401b111c7eeea7cb8c51f48aa4379773171ef1b5f5b68"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\CircuitSums.ilean.hash",
+        "sha256": "0ddc16f394f02524b6385ca8c36e8df31c31a13464810faf1aab5f8780cbe511"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\DiagonalDominance.ilean.hash",
+        "sha256": "866b8026a7d9c7d9ce6918969d95efeb97d201cc7f2a86b27774d83b47adef93"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\EnergyControls.ilean.hash",
+        "sha256": "b68250bd009c16fcaf3743d9ffdaa20bc849f87b84f0b9cc06e73730bd383259"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\HessianTransport.ilean.hash",
+        "sha256": "c1cb80f70c276df539628e0865fac5861f9d0b816b017b0a36ea371063659837"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\Interval.ilean.hash",
+        "sha256": "2e83b6b7cedbb5e9a1f8758b59f2248e88ad5d2b3b9aa0fa8c83cc32becfb9bd"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\IntervalCircuit.ilean.hash",
+        "sha256": "d4b8003acacec3addac698efd4ce51246ea543fc6525f4ddf4df4c7bfb951a13"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\ReducedEnergy.ilean.hash",
+        "sha256": "2cbb98a706d995390c34b4c9a0306309d04f90fe06034f7e1531483868b0e89b"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\ScaledInterval.ilean.hash",
+        "sha256": "c3f7c1d64f7835c3ac3d2b3cfb89c77d665d30534acbcedcb919e5737a8743ee"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\ZeroPenalty.ilean.hash",
+        "sha256": "836d8fba2d6d9715845a3901f62ba8c4507ae911b390bc494f6805d50ac92884"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Completion.ilean.hash",
+        "sha256": "30a502190b4e895cd40e48aa7912bde39e6d8dd993330e7c7c8ba5307b2210ec"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Endgame.ilean.hash",
+        "sha256": "e3a134aa43f9350fcedd5e39cfaccaa930af7aeb6fe56626b6f45a79b294932d"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Energy.ilean.hash",
+        "sha256": "4f0bff9c1329e074dd64d978433bdd8c9984f462874e175e409076f1af49ff59"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\FamilyEnergy.ilean.hash",
+        "sha256": "616313aba71a62ed15d83460cc90f3674b29ad556d6aa408c5e1c36cc334982d"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\FamilyMinimum.ilean.hash",
+        "sha256": "e37e3097d720d8fb6325048302c2505dd0b71c65f3ee7953427ba70454917a22"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\GlobalReduction.ilean.hash",
+        "sha256": "f33aee5986c02c082d1030458983f4d2c8691ddc847044ef237e13b0bee2a8f9"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\GramAlignment.ilean.hash",
+        "sha256": "1f1a11e9b838ecb81dc184a7a15080effd4f01ad8893bd8a6eb4f33ad48f59ee"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\GramSchmidtFrame.ilean.hash",
+        "sha256": "be5efd44e73eed0ee3d94e33293f78d3a9bd43f0bf6029294938c7bb202af07d"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\GramStability.ilean.hash",
+        "sha256": "1d05ab06520ad830439b3d4a1d824dc80d227035b0da8cffc579df6aec6c065b"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\HessianSymmetry.ilean.hash",
+        "sha256": "617a025a4ab4afa8cf5e33322a2f8400637130dd223dad98209f0e01e836bb0c"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\LP\\Anchor.ilean.hash",
+        "sha256": "64190af19bdca4bc286f29bd7d6bf2eb561423b98f46a7b1a42f6c5f7e6f082d"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\LP\\Concrete.ilean.hash",
+        "sha256": "5341dba741ad3c95e77b6d99631a20018149f771c6f70ee50d9462687d119aaf"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\LP\\ConcreteLinkage.ilean.hash",
+        "sha256": "92ffa8a8d5a10cac62f2e44fd8318ca7ae1ae701debf9282c72119fc04b4edf3"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\LP\\Covariance.ilean.hash",
+        "sha256": "e22f2523a41fc62e16e6687c899d5b8f1b93787ac7cd8326e561624dbf1fcbe0"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\LP\\EnergyBound.ilean.hash",
+        "sha256": "03aed467a537df82a848e09110711d9cb19121b40c6a4c72ad609ac3511c6654"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\LP\\PolynomialLinkage.ilean.hash",
+        "sha256": "84b49f3b5875ba609d9e9f966223c838d74c71cbf3050ecdb122fb5235a05895"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\LP\\Schoenberg.ilean.hash",
+        "sha256": "d346f799e991f7412817a2c5c450efd9786318b991db3bf6a2823ceecaf7a118"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\LocalCoercivity.ilean.hash",
+        "sha256": "44705de17ccec534bfea67ac0ada6e0ecd2aaf62ae03ff29618a43d9688be9dd"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\LocalEnergy.ilean.hash",
+        "sha256": "3f00742fd2306917ffe90d0855e39378c79fd98f3eb3ce8e05037d85f70fc634"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\LocalEstimate.ilean.hash",
+        "sha256": "127121fddec9276c06a94bbeb028a27ce1db91a69d292e1bbd09356167a69664"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\LocalGeometry.ilean.hash",
+        "sha256": "294dd6b453c2826f1156054b8c605a46a5f10cd9b580fb0e314930136f942df7"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\LocalPotential.ilean.hash",
+        "sha256": "971b0dc0153c8ec26cfafda9278816cdc73e4b3487b390b94512e5c9be67711e"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\LocalRigidity.ilean.hash",
+        "sha256": "bc371f6f584eb30c76be961f0ce0c3287f9ae106ee02bf48ee0cc9c858a7d34e"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\LocalStationarity.ilean.hash",
+        "sha256": "35eeed15491bd2dedcddeed234adbc0e0b4e740c7f6e8979fc31367815543654"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\LocalTarget.ilean.hash",
+        "sha256": "a095453defbd0d9c6e610819793bc45daeeefc2ecd9e343a4477a44c8e7754a1"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\MainTheorem.ilean.hash",
+        "sha256": "fc40de77b5aca7c138a5cebb5d0ce4f3291bb7ca1801dd9452e0f74c3ba91c25"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\ParameterExists.ilean.hash",
+        "sha256": "998bbb354f9c3ed249d0c9f68c8d83846e4405bfb277ef43367560808e2e737a"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\ParameterSigns.ilean.hash",
+        "sha256": "6560977a4b3b03dda801032711b00471ab7f8bd8642571b33e051c3fc2184d98"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\QuantitativeStability.ilean.hash",
+        "sha256": "9b73825c46e94e466efd6aa92006f0c54fecd124a9546796aad29ddecf6493fc"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\SDP\\CertificateBound.ilean.hash",
+        "sha256": "05038b6a3ebe4dcf2ac3fa02e48d1bd7353272b75c8455a9406f019ea05d8550"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\SDP\\CircleKernel.ilean.hash",
+        "sha256": "7d5eacfd7272739eedc143da99804909e9cd7af7c1e8402c9ee414894c7e0ce5"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\SDP\\Counting.ilean.hash",
+        "sha256": "99aac6c63655f536a0cdb13c7c95c116051dca1d6a499e48d2fcf88123fdc8d8"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\SDP\\FactoredKernels.ilean.hash",
+        "sha256": "6a428405456ae442a196fbe92966f3233cbf61394a6e36953d581ae0b8d03e62"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\SDP\\GeometryBounds.ilean.hash",
+        "sha256": "ec5a0f2a07d0c0e1f744650c6ae5e880860ac6f10a57698fcd7bb255078f8854"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\SDP\\PolynomialKernel.ilean.hash",
+        "sha256": "cd603f36788ebb44b209828bc9f9869883f2cdec9ee9b40c3aaec941486d9c8f"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\SDP\\ProjectionComplex.ilean.hash",
+        "sha256": "b16c5c5a03b54ad00fc88cee084c236373a9c5b51b18d6f68f8ee66ff0b32674"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\SDP\\RepeatedIndices.ilean.hash",
+        "sha256": "fc2b1b13623cac3d8219a65094a21f08c24b6af704c9dd55c457692822983a10"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\SDP\\ResidualBound.ilean.hash",
+        "sha256": "6193c8deb15670b871e23d4438964848d07137922d8857123373cb3a746924d8"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\SDP\\Summation.ilean.hash",
+        "sha256": "21e7f56b067f29f5812ee3debae103069486c2ba83b034ff7af33608760897ba"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\SDP\\Symmetrization.ilean.hash",
+        "sha256": "5573b360e7ef14ab1a6477acdd50a30d82c0d026ec6f0a54cd68f4e1020d4d26"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\ScalarCertificates.ilean.hash",
+        "sha256": "b1814e8f92e5c4182366727ffada27c5c909e0c365539f6437398f59dcc3dce1"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\WindowLocalization.ilean.hash",
+        "sha256": "dee9be901c0ab7fe6fefa50d9e5e4354da3e8f41eb7c167eede1523ed33b8909"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\actual-v4-export-audit-20261006.json",
+        "sha256": "26a5248e97e78ddc9147f49838bea82311dd2dd70f1c43b3eac8e427f883a57e"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\prepare_actual_v4_check.py",
+        "sha256": "324df6c4fac567abb91aa8fc3db2113dd44d9f1e34bbcae171f6a95e06da9e1d"
+      }
+    ],
+    "configs": [
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\check-plan-v4-20261006-01.json",
+        "sha256": "7d1b286b4bf325a1d9b35c0ff2afb5a773647c3688a9ca2f51248aa24e2db9e3"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\ROOT_CHECK_AUTHORIZATION_01.json",
+        "sha256": "542e9f9850106e133fd7b437a97ff2740c62c2f1b976d08b322a8d60441c214a"
+      },
+      {
+        "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\PREPARATION_AUDIT_5.json",
+        "sha256": "f3fa828ed7ec24411be8dfcf2f7c77d98e7a98d0594b3b56464181d00501fa77"
+      }
+    ]
+  },
+  "limits": {
+    "launch_commit": 12616466432,
+    "launch_physical": 6979321856,
+    "reserve_commit": 2147483648,
+    "private_tree_cap": 8589934592,
+    "wall_seconds": 1200
+  },
+  "environment_sha256": "1e7ae79047b0f1c94cf92a034ca28e654df5e743f9813591b772dc5fe818f14c",
+  "poll_seconds": 0.1,
+  "stop_file": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\STOP",
+  "test_assignment_failure": false,
+  "test_resource_floor_after": null,
+  "deadline_epoch": 1791296340.0,
+  "started_utc": "2026-10-06T13:54:11.362181+00:00"
+}

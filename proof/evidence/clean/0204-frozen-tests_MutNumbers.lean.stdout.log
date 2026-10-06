@@ -1,0 +1,7 @@
+frozen-tests/MutNumbers.lean:4:0: warning: 
+'Mathlib.Data.Real.Basic' has been deprecated: please replace this import by
+
+import Mathlib.Basic.Real.Basic
+frozen-tests/MutNumbers.lean:75:83: error: unsolved goals
+case «5»
+⊢ False

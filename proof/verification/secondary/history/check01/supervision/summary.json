@@ -1,0 +1,65 @@
+{
+  "schema": "n9-second-kernel-process-summary-v1",
+  "stage": "check",
+  "process_outcome": "INCONCLUSIVE_TIMEOUT",
+  "mathematical_classification": "NONE",
+  "changed_prebound_inputs": [],
+  "stage_completion": "INCONCLUSIVE",
+  "export_artifacts": null,
+  "plan": {
+    "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\check-plan-v4-20261006-01.json",
+    "sha256": "7d1b286b4bf325a1d9b35c0ff2afb5a773647c3688a9ca2f51248aa24e2db9e3",
+    "bytes": 143461
+  },
+  "authorization": {
+    "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\ROOT_CHECK_AUTHORIZATION_01.json",
+    "sha256": "542e9f9850106e133fd7b437a97ff2740c62c2f1b976d08b322a8d60441c214a",
+    "bytes": 1543
+  },
+  "process_result": {
+    "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-check-01\\process\\result.json",
+    "sha256": "f809dcdd18b4b13fe41b337a481704b04a06d5fec075dacbade56d7a790fa66f",
+    "bytes": 3895
+  },
+  "process_logs": {
+    "stdout.log": {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-check-01\\process\\stdout.log",
+      "sha256": "a4d57b76c1c45be52ca23ee01dd141d8694f0422c721785424cf13aa39436616",
+      "bytes": 4173
+    },
+    "stderr.log": {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-check-01\\process\\stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "events.jsonl": {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-check-01\\process\\events.jsonl",
+      "sha256": "d25debdb5e49dc7ed23a4d4bc2498de952c47e86899321e0f3447b001a9a6e73",
+      "bytes": 4421040
+    }
+  },
+  "pipeline": {
+    "classification": "UNINTERPRETED_PIPELINE_OUTPUT",
+    "new_directory_count": 1,
+    "observations": [
+      {
+        "directory": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-095413",
+        "files": [
+          {
+            "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-095413\\VERDICT",
+            "sha256": "dbf7a5c672e5f677d0ed72b585dc3670286030d253e2a67c622a2f8d31025164",
+            "bytes": 11,
+            "text": "UNFINISHED\n"
+          },
+          {
+            "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-095413\\STATUS.tsv",
+            "sha256": "28332bc6504b5034f30e12aae019ea21ac70ad189417a019e4fb2f0628c8b673",
+            "bytes": 334,
+            "text": "bind\tPASS\tcodex-clean freeze 22bb7406fef5a437 build C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\npreflight\tPASS\ttoolchain, tool record, inputs, disk, slot\nexport\tPASS\tsaved export re-validated: sha256, bytes, meta, theorems, configuration, tools, scripts, objects\n"
+          }
+        ]
+      }
+    ]
+  },
+  "artifact_paths_are_pipeline_owned": true
+}

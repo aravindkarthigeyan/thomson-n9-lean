@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Please cite the exact version and commit or DOI of this research release."
+type: software
+title: "The Nine-Point Coulomb Thomson Problem: Lean Proof and Certificates"
+authors:
+  - family-names: Karthigeyan
+    given-names: Aravind
+    affiliation: University of Illinois Urbana-Champaign
+repository-code: "https://github.com/aravindkarthigeyan/thomson-n9-lean"
+doi: "10.5281/zenodo.23192843"
+version: 0.1.0
+date-released: "2026-10-06"
+license:
+  - MIT
+  - CC-BY-4.0
+  - Apache-2.0
+abstract: >-
+  Lean 4 global optimality and uniqueness proof for the nine-point classical
+  Coulomb Thomson problem, with exact certificates, provenance, and
+  reproduction instructions. Developed with substantial AI assistance.
+  External review and fresh-machine reproduction are requested.
+keywords:
+  - Thomson problem
+  - Lean
+  - formal verification
+  - spherical energy minimization
+  - semidefinite programming

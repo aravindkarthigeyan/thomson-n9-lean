@@ -1,0 +1,211 @@
+{
+  "status": "ACTUAL_SECOND_KERNEL_COMPLETE_CLOSURE_INDEPENDENT_AUDIT_PASS",
+  "scope": "Existing completed run only; no checker/compiler launched by this audit",
+  "summary": {
+    "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-check-02\\summary.json",
+    "sha256": "c166499609b72d83d9f669490449e7866ec30d49caa61c944ca0c6f222b93cc1",
+    "bytes": 7574
+  },
+  "plan": {
+    "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\check-plan-v4-20261006-02-slot-bound.json",
+    "sha256": "d79119e1be3d15bf3886712a9b5233bed567a4d7b5d9672f8dafbe8265be17b6",
+    "bytes": 155754
+  },
+  "authorization": {
+    "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\ROOT_CHECK_AUTHORIZATION_02.json",
+    "sha256": "e52da5ec504910d57dff244d3f6aa2685e27ebb2582f4f21559099ee8f37bc83",
+    "bytes": 1592
+  },
+  "processResult": {
+    "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-check-02\\process\\result.json",
+    "sha256": "ff741d2c5719dbd4670f7112a2f67c56de79c2cf8d62933b6ef0b7175b3b24cf",
+    "bytes": 4657
+  },
+  "guardManifest": {
+    "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-check-02\\process\\manifest.json",
+    "sha256": "d54e7a41523ad831c25eb231fef1b32ea251d6b285e8f2548585aa4cf2502c7e",
+    "bytes": 102023
+  },
+  "processLogs": {
+    "stdout.log": {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-check-02\\process\\stdout.log",
+      "sha256": "f0b78f3ef70740713c7afeb16392cc3ab210850df2c71ccbe0bf6e87d475a410",
+      "bytes": 8348
+    },
+    "stderr.log": {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-check-02\\process\\stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "events.jsonl": {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-check-02\\process\\events.jsonl",
+      "sha256": "6a7bda1be2e4e5a77ee949dab47c5a034db310facc17dfeb02d26f74f3c5d875",
+      "bytes": 4765858
+    }
+  },
+  "pipelineFiles": [
+    {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\environment.txt",
+      "sha256": "f3b6daa28c2fc94b81e4f53a835572050005013e02458d8daa5e99fbda207034",
+      "bytes": 2522
+    },
+    {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\journal.jsonl",
+      "sha256": "af604039c65caa3a55022d88c6c4451f9c3ca921f3dda76aec552584fb63485c",
+      "bytes": 1980
+    },
+    {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\nanoda.config.json",
+      "sha256": "95392725424189d9a706753101b7d0e291919e606563758485149c0df5cfc6be",
+      "bytes": 725
+    },
+    {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\nanoda.err",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\nanoda.out",
+      "sha256": "ffb9b96aa21dcf464f04b440bccb03630787d74de42674dc6242ab5f7c5ceec3",
+      "bytes": 1357
+    },
+    {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\nanoda.result.json",
+      "sha256": "613e6426a6c942c732faa9924f921704cd949affe49e6cdcd9909458b977023d",
+      "bytes": 430
+    },
+    {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\OLEAN_SHA256.end.txt",
+      "sha256": "8b134d0d775af5ed4b892afcb92b3a8b2903244f5823a2164255951fc9f696a1",
+      "bytes": 37819
+    },
+    {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\OLEAN_SHA256.txt",
+      "sha256": "8b134d0d775af5ed4b892afcb92b3a8b2903244f5823a2164255951fc9f696a1",
+      "bytes": 37819
+    },
+    {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\RESULT.json",
+      "sha256": "05a259d944e0891f3c61369da08f1426ccb2b66726006836327ad76a46e1908b",
+      "bytes": 343
+    },
+    {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\run.log",
+      "sha256": "f0b78f3ef70740713c7afeb16392cc3ab210850df2c71ccbe0bf6e87d475a410",
+      "bytes": 8348
+    },
+    {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\runner-nanoda.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\STATUS.tsv",
+      "sha256": "2d5f899b1d8be7c0103aaed24670209d4e1f8e6fd57b8725baac4dad47b45395",
+      "bytes": 806
+    },
+    {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\tool-record-check.txt",
+      "sha256": "44af2d3f885eedfa8343b4dc5b24396c9ca48c4ea4ac738b6803ea8096f9bd75",
+      "bytes": 26
+    },
+    {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\VERDICT",
+      "sha256": "c26de83abdc9496cd1301470918ec39ecca1cf389ef0ae1c6504da1800d1c431",
+      "bytes": 5
+    },
+    {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\VERDICT.json",
+      "sha256": "edb08cd643012dab1d45da556ac59ac3274ed58df4fe40c249290407a99e94bc",
+      "bytes": 1959
+    }
+  ],
+  "cleanResult": {
+    "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\fresh-evidence\\20261006T024511Z\\RESULT.json",
+    "sha256": "1e10416d6f0e6abfd4c60dc12acf3fc8ba1d97c73c12d3078bcbe7076b25214f",
+    "bytes": 111134
+  },
+  "freeze": {
+    "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\FREEZE.json",
+    "sha256": "22bb7406fef5a4379c856c8dbca26c8f964685e2bd036f24bdb45e0f5af3d10e",
+    "bytes": 115144
+  },
+  "actualCheckerExit": 0,
+  "declarations": 55248,
+  "rawOutput": {
+    "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\nanoda.out",
+    "sha256": "ffb9b96aa21dcf464f04b440bccb03630787d74de42674dc6242ab5f7c5ceec3",
+    "bytes": 1357
+  },
+  "fullPrintedOutputMatchesExpectedTypesAndAxiomSignatures": true,
+  "outputMutationControlsRejected": 6,
+  "requiredDeclarations": [
+    "ThomsonN9.thomson_nine_complete",
+    "ThomsonN9.Challenge.CompleteTarget",
+    "ThomsonN9.Challenge.ParameterExistsUnique",
+    "ThomsonN9.Challenge.GlobalOptimality",
+    "ThomsonN9.Challenge.GlobalUniqueness"
+  ],
+  "axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "axiomSignatures": "Propositional extensionality; quotient relation soundness; Nonempty Sort choice, exact raw signatures matched",
+  "statementSources": [
+    {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\Challenge.lean",
+      "sha256": "ea32b730538646d67c9e4a5ef5efcdc892a75c27b4b3e1b861eaecac68d9fe9f",
+      "bytes": 749
+    },
+    {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\ThomsonN9\\Basic.lean",
+      "sha256": "9047b6eb65ff0b86bbc899b6633a2564a400c8681b66267ff9406ca2f0b9a7bb",
+      "bytes": 1012
+    },
+    {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\ThomsonN9\\Candidate.lean",
+      "sha256": "6cb03242b8a5a29249ef7cd6128e9cfaa09b8e07e44b4a429246fab5981251ef",
+      "bytes": 2757
+    },
+    {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\ThomsonN9\\Completion.lean",
+      "sha256": "c652dc08a7dae24d79dc17f30ee31497cf765a4cfadc146d0bf81983ce77e687",
+      "bytes": 1801
+    }
+  ],
+  "statementInterpretation": "CompleteTarget includes unique parameter existence and both global claims. Basic uses Fin9 in Euclidean R3, unit and injective points, i<j inverse Euclidean norm counted once, and a linear isometry equivalence with permutation. Candidate parameter is the stationarity root in the exact rational isolating interval, and candidate_admissible is proved in the frozen source.",
+  "export": {
+    "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\export.ndjson",
+    "sha256": "6ea32a64e1aabdfbf06dc731537de0083f7e60e5eb76b408e5c418ccf1a93b3c",
+    "bytes": 514465728
+  },
+  "exportManifest": {
+    "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\RUN_MANIFEST.json",
+    "sha256": "2f82f92d9dc35e309bd4508970ca308354bee5714fb0be5cce780bfb91ce140e",
+    "bytes": 3360
+  },
+  "checkerConfig": {
+    "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\nanoda.config.json",
+    "sha256": "95392725424189d9a706753101b7d0e291919e606563758485149c0df5cfc6be",
+    "bytes": 725
+  },
+  "plannedInputRolesRehashed": 233,
+  "priorExportStrictValidator": "Unchanged supervise_stage_v5.verify_prior_export PASS",
+  "frozenSourceFilesRehashed": 222,
+  "externalObjectScope": "Current inventory/provenance bytes are bound; this audit does not repeat the 71336-file external-cache hash walk. The actual pipeline's final integrity check passed, and the separate clean build audit remains bound.",
+  "actualNanodaWallSeconds": 1128.72,
+  "outerWallSeconds": 1324.3910000000033,
+  "peakOuterJobCommitBytes": 3089694720,
+  "cleanupComplete": true,
+  "finalObservedOwnedPids": [],
+  "ownedSlotReleased": true,
+  "historicalCheck01": "Preserved INCONCLUSIVE_TIMEOUT, never reinterpreted as success/rejection",
+  "optionalSeparateReplayClaims": "None: no project/full-environment Lean replay or standalone pin rerun claimed here",
+  "auditSource": {
+    "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\audit_actual_v4_check02.py",
+    "sha256": "82cf13001913ee6741337d368c2e16e6dd0bd528c22342f334faa2e90518c8e5",
+    "bytes": 13475
+  },
+  "auditedUtc": "2026-10-06T14:49:38.789777+00:00"
+}

@@ -1,0 +1,77 @@
+{
+  "schema": "n9-second-kernel-process-summary-v1",
+  "stage": "check",
+  "process_outcome": "PROCESS_SUCCEEDED",
+  "mathematical_classification": "NONE",
+  "changed_prebound_inputs": [],
+  "stage_completion": "PROCESS_COMPLETED_ZERO_EXIT",
+  "export_artifacts": null,
+  "plan": {
+    "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\check-plan-v4-20261006-02-slot-bound.json",
+    "sha256": "d79119e1be3d15bf3886712a9b5233bed567a4d7b5d9672f8dafbe8265be17b6",
+    "bytes": 155754
+  },
+  "authorization": {
+    "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\ROOT_CHECK_AUTHORIZATION_02.json",
+    "sha256": "e52da5ec504910d57dff244d3f6aa2685e27ebb2582f4f21559099ee8f37bc83",
+    "bytes": 1592
+  },
+  "process_result": {
+    "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-check-02\\process\\result.json",
+    "sha256": "ff741d2c5719dbd4670f7112a2f67c56de79c2cf8d62933b6ef0b7175b3b24cf",
+    "bytes": 4657
+  },
+  "process_logs": {
+    "stdout.log": {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-check-02\\process\\stdout.log",
+      "sha256": "f0b78f3ef70740713c7afeb16392cc3ab210850df2c71ccbe0bf6e87d475a410",
+      "bytes": 8348
+    },
+    "stderr.log": {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-check-02\\process\\stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "events.jsonl": {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-check-02\\process\\events.jsonl",
+      "sha256": "6a7bda1be2e4e5a77ee949dab47c5a034db310facc17dfeb02d26f74f3c5d875",
+      "bytes": 4765858
+    }
+  },
+  "pipeline": {
+    "classification": "UNINTERPRETED_PIPELINE_OUTPUT",
+    "new_directory_count": 1,
+    "observations": [
+      {
+        "directory": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019",
+        "files": [
+          {
+            "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\VERDICT",
+            "sha256": "c26de83abdc9496cd1301470918ec39ecca1cf389ef0ae1c6504da1800d1c431",
+            "bytes": 5,
+            "text": "PASS\n"
+          },
+          {
+            "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\VERDICT.json",
+            "sha256": "edb08cd643012dab1d45da556ac59ac3274ed58df4fe40c249290407a99e94bc",
+            "bytes": 1959,
+            "text": "{\n \"verdict\": \"PASS\",\n \"scope\": \"FINAL\",\n \"aggregate\": \"PASS\",\n \"scope_reasons\": [],\n \"considered_checks\": [\n  \"preflight\",\n  \"export\",\n  \"bind\",\n  \"nanoda\",\n  \"statement\",\n  \"integrity\"\n ],\n \"required_checks\": [\n  \"preflight\",\n  \"export\",\n  \"bind\",\n  \"nanoda\",\n  \"statement\",\n  \"integrity\"\n ],\n \"requested_optional_checks\": [],\n \"checks\": {\n  \"preflight\": {\n   \"status\": \"PASS\",\n   \"detail\": \"toolchain, tool record, inputs, disk, slot\"\n  },\n  \"export\": {\n   \"status\": \"PASS\",\n   \"detail\": \"saved export re-validated: sha256, bytes, meta, theorems, configuration, tools, scripts, objects\"\n  },\n  \"bind\": {\n   \"status\": \"PASS\",\n   \"detail\": \"codex-clean freeze 22bb7406fef5a437 build C:\\\\Users\\\\REDACTED\\\\Documents\\\\Codex\\\\2026-10-05\\\\analyze-what-s-u\\\\work\\\\clean-n9\\\\20261006-adaptive-v4\\\\.lake\\\\build\\\\lib\\\\lean\"\n  },\n  \"nanoda\": {\n   \"status\": \"PASS\",\n   \"detail\": \"Checked 55248 declarations with no errors\"\n  },\n  \"statement\": {\n   \"status\": \"PASS\",\n   \"detail\": \"statement /^theorem ThomsonN9\\\\.thomson_nine_complete : ThomsonN9\\\\.Challenge\\\\.CompleteTarget( |$)/ and all of: ThomsonN9.thomson_nine_complete ThomsonN9.Challenge.CompleteTarget ThomsonN9.Challenge.ParameterExistsUnique ThomsonN9.Challenge.GlobalOptimality ThomsonN9.Challenge.GlobalUniqueness printed by nanoda\"\n  },\n  \"integrity\": {\n   \"status\": \"PASS\",\n   \"detail\": \"binding, input objects, export, configuration and tools unchanged at the end\"\n  }\n },\n \"subverdicts\": {\n  \"source_provenance\": \"NOT-REQUESTED\",\n  \"clean_build\": \"PASS\",\n  \"axioms\": \"NOT-REQUESTED\",\n  \"statement_pins\": \"NOT-REQUESTED\",\n  \"project_kernel_replay\": \"NOT-REQUESTED\",\n  \"full_env_replay\": \"NOT-REQUESTED\"\n },\n \"preset\": \"final\",\n \"stage\": \"check\",\n \"run_id\": \"n9-complete-v4-20261006-export-01\",\n \"modules\": \"Solution\",\n \"theorems\": \"ThomsonN9.thomson_nine_complete\",\n \"axioms\": \"propext Classical.choice Quot.sound\",\n \"final_pins_sha256\": \"cddbfe242244383c592bcf187994ca3550e0c5c6749c53439c13b38ed3f6844a\"\n}\n"
+          },
+          {
+            "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\RESULT.json",
+            "sha256": "05a259d944e0891f3c61369da08f1426ccb2b66726006836327ad76a46e1908b",
+            "bytes": 343,
+            "text": "{\n \"verdict\": \"PASS\",\n \"steps\": [\n  {\n   \"step\": \"nanoda\",\n   \"invocation\": \"sk.1\",\n   \"exit_code\": 0,\n   \"stopped_before_start\": null,\n   \"launch_error\": null,\n   \"wall_seconds\": 1128.72,\n   \"cpu_seconds\": 1046.38,\n   \"peak_job_commit_gb\": 2.849,\n   \"peak_tree_working_set_gb_sampled\": 0.0,\n   \"min_free_physical_gb_sampled\": 13.275\n  }\n ]\n}\n"
+          },
+          {
+            "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\STATUS.tsv",
+            "sha256": "2d5f899b1d8be7c0103aaed24670209d4e1f8e6fd57b8725baac4dad47b45395",
+            "bytes": 806,
+            "text": "bind\tPASS\tcodex-clean freeze 22bb7406fef5a437 build C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\npreflight\tPASS\ttoolchain, tool record, inputs, disk, slot\nexport\tPASS\tsaved export re-validated: sha256, bytes, meta, theorems, configuration, tools, scripts, objects\nnanoda\tPASS\tChecked 55248 declarations with no errors\nstatement\tPASS\tstatement /^theorem ThomsonN9\\.thomson_nine_complete : ThomsonN9\\.Challenge\\.CompleteTarget( |$)/ and all of: ThomsonN9.thomson_nine_complete ThomsonN9.Challenge.CompleteTarget ThomsonN9.Challenge.ParameterExistsUnique ThomsonN9.Challenge.GlobalOptimality ThomsonN9.Challenge.GlobalUniqueness printed by nanoda\nintegrity\tPASS\tbinding, input objects, export, configuration and tools unchanged at the end\n"
+          }
+        ]
+      }
+    ]
+  },
+  "artifact_paths_are_pipeline_owned": true
+}

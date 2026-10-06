@@ -1,0 +1,34 @@
+{
+  "schema": "n9-second-kernel-process-authorization-v1",
+  "root_authorized": true,
+  "user_continuation_authorized": true,
+  "exclusive_slot_released": true,
+  "continuation_evidence": "[Private continuation message redacted]",
+  "latest_continuation_evidence": "[Private continuation message redacted]",
+  "claude_stop_handoff": "2026-10-05 21:39 EDT",
+  "stage": "export",
+  "purpose": "Export the exact complete N9 theorem closure from the accepted clean source/objects. Export success is not secondary-kernel acceptance. Preserve all failed artifacts and do not escalate automatically.",
+  "plan": {
+    "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\export-plan-v4-20261006-01.json",
+    "bytes": 139185,
+    "sha256": "d88103ee3aeb675031b2a95bf85dbf6747d82abc71a768ebd3e49c5fdcbda8dd"
+  },
+  "environment_sha256": "4ed7e96d1c527f302c4b0960c74d334975a54041933d79ef4f40037ea4000d55",
+  "argv": [
+    "C:\\Program Files\\Git\\usr\\bin\\bash.exe",
+    "--noprofile",
+    "--norc",
+    "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\run_second_kernel.sh",
+    "--preset",
+    "final"
+  ],
+  "limits": {
+    "launch_commit": 12616466432,
+    "launch_physical": 6979321856,
+    "reserve_commit": 2147483648,
+    "private_tree_cap": 8589934592,
+    "wall_seconds": 1200
+  },
+  "issued_utc": "2026-10-06T13:41:30+00:00",
+  "expires_utc": "2026-10-06T14:06:30+00:00"
+}

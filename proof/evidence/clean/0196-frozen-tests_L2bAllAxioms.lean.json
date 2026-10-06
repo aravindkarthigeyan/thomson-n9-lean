@@ -1,0 +1,51 @@
+{
+  "name": "frozen-tests/L2bAllAxioms.lean",
+  "executable": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\toolchains\\lean-4.34.1-windows\\bin\\lake.exe",
+  "arguments": [
+    "env",
+    "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\toolchains\\lean-4.34.1-windows\\bin\\lean.exe",
+    "-j1",
+    "frozen-tests/L2bAllAxioms.lean"
+  ],
+  "exitCode": 0,
+  "expectation": "pass",
+  "passed": true,
+  "seconds": 23.7629813,
+  "sampledPeakPrivateBytes": 5250822144,
+  "sampledPeakWorkingBytes": 2330927104,
+  "sampledLargestOwnedPrivateBytes": 4250468352,
+  "resourcePolicy": {
+    "classification": "unprofiled-large",
+    "gateGiB": 11.75,
+    "physicalFloorGiB": 6.5,
+    "reason": "No exact named command and source-bound profile",
+    "module": null,
+    "sourceSha256": null,
+    "helperSha256": null,
+    "baselines": []
+  },
+  "resourceOutcome": "WITHIN_SAMPLED_PROFILE_OR_UNPROFILED",
+  "profileGrowthViolations": [],
+  "ownedProcessIdentities": [
+    {
+      "pid": 4016,
+      "creationUtcTicks": "639268647985250370"
+    },
+    {
+      "pid": 57696,
+      "creationUtcTicks": "639268647985411630"
+    },
+    {
+      "pid": 62060,
+      "creationUtcTicks": "639268648001523870"
+    }
+  ],
+  "stdout": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\fresh-evidence\\20261006T024511Z\\0196-frozen-tests_L2bAllAxioms.lean.stdout.log",
+  "stderr": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\fresh-evidence\\20261006T024511Z\\0196-frozen-tests_L2bAllAxioms.lean.stderr.log",
+  "stdoutSha256": "bdb87b52f6ff6c8d36dcbfecbdc1cae9eb44b8a8568207a2bbe348c5fe4cec8c",
+  "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "effectiveEnvironment": {
+    "LEAN_NUM_THREADS": "1"
+  },
+  "compilerThreadControl": "explicit -j1 for direct Lean; package moreLeanArgs=-j1 for Lake builds"
+}

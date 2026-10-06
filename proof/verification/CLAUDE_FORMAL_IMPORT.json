@@ -1,0 +1,123 @@
+{
+  "copied_utc": "2026-10-05T19:21:50.3249635Z",
+  "source": "User-authorized Claude collaboration, unchanged authored source",
+  "root_rebuild": {
+    "result": "PASS",
+    "scope": "All 19 unchanged imported modules independently compiled by ordinary pinned Lake; 18 modules in the serial report and Checker in the earlier separate build",
+    "lean_version": "4.34.1",
+    "manifest_sha256_at_run": "01a2138aad9c4b51667e77ce8a8d4c9801a5c2c9416ea45ab0b84b7ab7eabfd6",
+    "report": "lean/verification/claude-import/report.json",
+    "report_sha256": "2e83e2d0fc1b971ab8a4fc77652176e0b4c45e3676af3529a19e5de924558122",
+    "journal": "lean/verification/claude-import/build.jsonl",
+    "journal_sha256": "4a6549420bfe0302e9a80cfef17cce334f6f4d6456ef5f0e8caa1c07ce18b092",
+    "checker_build_log": "lean/verification/lp-checker-import-build.log",
+    "checker_build_log_sha256": "f6aff0ef977640d143b99839cd096a44cc54c613e8d0f8c1eb4af8733fa6084f",
+    "checker_source_sha256": "e1be2caeebe4e449489bc03370c80a875c532b6e14adc3a2f75682258f24e8cb",
+    "fresh_test_processes": 4,
+    "audited_declarations": 23,
+    "axiom_closure_subset": ["propext", "Classical.choice", "Quot.sound"],
+    "negative_controls_rejected": 11,
+    "window_positive_control": "PASS",
+    "serial_steps": 22,
+    "serial_step_wall_seconds": 603.970,
+    "scope_excludes": ["later D60 transfer", "refined windows", "two concrete LP minorant certificates", "consolidated expanded N9 package rebuild"],
+    "prebuilt_claude_proof_objects_used": false
+  },
+  "files": [
+    {
+      "source": "claude/formal/window/ClaudeWindow/AnchorFree.lean",
+      "target": "ClaudeWindow/AnchorFree.lean",
+      "sha256": "1efb9c020b30bca31a650de4eb5774ff42d7776b1ab3b8777952241354dde8da"
+    },
+    {
+      "source": "claude/formal/window/ClaudeWindow/Antipodal.lean",
+      "target": "ClaudeWindow/Antipodal.lean",
+      "sha256": "eb9a890a448918936b3cb9759a3d8173cd9f4271498fd7ae5eb9577f90f1c188"
+    },
+    {
+      "source": "claude/formal/window/ClaudeWindow/Bridge.lean",
+      "target": "ClaudeWindow/Bridge.lean",
+      "sha256": "5de430cb3637b43f5a9a3900728bea6b6193586ecf2a57fcb954da856dfe1b9b"
+    },
+    {
+      "source": "claude/formal/window/ClaudeWindow/CandidateGram.lean",
+      "target": "ClaudeWindow/CandidateGram.lean",
+      "sha256": "4e8f9c764379978221975344f9b78b4322724d6a7dade053444488486fd97d74"
+    },
+    {
+      "source": "claude/formal/window/ClaudeWindow/FormulaSound.lean",
+      "target": "ClaudeWindow/FormulaSound.lean",
+      "sha256": "a36de92a7cf95204c268e968e48da5e78f62a3d9d7797d4a99c2a72672ba5023"
+    },
+    {
+      "source": "claude/formal/window/ClaudeWindow/Geometry.lean",
+      "target": "ClaudeWindow/Geometry.lean",
+      "sha256": "5f13164b8acfaad6f1bdf93f7cb85aff3697e6ccd0c413a7f04c127c2e005393"
+    },
+    {
+      "source": "claude/formal/window/ClaudeWindow/Interval.lean",
+      "target": "ClaudeWindow/Interval.lean",
+      "sha256": "e538a83a7280995bcbaeda88007f4ed692400836ea6f292451a9eb1c3d2302fb"
+    },
+    {
+      "source": "claude/formal/window/ClaudeWindow/Main.lean",
+      "target": "ClaudeWindow/Main.lean",
+      "sha256": "3b9bba8cd26d0cec003acc774efe6ebcc07dbe4d5b8f5564c5f6024b87edbeb0"
+    },
+    {
+      "source": "claude/formal/window/ClaudeWindow/Soundness.lean",
+      "target": "ClaudeWindow/Soundness.lean",
+      "sha256": "0397cee95227d463a9e8a028de4b9e4e960c9fc5fda96ca41ba7fddbfdd6209f"
+    },
+    {
+      "source": "claude/formal/window/ClaudeWindow/WindowBoxes.lean",
+      "target": "ClaudeWindow/WindowBoxes.lean",
+      "sha256": "dee4665b8774845874d36ca36575affe5174c553e7970349a649b40a89392579"
+    },
+    {
+      "source": "claude/formal/window/ClaudeWindow/WindowCheck.lean",
+      "target": "ClaudeWindow/WindowCheck.lean",
+      "sha256": "416b377db3f437a487559538d976ea227f457b9c900c430da88927dddb1669ca"
+    },
+    {
+      "source": "claude/formal/window/ClaudeWindow/WindowData.lean",
+      "target": "ClaudeWindow/WindowData.lean",
+      "sha256": "e3bcbb0f7424f32c9d4342794c872828b7a934883629b5c44a03044ac5a7079a"
+    },
+    {
+      "source": "claude/formal/window/ClaudeWindow/WindowKernel.lean",
+      "target": "ClaudeWindow/WindowKernel.lean",
+      "sha256": "07ed803a2fff53f56e6426eebd60b95529916b80f8e496accbd7d67837235fc7"
+    },
+    {
+      "source": "claude/formal/window/ClaudeWindow/WindowKernelA.lean",
+      "target": "ClaudeWindow/WindowKernelA.lean",
+      "sha256": "a32a55957ed76d88d3bb7f1c6ceb31ba735a939a0c4a128623c546b793cf2a14"
+    },
+    {
+      "source": "claude/formal/window/ClaudeWindow/WindowKernelB.lean",
+      "target": "ClaudeWindow/WindowKernelB.lean",
+      "sha256": "a0082c7cf99e12681dd0de66f7646a9c9715cd2629f86190159f4814722edae6"
+    },
+    {
+      "source": "claude/formal/bernstein/ThomsonN9/Bernstein/Checker.lean",
+      "target": "ThomsonN9/Bernstein/Checker.lean",
+      "sha256": "e1be2caeebe4e449489bc03370c80a875c532b6e14adc3a2f75682258f24e8cb"
+    },
+    {
+      "source": "claude/formal/bernstein/ThomsonN9/Bernstein/MinorantData.lean",
+      "target": "ThomsonN9/Bernstein/MinorantData.lean",
+      "sha256": "b7a26af2d85e9be4d28414d48dede739f70979ffc55781c4b83f918470c97c36"
+    },
+    {
+      "source": "claude/formal/bernstein/ThomsonN9/Bernstein/MinorantCert.lean",
+      "target": "ThomsonN9/Bernstein/MinorantCert.lean",
+      "sha256": "d0f5c2a1090ee940aec6ad81f17ec1e5bda2f5896738424020c9b84bdf54e3fb"
+    },
+    {
+      "source": "claude/formal/bernstein/ThomsonN9/Bernstein/Minorant.lean",
+      "target": "ThomsonN9/Bernstein/Minorant.lean",
+      "sha256": "e19ab1001a583ae51b398d5533ee672e84c4165e07ed1793a941f9b8d1916e4e"
+    }
+  ]
+}

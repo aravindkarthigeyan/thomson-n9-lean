@@ -1,0 +1,43 @@
+ℹ [3102/3110] Replayed ThomsonN9.Certificates.Interval
+info: ThomsonN9/Certificates/Interval.lean:177:0: 'ThomsonN9.Certificates.RatInterval.contains_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/Interval.lean:178:0: 'ThomsonN9.Certificates.RatInterval.contains_inv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/Interval.lean:179:0: 'ThomsonN9.Certificates.RatInterval.contains_sqrt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/Interval.lean:180:0: 'ThomsonN9.Certificates.RatInterval.contains_horner' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/Interval.lean:181:0: 'ThomsonN9.Certificates.RatInterval.sqrt_two_enclosure' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/Interval.lean:182:0: 'ThomsonN9.Certificates.RatInterval.rejected_sqrt_two_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/Interval.lean:183:0: 'ThomsonN9.Certificates.RatInterval.posDef_of_ldl_enclosures' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3103/3110] Replayed ThomsonN9.Certificates.ScaledInterval
+info: ThomsonN9/Certificates/ScaledInterval.lean:172:0: 'ThomsonN9.Certificates.ScaledInterval.contains_rational' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/ScaledInterval.lean:173:0: 'ThomsonN9.Certificates.ScaledInterval.const_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/ScaledInterval.lean:174:0: 'ThomsonN9.Certificates.ScaledInterval.mul_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/ScaledInterval.lean:175:0: 'ThomsonN9.Certificates.ScaledInterval.inv_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/ScaledInterval.lean:176:0: 'ThomsonN9.Certificates.ScaledInterval.sqrt_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3104/3110] Replayed ThomsonN9.Certificates.IntervalCircuit
+warning: ThomsonN9/Certificates/IntervalCircuit.lean:117:13: `if_pos` has been deprecated: Use `ite_eq_left` instead
+info: ThomsonN9/Certificates/IntervalCircuit.lean:136:0: 'ThomsonN9.Certificates.IntervalCircuit.Op.check_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/IntervalCircuit.lean:137:0: 'ThomsonN9.Certificates.IntervalCircuit.value_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/IntervalCircuit.lean:138:0: 'ThomsonN9.Certificates.IntervalCircuit.checks_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3106/3110] Replayed ThomsonN9.Certificates.CircuitAlgebra
+warning: ThomsonN9/Certificates/CircuitAlgebra.lean:24:22: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: ThomsonN9/Certificates/CircuitAlgebra.lean:24:33: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: ThomsonN9/Certificates/CircuitAlgebra.lean:30:22: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: ThomsonN9/Certificates/CircuitAlgebra.lean:36:22: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: ThomsonN9/Certificates/CircuitAlgebra.lean:42:22: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: ThomsonN9/Certificates/CircuitAlgebra.lean:42:33: `if_pos` has been deprecated: Use `ite_eq_left` instead
+info: ThomsonN9/Certificates/CircuitAlgebra.lean:123:0: 'ThomsonN9.Certificates.IntervalCircuit.smartAdd_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/CircuitAlgebra.lean:124:0: 'ThomsonN9.Certificates.IntervalCircuit.smartMul_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/CircuitAlgebra.lean:125:0: 'ThomsonN9.Certificates.IntervalCircuit.DotRecipe.sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3107/3110] Replayed ThomsonN9.Certificates.CircuitConstants
+info: ThomsonN9/Certificates/CircuitConstants.lean:140:0: 'ThomsonN9.Certificates.IntervalCircuit.constantAdd_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/CircuitConstants.lean:141:0: 'ThomsonN9.Certificates.IntervalCircuit.constantMul_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/CircuitConstants.lean:142:0: 'ThomsonN9.Certificates.IntervalCircuit.DotRecipe.extended_sound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3108/3110] Replayed ThomsonN9.Certificates.CircuitMatrices
+info: ThomsonN9/Certificates/CircuitMatrices.lean:74:0: 'ThomsonN9.Certificates.IntervalCircuit.DotRecipe.checkBool_sound' depends on axioms: [propext, Quot.sound]
+info: ThomsonN9/Certificates/CircuitMatrices.lean:75:0: 'ThomsonN9.Certificates.IntervalCircuit.outputWithin_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/CircuitMatrices.lean:76:0: 'ThomsonN9.Certificates.IntervalCircuit.matrix_product_recipe_sound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+✔ [3110/3110] Built ThomsonN9.Certificates.AmbientCongruenceChecks02 (239s)
+Build completed successfully (3110 jobs).

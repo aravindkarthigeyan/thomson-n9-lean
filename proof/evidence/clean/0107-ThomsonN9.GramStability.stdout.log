@@ -1,0 +1,8 @@
+⚠ [3159/3159] Built ThomsonN9.GramStability (63s)
+warning: ThomsonN9/GramStability.lean:33:75: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: ThomsonN9/GramStability.lean:33:75: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Build completed successfully (3159 jobs).

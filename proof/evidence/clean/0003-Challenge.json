@@ -1,0 +1,54 @@
+{
+  "name": "Challenge",
+  "executable": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\toolchains\\lean-4.34.1-windows\\bin\\lake.exe",
+  "arguments": [
+    "build",
+    "+Challenge"
+  ],
+  "exitCode": 0,
+  "expectation": "pass",
+  "passed": true,
+  "seconds": 19.3727859,
+  "sampledPeakPrivateBytes": 5237956608,
+  "sampledPeakWorkingBytes": 2290126848,
+  "sampledLargestOwnedPrivateBytes": 4181172224,
+  "resourcePolicy": {
+    "classification": "exact-source-profile",
+    "gateGiB": 8.5,
+    "physicalFloorGiB": 6.5,
+    "reason": "Exact module/source SHA; reduced gates require direct <=5 GiB/tree <=6 GiB, or Assembly direct <=6 GiB; metric-specific growth check after exit",
+    "module": "Challenge",
+    "sourceSha256": "ea32b730538646d67c9e4a5ef5efcdc892a75c27b4b3e1b861eaecac68d9fe9f",
+    "helperSha256": null,
+    "baselines": [
+      {
+        "metric": "single-process-private",
+        "peakBytes": 4238028800
+      }
+    ]
+  },
+  "resourceOutcome": "WITHIN_SAMPLED_PROFILE_OR_UNPROFILED",
+  "profileGrowthViolations": [],
+  "ownedProcessIdentities": [
+    {
+      "pid": 60080,
+      "creationUtcTicks": "639268516977899290"
+    },
+    {
+      "pid": 26144,
+      "creationUtcTicks": "639268516978052570"
+    },
+    {
+      "pid": 60928,
+      "creationUtcTicks": "639268517049663000"
+    }
+  ],
+  "stdout": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\fresh-evidence\\20261006T024511Z\\0003-Challenge.stdout.log",
+  "stderr": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\fresh-evidence\\20261006T024511Z\\0003-Challenge.stderr.log",
+  "stdoutSha256": "208e027b63bd373bfd1709ae9e3a85db39e9c4e6da289891afd04a9254628227",
+  "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "effectiveEnvironment": {
+    "LEAN_NUM_THREADS": "1"
+  },
+  "compilerThreadControl": "explicit -j1 for direct Lean; package moreLeanArgs=-j1 for Lake builds"
+}

@@ -1,0 +1,420 @@
+"""Append-only completion of one interrupted metadata tail; never runs a compiler.
+
+All historical bytes and the frozen driver remain unchanged. A separately reviewed
+finalizer produces FINALIZATION.json and writes the original-schema RESULT last.
+There is deliberately no resume, replacement, cleanup, or generic snapshot mode.
+"""
+import argparse
+import contextlib
+import datetime as dt
+import hashlib
+import io
+import json
+import os
+from pathlib import Path
+import re
+import stat
+import sys
+import types
+
+ROOT = Path(__file__).resolve().parents[2]
+SNAPSHOT = ROOT / "work/clean-n9/20261006-adaptive-v4"
+RUN = SNAPSHOT / "fresh-evidence/20261006T024511Z"
+FREEZE_SHA = "22bb7406fef5a4379c856c8dbca26c8f964685e2bd036f24bdb45e0f5af3d10e"
+DRIVER_SHA = "6ddcd40c4817da077a7329bb3839bbfca62aa0b1707e93750fb9ae32d3aa19b5"
+PINS = {
+    "steps-audit-source.txt": ("work/n9-lean-drafts/verification/audit_v4_existing_steps.py", "01b1b2fa8c8a47e9196a9adf91dd321c820b720aafbd3fe3b661419cf0a75152"),
+    "steps-audit-report.json": ("work/n9-lean-drafts/verification/v4-existing-steps-audit-20261006.json", "386b26cc51253213a3f22a2e75b3fed5995a7ed30b12ae984563861c4488a2ab"),
+    "integrity-audit-source.txt": ("work/n9-lean-drafts/verification/adaptive-v4/V4IntegrityAudit.ps1", "ffe99fec773db960b2bc6d1cfe8fc2f35acbabcd04f42cc2c4d7d243d6b3bd89"),
+    "integrity-audit-report.json": ("work/n9-lean-drafts/verification/adaptive-v4/V4_INTEGRITY_AUDIT.json", "f37335e8f4f7a8e7541f5ed745b8caf5701e900a9165fd9081f894bd8c327d1f"),
+    "consumer-source.txt": ("work/n9-independent-verification/tools/vf_common.py", "b9dd60684ce318e29094e74a3dc35bb00f57791a82c69147945b3ffc8c80e96b"),
+    "generated-FRESH_AXIOMS.log": ("work/n9-finalization/preserved-generated/20261006T1310Z/FRESH_AXIOMS.log", "6bdf92a6c0783aecf213cbf3725403c6592a92c13be5d28abba7214e059451d6"),
+    "generated-log-relocation.json": ("work/n9-finalization/preserved-generated/20261006T1310Z/RELOCATION.json", "a833309c3947ce6341e89076f8a4ee2d9859bb286674a0d82bc89cc805165bd0"),
+}
+ADDED = {*PINS, "finalizer-source.txt", "external-objects-newly-built.json", "FINALIZATION.json", "RESULT.json"}
+CLAIM = ("Clean project-source compilation and all required verification steps completed in the original run "
+         "with pinned cached external dependencies; interrupted metadata postprocessing was separately "
+         "revalidated and completed by the append-only finalizer recorded in FINALIZATION.json. "
+         "This is not a claim that the original driver returned normally or that a second kernel has passed.")
+
+
+def need(condition, message):
+    if not condition:
+        raise ValueError(message)
+
+
+def sha_bytes(data):
+    return hashlib.sha256(data).hexdigest()
+
+
+def plain(path):
+    path = Path(path)
+    for p in (path, *path.parents):
+        if p.exists():
+            s = p.lstat()
+            need(not stat.S_ISLNK(s.st_mode) and not (getattr(s, "st_file_attributes", 0) & 1024),
+                 f"Reparse/symlink path: {p}")
+
+
+def signature(path):
+    s = Path(path).stat()
+    return (s.st_dev, s.st_ino, s.st_size, s.st_mtime_ns, s.st_ctime_ns)
+
+
+def sha_file(path):
+    plain(path)
+    before = signature(path)
+    need(Path(path).is_file(), f"Not a file: {path}")
+    with Path(path).open("rb") as stream:
+        digest = hashlib.file_digest(stream, "sha256").hexdigest()
+    need(signature(path) == before, f"Concurrent input change while hashing: {path}")
+    return digest
+
+
+def loads(data):
+    def pairs(items):
+        out = {}
+        for key, value in items:
+            need(key not in out, f"Duplicate JSON key: {key}")
+            out[key] = value
+        return out
+    return json.loads(data.decode("utf-8-sig"), object_pairs_hook=pairs)
+
+
+def encoded(value):
+    return (json.dumps(value, indent=2, ensure_ascii=True) + "\n").encode("utf-8")
+
+
+def utc():
+    return dt.datetime.now(dt.timezone.utc).isoformat().replace("+00:00", "Z")
+
+
+def safe_name(name):
+    need(isinstance(name, str) and name and "\\" not in name and ":" not in name,
+         f"Unsafe path: {name!r}")
+    need(not name.startswith("/") and all(x not in ("", ".", "..") for x in name.split("/")),
+         f"Unsafe path: {name!r}")
+
+
+def row_map(rows):
+    need(isinstance(rows, list), "Inventory is not a list")
+    result, folded = {}, set()
+    for row in rows:
+        need(isinstance(row, dict), "Inventory row is not an object")
+        name = row.get("path")
+        safe_name(name)
+        need(name.casefold() not in folded, f"Duplicate/case-colliding path: {name}")
+        need(re.fullmatch("[0-9a-f]{64}", row.get("sha256", "")) is not None, "Bad digest")
+        if "bytes" in row:
+            need(type(row["bytes"]) is int and row["bytes"] >= 0, "Bad byte length")
+        folded.add(name.casefold())
+        result[name] = row
+    return result
+
+
+def checked_rows(base, rows, watched):
+    table = row_map(rows)
+    for index, (name, row) in enumerate(table.items(), 1):
+        path = base / name
+        digest = sha_file(path)
+        need(digest == row["sha256"], f"Changed object/source/log: {path}")
+        need("bytes" not in row or path.stat().st_size == row["bytes"], f"Changed length: {path}")
+        watched[path] = signature(path)
+        if index % 10000 == 0:
+            print(f"Rehashed {index}/{len(table)} rows under {base}", flush=True)
+    return table
+
+
+def evidence_inventory(run):
+    plain(run)
+    rows = []
+    for path in sorted(run.iterdir(), key=lambda p: p.name):
+        need(path.is_file(), f"Evidence is not a flat file: {path}")
+        rows.append({"path": path.name, "bytes": path.stat().st_size, "sha256": sha_file(path)})
+    row_map(rows)
+    return rows
+
+
+def assert_unchanged(run, original, watched):
+    need(evidence_inventory(run) == original, "Original evidence membership or bytes changed")
+    for path, expected in watched.items():
+        need(signature(path) == expected, f"Concurrent input change: {path}")
+
+
+def assert_missing_outputs(run):
+    actual = {p.name.casefold() for p in run.iterdir()}
+    need(not any(name.casefold() in actual for name in ADDED),
+         "Existing RESULT or finalization output: no replacement or automatic resume is allowed")
+
+
+def load_consumer(source):
+    module = types.ModuleType("reviewed_v4_result_consumer")
+    exec(compile(source, str(ROOT / PINS["consumer-source.txt"][0]), "exec"), module.__dict__)
+    return module
+
+
+def replay_step_audit(source, report):
+    # This reviewed helper has only read operations when argv has no output path.
+    saved = sys.argv
+    try:
+        sys.argv = [str(ROOT / PINS["steps-audit-source.txt"][0])]
+        scope = {"__file__": sys.argv[0], "__name__": "v4_step_replay"}
+        captured = io.StringIO()
+        with contextlib.redirect_stdout(captured):
+            exec(compile(source, sys.argv[0], "exec"), scope)
+        need(scope["report"] == report, "Replayed step audit differs from pinned report")
+        need(loads(captured.getvalue().encode()) == {k: v for k, v in report.items() if k != "individualStepBindings"},
+             "Audit stdout is not the expected single JSON object")
+    finally:
+        sys.argv = saved
+
+
+def compare_external(before, after):
+    old, new = row_map(before), row_map(after)
+    for name, row in old.items():
+        need(name in new and new[name] == row, f"Previously recorded external object changed: {name}")
+    return [row for name, row in new.items() if name not in old]
+
+
+def step_basics(steps, expected):
+    need(isinstance(steps, list) and len(steps) == len(expected), "Missing step")
+    need([row.get("name") for row in steps] == expected, "Wrong step order or membership")
+    for row in steps:
+        need(row.get("passed") is True, "Failed step")
+        need(type(row.get("exitCode")) is int, "Invalid exit code")
+        need(row.get("expectation") in ("pass", "reject"), "Invalid expectation")
+        need((row["exitCode"] == 0) == (row["expectation"] == "pass"), "Unexpected exit code")
+
+
+def toolchain_bindings(tool, freeze):
+    need(isinstance(tool, dict) and tool.get("driverSha256") == DRIVER_SHA, "Recorded driver binding mismatch")
+    for key in ("leanSha256", "lakeSha256"):
+        need(tool.get(key) == freeze[key], f"Recorded tool binding mismatch: {key}")
+    need(tool.get("compilerThreadArgument") == "-j1" and
+         tool.get("effectiveEnvironment") == {"LEAN_NUM_THREADS": "1"}, "Recorded compiler policy mismatch")
+
+
+def generated_log_relationship(receipt, log, stdout, entries, source_exists):
+    need(type(receipt.get("schema")) is int and receipt["schema"] == 1 and
+         receipt.get("status") == "GENERATED_NONFROZEN_LOG_PRESERVED", "Bad generated-log receipt status")
+    need(receipt.get("source") == str(SNAPSHOT / "verification/FRESH_AXIOMS.log") and
+         receipt.get("destination") == str(ROOT / PINS["generated-FRESH_AXIOMS.log"][0]), "Wrong generated-log path scope")
+    need(receipt.get("freezeSha256") == FREEZE_SHA, "Wrong generated-log freeze")
+    need("verification/FRESH_AXIOMS.log" not in entries, "Relocated file is a frozen source")
+    need(receipt.get("originalPathAbsent") is True and receipt.get("frozenFilesChanged") is False and not source_exists,
+         "Generated-log relocation is incomplete or claims source mutation")
+    need(type(receipt.get("bytes")) is int and receipt["bytes"] == len(log) == 778516 and
+         receipt.get("sha256") == sha_bytes(log) == PINS["generated-FRESH_AXIOMS.log"][1], "Generated-log bytes changed")
+    need(receipt.get("producer") == str(SNAPSHOT / "verification/CheckAxioms.ps1") and
+         receipt.get("producerSha256") == entries["verification/CheckAxioms.ps1"]["sha256"] ==
+         "58a9d80ff7ce1f7a4c4f232640d64abd6eab6b43869486fd73203324e48f165c", "Generated-log producer mismatch")
+    need(receipt.get("step") == str(RUN / "0185-all-axioms.json") and
+         receipt.get("stepSha256") == "b9041ed6dd67f40f61af85e197207bb4ddd572746da2259575d48caa22600071" and
+         receipt.get("stdout") == str(RUN / "0185-all-axioms.stdout.log") and
+         receipt.get("stdoutSha256") == sha_bytes(stdout) ==
+         "1b49667832d41f6787a9c3bfb019758faf859b30943e5c41f5b68e3280fa16a8", "Generated-log step/stdout binding mismatch")
+    need(log.startswith(b"\xff\xfe"), "Generated log is not the original UTF16LE output")
+    text = log.decode("utf-16").replace("\r\n", "\n")
+    output = stdout.decode("utf-8-sig").replace("\r\n", "\n")
+    need(output == text + "PASS: all 4056 requested declarations were checked; dependency closures use only the three standard axioms.\n",
+         "Generated axiom log does not match the bound stdout and exact PASS suffix")
+
+
+def walk_files(base):
+    plain(base)
+    for directory, children, files in os.walk(base, followlinks=False):
+        for name in children:
+            plain(Path(directory) / name)
+        for name in files:
+            path = Path(directory) / name
+            plain(path)
+            yield path
+
+
+def replay_integrity(consumer, freeze, entries, reports, watched):
+    errors = consumer.replay_freeze(str(SNAPSHOT), entries)
+    need(not errors, f"Frozen source tree mismatch: {errors}")
+    toolchain_bindings(loads((RUN / "toolchain.json").read_bytes()), freeze)
+    checked_rows(SNAPSHOT, freeze["files"], watched)
+    for key in ("lean", "lake"):
+        path = Path(freeze[key])
+        need(sha_file(path) == freeze[key + "Sha256"], f"Changed {key} binary")
+        watched[path] = signature(path)
+    targets = (RUN / "targets.txt").read_text(encoding="utf-8-sig").splitlines()
+    need(len(targets) == 181 and len(set(targets)) == 181, "Wrong target count")
+    derived = set()
+    for path in entries:
+        if path.endswith(".lean") and not path.startswith(("frozen-tests/", "fresh-verification/")):
+            if path.startswith("vendor/"):
+                path = path[len("vendor/"):]
+            derived.add(path[:-5].replace("/", "."))
+    need(derived == set(targets), "Target set does not cover every frozen proof module")
+    local_rows = loads((RUN / "local-objects.json").read_bytes())
+    local = checked_rows(SNAPSHOT, local_rows, watched)
+    need(len(local) == 543, "Wrong local object count")
+    expected_local = set()
+    for target in targets:
+        prefix = ".lake/build/lib/lean/" + target.replace(".", "/")
+        for suffix in (".ilean", ".olean", ".olean.hash"):
+            name = prefix + suffix
+            need(name in local and local[name]["module"] == target, f"Missing local object: {name}")
+            expected_local.add(name)
+    need(set(local) == expected_local, "Unexpected local object inventory")
+    actual = {p.relative_to(SNAPSHOT).as_posix() for p in walk_files(SNAPSHOT / ".lake/build/lib/lean")
+              if re.search(r"\.olean(?:\.|$)|\.ilean$", p.name)}
+    need(actual == expected_local, "Current local object membership differs")
+    before = loads((RUN / "external-objects-before.json").read_bytes())
+    after = loads((RUN / "external-objects-after.json").read_bytes())
+    newly = compare_external(before, after)
+    need(len(before) == len(after) == 71336 and not newly, "Unexpected external inventory delta")
+    before_dirs = (RUN / "external-objects-before.directories.json").read_bytes()
+    need(before_dirs == (RUN / "external-objects-after.directories.json").read_bytes(), "Directory inventory delta")
+    dirs = loads(before_dirs)
+    need(len(dirs) == 9, "Wrong dependency directory count")
+    external = Path(freeze["externalPackages"])
+    actual_external = set()
+    for row in dirs:
+        path = external / row["package"] / ".lake/build/lib/lean"
+        need(Path(row["directory"]) == path and type(row["present"]) is bool, "Bad external directory binding")
+        plain(path)
+        need(path.is_dir() == row["present"], "External directory presence changed")
+        if row["present"]:
+            for file in walk_files(path):
+                if re.search(r"\.(?:olean|ilean)(?:\.|$)", file.name):
+                    name = file.relative_to(external).as_posix()
+                    need(name not in actual_external, "Duplicate external object")
+                    actual_external.add(name)
+    need(actual_external == set(row_map(after)), "External object membership differs")
+    checked_rows(external, after, watched)
+    report = reports["integrity-audit-report.json"]
+    need(report["status"] == "PASS_INTEGRITY_ONLY" and report["freezeSha256"] == FREEZE_SHA,
+         "Wrong integrity report")
+    need(report["snapshot"] == str(SNAPSHOT) and report["evidenceRun"] == str(RUN), "Wrong integrity scope")
+    need(report["localObjects"]["inventorySha256"] == sha_file(RUN / "local-objects.json"), "Local audit binding mismatch")
+    for label in ("before", "after"):
+        need(report["externalRecorded"][label + "Sha256"] == sha_file(RUN / f"external-objects-{label}.json"),
+             "External audit binding mismatch")
+    return newly
+
+
+def validate_payloads(consumer, original, payloads, result, freeze):
+    need(set(payloads) == ADDED - {"RESULT.json"}, "Wrong append payload set")
+    combined = original + [{"path": name, "bytes": len(data), "sha256": sha_bytes(data)}
+                           for name, data in payloads.items()]
+    rows = row_map(combined)
+    need(not consumer.check_result_schema(result, FREEZE_SHA, freeze), "Consumer rejects in-memory RESULT schema")
+    need(consumer.evidence_rows(result) == {k: {"bytes": v["bytes"], "sha256": v["sha256"]} for k, v in rows.items()},
+         "Consumer evidence rows differ from proposed payloads")
+    need(result["claim"] == CLAIM and result["driverSha256"] == DRIVER_SHA, "Incorrect provenance claim")
+
+
+def authorization(path, self_sha):
+    raw = Path(path).read_bytes()
+    doc = loads(raw)
+    need(doc.get("root_authorized") is True and doc.get("exclusive_no_compiler_or_writers") is True,
+         "Explicit exclusive root authorization is required")
+    need(doc.get("freezeSha256") == FREEZE_SHA and doc.get("finalizerSha256") == self_sha, "Authorization binding mismatch")
+    need(doc.get("snapshot") == str(SNAPSHOT) and doc.get("run") == str(RUN), "Authorization scope mismatch")
+    start = dt.datetime.fromisoformat(doc["issuedUtc"].replace("Z", "+00:00"))
+    end = dt.datetime.fromisoformat(doc["expiresUtc"].replace("Z", "+00:00"))
+    need(start.tzinfo is not None and end.tzinfo is not None, "Authorization timezone missing")
+    need(dt.timedelta(0) < end - start <= dt.timedelta(minutes=90), "Authorization window too long")
+    need(start <= dt.datetime.now(dt.timezone.utc) < end, "Authorization expired/not started")
+    return raw
+
+
+def exclusive_write(path, data):
+    plain(path.parent)
+    with path.open("xb") as stream:
+        stream.write(data)
+        stream.flush()
+        os.fsync(stream.fileno())
+
+
+def run(append, auth_path):
+    need(__debug__ and sys.flags.optimize == 0 and not os.environ.get("PYTHONOPTIMIZE"),
+         "Optimized Python is forbidden: audited helper uses assertions")
+    started = utc()
+    self_source = Path(__file__).read_bytes()
+    self_sha = sha_bytes(self_source)
+    auth_raw = authorization(auth_path, self_sha)
+    assert_missing_outputs(RUN)
+    original = evidence_inventory(RUN)
+    watched = {}
+    payloads = {"finalizer-source.txt": self_source}
+    for destination, (relative, expected) in PINS.items():
+        path = ROOT / relative
+        need(sha_file(path) == expected, f"Changed reviewed input: {relative}")
+        payloads[destination] = path.read_bytes()
+        need(sha_bytes(payloads[destination]) == expected, "Concurrent reviewed source change")
+        watched[path] = signature(path)
+    consumer = load_consumer(payloads["consumer-source.txt"])
+    freeze, entries, digest = consumer.load_freeze(str(SNAPSHOT / "FREEZE.json"), FREEZE_SHA)
+    need(digest == FREEZE_SHA and freeze["snapshotRoot"] == str(SNAPSHOT), "Wrong freeze scope")
+    need(sha_file(SNAPSHOT / "fresh-verification/FreezeRebuild.ps1") == DRIVER_SHA, "Original driver changed")
+    reports = {name: loads(payloads[name]) for name in ("steps-audit-report.json", "integrity-audit-report.json")}
+    expected = (RUN / "targets.txt").read_text(encoding="utf-8-sig").splitlines() + [
+        "default-targets", "source-scanner-tests", "source-audit", "all-axioms", "final-target-types", "corrupt-coefficient"
+    ] + [row["path"] for row in freeze["tests"]]
+    step_basics(loads((RUN / "steps.json").read_bytes()), expected)
+    replay_step_audit(payloads["steps-audit-source.txt"], reports["steps-audit-report.json"])
+    receipt = loads(payloads["generated-log-relocation.json"])
+    generated_log_relationship(receipt, payloads["generated-FRESH_AXIOMS.log"],
+                               (RUN / "0185-all-axioms.stdout.log").read_bytes(), entries,
+                               (SNAPSHOT / "verification/FRESH_AXIOMS.log").exists())
+    need(sha_file(RUN / "0185-all-axioms.json") == receipt["stepSha256"], "Preserved-log step report changed")
+    newly = replay_integrity(consumer, freeze, entries, reports, watched)
+    payloads["external-objects-newly-built.json"] = encoded(newly)
+    completed = utc()
+    payloads["FINALIZATION.json"] = encoded({
+        "schema": 1, "status": "SEPARATE_POSTPROCESSING_VALIDATED", "claim": CLAIM,
+        "originalDriverCompletion": "No RESULT was present; exact interruption cause and instruction are unknown.",
+        "tailDiagnosis": "Byte-identical 71336-row inventories; original -cnotin loop has quadratic worst-case cost. Cause is an inference only.",
+        "snapshot": str(SNAPSHOT), "run": str(RUN), "freezeSha256": FREEZE_SHA,
+        "originalDriverSha256": DRIVER_SHA, "finalizerSha256": self_sha,
+        "authorizationSha256": sha_bytes(auth_raw), "authorization": loads(auth_raw),
+        "startedUtc": started, "completedValidationUtc": completed,
+        "originalEvidenceInventory": original,
+        "generatedAxiomLogPreservation": "Root separately relocated the hash-verified non-frozen generated leaf before this run; original bytes and receipt are bound as generated-FRESH_AXIOMS.log and generated-log-relocation.json. No frozen file moved or changed.",
+        "addedEvidenceFiles": sorted(ADDED - {"RESULT.json"}),
+        "reviewedInputs": {name: {"source": relative, "sha256": digest} for name, (relative, digest) in PINS.items()},
+        "replay": {"steps": 204, "proofModules": 181, "axiomReports": 4231,
+                   "frozenFiles": 222, "localObjects": 543, "externalObjects": 71336,
+                   "newExternalObjects": 0, "fullCurrentHashesRecomputed": True},
+        "limits": "No compiler executed, no historical byte replaced, no automatic recovery after partial append.",
+        "concurrency": "Exclusive writer-free slot required; content hashes and post-hash stat signatures rechecked before append. Not protection against malicious concurrent OS writers."
+    })
+    evidence = original + [{"path": name, "bytes": len(data), "sha256": sha_bytes(data)} for name, data in payloads.items()]
+    result = {"status": "PASS", "claim": CLAIM, "manifestSha256": FREEZE_SHA, "modules": 181,
+              "supplementalTests": 17, "stepsSha256": sha_file(RUN / "steps.json"),
+              "targetsSha256": sha_file(RUN / "targets.txt"), "driverSha256": DRIVER_SHA,
+              "evidenceFiles": sorted(evidence, key=lambda row: row["path"]), "finalTheoremsChecked": 6,
+              "completedUtc": completed}
+    validate_payloads(consumer, original, payloads, result, freeze)
+    errors = consumer.replay_freeze(str(SNAPSHOT), entries)
+    need(not errors, f"Concurrent frozen source change: {errors}")
+    assert_unchanged(RUN, original, watched)
+    need(Path(__file__).read_bytes() == self_source, "Finalizer changed during validation")
+    need(authorization(auth_path, self_sha) == auth_raw, "Authorization changed during validation")
+    assert_missing_outputs(RUN)
+    if not append:
+        print(json.dumps({"status": "VALIDATED_NO_APPEND", "originalFiles": len(original), "finalizerSha256": self_sha}))
+        return
+    for name, data in payloads.items():
+        exclusive_write(RUN / name, data)
+    # Any failure here preserves the partial append and deliberately leaves no RESULT.
+    need(not consumer.verify_evidence_inventory(str(RUN), consumer.evidence_rows(result)), "Post-append evidence mismatch")
+    need(authorization(auth_path, self_sha) == auth_raw, "Authorization changed before RESULT")
+    result["completedUtc"] = utc()
+    need(not consumer.check_result_schema(result, FREEZE_SHA, freeze), "Final RESULT schema mismatch")
+    exclusive_write(RUN / "RESULT.json", encoded(result))
+    print(json.dumps({"status": "APPEND_ONLY_FINALIZATION_COMPLETED", "resultSha256": sha_file(RUN / "RESULT.json"),
+                      "claim": CLAIM, "run": str(RUN)}, indent=2))
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--authorization", type=Path, required=True)
+    parser.add_argument("--append", action="store_true", help="Root-authorized exclusive append; default validates only")
+    args = parser.parse_args()
+    run(args.append, args.authorization)

@@ -1,0 +1,31 @@
+name = "ThomsonN9"
+defaultTargets = ["ThomsonN9", "Challenge", "Solution"]
+moreLeanArgs = ["-j1"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "d13f23b723b8a846827a245b89c10fc7d3f11612"
+
+[[lean_lib]]
+name = "ThomsonN9"
+
+[[lean_lib]]
+name = "Challenge"
+
+[[lean_lib]]
+name = "Solution"
+
+[[lean_lib]]
+name = "Delsarte"
+srcDir = "vendor"
+
+[[lean_lib]]
+name = "ClaudeWindow"
+
+[[lean_lib]]
+name = "ClaudeL2b"
+
+[[lean_lib]]
+name = "ClaudeL1"

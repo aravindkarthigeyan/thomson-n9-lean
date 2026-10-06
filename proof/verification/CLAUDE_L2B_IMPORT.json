@@ -1,0 +1,56 @@
+{
+  "imported_utc": "2026-10-05T20:23:19.7412466Z",
+  "scope": "Nine unchanged source modules only; no Lean objects copied.",
+  "delivery_review": "formal_support/bernstein2/REVIEW.md",
+  "upstream_review_status": "ACCEPT; separately compiled and reviewed by Claude agents",
+  "root_independent_build_status": "PASS",
+  "sources": [
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\formal\\bernstein2\\ClaudeL2b\\Integration.lean",
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL2b\\Integration.lean",
+      "sha256": "277b858cba6fa9c644b298f39e87a1470a6b0879b3593f335c95b06b8a191ac4"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\formal\\bernstein2\\ClaudeL2b\\LPAdapterCodex.lean",
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL2b\\LPAdapterCodex.lean",
+      "sha256": "ac98e426aa246597d3f776703e2c6fc788f78e5a816c28b6f98313413f1e12a1"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\formal\\bernstein2\\ClaudeL2b\\LPCovers.lean",
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL2b\\LPCovers.lean",
+      "sha256": "d58de001c00548f4ce4c4ca65267a1b08c02d728012411255c14775d285bc39b"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\formal\\bernstein2\\ClaudeL2b\\LPData.lean",
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL2b\\LPData.lean",
+      "sha256": "38bb313ddc9b55ae620d7c4a4926f52c6219edd3e980eff1d1b1d5c1f2792582"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\formal\\bernstein2\\ClaudeL2b\\ReducedData.lean",
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL2b\\ReducedData.lean",
+      "sha256": "01d823b6c8b9146167fe86197438899b7c66aadc497dd91055322535107d5ee2"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\formal\\bernstein2\\ClaudeL2b\\ReducedMinorant.lean",
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL2b\\ReducedMinorant.lean",
+      "sha256": "60a4d487386e31fc27de899737daea85e01c8646a88eedb9b63d3c38abb52ed7"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\formal\\bernstein2\\ClaudeL2b\\RefinedData.lean",
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL2b\\RefinedData.lean",
+      "sha256": "ffd5c9cfc07087d72dc0f7b0cec7f70823617cb9d99d35cb44d0245b99a33fcb"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\formal\\bernstein2\\ClaudeL2b\\RefinedWindows.lean",
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL2b\\RefinedWindows.lean",
+      "sha256": "b63ef49c22d6c7b6d4d752b3584ce8975ac9fac2b9c9f4edad67f30484bf1473"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\formal\\bernstein2\\ClaudeL2b\\WindowAdapter.lean",
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL2b\\WindowAdapter.lean",
+      "sha256": "a8ca41ee0a907b3c39d75f130037d5f4e9e750877accc5485f62bcc61d70c242"
+    }
+  ],
+  "root_independent_build_report": "lean/verification/l2b-import/report.json",
+  "root_independent_build_report_sha256": "040f0d2619b05b035c67ddb9a0c622c48713af18c59a40690929dc3a84fa9f36"
+}

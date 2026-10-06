@@ -1,0 +1,14 @@
+{
+ "status": "INCONCLUSIVE",
+ "cls": "resource",
+ "message": "process ended with 0xC0000017 STATUS_NO_MEMORY | ",
+ "declarations": null,
+ "site": null,
+ "axioms": [],
+ "invocation": "b.12",
+ "exit_code": 3221225495,
+ "wall_seconds": 0.09,
+ "peak_job_commit_gb": 0.01,
+ "semantic_sites_sha256": "ff6fb1166da58ddb0af8f154ac284961c96371ff4d95be5d20e698ec903f4b2f",
+ "semantic_sites_error": null
+}

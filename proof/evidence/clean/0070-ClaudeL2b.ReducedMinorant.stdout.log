@@ -1,0 +1,23 @@
+ℹ [2116/2117] Replayed ThomsonN9.Bernstein.Minorant
+info: ThomsonN9/Bernstein/Minorant.lean:252:0: 'ThomsonN9.Bernstein.minorant_le_phi' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Bernstein/Minorant.lean:253:0: 'ThomsonN9.Bernstein.minorant_le_inv_sqrt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Bernstein/Minorant.lean:254:0: 'ThomsonN9.Bernstein.minorant_le_inv_dist' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Bernstein/Minorant.lean:255:0: 'ThomsonN9.Bernstein.exterior_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Bernstein/Minorant.lean:256:0: 'ThomsonN9.Bernstein.exterior_gap'' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Bernstein/Minorant.lean:257:0: 'ThomsonN9.Bernstein.minorant_eq_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Bernstein/Minorant.lean:258:0: 'ThomsonN9.Bernstein.phi_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Bernstein/Minorant.lean:259:0: 'ThomsonN9.Bernstein.checkInterval_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Bernstein/Minorant.lean:260:0: 'ThomsonN9.Bernstein.checkCover_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Bernstein/Minorant.lean:261:0: 'ThomsonN9.Bernstein.runSteps_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [2117/2117] Built ClaudeL2b.ReducedMinorant (9.4s)
+info: ClaudeL2b/ReducedMinorant.lean:165:0: 'ThomsonN9.Claude.L2b.hNewRat_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/ReducedMinorant.lean:166:0: 'ThomsonN9.Claude.L2b.hNew_eq_polyEval' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/ReducedMinorant.lean:167:0: 'ThomsonN9.Claude.L2b.deltaNum_cert' does not depend on any axioms
+info: ClaudeL2b/ReducedMinorant.lean:168:0: 'ThomsonN9.Claude.L2b.hNew_le_minorant_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/ReducedMinorant.lean:169:0: 'ThomsonN9.Claude.L2b.hNew_le_phi' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/ReducedMinorant.lean:170:0: 'ThomsonN9.Claude.L2b.hNew_add_le_phi' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/ReducedMinorant.lean:171:0: 'ThomsonN9.Claude.L2b.hNew_le_inv_sqrt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/ReducedMinorant.lean:172:0: 'ThomsonN9.Claude.L2b.hNew_le_inv_dist' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/ReducedMinorant.lean:173:0: 'ThomsonN9.Claude.L2b.exterior_gap_new' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/ReducedMinorant.lean:174:0: 'ThomsonN9.Claude.L2b.exterior_gap_new'' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (2117 jobs).

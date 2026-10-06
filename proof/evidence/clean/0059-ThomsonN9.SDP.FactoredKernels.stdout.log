@@ -1,0 +1,19 @@
+⚠ [3163/3167] Replayed ThomsonN9.SDP.ProjectionComplex
+warning: ThomsonN9/SDP/ProjectionComplex.lean:30:4: Try `simp at ha` instead of `simpa using ha`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+info: ThomsonN9/SDP/ProjectionComplex.lean:96:0: 'ThomsonN9.SDP.anchorComplex_mul_star_re' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/SDP/ProjectionComplex.lean:97:0: 'ThomsonN9.SDP.anchorComplex_normSq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/SDP/ProjectionComplex.lean:98:0: 'ThomsonN9.SDP.anchorComplex_mul_star_normSq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/SDP/ProjectionComplex.lean:99:0: 'ThomsonN9.SDP.exists_anchorComplex' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/SDP/ProjectionComplex.lean:100:0: 'ThomsonN9.SDP.spherical_threePointKernel_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/SDP/ProjectionComplex.lean:101:0: 'ThomsonN9.SDP.anchored_spherical_kernel_sum_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3164/3167] Replayed ThomsonN9.SDP.Counting
+warning: ThomsonN9/SDP/Counting.lean:107:56: `if_false` has been deprecated: Use `ite_false` instead
+warning: ThomsonN9/SDP/Counting.lean:120:19: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: ThomsonN9/SDP/Counting.lean:120:31: `if_neg` has been deprecated: Use `ite_eq_right` instead
+⚠ [3167/3167] Built ThomsonN9.SDP.FactoredKernels (10s)
+warning: ThomsonN9/SDP/FactoredKernels.lean:97:66: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Build completed successfully (3167 jobs).

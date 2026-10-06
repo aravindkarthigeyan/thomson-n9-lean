@@ -1,0 +1,44 @@
+{
+  "name": "source-scanner-tests",
+  "executable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "arguments": [
+    "-NoProfile",
+    "-ExecutionPolicy",
+    "Bypass",
+    "-File",
+    "verification/TestSourceScanner.ps1"
+  ],
+  "exitCode": 0,
+  "expectation": "pass",
+  "passed": true,
+  "seconds": 2.1604134999999998,
+  "sampledPeakPrivateBytes": 0,
+  "sampledPeakWorkingBytes": 0,
+  "sampledLargestOwnedPrivateBytes": 0,
+  "resourcePolicy": {
+    "classification": "explicit-noncompiler-scanner",
+    "gateGiB": 8.5,
+    "physicalFloorGiB": 6.5,
+    "reason": "Reviewed named frozen source-only scanner; no Lean invocation",
+    "module": null,
+    "sourceSha256": null,
+    "helperSha256": "5ea636398f2a8b824acb4c979f83696b183bc98611b5090215f6b145f0a4811b",
+    "baselines": []
+  },
+  "resourceOutcome": "WITHIN_SAMPLED_PROFILE_OR_UNPROFILED",
+  "profileGrowthViolations": [],
+  "ownedProcessIdentities": [
+    {
+      "pid": 28864,
+      "creationUtcTicks": "639268644717358150"
+    }
+  ],
+  "stdout": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\fresh-evidence\\20261006T024511Z\\0183-source-scanner-tests.stdout.log",
+  "stderr": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\fresh-evidence\\20261006T024511Z\\0183-source-scanner-tests.stderr.log",
+  "stdoutSha256": "cd887f5aaac7224e9daf5e802b2d272192a8b201822ffe49da321e5ae71140b5",
+  "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "effectiveEnvironment": {
+    "LEAN_NUM_THREADS": "1"
+  },
+  "compilerThreadControl": "explicit -j1 for direct Lean; package moreLeanArgs=-j1 for Lake builds"
+}

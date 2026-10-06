@@ -1,0 +1,92 @@
+# The Nine-Point Coulomb Thomson Problem
+
+**Aravind Karthigeyan**
+
+University of Illinois Urbana-Champaign
+
+Version 0.1.0 archive DOI: [10.5281/zenodo.23192843](https://doi.org/10.5281/zenodo.23192843).
+
+A Lean 4 proof of global optimality and uniqueness for nine distinct points on
+the unit sphere in three-dimensional Euclidean space. The minimizer is the
+exactly specified D3h tricapped trigonal prism. Equality is characterized up to
+an orthogonal transformation and a permutation. The energy counts each
+unordered pair once and uses inverse Euclidean distance, not inverse squared
+distance.
+
+**Status:** the original source-only Lean build and a separate nanoda kernel
+check passed. This is a research release requesting external review and
+fresh-machine reproduction, not a claim of completed peer review or priority.
+
+## Start Here
+
+| Purpose | Entry point |
+| --- | --- |
+| Audit the statement | [Challenge](proof/lean/Challenge.lean), [basic definitions](proof/lean/ThomsonN9/Basic.lean), [candidate](proof/lean/ThomsonN9/Candidate.lean) |
+| Read the implemented argument | [Formal proof guide](proof/FORMAL_PROOF_GUIDE.md) |
+| Inspect final theorems | [Completion](proof/lean/ThomsonN9/Completion.lean) |
+| Reproduce checks | [Verification quickstart](VERIFY.md) |
+| Compare with the upstream N7 project's N9 target | [Checked statement bridge](bridge/README.md) |
+| Read the review manuscript | [Paper PDF](paper/paper.pdf), [source](paper/paper.tex) |
+| Understand evidence and limitations | [Verification status](proof/STATUS.md), [publication provenance](PUBLICATION.md) |
+| Check attribution and reuse terms | [Contributions](CONTRIBUTIONS.md), [licensing](LICENSES.md) |
+
+The main theorem is
+
+```lean
+ThomsonN9.thomson_nine_complete : ThomsonN9.Challenge.CompleteTarget
+```
+
+`CompleteTarget` includes existence and uniqueness of the exact candidate
+parameter, global optimality, and uniqueness of every minimizing configuration.
+The candidate is not defined by an unexplained numerical approximation.
+
+## Verification In Brief
+
+- Lean 4.34.1; Mathlib commit `d13f23b723b8a846827a245b89c10fc7d3f11612`.
+- All 181 project modules and 23 final audit/control steps recorded passes.
+- Final theorem dependencies use only `propext`, `Classical.choice`, and
+  `Quot.sound`; no `sorry`, `admit`, extra axiom, or unsafe proof shortcut.
+- Nanoda accepted all 55,248 declarations in the exported complete-theorem
+  closure. This is an independent kernel implementation, not an external
+  human review or a fresh-machine reproduction.
+- Numerical solvers and Python checker outputs are not premises of the Lean
+  theorems. Exact certificate data are checked within Lean.
+- A supplemental Lean bridge proves a declaration type definitionally equal
+  to the N7 project's actual N9 stretch target, using its imported definitions.
+  Its axiom audit passed separately; this is not a Lean Comparator run or an
+  extension of the original nanoda check to the new bridge.
+
+The proof combines rational three-point SDP certificates, direct Bernstein
+minorants, finite Gram-pattern rigidity, alignment modulo rotations, and a
+certified augmented-Hessian bound. See the proof guide for exact quantitative
+statements and their source locations.
+
+## Publication Copy
+
+`proof/` derives from a frozen, locally verified source archive. All 199 Lean
+files are byte-identical to that archive. Private machine paths and a few
+coordination messages have been redacted from historical logs and scripts;
+these transformations are listed in `PUBLICATION_DERIVATION.json`. Historical
+hashes are not represented as checksums of redacted files. The original archive
+has not been altered and is not included in this public copy.
+
+The release inventory is checked with:
+
+```text
+python tools/verify_publication.py
+```
+
+This checks publication integrity, not the mathematical theorem. Follow
+[VERIFY.md](VERIFY.md) for the Lean build and independent-kernel route.
+
+## Attribution And Contact
+
+This project involved substantial Codex, Claude, and Astra assistance. Prior
+N7/N8 work and reused components are explicitly credited in
+[CONTRIBUTIONS.md](CONTRIBUTIONS.md). Questions and independent reproduction
+reports are welcome through the repository's issue tracker after publication.
+Affiliation is supplied by the author; no institutional endorsement is implied.
+No public personal email is listed.
+
+Original code and formal proofs: MIT. Original exposition: CC BY 4.0.
+Upstream material retains its own licenses; see [LICENSES.md](LICENSES.md).

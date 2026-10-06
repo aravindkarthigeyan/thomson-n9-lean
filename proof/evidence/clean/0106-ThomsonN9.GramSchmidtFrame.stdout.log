@@ -1,0 +1,23 @@
+⚠ [3160/3160] Built ThomsonN9.GramSchmidtFrame (63s)
+warning: ThomsonN9/GramSchmidtFrame.lean:21:4: This simp argument is unused:
+  real_inner_self_eq_norm_sq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [gsResidual, inner_sub_right, real_inner_smul_right, hx]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ThomsonN9/GramSchmidtFrame.lean:78:4: This simp argument is unused:
+  real_inner_self_eq_norm_sq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [gsFinalResidual, inner_sub_right, real_inner_smul_right, hx, gsUnit_inner hx]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ThomsonN9/GramSchmidtFrame.lean:84:4: This simp argument is unused:
+  real_inner_self_eq_norm_sq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [gsFinalResidual, inner_sub_right, real_inner_smul_right, gsUnit_norm hs, he]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Build completed successfully (3160 jobs).

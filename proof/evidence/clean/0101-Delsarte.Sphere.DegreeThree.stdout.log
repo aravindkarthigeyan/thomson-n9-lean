@@ -1,0 +1,10 @@
+⚠ [2435/2436] Replayed Delsarte.Sphere.DegreeTwo
+warning: vendor/Delsarte/Sphere/DegreeTwo.lean:167:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/Delsarte/Sphere/DegreeTwo.lean:167:20: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/Delsarte/Sphere/DegreeTwo.lean:169:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: vendor/Delsarte/Sphere/DegreeTwo.lean:169:20: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: vendor/Delsarte/Sphere/DegreeTwo.lean:179:32: `if_true` has been deprecated: Use `ite_true` instead
+⚠ [2436/2436] Built Delsarte.Sphere.DegreeThree (11s)
+warning: vendor/Delsarte/Sphere/DegreeThree.lean:101:83: `if_true` has been deprecated: Use `ite_true` instead
+warning: vendor/Delsarte/Sphere/DegreeThree.lean:104:84: `if_true` has been deprecated: Use `ite_true` instead
+Build completed successfully (2436 jobs).

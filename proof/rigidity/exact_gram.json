@@ -1,0 +1,2387 @@
+{
+  "format": "thomson-n9-exact-gram-v1",
+  "radius_lower_numerator": "7105483340929538113277041792727912437680",
+  "radius_upper_numerator": "7105483340929538113277041792727912437681",
+  "radius_denominator": "10000000000000000000000000000000000000000",
+  "twice_inner_product_palette": [
+    [
+      -1
+    ],
+    [
+      0,
+      -2
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      -2,
+      0,
+      4
+    ],
+    [
+      2,
+      0,
+      -3
+    ],
+    [
+      -2,
+      0,
+      1
+    ]
+  ],
+  "anchors": [
+    {
+      "colors": [
+        0,
+        0,
+        0
+      ],
+      "determinant_of_twice_gram": [
+        0
+      ],
+      "status": "zero"
+    },
+    {
+      "colors": [
+        0,
+        0,
+        1
+      ],
+      "determinant_of_twice_gram": [
+        4,
+        -4,
+        -8
+      ],
+      "status": "negative"
+    },
+    {
+      "colors": [
+        0,
+        0,
+        2
+      ],
+      "determinant_of_twice_gram": [
+        4,
+        2,
+        -2
+      ],
+      "status": "positive",
+      "extensions": [],
+      "norm_residual_counts": {
+        "zero": 0,
+        "positive": 93,
+        "negative": 123
+      },
+      "extension_edges": [],
+      "nine_cliques": []
+    },
+    {
+      "colors": [
+        0,
+        0,
+        3
+      ],
+      "determinant_of_twice_gram": [
+        -8,
+        0,
+        40,
+        0,
+        -32
+      ],
+      "status": "positive",
+      "extensions": [],
+      "norm_residual_counts": {
+        "zero": 0,
+        "positive": 105,
+        "negative": 111
+      },
+      "extension_edges": [],
+      "nine_cliques": []
+    },
+    {
+      "colors": [
+        0,
+        0,
+        4
+      ],
+      "determinant_of_twice_gram": [
+        0,
+        0,
+        18,
+        0,
+        -18
+      ],
+      "status": "positive",
+      "extensions": [],
+      "norm_residual_counts": {
+        "zero": 0,
+        "positive": 93,
+        "negative": 123
+      },
+      "extension_edges": [],
+      "nine_cliques": []
+    },
+    {
+      "colors": [
+        0,
+        0,
+        5
+      ],
+      "determinant_of_twice_gram": [
+        -8,
+        0,
+        10,
+        0,
+        -2
+      ],
+      "status": "negative"
+    },
+    {
+      "colors": [
+        0,
+        1,
+        1
+      ],
+      "determinant_of_twice_gram": [
+        6,
+        0,
+        -24
+      ],
+      "status": "negative"
+    },
+    {
+      "colors": [
+        0,
+        1,
+        2
+      ],
+      "determinant_of_twice_gram": [
+        6,
+        0,
+        -6
+      ],
+      "status": "positive",
+      "extensions": [
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          2,
+          1,
+          4
+        ],
+        [
+          2,
+          1,
+          5
+        ],
+        [
+          2,
+          2,
+          4
+        ],
+        [
+          2,
+          2,
+          5
+        ]
+      ],
+      "norm_residual_counts": {
+        "zero": 6,
+        "positive": 114,
+        "negative": 96
+      },
+      "extension_edges": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          4,
+          1
+        ],
+        [
+          0,
+          5,
+          1
+        ],
+        [
+          1,
+          2,
+          5
+        ],
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          1,
+          5,
+          4
+        ],
+        [
+          2,
+          3,
+          3
+        ],
+        [
+          2,
+          4,
+          4
+        ],
+        [
+          2,
+          5,
+          5
+        ],
+        [
+          3,
+          4,
+          5
+        ],
+        [
+          3,
+          5,
+          4
+        ],
+        [
+          4,
+          5,
+          3
+        ]
+      ],
+      "nine_cliques": [
+        {
+          "extension_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "candidate_permutation": [
+            6,
+            7,
+            0,
+            8,
+            3,
+            1,
+            4,
+            2,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "colors": [
+        0,
+        1,
+        3
+      ],
+      "determinant_of_twice_gram": [
+        -2,
+        -8,
+        24,
+        16,
+        -32
+      ],
+      "status": "positive",
+      "extensions": [],
+      "norm_residual_counts": {
+        "zero": 0,
+        "positive": 136,
+        "negative": 80
+      },
+      "extension_edges": [],
+      "nine_cliques": []
+    },
+    {
+      "colors": [
+        0,
+        1,
+        4
+      ],
+      "determinant_of_twice_gram": [
+        -2,
+        8,
+        16,
+        -12,
+        -18
+      ],
+      "status": "positive",
+      "extensions": [],
+      "norm_residual_counts": {
+        "zero": 0,
+        "positive": 119,
+        "negative": 97
+      },
+      "extension_edges": [],
+      "nine_cliques": []
+    },
+    {
+      "colors": [
+        0,
+        1,
+        5
+      ],
+      "determinant_of_twice_gram": [
+        -2,
+        -8,
+        0,
+        4,
+        -2
+      ],
+      "status": "negative"
+    },
+    {
+      "colors": [
+        0,
+        2,
+        2
+      ],
+      "determinant_of_twice_gram": [
+        6,
+        0,
+        -6
+      ],
+      "status": "positive",
+      "extensions": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          1,
+          2,
+          5
+        ],
+        [
+          2,
+          1,
+          4
+        ],
+        [
+          2,
+          1,
+          5
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "norm_residual_counts": {
+        "zero": 6,
+        "positive": 115,
+        "negative": 95
+      },
+      "extension_edges": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          4,
+          2
+        ],
+        [
+          0,
+          5,
+          1
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          1,
+          5,
+          5
+        ],
+        [
+          2,
+          3,
+          5
+        ],
+        [
+          2,
+          4,
+          4
+        ],
+        [
+          2,
+          5,
+          4
+        ],
+        [
+          3,
+          4,
+          3
+        ],
+        [
+          3,
+          5,
+          5
+        ],
+        [
+          4,
+          5,
+          4
+        ]
+      ],
+      "nine_cliques": [
+        {
+          "extension_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "candidate_permutation": [
+            6,
+            7,
+            2,
+            8,
+            0,
+            3,
+            1,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "colors": [
+        0,
+        2,
+        3
+      ],
+      "determinant_of_twice_gram": [
+        -2,
+        4,
+        30,
+        -8,
+        -32
+      ],
+      "status": "positive",
+      "extensions": [],
+      "norm_residual_counts": {
+        "zero": 0,
+        "positive": 89,
+        "negative": 127
+      },
+      "extension_edges": [],
+      "nine_cliques": []
+    },
+    {
+      "colors": [
+        0,
+        2,
+        4
+      ],
+      "determinant_of_twice_gram": [
+        -2,
+        -4,
+        22,
+        6,
+        -18
+      ],
+      "status": "positive",
+      "extensions": [],
+      "norm_residual_counts": {
+        "zero": 0,
+        "positive": 98,
+        "negative": 118
+      },
+      "extension_edges": [],
+      "nine_cliques": []
+    },
+    {
+      "colors": [
+        0,
+        2,
+        5
+      ],
+      "determinant_of_twice_gram": [
+        -2,
+        4,
+        6,
+        -2,
+        -2
+      ],
+      "status": "positive",
+      "extensions": [],
+      "norm_residual_counts": {
+        "zero": 0,
+        "positive": 124,
+        "negative": 92
+      },
+      "extension_edges": [],
+      "nine_cliques": []
+    },
+    {
+      "colors": [
+        0,
+        3,
+        3
+      ],
+      "determinant_of_twice_gram": [
+        -18,
+        0,
+        96,
+        0,
+        -96
+      ],
+      "status": "positive",
+      "extensions": [],
+      "norm_residual_counts": {
+        "zero": 0,
+        "positive": 80,
+        "negative": 136
+      },
+      "extension_edges": [],
+      "nine_cliques": []
+    },
+    {
+      "colors": [
+        0,
+        3,
+        4
+      ],
+      "determinant_of_twice_gram": [
+        -2,
+        0,
+        28,
+        0,
+        -26
+      ],
+      "status": "positive",
+      "extensions": [],
+      "norm_residual_counts": {
+        "zero": 0,
+        "positive": 77,
+        "negative": 139
+      },
+      "extension_edges": [],
+      "nine_cliques": []
+    },
+    {
+      "colors": [
+        0,
+        3,
+        5
+      ],
+      "determinant_of_twice_gram": [
+        -18,
+        0,
+        60,
+        0,
+        -42
+      ],
+      "status": "positive",
+      "extensions": [],
+      "norm_residual_counts": {
+        "zero": 0,
+        "positive": 146,
+        "negative": 70
+      },
+      "extension_edges": [],
+      "nine_cliques": []
+    },
+    {
+      "colors": [
+        0,
+        4,
+        4
+      ],
+      "determinant_of_twice_gram": [
+        -18,
+        0,
+        72,
+        0,
+        -54
+      ],
+      "status": "positive",
+      "extensions": [],
+      "norm_residual_counts": {
+        "zero": 0,
+        "positive": 81,
+        "negative": 135
+      },
+      "extension_edges": [],
+      "nine_cliques": []
+    },
+    {
+      "colors": [
+        0,
+        4,
+        5
+      ],
+      "determinant_of_twice_gram": [
+        -2,
+        0,
+        16,
+        0,
+        -14
+      ],
+      "status": "positive",
+      "extensions": [],
+      "norm_residual_counts": {
+        "zero": 0,
+        "positive": 125,
+        "negative": 91
+      },
+      "extension_edges": [],
+      "nine_cliques": []
+    },
+    {
+      "colors": [
+        0,
+        5,
+        5
+      ],
+      "determinant_of_twice_gram": [
+        -18,
+        0,
+        24,
+        0,
+        -6
+      ],
+      "status": "negative"
+    },
+    {
+      "colors": [
+        1,
+        1,
+        1
+      ],
+      "determinant_of_twice_gram": [
+        8,
+        0,
+        -24,
+        -16
+      ],
+      "status": "negative"
+    },
+    {
+      "colors": [
+        1,
+        1,
+        2
+      ],
+      "determinant_of_twice_gram": [
+        8,
+        0,
+        -18,
+        8
+      ],
+      "status": "positive",
+      "extensions": [],
+      "norm_residual_counts": {
+        "zero": 0,
+        "positive": 141,
+        "negative": 75
+      },
+      "extension_edges": [],
+      "nine_cliques": []
+    },
+    {
+      "colors": [
+        1,
+        1,
+        3
+      ],
+      "determinant_of_twice_gram": [
+        0
+      ],
+      "status": "zero"
+    },
+    {
+      "colors": [
+        1,
+        1,
+        4
+      ],
+      "determinant_of_twice_gram": [
+        0,
+        0,
+        24,
+        0,
+        -42
+      ],
+      "status": "positive",
+      "extensions": [],
+      "norm_residual_counts": {
+        "zero": 0,
+        "positive": 148,
+        "negative": 68
+      },
+      "extension_edges": [],
+      "nine_cliques": []
+    },
+    {
+      "colors": [
+        1,
+        1,
+        5
+      ],
+      "determinant_of_twice_gram": [
+        0,
+        0,
+        -24,
+        0,
+        6
+      ],
+      "status": "negative"
+    },
+    {
+      "colors": [
+        1,
+        2,
+        2
+      ],
+      "determinant_of_twice_gram": [
+        8,
+        0,
+        -12,
+        -4
+      ],
+      "status": "positive",
+      "extensions": [],
+      "norm_residual_counts": {
+        "zero": 0,
+        "positive": 176,
+        "negative": 40
+      },
+      "extension_edges": [],
+      "nine_cliques": []
+    },
+    {
+      "colors": [
+        1,
+        2,
+        3
+      ],
+      "determinant_of_twice_gram": [
+        0,
+        0,
+        30,
+        0,
+        -48
+      ],
+      "status": "positive",
+      "extensions": [],
+      "norm_residual_counts": {
+        "zero": 0,
+        "positive": 121,
+        "negative": 95
+      },
+      "extension_edges": [],
+      "nine_cliques": []
+    },
+    {
+      "colors": [
+        1,
+        2,
+        4
+      ],
+      "determinant_of_twice_gram": [
+        0,
+        0,
+        6,
+        0,
+        -6
+      ],
+      "status": "positive",
+      "extensions": [
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          2,
+          4,
+          4
+        ],
+        [
+          2,
+          5,
+          3
+        ],
+        [
+          2,
+          5,
+          5
+        ]
+      ],
+      "norm_residual_counts": {
+        "zero": 6,
+        "positive": 143,
+        "negative": 67
+      },
+      "extension_edges": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          4,
+          1
+        ],
+        [
+          0,
+          5,
+          2
+        ],
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          1,
+          3,
+          1
+        ],
+        [
+          1,
+          4,
+          2
+        ],
+        [
+          1,
+          5,
+          1
+        ],
+        [
+          2,
+          3,
+          5
+        ],
+        [
+          2,
+          4,
+          4
+        ],
+        [
+          2,
+          5,
+          4
+        ],
+        [
+          3,
+          4,
+          5
+        ],
+        [
+          3,
+          5,
+          3
+        ],
+        [
+          4,
+          5,
+          4
+        ]
+      ],
+      "nine_cliques": [
+        {
+          "extension_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "candidate_permutation": [
+            6,
+            0,
+            1,
+            7,
+            8,
+            3,
+            2,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "colors": [
+        1,
+        2,
+        5
+      ],
+      "determinant_of_twice_gram": [
+        0,
+        0,
+        6,
+        0,
+        -6
+      ],
+      "status": "positive",
+      "extensions": [
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          2,
+          4,
+          3
+        ],
+        [
+          2,
+          4,
+          5
+        ],
+        [
+          2,
+          5,
+          4
+        ]
+      ],
+      "norm_residual_counts": {
+        "zero": 6,
+        "positive": 146,
+        "negative": 64
+      },
+      "extension_edges": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          2
+        ],
+        [
+          0,
+          5,
+          2
+        ],
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          1,
+          3,
+          2
+        ],
+        [
+          1,
+          4,
+          1
+        ],
+        [
+          1,
+          5,
+          1
+        ],
+        [
+          2,
+          3,
+          5
+        ],
+        [
+          2,
+          4,
+          5
+        ],
+        [
+          2,
+          5,
+          4
+        ],
+        [
+          3,
+          4,
+          4
+        ],
+        [
+          3,
+          5,
+          5
+        ],
+        [
+          4,
+          5,
+          3
+        ]
+      ],
+      "nine_cliques": [
+        {
+          "extension_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "candidate_permutation": [
+            6,
+            0,
+            4,
+            7,
+            8,
+            3,
+            1,
+            2,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "colors": [
+        1,
+        3,
+        3
+      ],
+      "determinant_of_twice_gram": [
+        -8,
+        -16,
+        56,
+        64,
+        -64,
+        -64
+      ],
+      "status": "positive",
+      "extensions": [],
+      "norm_residual_counts": {
+        "zero": 0,
+        "positive": 103,
+        "negative": 113
+      },
+      "extension_edges": [],
+      "nine_cliques": []
+    },
+    {
+      "colors": [
+        1,
+        3,
+        4
+      ],
+      "determinant_of_twice_gram": [
+        -8,
+        16,
+        48,
+        -56,
+        -50,
+        48
+      ],
+      "status": "positive",
+      "extensions": [],
+      "norm_residual_counts": {
+        "zero": 0,
+        "positive": 106,
+        "negative": 110
+      },
+      "extension_edges": [],
+      "nine_cliques": []
+    },
+    {
+      "colors": [
+        1,
+        3,
+        5
+      ],
+      "determinant_of_twice_gram": [
+        -8,
+        -16,
+        32,
+        40,
+        -34,
+        -16
+      ],
+      "status": "negative"
+    },
+    {
+      "colors": [
+        1,
+        4,
+        4
+      ],
+      "determinant_of_twice_gram": [
+        -8,
+        -16,
+        40,
+        48,
+        -36,
+        -36
+      ],
+      "status": "positive",
+      "extensions": [],
+      "norm_residual_counts": {
+        "zero": 0,
+        "positive": 126,
+        "negative": 90
+      },
+      "extension_edges": [],
+      "nine_cliques": []
+    },
+    {
+      "colors": [
+        1,
+        4,
+        5
+      ],
+      "determinant_of_twice_gram": [
+        -8,
+        16,
+        24,
+        -32,
+        -20,
+        12
+      ],
+      "status": "positive",
+      "extensions": [],
+      "norm_residual_counts": {
+        "zero": 0,
+        "positive": 158,
+        "negative": 58
+      },
+      "extension_edges": [],
+      "nine_cliques": []
+    },
+    {
+      "colors": [
+        1,
+        5,
+        5
+      ],
+      "determinant_of_twice_gram": [
+        -8,
+        -16,
+        8,
+        16,
+        -4,
+        -4
+      ],
+      "status": "negative"
+    },
+    {
+      "colors": [
+        2,
+        2,
+        2
+      ],
+      "determinant_of_twice_gram": [
+        8,
+        0,
+        -6,
+        2
+      ],
+      "status": "positive",
+      "extensions": [],
+      "norm_residual_counts": {
+        "zero": 0,
+        "positive": 72,
+        "negative": 144
+      },
+      "extension_edges": [],
+      "nine_cliques": []
+    },
+    {
+      "colors": [
+        2,
+        2,
+        3
+      ],
+      "determinant_of_twice_gram": [
+        0,
+        0,
+        24,
+        0,
+        -24
+      ],
+      "status": "positive",
+      "extensions": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          1,
+          5,
+          4
+        ],
+        [
+          2,
+          4,
+          5
+        ],
+        [
+          2,
+          5,
+          4
+        ]
+      ],
+      "norm_residual_counts": {
+        "zero": 6,
+        "positive": 66,
+        "negative": 144
+      },
+      "extension_edges": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          4,
+          2
+        ],
+        [
+          0,
+          5,
+          2
+        ],
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          1,
+          3,
+          2
+        ],
+        [
+          1,
+          4,
+          1
+        ],
+        [
+          1,
+          5,
+          1
+        ],
+        [
+          2,
+          3,
+          3
+        ],
+        [
+          2,
+          4,
+          4
+        ],
+        [
+          2,
+          5,
+          5
+        ],
+        [
+          3,
+          4,
+          5
+        ],
+        [
+          3,
+          5,
+          4
+        ],
+        [
+          4,
+          5,
+          3
+        ]
+      ],
+      "nine_cliques": [
+        {
+          "extension_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "candidate_permutation": [
+            6,
+            1,
+            4,
+            7,
+            8,
+            0,
+            3,
+            2,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "colors": [
+        2,
+        2,
+        4
+      ],
+      "determinant_of_twice_gram": [
+        0,
+        0,
+        24,
+        0,
+        -24
+      ],
+      "status": "positive",
+      "extensions": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          1,
+          4,
+          4
+        ],
+        [
+          1,
+          5,
+          5
+        ],
+        [
+          2,
+          3,
+          5
+        ],
+        [
+          2,
+          5,
+          3
+        ]
+      ],
+      "norm_residual_counts": {
+        "zero": 6,
+        "positive": 60,
+        "negative": 150
+      },
+      "extension_edges": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          4,
+          1
+        ],
+        [
+          0,
+          5,
+          2
+        ],
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          1,
+          3,
+          2
+        ],
+        [
+          1,
+          4,
+          2
+        ],
+        [
+          1,
+          5,
+          1
+        ],
+        [
+          2,
+          3,
+          3
+        ],
+        [
+          2,
+          4,
+          5
+        ],
+        [
+          2,
+          5,
+          5
+        ],
+        [
+          3,
+          4,
+          4
+        ],
+        [
+          3,
+          5,
+          4
+        ],
+        [
+          4,
+          5,
+          4
+        ]
+      ],
+      "nine_cliques": [
+        {
+          "extension_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "candidate_permutation": [
+            6,
+            1,
+            2,
+            7,
+            8,
+            0,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "colors": [
+        2,
+        2,
+        5
+      ],
+      "determinant_of_twice_gram": [
+        0
+      ],
+      "status": "zero"
+    },
+    {
+      "colors": [
+        2,
+        3,
+        3
+      ],
+      "determinant_of_twice_gram": [
+        -8,
+        8,
+        62,
+        -32,
+        -64,
+        32
+      ],
+      "status": "positive",
+      "extensions": [],
+      "norm_residual_counts": {
+        "zero": 0,
+        "positive": 65,
+        "negative": 151
+      },
+      "extension_edges": [],
+      "nine_cliques": []
+    },
+    {
+      "colors": [
+        2,
+        3,
+        4
+      ],
+      "determinant_of_twice_gram": [
+        -8,
+        -8,
+        54,
+        28,
+        -50,
+        -24
+      ],
+      "status": "positive",
+      "extensions": [],
+      "norm_residual_counts": {
+        "zero": 0,
+        "positive": 58,
+        "negative": 158
+      },
+      "extension_edges": [],
+      "nine_cliques": []
+    },
+    {
+      "colors": [
+        2,
+        3,
+        5
+      ],
+      "determinant_of_twice_gram": [
+        -8,
+        8,
+        38,
+        -20,
+        -34,
+        8
+      ],
+      "status": "positive",
+      "extensions": [],
+      "norm_residual_counts": {
+        "zero": 0,
+        "positive": 129,
+        "negative": 87
+      },
+      "extension_edges": [],
+      "nine_cliques": []
+    },
+    {
+      "colors": [
+        2,
+        4,
+        4
+      ],
+      "determinant_of_twice_gram": [
+        -8,
+        8,
+        46,
+        -24,
+        -36,
+        18
+      ],
+      "status": "positive",
+      "extensions": [],
+      "norm_residual_counts": {
+        "zero": 0,
+        "positive": 60,
+        "negative": 156
+      },
+      "extension_edges": [],
+      "nine_cliques": []
+    },
+    {
+      "colors": [
+        2,
+        4,
+        5
+      ],
+      "determinant_of_twice_gram": [
+        -8,
+        -8,
+        30,
+        16,
+        -20,
+        -6
+      ],
+      "status": "positive",
+      "extensions": [],
+      "norm_residual_counts": {
+        "zero": 0,
+        "positive": 157,
+        "negative": 59
+      },
+      "extension_edges": [],
+      "nine_cliques": []
+    },
+    {
+      "colors": [
+        2,
+        5,
+        5
+      ],
+      "determinant_of_twice_gram": [
+        -8,
+        8,
+        14,
+        -8,
+        -4,
+        2
+      ],
+      "status": "positive",
+      "extensions": [],
+      "norm_residual_counts": {
+        "zero": 0,
+        "positive": 156,
+        "negative": 60
+      },
+      "extension_edges": [],
+      "nine_cliques": []
+    },
+    {
+      "colors": [
+        3,
+        3,
+        3
+      ],
+      "determinant_of_twice_gram": [
+        -32,
+        0,
+        192,
+        0,
+        -288,
+        0,
+        128
+      ],
+      "status": "positive",
+      "extensions": [],
+      "norm_residual_counts": {
+        "zero": 0,
+        "positive": 59,
+        "negative": 157
+      },
+      "extension_edges": [],
+      "nine_cliques": []
+    },
+    {
+      "colors": [
+        3,
+        3,
+        4
+      ],
+      "determinant_of_twice_gram": [
+        0,
+        0,
+        0,
+        0,
+        78,
+        0,
+        -96
+      ],
+      "status": "positive",
+      "extensions": [],
+      "norm_residual_counts": {
+        "zero": 0,
+        "positive": 51,
+        "negative": 165
+      },
+      "extension_edges": [],
+      "nine_cliques": []
+    },
+    {
+      "colors": [
+        3,
+        3,
+        5
+      ],
+      "determinant_of_twice_gram": [
+        -32,
+        0,
+        144,
+        0,
+        -162,
+        0,
+        32
+      ],
+      "status": "positive",
+      "extensions": [],
+      "norm_residual_counts": {
+        "zero": 0,
+        "positive": 111,
+        "negative": 105
+      },
+      "extension_edges": [],
+      "nine_cliques": []
+    },
+    {
+      "colors": [
+        3,
+        4,
+        4
+      ],
+      "determinant_of_twice_gram": [
+        -32,
+        0,
+        160,
+        0,
+        -200,
+        0,
+        72
+      ],
+      "status": "positive",
+      "extensions": [],
+      "norm_residual_counts": {
+        "zero": 0,
+        "positive": 54,
+        "negative": 162
+      },
+      "extension_edges": [],
+      "nine_cliques": []
+    },
+    {
+      "colors": [
+        3,
+        4,
+        5
+      ],
+      "determinant_of_twice_gram": [
+        0,
+        0,
+        0,
+        0,
+        24,
+        0,
+        -24
+      ],
+      "status": "positive",
+      "extensions": [
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          4,
+          5,
+          4
+        ],
+        [
+          5,
+          4,
+          3
+        ],
+        [
+          5,
+          4,
+          5
+        ]
+      ],
+      "norm_residual_counts": {
+        "zero": 6,
+        "positive": 112,
+        "negative": 98
+      },
+      "extension_edges": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          4,
+          2
+        ],
+        [
+          0,
+          5,
+          2
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          3,
+          2
+        ],
+        [
+          1,
+          4,
+          1
+        ],
+        [
+          1,
+          5,
+          2
+        ],
+        [
+          2,
+          3,
+          1
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          2,
+          5,
+          1
+        ],
+        [
+          3,
+          4,
+          5
+        ],
+        [
+          3,
+          5,
+          3
+        ],
+        [
+          4,
+          5,
+          4
+        ]
+      ],
+      "nine_cliques": [
+        {
+          "extension_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "candidate_permutation": [
+            0,
+            3,
+            1,
+            6,
+            7,
+            8,
+            2,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "colors": [
+        3,
+        5,
+        5
+      ],
+      "determinant_of_twice_gram": [
+        -32,
+        0,
+        96,
+        0,
+        -72,
+        0,
+        8
+      ],
+      "status": "negative"
+    },
+    {
+      "colors": [
+        4,
+        4,
+        4
+      ],
+      "determinant_of_twice_gram": [
+        0,
+        0,
+        0,
+        0,
+        54,
+        0,
+        -54
+      ],
+      "status": "positive",
+      "extensions": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ],
+        [
+          3,
+          5,
+          5
+        ],
+        [
+          5,
+          3,
+          5
+        ],
+        [
+          5,
+          5,
+          3
+        ]
+      ],
+      "norm_residual_counts": {
+        "zero": 6,
+        "positive": 47,
+        "negative": 163
+      },
+      "extension_edges": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          2
+        ],
+        [
+          0,
+          5,
+          2
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          3,
+          2
+        ],
+        [
+          1,
+          4,
+          1
+        ],
+        [
+          1,
+          5,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          2,
+          5,
+          1
+        ],
+        [
+          3,
+          4,
+          4
+        ],
+        [
+          3,
+          5,
+          4
+        ],
+        [
+          4,
+          5,
+          4
+        ]
+      ],
+      "nine_cliques": [
+        {
+          "extension_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "candidate_permutation": [
+            0,
+            1,
+            2,
+            6,
+            7,
+            8,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "colors": [
+        4,
+        4,
+        5
+      ],
+      "determinant_of_twice_gram": [
+        -32,
+        0,
+        112,
+        0,
+        -98,
+        0,
+        18
+      ],
+      "status": "positive",
+      "extensions": [],
+      "norm_residual_counts": {
+        "zero": 0,
+        "positive": 132,
+        "negative": 84
+      },
+      "extension_edges": [],
+      "nine_cliques": []
+    },
+    {
+      "colors": [
+        4,
+        5,
+        5
+      ],
+      "determinant_of_twice_gram": [
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        -6
+      ],
+      "status": "positive",
+      "extensions": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ],
+        [
+          3,
+          5,
+          4
+        ],
+        [
+          4,
+          4,
+          3
+        ],
+        [
+          5,
+          3,
+          4
+        ]
+      ],
+      "norm_residual_counts": {
+        "zero": 6,
+        "positive": 166,
+        "negative": 44
+      },
+      "extension_edges": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          2
+        ],
+        [
+          0,
+          5,
+          2
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          3,
+          2
+        ],
+        [
+          1,
+          4,
+          2
+        ],
+        [
+          1,
+          5,
+          1
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          4,
+          1
+        ],
+        [
+          2,
+          5,
+          2
+        ],
+        [
+          3,
+          4,
+          5
+        ],
+        [
+          3,
+          5,
+          4
+        ],
+        [
+          4,
+          5,
+          5
+        ]
+      ],
+      "nine_cliques": [
+        {
+          "extension_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "candidate_permutation": [
+            0,
+            1,
+            5,
+            6,
+            7,
+            8,
+            3,
+            2,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "colors": [
+        5,
+        5,
+        5
+      ],
+      "determinant_of_twice_gram": [
+        -32,
+        0,
+        48,
+        0,
+        -18,
+        0,
+        2
+      ],
+      "status": "negative"
+    }
+  ],
+  "totals": {
+    "anchors": 56,
+    "positive_anchors": 42,
+    "zero_anchors": 3,
+    "negative_anchors": 11,
+    "extension_nodes": 54,
+    "nine_cliques": 9
+  }
+}

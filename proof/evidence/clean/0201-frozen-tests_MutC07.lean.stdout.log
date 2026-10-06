@@ -1,0 +1,3 @@
+frozen-tests/MutC07.lean:11859:2: error: Tactic `decide` proved that the proposition
+  (SOSChunk.ofCode gtree 432 1 cols07 T06 T07).check = true
+is false

@@ -1,0 +1,18 @@
+{
+ "status": "ACCEPTED",
+ "cls": "accepted",
+ "message": "Checked 55248 declarations with no errors",
+ "declarations": 55248,
+ "site": null,
+ "axioms": [
+  "propext",
+  "Quot.sound",
+  "Classical.choice"
+ ],
+ "invocation": "sk.1",
+ "exit_code": 0,
+ "wall_seconds": 1128.72,
+ "peak_job_commit_gb": 2.849,
+ "semantic_sites_sha256": "ff6fb1166da58ddb0af8f154ac284961c96371ff4d95be5d20e698ec903f4b2f",
+ "semantic_sites_error": null
+}

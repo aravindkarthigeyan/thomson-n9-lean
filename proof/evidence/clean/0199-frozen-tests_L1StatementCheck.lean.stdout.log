@@ -1,0 +1,62 @@
+ThomsonN9.Claude.L1.reduced_pair_bound : ∀ (x : ThomsonN9.Configuration),
+  (∀ (i : Fin 9), ‖x i‖ = 1) →
+    (∀ (i j : Fin 9), i ≠ j → Inner.inner ℝ (x i) (x j) ≤ 5593 / 10000) →
+      ↑ThomsonN9.Claude.L1.certifiedEnergyReduced ≤
+        ThomsonN9.pairSum fun i j => ThomsonN9.Claude.L1.hNew (Inner.inner ℝ (x i) (x j))
+@ThomsonN9.SDP.factored_certificate_pair_bound : ∀ {β : Type u_1} {κ : Type u_2} {ρ : Type u_3} {σ : Type u_4}
+  {η : Type u_5} [inst : Fintype β] [inst_1 : Fintype κ] [inst_2 : Fintype ρ] [inst_3 : Fintype σ] [inst_4 : Fintype η]
+  (B : β → κ → ρ → ℝ) (p : β → κ → ℝ → ℝ) (degree : β → ℕ) (weight square : σ → ℝ → ℝ → ℝ → ℝ) (coefficient : η → ℝ)
+  (exponent : η → Fin 3 → ℕ) (h : ℝ → ℝ) (e M : ℝ),
+  (∀ (u v t : ℝ), ThomsonN9.SDP.TripleDomain M u v t → ∀ (b : σ), 0 ≤ weight b u v t) →
+    (∀ (u v t : ℝ),
+        ThomsonN9.SDP.TripleDomain M u v t →
+          (h u + h v + h t) / 3 - e / 36 =
+            ∑ b, ThomsonN9.SDP.correctedFactorKernel (B b) (p b) (degree b) u v t +
+                ∑ b, weight b u v t * square b u v t ^ 2 +
+              ∑ b, coefficient b * (u ^ exponent b 0 * v ^ exponent b 1 * t ^ exponent b 2)) →
+      ∀ (x : ThomsonN9.Configuration),
+        (∀ (i : Fin 9), ‖x i‖ = 1) →
+          (∀ (i j : Fin 9), i ≠ j → Inner.inner ℝ (x i) (x j) ≤ M) →
+            e - 36 * ∑ b, |coefficient b| ≤ ThomsonN9.pairSum fun i j => h (Inner.inner ℝ (x i) (x j))
+def ThomsonN9.SDP.TripleDomain : ℝ → ℝ → ℝ → ℝ → Prop :=
+fun M u v t => |u| ≤ 1 ∧ |v| ≤ 1 ∧ |t| ≤ 1 ∧ u ≤ M ∧ v ≤ M ∧ t ≤ M ∧ 0 ≤ 1 + 2 * u * v * t - u ^ 2 - v ^ 2 - t ^ 2
+def ThomsonN9.SDP.domainWeight : ℝ → ℝ → ℝ → ℝ → Fin 6 → ℝ :=
+fun M u v t =>
+  ![1, 1 + u, M - u, 1 + 2 * u * v * t - u ^ 2 - v ^ 2 - t ^ 2, (1 + u) * (M - u),
+    (1 + 2 * u * v * t - u ^ 2 - v ^ 2 - t ^ 2) * (1 + u) * (M - u)]
+def ThomsonN9.SDP.correctedFactorKernel.{u_1, u_2} : {κ : Type u_1} →
+  {ρ : Type u_2} → [Fintype κ] → [Fintype ρ] → (κ → ρ → ℝ) → (κ → ℝ → ℝ) → ℕ → ℝ → ℝ → ℝ → ℝ :=
+fun {κ} {ρ} [Fintype κ] [Fintype ρ] B p k u v t =>
+  have S := ThomsonN9.SDP.edgeSymmetrize (ThomsonN9.SDP.rootedFactorKernel B p k);
+  7 * S u v t + S u u 1 + S v v 1 + S t t 1 + S 1 1 1 / 8
+def ThomsonN9.SDP.rootedFactorKernel.{u_1, u_2} : {κ : Type u_1} →
+  {ρ : Type u_2} → [Fintype κ] → [Fintype ρ] → (κ → ρ → ℝ) → (κ → ℝ → ℝ) → ℕ → ℝ → ℝ → ℝ → ℝ :=
+fun {κ} {ρ} [Fintype κ] [Fintype ρ] B p k u v t =>
+  ∑ r, ThomsonN9.SDP.factorWeight B p r u * ThomsonN9.SDP.factorWeight B p r v * ThomsonN9.SDP.threePointKernel k u v t
+def ThomsonN9.SDP.factorWeight.{u_1, u_2} : {κ : Type u_1} →
+  {ρ : Type u_2} → [Fintype κ] → (κ → ρ → ℝ) → (κ → ℝ → ℝ) → ρ → ℝ → ℝ :=
+fun {κ} {ρ} [Fintype κ] B p r u => ∑ i, B i r * p i u
+def ThomsonN9.SDP.threePointKernel : ℕ → ℝ → ℝ → ℝ → ℝ :=
+fun k u v t => ThomsonN9.SDP.circleKernel (t - u * v) ((1 - u ^ 2) * (1 - v ^ 2)) k
+def ThomsonN9.SDP.circleKernel : ℝ → ℝ → ℕ → ℝ :=
+fun a b x => Nat.brecOn x (ThomsonN9.SDP.circleKernel._f a b)
+def ThomsonN9.SDP.edgeSymmetrize : (ℝ → ℝ → ℝ → ℝ) → ℝ → ℝ → ℝ → ℝ :=
+fun F u v t => (F u v t + F v u t + F u t v + F t u v + F v t u + F t v u) / 6
+def ThomsonN9.pairSum : (Fin 9 → Fin 9 → ℝ) → ℝ :=
+fun f => ∑ i, ∑ j > i, f i j
+@[reducible] def ThomsonN9.Configuration : Type :=
+Fin 9 → ThomsonN9.R3
+'ReviewL1.review_final' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ReviewL1.review_codex_instance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ReviewL1.review_l1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThomsonN9.Claude.L1.reduced_pair_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThomsonN9.Claude.L1.l1_hidentity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThomsonN9.Claude.L1.kernel_block_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThomsonN9.Claude.L1.kernel_total_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThomsonN9.Claude.L1.sosWeight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThomsonN9.Claude.L1.correctedFactorKernel_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThomsonN9.Claude.L1.res_l1_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThomsonN9.Claude.L1.Data.ktotal_ok' depends on axioms: [propext]
+'ThomsonN9.Claude.L1.Data.asm_ok' depends on axioms: [propext]
+'ThomsonN9.Claude.L1.Data.SOS.sos_total' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThomsonN9.SDP.factored_certificate_pair_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

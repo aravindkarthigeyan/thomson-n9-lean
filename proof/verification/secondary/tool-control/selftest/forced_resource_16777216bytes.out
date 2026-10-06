@@ -1,0 +1,3 @@
+theorem Nat.add_succ (n m : Nat) : Eq (HAdd.hAdd n (Nat.succ m)) (Nat.succ (HAdd.hAdd n m)) := _
+
+Checked 33 declarations with no errors

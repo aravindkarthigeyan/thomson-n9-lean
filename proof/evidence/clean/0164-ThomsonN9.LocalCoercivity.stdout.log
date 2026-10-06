@@ -1,0 +1,73 @@
+⚠ [3159/3171] Replayed ThomsonN9.CandidateEnergy
+warning: ThomsonN9/CandidateEnergy.lean:61:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3160/3171] Replayed ThomsonN9.LocalStationarity
+warning: ThomsonN9/LocalStationarity.lean:71:55: This simp argument is unused:
+  mul_inv
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [a, b, c, d, e, f, mul_pow]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3164/3171] Replayed ThomsonN9.LocalPotential
+warning: ThomsonN9/LocalPotential.lean:102:8: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: ThomsonN9/LocalPotential.lean:102:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: ThomsonN9/LocalPotential.lean:115:8: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3166/3171] Replayed ThomsonN9.LocalEstimate
+warning: ThomsonN9/LocalEstimate.lean:66:58: This simp argument is unused:
+  one_div
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pairSecondVariation, div_eq_mul_inv, mul_inv]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ThomsonN9/LocalEstimate.lean:96:47: Variable name `hr` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hr
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3170/3181] Replayed ThomsonN9.BlockHessian
+warning: ThomsonN9/BlockHessian.lean:93:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+ℹ [3177/3181] Replayed ThomsonN9.Certificates.Interval
+info: ThomsonN9/Certificates/Interval.lean:177:0: 'ThomsonN9.Certificates.RatInterval.contains_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/Interval.lean:178:0: 'ThomsonN9.Certificates.RatInterval.contains_inv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/Interval.lean:179:0: 'ThomsonN9.Certificates.RatInterval.contains_sqrt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/Interval.lean:180:0: 'ThomsonN9.Certificates.RatInterval.contains_horner' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/Interval.lean:181:0: 'ThomsonN9.Certificates.RatInterval.sqrt_two_enclosure' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/Interval.lean:182:0: 'ThomsonN9.Certificates.RatInterval.rejected_sqrt_two_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/Interval.lean:183:0: 'ThomsonN9.Certificates.RatInterval.posDef_of_ldl_enclosures' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3292/3293] Replayed ThomsonN9.Certificates.DiagonalDominance
+info: ThomsonN9/Certificates/DiagonalDominance.lean:216:0: 'ThomsonN9.Certificates.RatInterval.abs_le_absBound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/DiagonalDominance.lean:217:0: 'ThomsonN9.Certificates.contains_matrix_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/DiagonalDominance.lean:218:0: 'ThomsonN9.Certificates.posDef_of_interval_strictDD' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/DiagonalDominance.lean:219:0: 'ThomsonN9.Certificates.posDef_of_unit_upper_interval_congruence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomsonN9/Certificates/DiagonalDominance.lean:220:0: 'ThomsonN9.Certificates.localCongruenceBounds_strictDD' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/DiagonalDominance.lean:221:0: 'ThomsonN9.Certificates.local_posDef_of_congruence_enclosures' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomsonN9/Certificates/DiagonalDominance.lean:222:0: 'ThomsonN9.Certificates.ambientCongruenceBounds_strictDD' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/DiagonalDominance.lean:223:0: 'ThomsonN9.Certificates.ambient_posDef_of_congruence_enclosures' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomsonN9/Certificates/DiagonalDominance.lean:224:0: 'ThomsonN9.Certificates.quadratic_lower_on_augmentation_kernel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomsonN9/Certificates/DiagonalDominance.lean:225:0: 'ThomsonN9.Certificates.quadratic_lower_with_orthogonal_augmentations' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomsonN9/Certificates/DiagonalDominance.lean:226:0: 'ThomsonN9.Certificates.normalColumns_annihilate_tangent' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/DiagonalDominance.lean:227:0: 'ThomsonN9.Certificates.normalColumns_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [3293/3293] Built ThomsonN9.LocalCoercivity (57s)
+Build completed successfully (3293 jobs).

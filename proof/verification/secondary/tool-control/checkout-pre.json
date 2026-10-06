@@ -1,0 +1,12 @@
+{
+ "lean4export_head": "076e8e57707e813375e8f9da8bf989799ace9680",
+ "lean4export_porcelain": [
+  " M lean-toolchain"
+ ],
+ "nanoda_head": "3a2407216ee84a75f9e1aead6803d0578be06ae7",
+ "nanoda_porcelain": [],
+ "cargo_lock_sha256": "9b921e794ce5ed515eb31db9ada0c2f34df999b6c9b5135ad308a412872e42be",
+ "lean4export_toolchain": "leanprover/lean4:v4.34.1",
+ "lean4export_diff_sha256": "16e572448c2809ce14f408d0a3e34a43f9f752082f911ee5c68c3310d62ae6e9",
+ "errors": []
+}

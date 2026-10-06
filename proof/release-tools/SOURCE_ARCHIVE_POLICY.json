@@ -1,0 +1,36 @@
+{
+  "schema": "thomson-n9-source-archive-plan-v1",
+  "status": "PLAN ONLY: no source freeze or archive creation",
+  "top_level": "thomson-n9",
+  "lean_source_authority": "files from the successful final clean snapshot FREEZE.json, checked against its post-build source inventory",
+  "required_final_theorems": [
+    "ThomsonN9.thomson_nine_complete",
+    "ThomsonN9.thomson_nine",
+    "ThomsonN9.thomson_nine_unique",
+    "ThomsonN9.optimalConfiguration_admissible",
+    "ThomsonN9.thomson_nine_fixed",
+    "ThomsonN9.thomson_nine_fixed_unique"
+  ],
+  "optional_theorem_only_after_pass": "ThomsonN9.thomson_nine_quantitative_stability",
+  "required_license_files": ["lean/vendor/DELSARTE_LICENSE", "lean/vendor/DELSARTE_PROVENANCE.md"],
+  "certificate_metadata": "SOURCE_ARCHIVE_CERTIFICATES.json",
+  "exact_checker_entry_points": ["verify_global.py", "ambient_circuit/check.py", "ambient_circuit/check_recipes.py"],
+  "exact_checker_source_closure": [
+    "certificates/check_local.py", "certificates/check_lp.py", "certificates/polynomial.py",
+    "certificates/check_sos_integer.py", "certificates/check_ambient_dd.py", "certificates/check_local_dd.py",
+    "near_sharp/check_hermite.py", "near_sharp/check_bernstein.py", "near_sharp/check_refined_windows.py",
+    "near_sharp/exact_interval.py", "rigidity/check_exact_gram.py", "rigidity/check_window_gram.py",
+    "rigidity/check_antipodal_window.py", "ambient_circuit/check.py", "ambient_circuit/check_recipes.py"
+  ],
+  "generator_source_policy": "Explicit .py allowlist plus its documented immutable JSON input closure; no abandoned floating iterates; validate commands in extraction smoke test",
+  "forbidden_path_components": [".lake", ".git", ".venv", "venv", "__pycache__", "node_modules", "combined", "out", "toolchains", "work"],
+  "forbidden_file_patterns": ["*.olean", "*.olean.*", "*.ilean", "*.trace", "*.ir", "*.o", "*.obj", "*.a", "*.lib", "*.dll", "*.so", "*.dylib", "*.exe", "*.pyc"],
+  "reject_symlinks_and_junctions": true,
+  "reject_absolute_or_traversal_names": true,
+  "reject_case_insensitive_duplicates": true,
+  "include_dependency_sources_or_binaries": false,
+  "include_unpromoted_draft_proofs": false,
+  "archive_manifest_fields": ["path", "bytes", "sha256", "role", "provenance", "license_reference", "clean_module_if_lean", "frozen_sha256_if_lean"],
+  "evidence_rule": "Fresh successful clean-run reports only in evidence/clean; historical reports separately labeled; no proof objects",
+  "post_archive_checks": ["fresh-directory extraction", "exact member/hash equality", "exclusion scan", "source shortcut scan", "source/build inventory", "exact checker smoke commands"]
+}

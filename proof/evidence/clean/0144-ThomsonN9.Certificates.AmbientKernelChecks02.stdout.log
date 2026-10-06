@@ -1,0 +1,53 @@
+ℹ [3102/3106] Replayed ThomsonN9.Certificates.Interval
+info: ThomsonN9/Certificates/Interval.lean:177:0: 'ThomsonN9.Certificates.RatInterval.contains_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/Interval.lean:178:0: 'ThomsonN9.Certificates.RatInterval.contains_inv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/Interval.lean:179:0: 'ThomsonN9.Certificates.RatInterval.contains_sqrt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/Interval.lean:180:0: 'ThomsonN9.Certificates.RatInterval.contains_horner' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/Interval.lean:181:0: 'ThomsonN9.Certificates.RatInterval.sqrt_two_enclosure' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/Interval.lean:182:0: 'ThomsonN9.Certificates.RatInterval.rejected_sqrt_two_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/Interval.lean:183:0: 'ThomsonN9.Certificates.RatInterval.posDef_of_ldl_enclosures' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3103/3106] Replayed ThomsonN9.Certificates.ScaledInterval
+info: ThomsonN9/Certificates/ScaledInterval.lean:172:0: 'ThomsonN9.Certificates.ScaledInterval.contains_rational' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/ScaledInterval.lean:173:0: 'ThomsonN9.Certificates.ScaledInterval.const_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/ScaledInterval.lean:174:0: 'ThomsonN9.Certificates.ScaledInterval.mul_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/ScaledInterval.lean:175:0: 'ThomsonN9.Certificates.ScaledInterval.inv_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/ScaledInterval.lean:176:0: 'ThomsonN9.Certificates.ScaledInterval.sqrt_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3104/3106] Replayed ThomsonN9.Certificates.IntervalCircuit
+warning: ThomsonN9/Certificates/IntervalCircuit.lean:117:13: `if_pos` has been deprecated: Use `ite_eq_left` instead
+info: ThomsonN9/Certificates/IntervalCircuit.lean:136:0: 'ThomsonN9.Certificates.IntervalCircuit.Op.check_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/IntervalCircuit.lean:137:0: 'ThomsonN9.Certificates.IntervalCircuit.value_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/IntervalCircuit.lean:138:0: 'ThomsonN9.Certificates.IntervalCircuit.checks_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3106/3106] Built ThomsonN9.Certificates.AmbientKernelChecks02 (161s)
+info: ThomsonN9/Certificates/AmbientKernelChecks02.lean:9:0: 'ThomsonN9.Certificates.AmbientKernel.checkChunk64_pass' does not depend on any axioms
+info: ThomsonN9/Certificates/AmbientKernelChecks02.lean:13:0: 'ThomsonN9.Certificates.AmbientKernel.checkChunk65_pass' does not depend on any axioms
+info: ThomsonN9/Certificates/AmbientKernelChecks02.lean:17:0: 'ThomsonN9.Certificates.AmbientKernel.checkChunk66_pass' does not depend on any axioms
+info: ThomsonN9/Certificates/AmbientKernelChecks02.lean:21:0: 'ThomsonN9.Certificates.AmbientKernel.checkChunk67_pass' does not depend on any axioms
+info: ThomsonN9/Certificates/AmbientKernelChecks02.lean:25:0: 'ThomsonN9.Certificates.AmbientKernel.checkChunk68_pass' does not depend on any axioms
+info: ThomsonN9/Certificates/AmbientKernelChecks02.lean:29:0: 'ThomsonN9.Certificates.AmbientKernel.checkChunk69_pass' does not depend on any axioms
+info: ThomsonN9/Certificates/AmbientKernelChecks02.lean:33:0: 'ThomsonN9.Certificates.AmbientKernel.checkChunk70_pass' does not depend on any axioms
+info: ThomsonN9/Certificates/AmbientKernelChecks02.lean:37:0: 'ThomsonN9.Certificates.AmbientKernel.checkChunk71_pass' does not depend on any axioms
+info: ThomsonN9/Certificates/AmbientKernelChecks02.lean:41:0: 'ThomsonN9.Certificates.AmbientKernel.checkChunk72_pass' does not depend on any axioms
+info: ThomsonN9/Certificates/AmbientKernelChecks02.lean:45:0: 'ThomsonN9.Certificates.AmbientKernel.checkChunk73_pass' does not depend on any axioms
+info: ThomsonN9/Certificates/AmbientKernelChecks02.lean:49:0: 'ThomsonN9.Certificates.AmbientKernel.checkChunk74_pass' does not depend on any axioms
+info: ThomsonN9/Certificates/AmbientKernelChecks02.lean:53:0: 'ThomsonN9.Certificates.AmbientKernel.checkChunk75_pass' does not depend on any axioms
+info: ThomsonN9/Certificates/AmbientKernelChecks02.lean:57:0: 'ThomsonN9.Certificates.AmbientKernel.checkChunk76_pass' does not depend on any axioms
+info: ThomsonN9/Certificates/AmbientKernelChecks02.lean:61:0: 'ThomsonN9.Certificates.AmbientKernel.checkChunk77_pass' does not depend on any axioms
+info: ThomsonN9/Certificates/AmbientKernelChecks02.lean:65:0: 'ThomsonN9.Certificates.AmbientKernel.checkChunk78_pass' does not depend on any axioms
+info: ThomsonN9/Certificates/AmbientKernelChecks02.lean:69:0: 'ThomsonN9.Certificates.AmbientKernel.checkChunk79_pass' does not depend on any axioms
+info: ThomsonN9/Certificates/AmbientKernelChecks02.lean:73:0: 'ThomsonN9.Certificates.AmbientKernel.checkChunk80_pass' does not depend on any axioms
+info: ThomsonN9/Certificates/AmbientKernelChecks02.lean:77:0: 'ThomsonN9.Certificates.AmbientKernel.checkChunk81_pass' does not depend on any axioms
+info: ThomsonN9/Certificates/AmbientKernelChecks02.lean:81:0: 'ThomsonN9.Certificates.AmbientKernel.checkChunk82_pass' does not depend on any axioms
+info: ThomsonN9/Certificates/AmbientKernelChecks02.lean:85:0: 'ThomsonN9.Certificates.AmbientKernel.checkChunk83_pass' does not depend on any axioms
+info: ThomsonN9/Certificates/AmbientKernelChecks02.lean:89:0: 'ThomsonN9.Certificates.AmbientKernel.checkChunk84_pass' does not depend on any axioms
+info: ThomsonN9/Certificates/AmbientKernelChecks02.lean:93:0: 'ThomsonN9.Certificates.AmbientKernel.checkChunk85_pass' does not depend on any axioms
+info: ThomsonN9/Certificates/AmbientKernelChecks02.lean:97:0: 'ThomsonN9.Certificates.AmbientKernel.checkChunk86_pass' does not depend on any axioms
+info: ThomsonN9/Certificates/AmbientKernelChecks02.lean:101:0: 'ThomsonN9.Certificates.AmbientKernel.checkChunk87_pass' does not depend on any axioms
+info: ThomsonN9/Certificates/AmbientKernelChecks02.lean:105:0: 'ThomsonN9.Certificates.AmbientKernel.checkChunk88_pass' does not depend on any axioms
+info: ThomsonN9/Certificates/AmbientKernelChecks02.lean:109:0: 'ThomsonN9.Certificates.AmbientKernel.checkChunk89_pass' does not depend on any axioms
+info: ThomsonN9/Certificates/AmbientKernelChecks02.lean:113:0: 'ThomsonN9.Certificates.AmbientKernel.checkChunk90_pass' does not depend on any axioms
+info: ThomsonN9/Certificates/AmbientKernelChecks02.lean:117:0: 'ThomsonN9.Certificates.AmbientKernel.checkChunk91_pass' does not depend on any axioms
+info: ThomsonN9/Certificates/AmbientKernelChecks02.lean:121:0: 'ThomsonN9.Certificates.AmbientKernel.checkChunk92_pass' does not depend on any axioms
+info: ThomsonN9/Certificates/AmbientKernelChecks02.lean:125:0: 'ThomsonN9.Certificates.AmbientKernel.checkChunk93_pass' does not depend on any axioms
+info: ThomsonN9/Certificates/AmbientKernelChecks02.lean:129:0: 'ThomsonN9.Certificates.AmbientKernel.checkChunk94_pass' does not depend on any axioms
+info: ThomsonN9/Certificates/AmbientKernelChecks02.lean:133:0: 'ThomsonN9.Certificates.AmbientKernel.checkChunk95_pass' does not depend on any axioms
+Build completed successfully (3106 jobs).

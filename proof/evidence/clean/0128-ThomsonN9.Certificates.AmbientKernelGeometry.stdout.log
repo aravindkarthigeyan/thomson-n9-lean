@@ -1,0 +1,162 @@
+ℹ [3101/3107] Replayed ThomsonN9.Certificates.Interval
+info: ThomsonN9/Certificates/Interval.lean:177:0: 'ThomsonN9.Certificates.RatInterval.contains_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/Interval.lean:178:0: 'ThomsonN9.Certificates.RatInterval.contains_inv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/Interval.lean:179:0: 'ThomsonN9.Certificates.RatInterval.contains_sqrt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/Interval.lean:180:0: 'ThomsonN9.Certificates.RatInterval.contains_horner' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/Interval.lean:181:0: 'ThomsonN9.Certificates.RatInterval.sqrt_two_enclosure' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/Interval.lean:182:0: 'ThomsonN9.Certificates.RatInterval.rejected_sqrt_two_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/Interval.lean:183:0: 'ThomsonN9.Certificates.RatInterval.posDef_of_ldl_enclosures' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3102/3107] Replayed ThomsonN9.Certificates.ScaledInterval
+info: ThomsonN9/Certificates/ScaledInterval.lean:172:0: 'ThomsonN9.Certificates.ScaledInterval.contains_rational' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/ScaledInterval.lean:173:0: 'ThomsonN9.Certificates.ScaledInterval.const_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/ScaledInterval.lean:174:0: 'ThomsonN9.Certificates.ScaledInterval.mul_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/ScaledInterval.lean:175:0: 'ThomsonN9.Certificates.ScaledInterval.inv_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/ScaledInterval.lean:176:0: 'ThomsonN9.Certificates.ScaledInterval.sqrt_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3103/3107] Replayed ThomsonN9.Certificates.IntervalCircuit
+warning: ThomsonN9/Certificates/IntervalCircuit.lean:117:13: `if_pos` has been deprecated: Use `ite_eq_left` instead
+info: ThomsonN9/Certificates/IntervalCircuit.lean:136:0: 'ThomsonN9.Certificates.IntervalCircuit.Op.check_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/IntervalCircuit.lean:137:0: 'ThomsonN9.Certificates.IntervalCircuit.value_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/IntervalCircuit.lean:138:0: 'ThomsonN9.Certificates.IntervalCircuit.checks_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3104/3107] Replayed ThomsonN9.Certificates.CircuitAlgebra
+warning: ThomsonN9/Certificates/CircuitAlgebra.lean:24:22: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: ThomsonN9/Certificates/CircuitAlgebra.lean:24:33: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: ThomsonN9/Certificates/CircuitAlgebra.lean:30:22: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: ThomsonN9/Certificates/CircuitAlgebra.lean:36:22: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: ThomsonN9/Certificates/CircuitAlgebra.lean:42:22: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: ThomsonN9/Certificates/CircuitAlgebra.lean:42:33: `if_pos` has been deprecated: Use `ite_eq_left` instead
+info: ThomsonN9/Certificates/CircuitAlgebra.lean:123:0: 'ThomsonN9.Certificates.IntervalCircuit.smartAdd_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/CircuitAlgebra.lean:124:0: 'ThomsonN9.Certificates.IntervalCircuit.smartMul_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/CircuitAlgebra.lean:125:0: 'ThomsonN9.Certificates.IntervalCircuit.DotRecipe.sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3106/3164] Replayed ThomsonN9.Certificates.CircuitConstants
+info: ThomsonN9/Certificates/CircuitConstants.lean:140:0: 'ThomsonN9.Certificates.IntervalCircuit.constantAdd_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/CircuitConstants.lean:141:0: 'ThomsonN9.Certificates.IntervalCircuit.constantMul_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/CircuitConstants.lean:142:0: 'ThomsonN9.Certificates.IntervalCircuit.DotRecipe.extended_sound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+⚠ [3175/3190] Replayed ThomsonN9.CandidateEnergy
+warning: ThomsonN9/CandidateEnergy.lean:61:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3176/3190] Replayed ThomsonN9.LocalStationarity
+warning: ThomsonN9/LocalStationarity.lean:71:55: This simp argument is unused:
+  mul_inv
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [a, b, c, d, e, f, mul_pow]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3180/3190] Replayed ThomsonN9.LocalPotential
+warning: ThomsonN9/LocalPotential.lean:102:8: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: ThomsonN9/LocalPotential.lean:102:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: ThomsonN9/LocalPotential.lean:115:8: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3182/3190] Replayed ThomsonN9.LocalEstimate
+warning: ThomsonN9/LocalEstimate.lean:66:58: This simp argument is unused:
+  one_div
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pairSecondVariation, div_eq_mul_inv, mul_inv]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ThomsonN9/LocalEstimate.lean:96:47: Variable name `hr` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hr
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3183/3190] Replayed ThomsonN9.BlockHessian
+warning: ThomsonN9/BlockHessian.lean:93:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3184/3190] Replayed ThomsonN9.HessianSymmetry
+warning: ThomsonN9/HessianSymmetry.lean:28:15: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: ThomsonN9/HessianSymmetry.lean:28:25: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: ThomsonN9/HessianSymmetry.lean:43:15: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: ThomsonN9/HessianSymmetry.lean:43:25: `if_neg` has been deprecated: Use `ite_eq_right` instead
+⚠ [3185/3190] Replayed ThomsonN9.Certificates.CircuitPairBlock
+warning: ThomsonN9/Certificates/CircuitPairBlock.lean:14:22: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: ThomsonN9/Certificates/CircuitPairBlock.lean:153:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: ThomsonN9/Certificates/CircuitPairBlock.lean:154:55: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: ThomsonN9/Certificates/CircuitPairBlock.lean:155:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: ThomsonN9/Certificates/CircuitPairBlock.lean:156:56: `if_neg` has been deprecated: Use `ite_eq_right` instead
+info: ThomsonN9/Certificates/CircuitPairBlock.lean:167:0: 'ThomsonN9.Certificates.IntervalCircuit.DistanceRecipe.root_sound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomsonN9/Certificates/CircuitPairBlock.lean:168:0: 'ThomsonN9.Certificates.IntervalCircuit.PairBlockRecipe.sound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3186/3190] Replayed ThomsonN9.Certificates.CircuitCoordinates
+info: ThomsonN9/Certificates/CircuitCoordinates.lean:96:0: 'ThomsonN9.Certificates.IntervalCircuit.coordinate_recipe_sound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3187/3190] Replayed ThomsonN9.Certificates.CircuitDifferences
+info: ThomsonN9/Certificates/CircuitDifferences.lean:82:0: 'ThomsonN9.Certificates.IntervalCircuit.extendedSmartNeg_sound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomsonN9/Certificates/CircuitDifferences.lean:83:0: 'ThomsonN9.Certificates.IntervalCircuit.DifferenceRecipe.candidate_sound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3188/3190] Replayed ThomsonN9.Certificates.CircuitRadial
+info: ThomsonN9/Certificates/CircuitRadial.lean:34:0: 'ThomsonN9.Certificates.IntervalCircuit.HalfInverseRecipe.sound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3189/3190] Replayed ThomsonN9.Certificates.CircuitMatrices
+info: ThomsonN9/Certificates/CircuitMatrices.lean:74:0: 'ThomsonN9.Certificates.IntervalCircuit.DotRecipe.checkBool_sound' depends on axioms: [propext, Quot.sound]
+info: ThomsonN9/Certificates/CircuitMatrices.lean:75:0: 'ThomsonN9.Certificates.IntervalCircuit.outputWithin_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/CircuitMatrices.lean:76:0: 'ThomsonN9.Certificates.IntervalCircuit.matrix_product_recipe_sound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3190/3190] Built ThomsonN9.Certificates.AmbientKernelGeometry (31s)
+info: ThomsonN9/Certificates/AmbientKernelGeometry.lean:30:0: 'ThomsonN9.Certificates.AmbientKernel.pairBlock_1_0_check' depends on axioms: [propext]
+info: ThomsonN9/Certificates/AmbientKernelGeometry.lean:68:0: 'ThomsonN9.Certificates.AmbientKernel.pairBlock_2_0_check' depends on axioms: [propext]
+info: ThomsonN9/Certificates/AmbientKernelGeometry.lean:106:0: 'ThomsonN9.Certificates.AmbientKernel.pairBlock_2_1_check' depends on axioms: [propext]
+info: ThomsonN9/Certificates/AmbientKernelGeometry.lean:144:0: 'ThomsonN9.Certificates.AmbientKernel.pairBlock_3_0_check' depends on axioms: [propext]
+info: ThomsonN9/Certificates/AmbientKernelGeometry.lean:182:0: 'ThomsonN9.Certificates.AmbientKernel.pairBlock_3_1_check' depends on axioms: [propext]
+info: ThomsonN9/Certificates/AmbientKernelGeometry.lean:220:0: 'ThomsonN9.Certificates.AmbientKernel.pairBlock_3_2_check' depends on axioms: [propext]
+info: ThomsonN9/Certificates/AmbientKernelGeometry.lean:258:0: 'ThomsonN9.Certificates.AmbientKernel.pairBlock_4_0_check' depends on axioms: [propext]
+info: ThomsonN9/Certificates/AmbientKernelGeometry.lean:296:0: 'ThomsonN9.Certificates.AmbientKernel.pairBlock_4_1_check' depends on axioms: [propext]
+info: ThomsonN9/Certificates/AmbientKernelGeometry.lean:334:0: 'ThomsonN9.Certificates.AmbientKernel.pairBlock_4_2_check' depends on axioms: [propext]
+info: ThomsonN9/Certificates/AmbientKernelGeometry.lean:372:0: 'ThomsonN9.Certificates.AmbientKernel.pairBlock_4_3_check' depends on axioms: [propext]
+info: ThomsonN9/Certificates/AmbientKernelGeometry.lean:410:0: 'ThomsonN9.Certificates.AmbientKernel.pairBlock_5_0_check' depends on axioms: [propext]
+info: ThomsonN9/Certificates/AmbientKernelGeometry.lean:448:0: 'ThomsonN9.Certificates.AmbientKernel.pairBlock_5_1_check' depends on axioms: [propext]
+info: ThomsonN9/Certificates/AmbientKernelGeometry.lean:486:0: 'ThomsonN9.Certificates.AmbientKernel.pairBlock_5_2_check' depends on axioms: [propext]
+info: ThomsonN9/Certificates/AmbientKernelGeometry.lean:524:0: 'ThomsonN9.Certificates.AmbientKernel.pairBlock_5_3_check' depends on axioms: [propext]
+info: ThomsonN9/Certificates/AmbientKernelGeometry.lean:562:0: 'ThomsonN9.Certificates.AmbientKernel.pairBlock_5_4_check' depends on axioms: [propext]
+info: ThomsonN9/Certificates/AmbientKernelGeometry.lean:600:0: 'ThomsonN9.Certificates.AmbientKernel.pairBlock_6_0_check' depends on axioms: [propext]
+info: ThomsonN9/Certificates/AmbientKernelGeometry.lean:638:0: 'ThomsonN9.Certificates.AmbientKernel.pairBlock_6_1_check' depends on axioms: [propext]
+info: ThomsonN9/Certificates/AmbientKernelGeometry.lean:676:0: 'ThomsonN9.Certificates.AmbientKernel.pairBlock_6_2_check' depends on axioms: [propext]
+info: ThomsonN9/Certificates/AmbientKernelGeometry.lean:714:0: 'ThomsonN9.Certificates.AmbientKernel.pairBlock_6_3_check' depends on axioms: [propext]
+info: ThomsonN9/Certificates/AmbientKernelGeometry.lean:752:0: 'ThomsonN9.Certificates.AmbientKernel.pairBlock_6_4_check' depends on axioms: [propext]
+info: ThomsonN9/Certificates/AmbientKernelGeometry.lean:790:0: 'ThomsonN9.Certificates.AmbientKernel.pairBlock_6_5_check' depends on axioms: [propext]
+info: ThomsonN9/Certificates/AmbientKernelGeometry.lean:828:0: 'ThomsonN9.Certificates.AmbientKernel.pairBlock_7_0_check' depends on axioms: [propext]
+info: ThomsonN9/Certificates/AmbientKernelGeometry.lean:866:0: 'ThomsonN9.Certificates.AmbientKernel.pairBlock_7_1_check' depends on axioms: [propext]
+info: ThomsonN9/Certificates/AmbientKernelGeometry.lean:904:0: 'ThomsonN9.Certificates.AmbientKernel.pairBlock_7_2_check' depends on axioms: [propext]
+info: ThomsonN9/Certificates/AmbientKernelGeometry.lean:942:0: 'ThomsonN9.Certificates.AmbientKernel.pairBlock_7_3_check' depends on axioms: [propext]
+info: ThomsonN9/Certificates/AmbientKernelGeometry.lean:980:0: 'ThomsonN9.Certificates.AmbientKernel.pairBlock_7_4_check' depends on axioms: [propext]
+info: ThomsonN9/Certificates/AmbientKernelGeometry.lean:1018:0: 'ThomsonN9.Certificates.AmbientKernel.pairBlock_7_5_check' depends on axioms: [propext]
+info: ThomsonN9/Certificates/AmbientKernelGeometry.lean:1056:0: 'ThomsonN9.Certificates.AmbientKernel.pairBlock_7_6_check' depends on axioms: [propext]
+info: ThomsonN9/Certificates/AmbientKernelGeometry.lean:1094:0: 'ThomsonN9.Certificates.AmbientKernel.pairBlock_8_0_check' depends on axioms: [propext]
+info: ThomsonN9/Certificates/AmbientKernelGeometry.lean:1132:0: 'ThomsonN9.Certificates.AmbientKernel.pairBlock_8_1_check' depends on axioms: [propext]
+info: ThomsonN9/Certificates/AmbientKernelGeometry.lean:1170:0: 'ThomsonN9.Certificates.AmbientKernel.pairBlock_8_2_check' depends on axioms: [propext]
+info: ThomsonN9/Certificates/AmbientKernelGeometry.lean:1208:0: 'ThomsonN9.Certificates.AmbientKernel.pairBlock_8_3_check' depends on axioms: [propext]
+info: ThomsonN9/Certificates/AmbientKernelGeometry.lean:1246:0: 'ThomsonN9.Certificates.AmbientKernel.pairBlock_8_4_check' depends on axioms: [propext]
+info: ThomsonN9/Certificates/AmbientKernelGeometry.lean:1284:0: 'ThomsonN9.Certificates.AmbientKernel.pairBlock_8_5_check' depends on axioms: [propext]
+info: ThomsonN9/Certificates/AmbientKernelGeometry.lean:1322:0: 'ThomsonN9.Certificates.AmbientKernel.pairBlock_8_6_check' depends on axioms: [propext]
+info: ThomsonN9/Certificates/AmbientKernelGeometry.lean:1360:0: 'ThomsonN9.Certificates.AmbientKernel.pairBlock_8_7_check' depends on axioms: [propext]
+info: ThomsonN9/Certificates/AmbientKernelGeometry.lean:1422:0: 'ThomsonN9.Certificates.AmbientKernel.pair_recipes_checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/AmbientKernelGeometry.lean:1423:0: 'ThomsonN9.Certificates.AmbientKernel.pair_blocks_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/AmbientKernelGeometry.lean:1486:0: 'ThomsonN9.Certificates.AmbientKernel.pair_blocks_candidate_sound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomsonN9/Certificates/AmbientKernelGeometry.lean:1557:0: 'ThomsonN9.Certificates.AmbientKernel.unordered_pair_block_sound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomsonN9/Certificates/AmbientKernelGeometry.lean:1558:0: 'ThomsonN9.Certificates.AmbientKernel.unordered_half_inverse_sound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Build completed successfully (3190 jobs).

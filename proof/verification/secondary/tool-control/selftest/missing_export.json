@@ -1,0 +1,19 @@
+{
+  "export_file_path": "C:/Users/REDACTED/Documents/Codex/2026-10-05/analyze-what-s-u/work/n9-independent-verification/tools/second_kernel/build/runs/20261005-224433/selftest/does-not-exist.ndjson",
+  "use_stdin": false,
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "unpermitted_axiom_hard_error": true,
+  "nat_extension": true,
+  "string_extension": true,
+  "pp_declars": [
+    "Nat.add_succ"
+  ],
+  "pp_to_stdout": true,
+  "unknown_pp_declar_hard_error": true,
+  "print_axioms": true,
+  "print_success_message": true
+}

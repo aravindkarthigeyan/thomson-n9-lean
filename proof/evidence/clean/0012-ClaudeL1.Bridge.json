@@ -1,0 +1,54 @@
+{
+  "name": "ClaudeL1.Bridge",
+  "executable": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\toolchains\\lean-4.34.1-windows\\bin\\lake.exe",
+  "arguments": [
+    "build",
+    "+ClaudeL1.Bridge"
+  ],
+  "exitCode": 0,
+  "expectation": "pass",
+  "passed": true,
+  "seconds": 12.0759434,
+  "sampledPeakPrivateBytes": 3376570368,
+  "sampledPeakWorkingBytes": 1564573696,
+  "sampledLargestOwnedPrivateBytes": 2347012096,
+  "resourcePolicy": {
+    "classification": "exact-source-profile",
+    "gateGiB": 8.5,
+    "physicalFloorGiB": 6.5,
+    "reason": "Exact module/source SHA; reduced gates require direct <=5 GiB/tree <=6 GiB, or Assembly direct <=6 GiB; metric-specific growth check after exit",
+    "module": "ClaudeL1.Bridge",
+    "sourceSha256": "84bed87eec85cb63d7bd821d45f701b3fc7d875312c77fa7ffb3ba2be4ef2648",
+    "helperSha256": null,
+    "baselines": [
+      {
+        "metric": "sampled-owned-tree-commit",
+        "peakBytes": 3490242560
+      }
+    ]
+  },
+  "resourceOutcome": "WITHIN_SAMPLED_PROFILE_OR_UNPROFILED",
+  "profileGrowthViolations": [],
+  "ownedProcessIdentities": [
+    {
+      "pid": 25040,
+      "creationUtcTicks": "639268517545117740"
+    },
+    {
+      "pid": 67128,
+      "creationUtcTicks": "639268517545259040"
+    },
+    {
+      "pid": 6388,
+      "creationUtcTicks": "639268517577570700"
+    }
+  ],
+  "stdout": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\fresh-evidence\\20261006T024511Z\\0012-ClaudeL1.Bridge.stdout.log",
+  "stderr": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\fresh-evidence\\20261006T024511Z\\0012-ClaudeL1.Bridge.stderr.log",
+  "stdoutSha256": "2234764e5035c5d0ebdb117aea053e0d82fcf73b126f6868b0f040f02b0ba7df",
+  "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "effectiveEnvironment": {
+    "LEAN_NUM_THREADS": "1"
+  },
+  "compilerThreadControl": "explicit -j1 for direct Lean; package moreLeanArgs=-j1 for Lake builds"
+}

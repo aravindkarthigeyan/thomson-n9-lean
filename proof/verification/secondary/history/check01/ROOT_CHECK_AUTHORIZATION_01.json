@@ -1,0 +1,34 @@
+{
+  "schema": "n9-second-kernel-process-authorization-v1",
+  "root_authorized": true,
+  "user_continuation_authorized": true,
+  "exclusive_slot_released": true,
+  "continuation_evidence": "[Private continuation message redacted]",
+  "latest_continuation_evidence": "[Private continuation message redacted]",
+  "claude_stop_handoff": "2026-10-05 21:39 EDT",
+  "stage": "check",
+  "purpose": "Independently type-check the complete exported N9 theorem closure with pinned nanoda. Preserve failed artifacts; no automatic resource escalation. The candidate archive process has completed and released its slot.",
+  "plan": {
+    "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\check-plan-v4-20261006-01.json",
+    "bytes": 143461,
+    "sha256": "7d1b286b4bf325a1d9b35c0ff2afb5a773647c3688a9ca2f51248aa24e2db9e3"
+  },
+  "environment_sha256": "9e3821ab44894bc3345178dcf8f361cc0a4cada7f58b0ca80f7d8d5784dace26",
+  "argv": [
+    "C:\\Program Files\\Git\\usr\\bin\\bash.exe",
+    "--noprofile",
+    "--norc",
+    "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\run_second_kernel.sh",
+    "--preset",
+    "final"
+  ],
+  "limits": {
+    "launch_commit": 12616466432,
+    "launch_physical": 6979321856,
+    "reserve_commit": 2147483648,
+    "private_tree_cap": 8589934592,
+    "wall_seconds": 1200
+  },
+  "issued_utc": "2026-10-06T13:54:00+00:00",
+  "expires_utc": "2026-10-06T14:19:00+00:00"
+}

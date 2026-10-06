@@ -1,0 +1,20 @@
+{
+  "mode": "codex-clean",
+  "snapshot": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4",
+  "run_dir": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\fresh-evidence\\20261006T024511Z",
+  "build_dir": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean",
+  "freeze_sha256": "22bb7406fef5a4379c856c8dbca26c8f964685e2bd036f24bdb45e0f5af3d10e",
+  "result_sha256": "1e10416d6f0e6abfd4c60dc12acf3fc8ba1d97c73c12d3078bcbe7076b25214f",
+  "evidence_sha256": "4e58270d8b6e2e7c1c71640518e5f20ce0d24fc0ffe39943582e80c10dad3d6d",
+  "evidence_files": 632,
+  "frozen_files": 222,
+  "clean_targets": 181,
+  "local_objects_sha256": "72fb2993cf28d5c00a71ffe8b21b6743e43a3241054620e3564f1581b2c1b309",
+  "external_objects_sha256": "4af1f70cbdd2fbd56cf33b9b53dbd24ad1ad26dd821c253efd883c8bf1b721f3",
+  "statement_pins_sha256": "aa72e0868c8b8a675306d594e2ca80d6eaf34c148c2438010afa867ea178143c",
+  "modules": [
+    "Solution"
+  ],
+  "pkg_cache": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\prior\\thomson-n7-lean\\formal\\lean\\.lake\\packages",
+  "final_pins_sha256": "cddbfe242244383c592bcf187994ca3550e0c5c6749c53439c13b38ed3f6844a"
+}

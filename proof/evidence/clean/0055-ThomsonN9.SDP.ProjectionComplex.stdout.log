@@ -1,0 +1,11 @@
+⚠ [3163/3163] Built ThomsonN9.SDP.ProjectionComplex (12s)
+warning: ThomsonN9/SDP/ProjectionComplex.lean:30:4: Try `simp at ha` instead of `simpa using ha`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+info: ThomsonN9/SDP/ProjectionComplex.lean:96:0: 'ThomsonN9.SDP.anchorComplex_mul_star_re' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/SDP/ProjectionComplex.lean:97:0: 'ThomsonN9.SDP.anchorComplex_normSq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/SDP/ProjectionComplex.lean:98:0: 'ThomsonN9.SDP.anchorComplex_mul_star_normSq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/SDP/ProjectionComplex.lean:99:0: 'ThomsonN9.SDP.exists_anchorComplex' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/SDP/ProjectionComplex.lean:100:0: 'ThomsonN9.SDP.spherical_threePointKernel_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/SDP/ProjectionComplex.lean:101:0: 'ThomsonN9.SDP.anchored_spherical_kernel_sum_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3163 jobs).

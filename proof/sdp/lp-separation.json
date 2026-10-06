@@ -1,0 +1,42 @@
+{
+  "status": "UNVERIFIED RATIONAL CANDIDATE; exact checker must discharge minorant",
+  "source": "lambda_d6_full.json",
+  "source_sha256": "f2161ddb0c2e5b08dba6385da3aabe9a8d25a8e77b1fd37e6dd82a8bd84c5ec3",
+  "N": 9,
+  "potential": "1/sqrt(2-2t)",
+  "legendre_normalization": "P_k(1)=1; dimension 3 ordinary Legendre polynomials",
+  "coefficients_legendre": [
+    "161484410321/200000000000",
+    "116052895813/250000000000",
+    "6404422103/31250000000",
+    "8242861449/125000000000",
+    "0",
+    "0",
+    "0",
+    "3167096277/500000000000",
+    "0",
+    "0",
+    "0",
+    "0",
+    "486771579/1000000000000",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "pair_domain": [
+    "-1",
+    "1"
+  ],
+  "right_endpoint_is_excluded_for_potential": true,
+  "exact_LP_bound": "51457135199103/2000000000000",
+  "exact_LP_bound_decimal": 25.7285675995515,
+  "candidate_energy_upper": "6439996633/250000000",
+  "rounding_margin_in_constant": "1/1000000",
+  "PSD_kernels_and_lambda_discarded": true,
+  "separation_proposal": {
+    "upper_inner_product": "567/1000",
+    "required_strict_gap": "62837864897/2000000000000",
+    "required_exact_check": "p(t)+gap < 1/sqrt(2-2t) for 567/1000 <= t < 1"
+  }
+}

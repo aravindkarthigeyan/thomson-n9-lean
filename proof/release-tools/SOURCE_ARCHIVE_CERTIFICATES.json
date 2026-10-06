@@ -1,0 +1,115 @@
+{
+  "schema": "thomson-n9-archive-certificate-planning-inventory-v1",
+  "status": "PLANNING INVENTORY ONLY: no immutable release freeze or ZIP created",
+  "hash_algorithm": "SHA-256",
+  "files": [
+    {
+      "path": "rigidity/exact_gram.json",
+      "bytes": 36728,
+      "sha256": "efd47aef52c66ef4e48ea0179cbe3834f73c3dd811b9f6d52a0affd0b8362350",
+      "role": "exact Gram classification and optional mutation-test input"
+    },
+    {
+      "path": "near_sharp/near-sharp-d10.check.json",
+      "bytes": 50538,
+      "sha256": "70d6eb2918bc39229fd01ffaa8e410841e400497d0d02d919837ddcd7f7cb4c3",
+      "role": "full-precision certificate audit input; historical report, not clean Lean evidence"
+    },
+    {
+      "path": "formal_support/l1/data/generated_sha256.json",
+      "bytes": 3882,
+      "sha256": "daffda4a4136f5e2c282824483eaab86b8655ddf7a5de2c6ffe947107063772c",
+      "role": "contributor generator frozen-output comparison manifest"
+    },
+    {
+      "path": "certificates/local.json",
+      "bytes": 459,
+      "sha256": "164be4c35511036a908d4e08281aaccf687b67f4c73f0b7ed95604769d841e54",
+      "role": "root/local interval data"
+    },
+    {
+      "path": "certificates/ambient-dd-k0.json",
+      "bytes": 58451,
+      "sha256": "ebe7f302de10f503adce62b92eb9f46cb3090c26684629629eff2dfa3bc957e3",
+      "role": "ambient congruence generator/checker input"
+    },
+    {
+      "path": "sdp/lp-separation.json",
+      "bytes": 1233,
+      "sha256": "7acc028acb43eb4fb73ddd86ea10782d8dc2c0e19107c7f64887b80400045aa8",
+      "role": "covariance LP checker input"
+    },
+    {
+      "path": "sdp/lp-separation-05593.json",
+      "bytes": 1005,
+      "sha256": "a2cf2d74810490451e3fe2307fcc1277a2c3056604a823375ac350f3d6d11d64",
+      "role": "final separation LP input"
+    },
+    {
+      "path": "rigidity/window_gram.json",
+      "bytes": 28102,
+      "sha256": "3fcd040eb0b6c538bcdd758a92a343c8801dfbb157019580f30b066ac483fc2a",
+      "role": "finite Gram-window filter certificate"
+    },
+    {
+      "path": "near_sharp/reduced/near-sharp-d10-reduced-D60.json",
+      "bytes": 10747196,
+      "sha256": "9816ae66f3b68caf4a03d6c6f7c514124c8cd8ba4415497a79443ce64f158781",
+      "role": "final reduced SOS certificate"
+    },
+    {
+      "path": "near_sharp/reduced/bernstein-reduced.json",
+      "bytes": 8915,
+      "sha256": "3fa7f6bd72c81f7baf8f0ffb9ad2a23531b042e9b262cea556b375370d1c72d8",
+      "role": "final minorant and coarse exterior cover"
+    },
+    {
+      "path": "near_sharp/reduced/refined-windows-reduced.json",
+      "bytes": 8893,
+      "sha256": "64149d3e8c61edee24440259d62daa147aa18c4563865cc76b57ff7dc71aa143",
+      "role": "final refined exterior cover"
+    },
+    {
+      "path": "ambient_circuit/ambient-circuit-k0.json",
+      "bytes": 4929510,
+      "sha256": "0b75e0bb91da332e52eb73db3bde5a1864adc14e8c1a5f071d53cffd1cca9d60",
+      "role": "final ambient arithmetic DAG"
+    },
+    {
+      "path": "ambient_circuit/geometry-recipes.json",
+      "bytes": 340249,
+      "sha256": "1bb60db24b796f7ef84c89f11cc042fd9c67bae1ebd2b29dc0b2b046b99d4e3e",
+      "role": "candidate/Hessian semantic recipes"
+    },
+    {
+      "path": "ambient_circuit/congruence-recipes.json",
+      "bytes": 858988,
+      "sha256": "a307636165c9fc210677600efa5b48683ba13e2fefb52375c557d971bce7c1b1",
+      "role": "two congruence matrix products"
+    },
+    {
+      "path": "ambient_circuit/lean-trace-manifest.json",
+      "bytes": 2986,
+      "sha256": "54f83ec711de51c61e7dfddf9b776482e8b07b977f74bfc5db5bce2657e5382e",
+      "role": "generated Lean trace source mapping"
+    },
+    {
+      "path": "near_sharp/near-sharp-d10.json",
+      "bytes": 30968330,
+      "sha256": "c7cac663dd6f66cd9df65a03b22de27dc81af3149e6520211f97a2d307853ab9",
+      "role": "higher-precision exact input for D60 regeneration"
+    },
+    {
+      "path": "near_sharp/projected-bases.json",
+      "bytes": 10222046,
+      "sha256": "a4ed932a1424f39063a243b2958229f092800541b6a1ecc6a5dc895b234bd267",
+      "role": "exactification basis input"
+    },
+    {
+      "path": "near_sharp/hermite.json",
+      "bytes": 9869,
+      "sha256": "d894c078b67f70c552efdf9f8f82d2caad93ad5203d92bb9fc537905a8db91f8",
+      "role": "exactification Hermite input, not required by final Bernstein proof"
+    }
+  ]
+}

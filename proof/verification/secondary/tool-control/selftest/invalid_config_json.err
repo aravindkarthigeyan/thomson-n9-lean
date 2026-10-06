@@ -1,0 +1,4 @@
+
+thread 'main' (14000) panicked at src\util.rs:941:96:
+called `Result::unwrap()` on an `Err` value: Error("key must be a string", line: 1, column: 28)
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

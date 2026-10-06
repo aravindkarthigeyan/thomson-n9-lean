@@ -1,0 +1,22 @@
+ThomsonN9.thomson_nine_complete : ThomsonN9.Challenge.CompleteTarget
+ThomsonN9.thomson_nine : ∀ (r : ThomsonN9.CandidateParameter) (x : ThomsonN9.Configuration),
+  ThomsonN9.IsSphereConfiguration x →
+    LE.le.{0} (ThomsonN9.coulombEnergy (ThomsonN9.candidate r)) (ThomsonN9.coulombEnergy x)
+ThomsonN9.thomson_nine_unique : ∀ (r : ThomsonN9.CandidateParameter) (x : ThomsonN9.Configuration),
+  ThomsonN9.IsSphereConfiguration x →
+    (Eq.{1} (ThomsonN9.coulombEnergy x) (ThomsonN9.coulombEnergy (ThomsonN9.candidate r)) ↔
+      ThomsonN9.Congruent x (ThomsonN9.candidate r))
+ThomsonN9.optimalConfiguration_admissible : ThomsonN9.IsSphereConfiguration ThomsonN9.optimalConfiguration
+ThomsonN9.thomson_nine_fixed : ∀ (x : ThomsonN9.Configuration),
+  ThomsonN9.IsSphereConfiguration x →
+    LE.le.{0} (ThomsonN9.coulombEnergy ThomsonN9.optimalConfiguration) (ThomsonN9.coulombEnergy x)
+ThomsonN9.thomson_nine_fixed_unique : ∀ (x : ThomsonN9.Configuration),
+  ThomsonN9.IsSphereConfiguration x →
+    (Eq.{1} (ThomsonN9.coulombEnergy x) (ThomsonN9.coulombEnergy ThomsonN9.optimalConfiguration) ↔
+      ThomsonN9.Congruent x ThomsonN9.optimalConfiguration)
+'ThomsonN9.thomson_nine_complete' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+'ThomsonN9.thomson_nine' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+'ThomsonN9.thomson_nine_unique' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+'ThomsonN9.optimalConfiguration_admissible' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+'ThomsonN9.thomson_nine_fixed' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+'ThomsonN9.thomson_nine_fixed_unique' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]

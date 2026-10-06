@@ -1,0 +1,38 @@
+ℹ [3101/3108] Replayed ThomsonN9.Certificates.Interval
+info: ThomsonN9/Certificates/Interval.lean:177:0: 'ThomsonN9.Certificates.RatInterval.contains_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/Interval.lean:178:0: 'ThomsonN9.Certificates.RatInterval.contains_inv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/Interval.lean:179:0: 'ThomsonN9.Certificates.RatInterval.contains_sqrt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/Interval.lean:180:0: 'ThomsonN9.Certificates.RatInterval.contains_horner' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/Interval.lean:181:0: 'ThomsonN9.Certificates.RatInterval.sqrt_two_enclosure' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/Interval.lean:182:0: 'ThomsonN9.Certificates.RatInterval.rejected_sqrt_two_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/Interval.lean:183:0: 'ThomsonN9.Certificates.RatInterval.posDef_of_ldl_enclosures' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3281/3282] Replayed ThomsonN9.Certificates.DiagonalDominance
+info: ThomsonN9/Certificates/DiagonalDominance.lean:216:0: 'ThomsonN9.Certificates.RatInterval.abs_le_absBound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/DiagonalDominance.lean:217:0: 'ThomsonN9.Certificates.contains_matrix_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/DiagonalDominance.lean:218:0: 'ThomsonN9.Certificates.posDef_of_interval_strictDD' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/DiagonalDominance.lean:219:0: 'ThomsonN9.Certificates.posDef_of_unit_upper_interval_congruence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomsonN9/Certificates/DiagonalDominance.lean:220:0: 'ThomsonN9.Certificates.localCongruenceBounds_strictDD' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/DiagonalDominance.lean:221:0: 'ThomsonN9.Certificates.local_posDef_of_congruence_enclosures' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomsonN9/Certificates/DiagonalDominance.lean:222:0: 'ThomsonN9.Certificates.ambientCongruenceBounds_strictDD' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/DiagonalDominance.lean:223:0: 'ThomsonN9.Certificates.ambient_posDef_of_congruence_enclosures' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomsonN9/Certificates/DiagonalDominance.lean:224:0: 'ThomsonN9.Certificates.quadratic_lower_on_augmentation_kernel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomsonN9/Certificates/DiagonalDominance.lean:225:0: 'ThomsonN9.Certificates.quadratic_lower_with_orthogonal_augmentations' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomsonN9/Certificates/DiagonalDominance.lean:226:0: 'ThomsonN9.Certificates.normalColumns_annihilate_tangent' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/DiagonalDominance.lean:227:0: 'ThomsonN9.Certificates.normalColumns_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3282/3282] Built ThomsonN9.Certificates.ZeroPenalty (33s)
+info: ThomsonN9/Certificates/ZeroPenalty.lean:44:0: 'ThomsonN9.Certificates.zeroPenaltyCongruenceBounds_strictDD' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Certificates/ZeroPenalty.lean:45:0: 'ThomsonN9.Certificates.zeroPenalty_posDef_of_congruence_enclosures' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomsonN9/Certificates/ZeroPenalty.lean:46:0: 'ThomsonN9.Certificates.quadratic_lower_on_rotations_perp' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3282 jobs).

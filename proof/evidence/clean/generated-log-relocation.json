@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "status": "GENERATED_NONFROZEN_LOG_PRESERVED",
+  "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\verification\\FRESH_AXIOMS.log",
+  "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-finalization\\preserved-generated\\20261006T1310Z\\FRESH_AXIOMS.log",
+  "bytes": 778516,
+  "sha256": "6bdf92a6c0783aecf213cbf3725403c6592a92c13be5d28abba7214e059451d6",
+  "freezeSha256": "22bb7406fef5a4379c856c8dbca26c8f964685e2bd036f24bdb45e0f5af3d10e",
+  "producer": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\verification\\CheckAxioms.ps1",
+  "producerSha256": "58a9d80ff7ce1f7a4c4f232640d64abd6eab6b43869486fd73203324e48f165c",
+  "step": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\fresh-evidence\\20261006T024511Z\\0185-all-axioms.json",
+  "stepSha256": "b9041ed6dd67f40f61af85e197207bb4ddd572746da2259575d48caa22600071",
+  "stdout": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\fresh-evidence\\20261006T024511Z\\0185-all-axioms.stdout.log",
+  "stdoutSha256": "1b49667832d41f6787a9c3bfb019758faf859b30943e5c41f5b68e3280fa16a8",
+  "lastWriteUtcBefore": "2026-10-06T06:21:57.5058389Z",
+  "movedUtc": "2026-10-06T13:06:38.1484420Z",
+  "originalPathAbsent": true,
+  "frozenFilesChanged": false,
+  "reason": "The frozen axiom checker generated this unmanifested log. Preserve it outside the source snapshot so the unchanged exact-inventory consumer remains strict. The finalizer will include the original bytes and this receipt in flat bound evidence."
+}

@@ -1,0 +1,85 @@
+{
+  "format": "thomson-n9-ambient-lean-trace-modules-v1",
+  "circuit_sha256": "0b75e0bb91da332e52eb73db3bde5a1864adc14e8c1a5f071d53cffd1cca9d60",
+  "nodes": 37815,
+  "data_block_size": 16,
+  "check_block_size": 128,
+  "checks_per_module": 32,
+  "modules": [
+    "ThomsonN9.Certificates.AmbientKernelData",
+    "ThomsonN9.Certificates.AmbientKernelChecks00",
+    "ThomsonN9.Certificates.AmbientKernelChecks01",
+    "ThomsonN9.Certificates.AmbientKernelChecks02",
+    "ThomsonN9.Certificates.AmbientKernelChecks03",
+    "ThomsonN9.Certificates.AmbientKernelChecks04",
+    "ThomsonN9.Certificates.AmbientKernelChecks05",
+    "ThomsonN9.Certificates.AmbientKernelChecks06",
+    "ThomsonN9.Certificates.AmbientKernelChecks07",
+    "ThomsonN9.Certificates.AmbientKernelChecks08",
+    "ThomsonN9.Certificates.AmbientKernelChecks09",
+    "ThomsonN9.Certificates.AmbientKernelAll"
+  ],
+  "files": [
+    {
+      "name": "AmbientKernelData.lean",
+      "sha256": "dd508201539d8bdde647d506c4f71c8981185fa4e6aa6c98f92e4144312b7478",
+      "bytes": 4852481
+    },
+    {
+      "name": "AmbientKernelChecks00.lean",
+      "sha256": "117585f503f3ba885771842841ed870ccfefaef5208044340742b15b679173ab",
+      "bytes": 7050
+    },
+    {
+      "name": "AmbientKernelChecks01.lean",
+      "sha256": "2c0eed2258f65cf07b98b0790c35eba293b20427c58bfc458d49730e40cd7636",
+      "bytes": 6812
+    },
+    {
+      "name": "AmbientKernelChecks02.lean",
+      "sha256": "8f14a43427b9da90793dce8316fbac2aa310c49b7f4572058038a1faa0a551e6",
+      "bytes": 6829
+    },
+    {
+      "name": "AmbientKernelChecks03.lean",
+      "sha256": "3154f173a21eb964772b3eed90b5c7bf402d01ee32d77950a28417207cdb1bcc",
+      "bytes": 6956
+    },
+    {
+      "name": "AmbientKernelChecks04.lean",
+      "sha256": "4278b3abd5e22d41a93dcb195818dd0c4a81b6d76ff697c987adff6ba10a12e2",
+      "bytes": 6972
+    },
+    {
+      "name": "AmbientKernelChecks05.lean",
+      "sha256": "5f8aa8c9dc35e2c9168ec011ccfda4ebb84e70abc1050f941480707f07adaf3a",
+      "bytes": 6972
+    },
+    {
+      "name": "AmbientKernelChecks06.lean",
+      "sha256": "4bbac87b4cc51ed28f5b2d96c1b170020ffc7ec59491a2e3210023d97031812c",
+      "bytes": 6972
+    },
+    {
+      "name": "AmbientKernelChecks07.lean",
+      "sha256": "e74598a1e98eb89b33e5f8b12dfeb8cce8a57409b2209f24abd4e1253e6af0a5",
+      "bytes": 6972
+    },
+    {
+      "name": "AmbientKernelChecks08.lean",
+      "sha256": "e8c13d0acad1dc975d33ea6a0c7f1b2604ce62bc3251a3d6c268a35f2a9206b7",
+      "bytes": 6972
+    },
+    {
+      "name": "AmbientKernelChecks09.lean",
+      "sha256": "75e01c3b864ded9b2692b66bfb7fb08be7cc6c2951a29833a58c72b7cf7547c9",
+      "bytes": 1907
+    },
+    {
+      "name": "AmbientKernelAll.lean",
+      "sha256": "cad6b0871f0a0dbc581398e73ecb35a5e557a93c7d1d38c6e2dfcb0bed92d1db",
+      "bytes": 121072
+    }
+  ],
+  "status": "generated only; successful serial Lean checking still required"
+}

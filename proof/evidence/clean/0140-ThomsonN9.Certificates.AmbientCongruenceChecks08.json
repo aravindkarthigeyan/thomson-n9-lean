@@ -1,0 +1,58 @@
+{
+  "name": "ThomsonN9.Certificates.AmbientCongruenceChecks08",
+  "executable": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\toolchains\\lean-4.34.1-windows\\bin\\lake.exe",
+  "arguments": [
+    "build",
+    "+ThomsonN9.Certificates.AmbientCongruenceChecks08"
+  ],
+  "exitCode": 0,
+  "expectation": "pass",
+  "passed": true,
+  "seconds": 479.867215,
+  "sampledPeakPrivateBytes": 5814611968,
+  "sampledPeakWorkingBytes": 2800128000,
+  "sampledLargestOwnedPrivateBytes": 4762841088,
+  "resourcePolicy": {
+    "classification": "exact-source-profile",
+    "gateGiB": 8.5,
+    "physicalFloorGiB": 6.5,
+    "reason": "Exact module/source SHA; reduced gates require direct <=5 GiB/tree <=6 GiB, or Assembly direct <=6 GiB; metric-specific growth check after exit",
+    "module": "ThomsonN9.Certificates.AmbientCongruenceChecks08",
+    "sourceSha256": "669a305fdb65e034aa49ca7aec90c3982c71581c2ccdb138cb759390776508e9",
+    "helperSha256": null,
+    "baselines": [
+      {
+        "metric": "single-process-private",
+        "peakBytes": 4764487680
+      }
+    ]
+  },
+  "resourceOutcome": "WITHIN_SAMPLED_PROFILE_OR_UNPROFILED",
+  "profileGrowthViolations": [],
+  "ownedProcessIdentities": [
+    {
+      "pid": 68648,
+      "creationUtcTicks": "639268579483787450"
+    },
+    {
+      "pid": 41700,
+      "creationUtcTicks": "639268579484478550"
+    },
+    {
+      "pid": 42152,
+      "creationUtcTicks": "639268579548417250"
+    },
+    {
+      "pid": 66372,
+      "creationUtcTicks": "639268579931340940"
+    }
+  ],
+  "stdout": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\fresh-evidence\\20261006T024511Z\\0140-ThomsonN9.Certificates.AmbientCongruenceChecks08.stdout.log",
+  "stderr": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\fresh-evidence\\20261006T024511Z\\0140-ThomsonN9.Certificates.AmbientCongruenceChecks08.stderr.log",
+  "stdoutSha256": "50edeeddbdb8d88ab7f319d1b52637d10d05e09b0f702c1ff6e980bbb95991b1",
+  "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "effectiveEnvironment": {
+    "LEAN_NUM_THREADS": "1"
+  },
+  "compilerThreadControl": "explicit -j1 for direct Lean; package moreLeanArgs=-j1 for Lake builds"
+}

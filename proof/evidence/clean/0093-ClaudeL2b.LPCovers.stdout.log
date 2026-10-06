@@ -1,0 +1,23 @@
+ℹ [2116/2117] Replayed ThomsonN9.Bernstein.Minorant
+info: ThomsonN9/Bernstein/Minorant.lean:252:0: 'ThomsonN9.Bernstein.minorant_le_phi' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Bernstein/Minorant.lean:253:0: 'ThomsonN9.Bernstein.minorant_le_inv_sqrt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Bernstein/Minorant.lean:254:0: 'ThomsonN9.Bernstein.minorant_le_inv_dist' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Bernstein/Minorant.lean:255:0: 'ThomsonN9.Bernstein.exterior_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Bernstein/Minorant.lean:256:0: 'ThomsonN9.Bernstein.exterior_gap'' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Bernstein/Minorant.lean:257:0: 'ThomsonN9.Bernstein.minorant_eq_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Bernstein/Minorant.lean:258:0: 'ThomsonN9.Bernstein.phi_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Bernstein/Minorant.lean:259:0: 'ThomsonN9.Bernstein.checkInterval_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Bernstein/Minorant.lean:260:0: 'ThomsonN9.Bernstein.checkCover_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Bernstein/Minorant.lean:261:0: 'ThomsonN9.Bernstein.runSteps_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [2117/2117] Built ClaudeL2b.LPCovers (19s)
+info: ClaudeL2b/LPCovers.lean:187:0: 'ThomsonN9.Claude.L2b.cov_global_cert' depends on axioms: [propext]
+info: ClaudeL2b/LPCovers.lean:188:0: 'ThomsonN9.Claude.L2b.sep_global_cert' depends on axioms: [propext]
+info: ClaudeL2b/LPCovers.lean:189:0: 'ThomsonN9.Claude.L2b.sep_tail_cert' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/LPCovers.lean:190:0: 'ThomsonN9.Claude.L2b.covariance_le_inv_sqrt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/LPCovers.lean:191:0: 'ThomsonN9.Claude.L2b.separation_le_inv_sqrt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/LPCovers.lean:192:0: 'ThomsonN9.Claude.L2b.separation_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/LPCovers.lean:193:0: 'ThomsonN9.Claude.L2b.covariance_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/LPCovers.lean:194:0: 'ThomsonN9.Claude.L2b.hminor_of_horner_cov' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/LPCovers.lean:195:0: 'ThomsonN9.Claude.L2b.hminor_of_horner_sep' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/LPCovers.lean:196:0: 'ThomsonN9.Claude.L2b.htail_of_horner_sep' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (2117 jobs).

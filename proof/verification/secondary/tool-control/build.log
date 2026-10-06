@@ -1,0 +1,69 @@
+
+== 22:44:33  preflight (2026-10-05T22:44:33-04:00, ONLY=selftest, invocation /c/Users/REDACTED/Documents/Codex/2026-10-05/analyze-what-s-u/work/n9-independent-verification/tools/second_kernel/build/runs/20261005-224433)
+date: 2026-10-05T22:44:33-04:00
+MSYS_NT-10.0-26200 aravindka 3.6.10-710e5275.x86_64 2026-07-28 09:32 UTC x86_64 Msys
+Lean (version 4.34.1, x86_64-w64-windows-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)
+Lake version 5.0.0-src+5045d00 (Lean version 4.34.1)
+Read-only existing binaries; no Rust/compiler build or version process required.
+CARGO_HOME=C:\Users\REDACTED\Documents\Codex\2026-10-05\analyze-what-s-u\work\n9-independent-verification\tools\second_kernel\rust\cargo
+RUSTUP_HOME=C:\Users\REDACTED\Documents\Codex\2026-10-05\analyze-what-s-u\work\n9-independent-verification\tools\second_kernel\rust\rustup
+RUSTUP_TOOLCHAIN=1.98.1-x86_64-pc-windows-gnu
+lean4export HEAD 076e8e57707e813375e8f9da8bf989799ace9680
+nanoda_lib  HEAD 3a2407216ee84a75f9e1aead6803d0578be06ae7
+fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b */c/Users/REDACTED/Documents/Codex/2026-10-05/analyze-what-s-u/work/toolchains/lean-4.34.1-windows/bin/lean.exe
+065218c1214642e01ad8e9660782df31af78537eb9ba7d5f3d47c0f3b347ed52 */c/Users/REDACTED/Documents/Codex/2026-10-05/analyze-what-s-u/claude/verify_final/tools/second_kernel/src/lean4export/.lake/build/bin/lean4export.exe
+04493a1415eb07e638a76b5f3f02dd653fc415ec0d17992e51228fc3ef22eb11 */c/Users/REDACTED/Documents/Codex/2026-10-05/analyze-what-s-u/claude/verify_final/tools/second_kernel/src/nanoda_lib/target/release/nanoda_bin.exe
+9b921e794ce5ed515eb31db9ada0c2f34df999b6c9b5135ad308a412872e42be */c/Users/REDACTED/Documents/Codex/2026-10-05/analyze-what-s-u/claude/verify_final/tools/second_kernel/src/nanoda_lib/Cargo.lock
+52e307d0669b1f7cdceb92be6705497bb0368d9958f3c4719d9bffe42462e879 */c/Users/REDACTED/Documents/Codex/2026-10-05/analyze-what-s-u/work/n9-independent-verification/tools/run_step.py
+1d8ae7abd34016b228e8c2776a17ceaaf22a5e300e2e265193496a5623c5b6be */c/Users/REDACTED/Documents/Codex/2026-10-05/analyze-what-s-u/work/n9-independent-verification/tools/second_kernel/../resource_policy.py
+054a02a3a1f7e9d36e262ed37af4218a6e37b174805e9356ba0486d167805148 */c/Users/REDACTED/Documents/Codex/2026-10-05/analyze-what-s-u/work/n9-independent-verification/tools/second_kernel/redirect.py
+b20645f1a745b8e54c52dcaac27bbc8310d7fbd22887d0acf5dcb23e82b2473d */c/Users/REDACTED/Documents/Codex/2026-10-05/analyze-what-s-u/work/n9-independent-verification/tools/second_kernel/sk_tool.py
+\78d0300ed810efcd14ff7376744f7e5d91a3bf3f8447bdb132149116f61a1ade *C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build_second_kernel.sh
+c994d3d975ea82b1a200f49d0a8faed53ca90062f4cdbd978514bd114b66bd5c */c/Users/REDACTED/Documents/Codex/2026-10-05/analyze-what-s-u/work/n9-independent-verification/tools/second_kernel/env.sh
+cddbfe242244383c592bcf187994ca3550e0c5c6749c53439c13b38ed3f6844a */c/Users/REDACTED/Documents/Codex/2026-10-05/analyze-what-s-u/work/n9-independent-verification/tools/FINAL_PINS.json
+free physical 13.46 GB, free commit 25.58 GB (commit limit 51.6 GB)
+checkout state: OK
+footprint ok: no ~/.cargo, no ~/.rustup, no Rustup uninstall key, user PATH unchanged
+semantic-site whitelist VALID: sha256 ff6fb1166da58ddb0af8f154ac284961c96371ff4d95be5d20e698ec903f4b2f; sites: parser777-unpermitted-axiom tc285-ensure-sort tc296-ensure-pi tc304-infer-sort-of tc490-infer-proj-prop tc505-infer-proj-prop tc955-assert-def-eq
+[slot] acquired /c/Users/REDACTED/Documents/Codex/2026-10-05/analyze-what-s-u/work/n9-independent-verification/.lean_slot
+checkout state: OK
+nanoda_bin.exe stack reserve: 1073741824 bytes
+
+== 22:44:35  controls (accept good, reject ProjFromProp, six non-semantic failures that must never count as rejection)
+[run_step] {"step": "selftest:export", "exit_code": 0, "wall_seconds": 0.97, "cpu_seconds": 0.94, "peak_job_commit_gb": 0.743, "peak_tree_working_set_gb_sampled": 0.0}
+fixture export: PASS	577 lines, 33 declarations, sha256 08f7eb14df195ba5
+[run_step] {"step": "control:accept_good", "exit_code": 0, "wall_seconds": 0.11, "cpu_seconds": 0.03, "peak_job_commit_gb": 0.01, "peak_tree_working_set_gb_sampled": 0.0}
+control accept_good: PASS (expected ACCEPTED, got ACCEPTED : Checked 33 declarations with no errors)
+theorem Nat.add_succ (n m : Nat) : Eq (HAdd.hAdd n (Nat.succ m)) (Nat.succ (HAdd.hAdd n m)) := _
+
+Checked 33 declarations with no errors
+[run_step] {"step": "control:reject_projfromprop", "exit_code": 101, "wall_seconds": 0.11, "cpu_seconds": 0.09, "peak_job_commit_gb": 0.01, "peak_tree_working_set_gb_sampled": 0.0}
+control reject_projfromprop: PASS (expected REJECTED at site tc505-infer-proj-prop, got REJECTED tc505-infer-proj-prop: panic at src/tc.rs:505:21: infer_proj prop [whitelisted site tc505-infer-proj-prop])
+[run_step] {"step": "control:missing_export", "exit_code": 1, "wall_seconds": 0.81, "cpu_seconds": 0.05, "peak_job_commit_gb": 0.01, "peak_tree_working_set_gb_sampled": 0.0}
+control missing_export: PASS (expected ERROR, got ERROR : Error: Failed to open export file: Os { code: 2, kind: NotFound, message: "The system cannot find the file specified." })
+[run_step] {"step": "control:invalid_config_json", "exit_code": 101, "wall_seconds": 0.1, "cpu_seconds": 0.08, "peak_job_commit_gb": 0.01, "peak_tree_working_set_gb_sampled": 0.0}
+control invalid_config_json: PASS (expected ERROR, got ERROR : panic at src/util.rs:941:96: called `Result::unwrap()` on an `Err` value: Error("key must be a string", line: 1, column: 28) (not a whitelisted semantic site))
+[run_step] {"step": "control:wrong_format", "exit_code": 1, "wall_seconds": 0.1, "cpu_seconds": 0.06, "peak_job_commit_gb": 0.01, "peak_tree_working_set_gb_sampled": 0.0}
+control wrong_format: PASS (expected ERROR, got ERROR : Error: export format version is less than the minimum supported version. Found 2.0.0, but min supported is 3.1.0)
+[run_step] {"step": "control:malformed_export", "exit_code": 1, "wall_seconds": 0.1, "cpu_seconds": 0.06, "peak_job_commit_gb": 0.01, "peak_tree_working_set_gb_sampled": 0.0}
+control malformed_export: PASS (expected ERROR, got ERROR : Error: control character (\u0000-\u001F) found while parsing a string at line 2 column 0)
+[run_step] {"step": "control:missing_pp", "exit_code": 1, "wall_seconds": 0.1, "cpu_seconds": 0.06, "peak_job_commit_gb": 0.01, "peak_tree_working_set_gb_sampled": 0.0}
+control missing_pp: PASS (expected ERROR, got ERROR : Error: these pp_declars were not found in the exported environment: [)
+[run_step] {"step": "control:forced_resource_16777216bytes", "exit_code": 0, "wall_seconds": 0.07, "cpu_seconds": 0.05, "peak_job_commit_gb": 0.01, "peak_tree_working_set_gb_sampled": 0.0}
+forced resource limit 16777216 bytes -> ACCEPTED
+[run_step] {"step": "control:forced_resource_4194304bytes", "exit_code": 0, "wall_seconds": 0.09, "cpu_seconds": 0.08, "peak_job_commit_gb": 0.01, "peak_tree_working_set_gb_sampled": 0.0}
+forced resource limit 4194304 bytes -> ACCEPTED
+[run_step] {"step": "control:forced_resource_1048576bytes", "exit_code": 0, "wall_seconds": 0.08, "cpu_seconds": 0.08, "peak_job_commit_gb": 0.01, "peak_tree_working_set_gb_sampled": 0.0}
+forced resource limit 1048576 bytes -> ACCEPTED
+[run_step] {"step": "control:forced_resource_524288bytes", "exit_code": 3221225495, "wall_seconds": 0.09, "cpu_seconds": 0.06, "peak_job_commit_gb": 0.01, "peak_tree_working_set_gb_sampled": 0.0}
+forced resource limit 524288 bytes -> INCONCLUSIVE
+control forced_resource: PASS (expected INCONCLUSIVE /memory allocation of [0-9]+ bytes failed|out of memory|0xC0000017|0xC000009A|0xC000012D/, got INCONCLUSIVE : process ended with 0xC0000017 STATUS_NO_MEMORY | )
+
+== 22:44:49  record
+065218c1214642e01ad8e9660782df31af78537eb9ba7d5f3d47c0f3b347ed52 */c/Users/REDACTED/Documents/Codex/2026-10-05/analyze-what-s-u/claude/verify_final/tools/second_kernel/src/lean4export/.lake/build/bin/lean4export.exe
+04493a1415eb07e638a76b5f3f02dd653fc415ec0d17992e51228fc3ef22eb11 */c/Users/REDACTED/Documents/Codex/2026-10-05/analyze-what-s-u/claude/verify_final/tools/second_kernel/src/nanoda_lib/target/release/nanoda_bin.exe
+TOOL BUILD RECORD: PASS
+footprint ok: no ~/.cargo, no ~/.rustup, no Rustup uninstall key, user PATH unchanged
+free physical 14.98 GB, free commit 27.18 GB (commit limit 51.6 GB)
+BUILD: OK (tool build record PASS)
+[slot] released

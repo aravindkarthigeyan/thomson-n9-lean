@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "requested_bytes": 16777216,
+  "argv": [
+    "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\src\\nanoda_lib\\target\\release\\nanoda_bin.exe",
+    "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\forced_resource.json"
+  ],
+  "assigned_before_resume": true,
+  "resumed": true,
+  "child_pid": 26840,
+  "child_exit_code": 0,
+  "complete": true,
+  "before_assignment": {
+    "flags": 256,
+    "process_limit_bytes": 16777216,
+    "peak_process_bytes": 0,
+    "peak_job_bytes": 0
+  },
+  "before_resume": {
+    "flags": 256,
+    "process_limit_bytes": 16777216,
+    "peak_process_bytes": 397312,
+    "peak_job_bytes": 397312
+  },
+  "resume_status": 0,
+  "after_exit": {
+    "flags": 256,
+    "process_limit_bytes": 16777216,
+    "peak_process_bytes": 937984,
+    "peak_job_bytes": 937984
+  }
+}

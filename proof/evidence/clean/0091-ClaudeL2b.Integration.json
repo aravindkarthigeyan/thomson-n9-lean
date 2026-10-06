@@ -1,0 +1,54 @@
+{
+  "name": "ClaudeL2b.Integration",
+  "executable": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\toolchains\\lean-4.34.1-windows\\bin\\lake.exe",
+  "arguments": [
+    "build",
+    "+ClaudeL2b.Integration"
+  ],
+  "exitCode": 0,
+  "expectation": "pass",
+  "passed": true,
+  "seconds": 20.0582752,
+  "sampledPeakPrivateBytes": 5327261696,
+  "sampledPeakWorkingBytes": 2459213824,
+  "sampledLargestOwnedPrivateBytes": 4273758208,
+  "resourcePolicy": {
+    "classification": "exact-source-profile",
+    "gateGiB": 8.5,
+    "physicalFloorGiB": 6.5,
+    "reason": "Exact module/source SHA; reduced gates require direct <=5 GiB/tree <=6 GiB, or Assembly direct <=6 GiB; metric-specific growth check after exit",
+    "module": "ClaudeL2b.Integration",
+    "sourceSha256": "277b858cba6fa9c644b298f39e87a1470a6b0879b3593f335c95b06b8a191ac4",
+    "helperSha256": null,
+    "baselines": [
+      {
+        "metric": "sampled-owned-tree-commit",
+        "peakBytes": 5416697856
+      }
+    ]
+  },
+  "resourceOutcome": "WITHIN_SAMPLED_PROFILE_OR_UNPROFILED",
+  "profileGrowthViolations": [],
+  "ownedProcessIdentities": [
+    {
+      "pid": 21772,
+      "creationUtcTicks": "639268528442932950"
+    },
+    {
+      "pid": 20472,
+      "creationUtcTicks": "639268528443080740"
+    },
+    {
+      "pid": 58540,
+      "creationUtcTicks": "639268528513737720"
+    }
+  ],
+  "stdout": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\fresh-evidence\\20261006T024511Z\\0091-ClaudeL2b.Integration.stdout.log",
+  "stderr": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\fresh-evidence\\20261006T024511Z\\0091-ClaudeL2b.Integration.stderr.log",
+  "stdoutSha256": "2fbbf62e8050bdd977a97eba37d501e77fb5363a37469e6343462b77c130e8c6",
+  "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "effectiveEnvironment": {
+    "LEAN_NUM_THREADS": "1"
+  },
+  "compilerThreadControl": "explicit -j1 for direct Lean; package moreLeanArgs=-j1 for Lake builds"
+}

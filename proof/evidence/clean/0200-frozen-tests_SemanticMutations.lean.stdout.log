@@ -1,0 +1,21 @@
+'ThomsonN9.Certificates.AmbientKernel.SemanticMutations.genuine_pair_blocks' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ThomsonN9.Certificates.AmbientKernel.SemanticMutations.genuine_coordinates' does not depend on any axioms
+'ThomsonN9.Certificates.AmbientKernel.SemanticMutations.genuine_constant_product' depends on axioms: [propext]
+'ThomsonN9.Certificates.AmbientKernel.SemanticMutations.genuine_constant_sum' depends on axioms: [propext]
+'ThomsonN9.Certificates.AmbientKernel.SemanticMutations.genuine_shift_literal' does not depend on any axioms
+'ThomsonN9.Certificates.AmbientKernel.SemanticMutations.genuine_shift_interval' does not depend on any axioms
+'ThomsonN9.Certificates.AmbientKernel.SemanticMutations.genuine_shift_wiring' depends on axioms: [propext]
+'ThomsonN9.Certificates.AmbientKernel.SemanticMutations.reject_factor_two' depends on axioms: [propext]
+'ThomsonN9.Certificates.AmbientKernel.SemanticMutations.reject_factor_two_node' depends on axioms: [propext]
+'ThomsonN9.Certificates.AmbientKernel.SemanticMutations.reject_fourth_for_fifth' depends on axioms: [propext]
+'ThomsonN9.Certificates.AmbientKernel.SemanticMutations.reject_second_for_third_diagonal' depends on axioms: [propext]
+'ThomsonN9.Certificates.AmbientKernel.SemanticMutations.reject_coordinate_sign' does not depend on any axioms
+'ThomsonN9.Certificates.AmbientKernel.SemanticMutations.reject_coordinate_constant_product' depends on axioms: [propext]
+'ThomsonN9.Certificates.AmbientKernel.SemanticMutations.reject_coordinate_constant_sum' depends on axioms: [propext]
+'ThomsonN9.Certificates.AmbientKernel.SemanticMutations.reject_coordinate_difference_sign' depends on axioms: [propext]
+'ThomsonN9.Certificates.AmbientKernel.SemanticMutations.reject_diagonal_shift_literal' does not depend on any axioms
+'ThomsonN9.Certificates.AmbientKernel.SemanticMutations.reject_diagonal_shift_interval' does not depend on any axioms
+'ThomsonN9.Certificates.AmbientKernel.SemanticMutations.shift_wiring_alone_accepts_wrong_constant' depends on axioms: [propext]
+'ThomsonN9.Certificates.AmbientKernel.SemanticMutations.reject_omitted_diagonal_shift' depends on axioms: [propext]

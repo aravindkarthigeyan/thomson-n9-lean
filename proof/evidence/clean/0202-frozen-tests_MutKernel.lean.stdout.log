@@ -1,0 +1,6 @@
+frozen-tests/MutKernel.lean:815:46: error: (kernel) application type mismatch
+  id (Eq.refl true)
+argument has type
+  true = true
+but function has type
+  decide (KTotal.check ktotal = true) = true → decide (KTotal.check ktotal = true) = true

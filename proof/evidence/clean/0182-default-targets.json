@@ -1,0 +1,44 @@
+{
+  "name": "default-targets",
+  "executable": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\toolchains\\lean-4.34.1-windows\\bin\\lake.exe",
+  "arguments": [
+    "build"
+  ],
+  "exitCode": 0,
+  "expectation": "pass",
+  "passed": true,
+  "seconds": 15.8754902,
+  "sampledPeakPrivateBytes": 1063288832,
+  "sampledPeakWorkingBytes": 531021824,
+  "sampledLargestOwnedPrivateBytes": 1061068800,
+  "resourcePolicy": {
+    "classification": "completed-module-cache-check",
+    "gateGiB": 8.5,
+    "physicalFloorGiB": 6.5,
+    "reason": "Every exact local target already passed serially in this run",
+    "module": null,
+    "sourceSha256": null,
+    "helperSha256": null,
+    "baselines": []
+  },
+  "resourceOutcome": "WITHIN_SAMPLED_PROFILE_OR_UNPROFILED",
+  "profileGrowthViolations": [],
+  "ownedProcessIdentities": [
+    {
+      "pid": 37296,
+      "creationUtcTicks": "639268644554852570"
+    },
+    {
+      "pid": 4180,
+      "creationUtcTicks": "639268644554944000"
+    }
+  ],
+  "stdout": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\fresh-evidence\\20261006T024511Z\\0182-default-targets.stdout.log",
+  "stderr": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\fresh-evidence\\20261006T024511Z\\0182-default-targets.stderr.log",
+  "stdoutSha256": "87905e4eba1934acc135d1dcaac7e387d3963d7d0fb9f8538074fd23176ffd49",
+  "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "effectiveEnvironment": {
+    "LEAN_NUM_THREADS": "1"
+  },
+  "compilerThreadControl": "explicit -j1 for direct Lean; package moreLeanArgs=-j1 for Lake builds"
+}

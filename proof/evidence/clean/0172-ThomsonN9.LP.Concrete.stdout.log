@@ -1,0 +1,53 @@
+⚠ [3175/3199] Replayed Delsarte.Harmonic.Fischer
+warning: vendor/Delsarte/Harmonic/Fischer.lean:7:0: 'Mathlib.Data.Real.Basic' has been deprecated: please replace this import by
+
+import Mathlib.Basic.Real.Basic
+warning: vendor/Delsarte/Harmonic/Fischer.lean:136:47: `MvPolynomial.coeff_add` has been deprecated: Use `AddMonoidAlgebra.coeff_add` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] (x y : AddMonoidAlgebra R M), (x + y).coeff = x.coeff + y.coeff
+instead of
+  ∀ {R : Type u} {σ : Type u_1} [inst : CommSemiring R] (m : σ →₀ ℕ) (p q : MvPolynomial σ R),
+    (p + q).coeff m = p.coeff m + q.coeff m
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.coeff_add` to `AddMonoidAlgebra.coeff_add x`).
+warning: vendor/Delsarte/Harmonic/Fischer.lean:182:63: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/Delsarte/Harmonic/Fischer.lean:230:58: `MvPolynomial.monomial_mul` has been deprecated: Use `MvPolynomial.monomial_mul_monomial` instead
+warning: vendor/Delsarte/Harmonic/Fischer.lean:348:65: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/Delsarte/Harmonic/Fischer.lean:369:22: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/Delsarte/Harmonic/Fischer.lean:369:34: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: vendor/Delsarte/Harmonic/Fischer.lean:387:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/Delsarte/Harmonic/Fischer.lean:387:18: `if_neg` has been deprecated: Use `ite_eq_right` instead
+⚠ [3186/3199] Replayed Delsarte.Sphere.DegreeTwo
+warning: vendor/Delsarte/Sphere/DegreeTwo.lean:167:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/Delsarte/Sphere/DegreeTwo.lean:167:20: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/Delsarte/Sphere/DegreeTwo.lean:169:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: vendor/Delsarte/Sphere/DegreeTwo.lean:169:20: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: vendor/Delsarte/Sphere/DegreeTwo.lean:179:32: `if_true` has been deprecated: Use `ite_true` instead
+⚠ [3187/3199] Replayed Delsarte.Sphere.DegreeThree
+warning: vendor/Delsarte/Sphere/DegreeThree.lean:101:83: `if_true` has been deprecated: Use `ite_true` instead
+warning: vendor/Delsarte/Sphere/DegreeThree.lean:104:84: `if_true` has been deprecated: Use `ite_true` instead
+⚠ [3193/3199] Replayed ThomsonN9.SDP.Counting
+warning: ThomsonN9/SDP/Counting.lean:107:56: `if_false` has been deprecated: Use `ite_false` instead
+warning: ThomsonN9/SDP/Counting.lean:120:19: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: ThomsonN9/SDP/Counting.lean:120:31: `if_neg` has been deprecated: Use `ite_eq_right` instead
+⚠ [3195/3199] Replayed ThomsonN9.SDP.ProjectionComplex
+warning: ThomsonN9/SDP/ProjectionComplex.lean:30:4: Try `simp at ha` instead of `simpa using ha`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+info: ThomsonN9/SDP/ProjectionComplex.lean:96:0: 'ThomsonN9.SDP.anchorComplex_mul_star_re' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/SDP/ProjectionComplex.lean:97:0: 'ThomsonN9.SDP.anchorComplex_normSq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/SDP/ProjectionComplex.lean:98:0: 'ThomsonN9.SDP.anchorComplex_mul_star_normSq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/SDP/ProjectionComplex.lean:99:0: 'ThomsonN9.SDP.exists_anchorComplex' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/SDP/ProjectionComplex.lean:100:0: 'ThomsonN9.SDP.spherical_threePointKernel_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/SDP/ProjectionComplex.lean:101:0: 'ThomsonN9.SDP.anchored_spherical_kernel_sum_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3197/3199] Replayed ThomsonN9.LP.EnergyBound
+warning: ThomsonN9/LP/EnergyBound.lean:42:12: This simp argument is unused:
+  real_inner_self_eq_norm_sq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hx i]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [3199/3199] Built ThomsonN9.LP.Concrete (19s)
+Build completed successfully (3199 jobs).

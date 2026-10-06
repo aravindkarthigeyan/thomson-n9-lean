@@ -1,0 +1,2717 @@
+[
+    {
+        "module":  "ThomsonN9.Basic",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Basic.ilean",
+        "sha256":  "b6ea68d69da3a0a9726b4f63fd94ffab3f7735b0a9448151cd1530e4b17e432b"
+    },
+    {
+        "module":  "ThomsonN9.Basic",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Basic.olean",
+        "sha256":  "d1a64cfbe7a506cf87466aeb266a19a2bf51b99d03f09d222501d1515712db65"
+    },
+    {
+        "module":  "ThomsonN9.Basic",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Basic.olean.hash",
+        "sha256":  "3b09c1798223f3524bf6262df18294037ed765d4cc102c3696cfff58a1c7bdd7"
+    },
+    {
+        "module":  "ThomsonN9.Candidate",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Candidate.ilean",
+        "sha256":  "6ea3606491678084b2d1247b462d2d620532dc5be70dec94e4977b87953ef6b3"
+    },
+    {
+        "module":  "ThomsonN9.Candidate",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Candidate.olean",
+        "sha256":  "ef0abea34e72770d8615d87383835d8133044512a4a651c319539ba8c468aef4"
+    },
+    {
+        "module":  "ThomsonN9.Candidate",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Candidate.olean.hash",
+        "sha256":  "e2d9f0cb7853520e11ced8f3f135de677a0fd7b5a178404266989c54fe047286"
+    },
+    {
+        "module":  "Challenge",
+        "path":  ".lake/build/lib/lean/Challenge.ilean",
+        "sha256":  "00aa272a1203aca295ac95eb6f18704d44c00a3f5c8dd6757898d691bd6f22d6"
+    },
+    {
+        "module":  "Challenge",
+        "path":  ".lake/build/lib/lean/Challenge.olean",
+        "sha256":  "95bc38234c65a27169f1dbc285d795f8fa613389d71d9b7f1f511066003dc860"
+    },
+    {
+        "module":  "Challenge",
+        "path":  ".lake/build/lib/lean/Challenge.olean.hash",
+        "sha256":  "b73990cba5fc6bb33a7f7d5adaf50eb09053aeb0d57fe2b980de35adbea3c4ba"
+    },
+    {
+        "module":  "ClaudeL1.KC.Poly",
+        "path":  ".lake/build/lib/lean/ClaudeL1/KC/Poly.ilean",
+        "sha256":  "73bca19904b228ea707f3a6aec114e7be6d77fac1d52fdc9f4852bd9dea4d60d"
+    },
+    {
+        "module":  "ClaudeL1.KC.Poly",
+        "path":  ".lake/build/lib/lean/ClaudeL1/KC/Poly.olean",
+        "sha256":  "248ea2084ae373f0b7b55ffe95ad5c728d7bd70b68583b556b58e3ad4b4b9207"
+    },
+    {
+        "module":  "ClaudeL1.KC.Poly",
+        "path":  ".lake/build/lib/lean/ClaudeL1/KC/Poly.olean.hash",
+        "sha256":  "d8f702d5de664ea5d3b112f5c92a65b6059f2503adf867771a4c414281b2af9d"
+    },
+    {
+        "module":  "ClaudeL1.KC.Kronecker",
+        "path":  ".lake/build/lib/lean/ClaudeL1/KC/Kronecker.ilean",
+        "sha256":  "2091558e61bfc4d4bb993fdcc215ece1d122f2f94afa4104ca7a460197d72a6c"
+    },
+    {
+        "module":  "ClaudeL1.KC.Kronecker",
+        "path":  ".lake/build/lib/lean/ClaudeL1/KC/Kronecker.olean",
+        "sha256":  "48429c3b6f6752395cd82f951e6300d2cab389a61484814002b19a79b8ce9431"
+    },
+    {
+        "module":  "ClaudeL1.KC.Kronecker",
+        "path":  ".lake/build/lib/lean/ClaudeL1/KC/Kronecker.olean.hash",
+        "sha256":  "38d85cb76580eb6646c016a74bb53fdcff192d7cb328a5b4482abb942b73e520"
+    },
+    {
+        "module":  "ClaudeL1.KC.Check",
+        "path":  ".lake/build/lib/lean/ClaudeL1/KC/Check.ilean",
+        "sha256":  "61773df37ba00a0bea8d000766aeabde02337d602447df8dc2ec282addd0199c"
+    },
+    {
+        "module":  "ClaudeL1.KC.Check",
+        "path":  ".lake/build/lib/lean/ClaudeL1/KC/Check.olean",
+        "sha256":  "367edb540b01c3868cfb82afb12958a82d80a030868b940cd91120c1e185b4ea"
+    },
+    {
+        "module":  "ClaudeL1.KC.Check",
+        "path":  ".lake/build/lib/lean/ClaudeL1/KC/Check.olean.hash",
+        "sha256":  "eba74fcd85fa5f41c77c99dece3bd91ad962eca568a9c88a3bd344d93205050d"
+    },
+    {
+        "module":  "ClaudeL1.KC.Chain",
+        "path":  ".lake/build/lib/lean/ClaudeL1/KC/Chain.ilean",
+        "sha256":  "f59141a073f9e442bf92a32643a8c1f59896bc112f4025c1383f5e5574e642c7"
+    },
+    {
+        "module":  "ClaudeL1.KC.Chain",
+        "path":  ".lake/build/lib/lean/ClaudeL1/KC/Chain.olean",
+        "sha256":  "3d1ce90ea45382a7eff76b2513b438a04026a211b5ec885fd6f5ab7c63565428"
+    },
+    {
+        "module":  "ClaudeL1.KC.Chain",
+        "path":  ".lake/build/lib/lean/ClaudeL1/KC/Chain.olean.hash",
+        "sha256":  "cb89b669fce746899b1f1dc172a7c4fa4b4c9e66c50cae8575f0d9240eb269ca"
+    },
+    {
+        "module":  "ClaudeL1.Data.Mult",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/Mult.ilean",
+        "sha256":  "ac4c15e41dc6b4cf5d357b181abfea5f5f96c10f01d14cb4a98e3114f4e2fa78"
+    },
+    {
+        "module":  "ClaudeL1.Data.Mult",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/Mult.olean",
+        "sha256":  "752ed5ac238cd49e64f0dcf341c62b069f36e10e8e770e31c88899c422ea8632"
+    },
+    {
+        "module":  "ClaudeL1.Data.Mult",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/Mult.olean.hash",
+        "sha256":  "19e87d067d1b2a97dfca4c981696e5882cff78bab32cebb57a08dfdaac7301b7"
+    },
+    {
+        "module":  "ClaudeL1.KC.Ops",
+        "path":  ".lake/build/lib/lean/ClaudeL1/KC/Ops.ilean",
+        "sha256":  "33025a67241628d05a71dba18a223ea975ae3aefc9c8f899c5f79fae7e5d65f0"
+    },
+    {
+        "module":  "ClaudeL1.KC.Ops",
+        "path":  ".lake/build/lib/lean/ClaudeL1/KC/Ops.olean",
+        "sha256":  "c1c131b1c155a037e24b671eef9c823e24f4cf1b52e794d76fe79058be35d7a8"
+    },
+    {
+        "module":  "ClaudeL1.KC.Ops",
+        "path":  ".lake/build/lib/lean/ClaudeL1/KC/Ops.olean.hash",
+        "sha256":  "804ca8a763e561111ef7257fba7c76ff4d941739e78315ee3a69ea9eabc85a57"
+    },
+    {
+        "module":  "ClaudeL1.KC.Assembly",
+        "path":  ".lake/build/lib/lean/ClaudeL1/KC/Assembly.ilean",
+        "sha256":  "141684c44396bff99cbffecfbd00ad9485ebf362a648d2a1ec01f0be2adccf7e"
+    },
+    {
+        "module":  "ClaudeL1.KC.Assembly",
+        "path":  ".lake/build/lib/lean/ClaudeL1/KC/Assembly.olean",
+        "sha256":  "57370c35acaba94a9c30b0e06c14a1f25b1e78d9d1e4e5c24a278e6c412813ae"
+    },
+    {
+        "module":  "ClaudeL1.KC.Assembly",
+        "path":  ".lake/build/lib/lean/ClaudeL1/KC/Assembly.olean.hash",
+        "sha256":  "bd42d09501e5ab3a55ab438a7575d903d7747291c18c1935dc40034ccd014a53"
+    },
+    {
+        "module":  "ClaudeL1.KC.Kernel",
+        "path":  ".lake/build/lib/lean/ClaudeL1/KC/Kernel.ilean",
+        "sha256":  "e0609356739f7c981ce2a9235a9eb7455105bb70f86d24703678b6e82e2f6a10"
+    },
+    {
+        "module":  "ClaudeL1.KC.Kernel",
+        "path":  ".lake/build/lib/lean/ClaudeL1/KC/Kernel.olean",
+        "sha256":  "ec5dba471200037445d3b9671f936dddb3832792f28bf0c747a445104e27d824"
+    },
+    {
+        "module":  "ClaudeL1.KC.Kernel",
+        "path":  ".lake/build/lib/lean/ClaudeL1/KC/Kernel.olean.hash",
+        "sha256":  "cd5a74ec3b3179f67d7c326a85a48db74411bdf5be0d27b5db8b168f23fb6e26"
+    },
+    {
+        "module":  "ClaudeL1.Bridge",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Bridge.ilean",
+        "sha256":  "53b1212ded5afa508ab96f767cd4f4824f29a0e29d4a2d0f3561ae61d59ee977"
+    },
+    {
+        "module":  "ClaudeL1.Bridge",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Bridge.olean",
+        "sha256":  "10bfb906c1597d519f5be1f11d574cdb2a42c36a04fd3aee372b2075457db423"
+    },
+    {
+        "module":  "ClaudeL1.Bridge",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Bridge.olean.hash",
+        "sha256":  "a998f19ccaeb935c2202b8d78d019557e123f358683837b1b5d99afcdd7c54bc"
+    },
+    {
+        "module":  "ClaudeL1.Data.Kernel",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/Kernel.ilean",
+        "sha256":  "29e02ebb87a46867291a7f7ae309d4cb9f71054f9660922706f7182d3b207a11"
+    },
+    {
+        "module":  "ClaudeL1.Data.Kernel",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/Kernel.olean",
+        "sha256":  "6c0ba399e701058f06dcc368a36e9c72f11159ccca14e6dcc42029e7caa8d51c"
+    },
+    {
+        "module":  "ClaudeL1.Data.Kernel",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/Kernel.olean.hash",
+        "sha256":  "9c29f2b0fbf9155c10eaa96a17651ee9e28d91e894137db8d80b738071d933ac"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T15",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T15.ilean",
+        "sha256":  "859e8d651d155ed63409df0bc88dedc8b7ead7ff960c94b9772975319202a8a5"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T15",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T15.olean",
+        "sha256":  "6992519a629a2f171fb5cb0138dd3b2652131b31620145dd46c32ac55c2bb527"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T15",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T15.olean.hash",
+        "sha256":  "287aabb936e1f835527715011f5eb8941ab0bf706599693a9c4418b16cae7396"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.Last",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/Last.ilean",
+        "sha256":  "5daba99287b6c3c0e22aa0fff06c1bac3ecc9b098478609658d2bc7446a3f3ca"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.Last",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/Last.olean",
+        "sha256":  "10e8f75223ed80ee25edfdc4bdc1af2c1247c2cdb54e0840cdeb049952393c77"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.Last",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/Last.olean.hash",
+        "sha256":  "af23c373cd86705cb410f472e504f21e38e861550438fe0988cf36471807aa43"
+    },
+    {
+        "module":  "ClaudeL1.Data.Assembly",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/Assembly.ilean",
+        "sha256":  "211e497d2ddcaa5b83108e449a427aacb1ce17293001a54e6537bbad51289e24"
+    },
+    {
+        "module":  "ClaudeL1.Data.Assembly",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/Assembly.olean",
+        "sha256":  "6c4278c7457aa96cae672e64dfb6f21e89ecc26d95f709b85d2c1f23c5332b52"
+    },
+    {
+        "module":  "ClaudeL1.Data.Assembly",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/Assembly.olean.hash",
+        "sha256":  "b502384d6b84d08aadcc72d1abf1736d477f4032ec1a1f4680fe6292ba4159d9"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T00",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T00.ilean",
+        "sha256":  "f84ca4c66bc9fd28ccb283ff7415343bc3f18ebdb40880c90fe4bc3c2f9090b1"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T00",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T00.olean",
+        "sha256":  "aaacd2d38ac8a571bca5a3574ac0dbcfb999ce685a65283a4047fc3802573163"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T00",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T00.olean.hash",
+        "sha256":  "9bc2525296203a89a9a46b283838733050c1552e0b42eb895487e2a107aaffa6"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T01",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T01.ilean",
+        "sha256":  "7b3688cec2554e8fb2ab42b38327d469af2250b5cb8aefad333b4640a729e9d3"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T01",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T01.olean",
+        "sha256":  "ccf7929d3b5f79a136bbad7ba52e8f02924343e4b8e0f0763a7a2be2fc867682"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T01",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T01.olean.hash",
+        "sha256":  "aed28c0ae3e9a2d26eabdb38c8c20180b590da69ee640c4df364ebfdf4c0c9ff"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C01",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C01.ilean",
+        "sha256":  "6717441b3a3a814f3695f1061621e585b0eb4b2b8bd6c508fa44621845c65530"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C01",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C01.olean",
+        "sha256":  "fa4e8a437511d71d41b9be33581ae5824d6dc1bd87470d5cd332083c66c28e42"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C01",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C01.olean.hash",
+        "sha256":  "f5d03ebf41db3f43b8c195fb4d58f7e878c5ecfaeab6620729d2345810334888"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T02",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T02.ilean",
+        "sha256":  "10e1461b59e1405e89e2bcaefad1aba598546b935c9199b5084ee0eb1111850c"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T02",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T02.olean",
+        "sha256":  "04839b0102c5166f6aca06b70b98cec9bd2ef145ae44aec3b5d386b58f1a88ed"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T02",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T02.olean.hash",
+        "sha256":  "ce93b9b72ec20a6fd857c241fa2345e565c2347f46f74df8128146202e4d3c91"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C02",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C02.ilean",
+        "sha256":  "a8533511228863a887e1ab36b22d7d7f4000e47242d59870598e597fb53d2e1e"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C02",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C02.olean",
+        "sha256":  "3aa84ea1c01e5691ed26c473a53fd29e0bd83cc9d48192ae1b7dbf105aba3a11"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C02",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C02.olean.hash",
+        "sha256":  "5cf133dc7942fc2a63e04e13b2f25288026bf68b420a37c91493798b2de836d9"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T03",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T03.ilean",
+        "sha256":  "92e23d4522bea3837a0427b66d7919567b8c1c59a55da0eb75107c927a9ac72e"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T03",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T03.olean",
+        "sha256":  "2406f0d410b732d385b251104cc9db9ad31587facfd91029c7659785c36e9aef"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T03",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T03.olean.hash",
+        "sha256":  "fba13d64345dfc4098d26d60e301030b770bbfdc6b299e1900199a096f3d6c39"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C03",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C03.ilean",
+        "sha256":  "56ee3dbdc52eb387cd0d888ecda3c887f65a5fc34c0465ac5503d8c1f0b361df"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C03",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C03.olean",
+        "sha256":  "93875ed947cfd480ea915e08beb5b4606328308c879baf7751892736904d4dae"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C03",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C03.olean.hash",
+        "sha256":  "534bb1980de83bfda2fe8419e04bfd67e235d65423c43fdd1cd9670fb4113435"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T04",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T04.ilean",
+        "sha256":  "4dc99ae290cb2bc3e412e0a7dc864f2de072a48b0b5cca6cc1f0a4d2a8479244"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T04",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T04.olean",
+        "sha256":  "f64637c2ff8f2b347d4d9d223c9d37de321b290609c3229cd387da7ea986767a"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T04",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T04.olean.hash",
+        "sha256":  "df3d5b61bdc314c8772a56db375c7e051b011b0f9a9d718e7f808f8168f06807"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C04",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C04.ilean",
+        "sha256":  "58907d05cba2c9d53f553cda46c9739ca6b6bdfb9e61e06b881f83e33d775315"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C04",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C04.olean",
+        "sha256":  "d254a164b6f242bac9e96c21a15e314e021af892b1fcb1fe9a82cb1b18d00798"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C04",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C04.olean.hash",
+        "sha256":  "9da8e8b7b6d18bc7ccd6de81bb74ba98541f626731ff053cef36bc432c8e07bf"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T05",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T05.ilean",
+        "sha256":  "ba467e6d9ab6fd9deb88d10f1e1bd1b7c1e643d245bc942cb9d1a6fd018f64cf"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T05",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T05.olean",
+        "sha256":  "e620bec2dfca1b428caafda796569ff50a997e431126988e701c65392e4e7676"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T05",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T05.olean.hash",
+        "sha256":  "135d40ebd94fe86ab065f8aea9b8b011b2d68de61325623229e22b3157bb9b88"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C05",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C05.ilean",
+        "sha256":  "d4fffc697bf5f1fbba194918ebd1ab7cef7e5a69f492d63786c502156c4e24cd"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C05",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C05.olean",
+        "sha256":  "1439ffd6fb03b9dfed2fd5b131402cd6af821c4fcaaf56bc9c30f2dad8f6631a"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C05",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C05.olean.hash",
+        "sha256":  "8b8503f9d16d4ba08f43bfa7cad466fafec1576f36277b351ef292f6e3e0e88e"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T06",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T06.ilean",
+        "sha256":  "c138b3c9ec456407dfc9e763c3a8d50742138badc375a67f020c5f60fa6b29e3"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T06",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T06.olean",
+        "sha256":  "9b86588581d66f5e074b232d8e17378b800d6677439a460fcf902d59e8d4bf56"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T06",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T06.olean.hash",
+        "sha256":  "b6c0c565f242435c122fb30cdacdeceeadc4977cb568abd0c5f05d2b0d5ae59b"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C06",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C06.ilean",
+        "sha256":  "75fc4e7ad999e1aa381145602fa6275186d79027fbae1217c642ea10d709bb6e"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C06",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C06.olean",
+        "sha256":  "9b06ba76ee0d907a48ed0975147c52a88777ea00db052c9b531dc71b552ad1f1"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C06",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C06.olean.hash",
+        "sha256":  "e64d07c63dece617a65746648ebe04b1b32d9085bf16e9c9047b1c7c44bf39fd"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T07",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T07.ilean",
+        "sha256":  "a38ac6cd83bd4746fc13ac68897688830e2600465a0a1b14395a1791e067d18c"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T07",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T07.olean",
+        "sha256":  "71159fbf6d50e873a04253591ebb788ffb5440a6b566bd6d77c50c96fc5b8670"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T07",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T07.olean.hash",
+        "sha256":  "1941956c12d184e4c09cdde8bf8eed342c560c0d5ed02abffe0988b63b34b587"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C07",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C07.ilean",
+        "sha256":  "bf1710b4ec8f97921e79cc78e9b1c45c2398f3f7de2a987585bf82f183c21fb2"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C07",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C07.olean",
+        "sha256":  "e74317fb4642daa1b24b1d68a894932f537f1268885ba056a7708ad642e569ab"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C07",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C07.olean.hash",
+        "sha256":  "fda2726a9895348e65239baa192c4828987aba9d664decade3c4837ab8b5d91f"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T08",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T08.ilean",
+        "sha256":  "78c54429d6f64e2267c8f7bca6bc0da665760abd42b9349e11fed8b058d80fa4"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T08",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T08.olean",
+        "sha256":  "53117e96fec68a6e6153c22e12663a1ffddb7f13b5e2b6a50b3bea52d5c636b2"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T08",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T08.olean.hash",
+        "sha256":  "cb347789373f5155ddb9c7dd8c600be4645e245b8d09fd3ab95538b78039ae6a"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C08",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C08.ilean",
+        "sha256":  "0ba26c952ca486299787ffce9e7357b5d70d81308ee16040d139faa70154c096"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C08",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C08.olean",
+        "sha256":  "6e05c708ea4fe054fff68180137291a1b6f273b432fd2d04e61b35f5b106b995"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C08",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C08.olean.hash",
+        "sha256":  "3479d07467752028e6f786a9023d1b567c546c16e8ffed28a16b9af685830feb"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T09",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T09.ilean",
+        "sha256":  "b81dc5c6e2421c07c4ee947382259b305a7626ab8557c7f10b058911b0bd9b86"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T09",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T09.olean",
+        "sha256":  "6ef9cf60721de7ce69035918c72f48a7e28a4a714bdf35cfe637b71927157182"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T09",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T09.olean.hash",
+        "sha256":  "effcba0effacbc75427db9cdb6c8b17a57707459cad0903a4a04efaa4a399674"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C09",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C09.ilean",
+        "sha256":  "9294425b796447ef348f60196b87a65f4e75234886093967b5b75efa3b3a777b"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C09",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C09.olean",
+        "sha256":  "2edee9759ea718cc2cd9d1a7ef10e5b1101aeb97c4f940851acd1d41549f4eed"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C09",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C09.olean.hash",
+        "sha256":  "6456c80c5c296a139110f3906870759b621a96bb22fa7166f987a8a9b4ae8f40"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T10",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T10.ilean",
+        "sha256":  "2a50ebf592e79b111c9543ef3cbbac1ed95378738dd436eca1e62026bbe92e53"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T10",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T10.olean",
+        "sha256":  "005c69c5e2d2471773f8f9ae1ee20508b59b277441bdcece3c5df6ce35ef3e51"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T10",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T10.olean.hash",
+        "sha256":  "5fa1c943b330a6252242b1f299e11da5a6cdf9a6fd49100f0d339807a1460134"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C10",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C10.ilean",
+        "sha256":  "d1c2d2a5cdfc9ca4fa5d5747c5e2698e02e40789cdf5e600a1117ed5b5c1ccf6"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C10",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C10.olean",
+        "sha256":  "88941bf6dc708a4ca0003af4a78c58af9c57a6c5a5ce94db88c3ad91de3ebbc9"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C10",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C10.olean.hash",
+        "sha256":  "cc9363904fe4dfeef9722f71a971b76e413024a6d4313ab5d5fc4b01d2ff0436"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T11",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T11.ilean",
+        "sha256":  "ab8a461683d368b5d7094bce95f17a2b329b0000c9594d2a5a737cbcb8bac43d"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T11",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T11.olean",
+        "sha256":  "6f519c4d64d53e87b03356b8becfa9dca7fe9b267f864c9cc78f83a1316654d5"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T11",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T11.olean.hash",
+        "sha256":  "820e9fcdbe42685ed5282fbabea3ab4805697ce0b34ff5b1a7e98e5b72ffbdc7"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C11",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C11.ilean",
+        "sha256":  "6b6dbb8a6f1e2f04ff1afd5a9a29873c818fec5f50463e7352a3cea29381df97"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C11",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C11.olean",
+        "sha256":  "ea97b33951f38ad1b50865a33f919547c61ccf1344942b4d91d84422687c7894"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C11",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C11.olean.hash",
+        "sha256":  "8c68a6b53b55317eabd3f239c5ab1e603c1b024b7926beb9b70b367d7d0eb683"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T12",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T12.ilean",
+        "sha256":  "cd492c51c0f06b467bfc95ee71afdfa400699039f75ec1b134e4c85dec063961"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T12",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T12.olean",
+        "sha256":  "71c6ed8108ba7002e1dcf4d704ff1808a4774990913a5daf227b3299a7626275"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T12",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T12.olean.hash",
+        "sha256":  "c1dd86b8e7dad43459efc2e7a2281651793ed9dccd508ec19c3dc1ebd0b45e4b"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C12",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C12.ilean",
+        "sha256":  "bba4d609a2f3c8cca39e175c0c61c76c3a23606f0bf829c393f6c721e4f3f58e"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C12",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C12.olean",
+        "sha256":  "5964aa3f72835e567fbc69d9b97fa3c4382c5a698859183f67bcdc4b4d846853"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C12",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C12.olean.hash",
+        "sha256":  "5665e7c878cd822e3be4821ae0e7f93a25cc019b5e0cc4caa67236a50bc5b50e"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T13",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T13.ilean",
+        "sha256":  "0eef2dba28c818c466574f421d732be1e569c0ad24466288ca1a3df4bc28d626"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T13",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T13.olean",
+        "sha256":  "e9d1d365dd8314b242546ef61885d2a687f35ecffc7f8760733d0b2ef583cc5b"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T13",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T13.olean.hash",
+        "sha256":  "eaef80b3192270177943b6c06da9c9ed1dcc7d8cb03dea92f57c19fd2f5908df"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C13",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C13.ilean",
+        "sha256":  "5c550e1426298e0d0f8a189c3ab2e2f70b398cd42428a7d43c506cc60c2102b4"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C13",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C13.olean",
+        "sha256":  "2ec98bb147a567a42e943cb7670e001395cb9018b3d945ca54b8195026c95630"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C13",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C13.olean.hash",
+        "sha256":  "c127583f6608c2d3cd16360b2159da81f9c2d92a37fa8767d108b0a28ce89e84"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T14",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T14.ilean",
+        "sha256":  "47ce603c73b5ec4be8f75ab400a4384e8b7f87cb9310fb97de9b58dce4a67ff3"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T14",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T14.olean",
+        "sha256":  "a90b212350618ba43e81c9c24875533c328cc1aef63230e266d460d69fc9f232"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.T14",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/T14.olean.hash",
+        "sha256":  "d5b7210b61bc46e8fc0d36207bb21a5b2d8e816ef7bbff38185871fcca0fd3b3"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C14",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C14.ilean",
+        "sha256":  "12312b41660f361528a5ffdc9c014285082ab5a122cf6f93c119cb10f6cb923d"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C14",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C14.olean",
+        "sha256":  "078ba515fd7a44eb86cedbf961e82fce82484cb1cb988f810dd1dca383fdfa3d"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C14",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C14.olean.hash",
+        "sha256":  "a4e714bf1c5450aed3787e9b62f21c8841d6b4eeb43ac3ab1c05119b8d80269a"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C15",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C15.ilean",
+        "sha256":  "871ad6ffb0a355a285cf4f099260b22c208c3c10971f2b5501e6c991ef47db34"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C15",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C15.olean",
+        "sha256":  "6c2ac59d9f5273b26437f243e27f21338750bd4070b61e64830fbb541e0c1f67"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.C15",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/C15.olean.hash",
+        "sha256":  "13342e8db0f525f70f6fe1f067bff797f338b4822763998907a1e620395830da"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.Glue",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/Glue.ilean",
+        "sha256":  "194ed8f21b2a1e43ee644d4e49b05f7d631b60e090ae6c527a8e5f774e4c5f3a"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.Glue",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/Glue.olean",
+        "sha256":  "5dcfc2100c3f008b07590256a99086cc3f7efd3f7adb4c9f53366f454e2a8d25"
+    },
+    {
+        "module":  "ClaudeL1.Data.SOS.Glue",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Data/SOS/Glue.olean.hash",
+        "sha256":  "1dcaa380ceddc55dbbf734e22419dc7b4ee150d3d71160ede3007ff611cf56b4"
+    },
+    {
+        "module":  "ClaudeL1.Numbers",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Numbers.ilean",
+        "sha256":  "7794e0a69f4962bae799eeb931f709d9413a464a8f7f10d1facd1f1c03c5f5e0"
+    },
+    {
+        "module":  "ClaudeL1.Numbers",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Numbers.olean",
+        "sha256":  "bfc0a0c1f2f0649a4a06123e052bd97a4663d038bab0953de63bc8e333e22f4c"
+    },
+    {
+        "module":  "ClaudeL1.Numbers",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Numbers.olean.hash",
+        "sha256":  "751b2670941643b46dd9a28cd7ff59324371b985784f8622519fecb32fd29637"
+    },
+    {
+        "module":  "ClaudeL1.Identity",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Identity.ilean",
+        "sha256":  "98b6fa7d4a13dc3fa5efa32699244f458f43af9d49e05330a6c7d480ce17dcbb"
+    },
+    {
+        "module":  "ClaudeL1.Identity",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Identity.olean",
+        "sha256":  "53f2761fabc6e6e49d7d8ebcfe2f42357995e341441ab0904254b6bc19cf3735"
+    },
+    {
+        "module":  "ClaudeL1.Identity",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Identity.olean.hash",
+        "sha256":  "728ad071dc4468c0e710c91221c4a1f40d323931ad0d0a58f0487bb4fb1e4b0b"
+    },
+    {
+        "module":  "ClaudeL1.KC.Extra",
+        "path":  ".lake/build/lib/lean/ClaudeL1/KC/Extra.ilean",
+        "sha256":  "6335cad9dac2ed45bb443b82a928db74a8cfc912c8c28d5b42169d9fc1882cef"
+    },
+    {
+        "module":  "ClaudeL1.KC.Extra",
+        "path":  ".lake/build/lib/lean/ClaudeL1/KC/Extra.olean",
+        "sha256":  "49be1499f131f6f6230dc6672b49c1d9a4642d5b8d4056fffd58841a12de090a"
+    },
+    {
+        "module":  "ClaudeL1.KC.Extra",
+        "path":  ".lake/build/lib/lean/ClaudeL1/KC/Extra.olean.hash",
+        "sha256":  "189fc85e1143231c17b9042b89b140b4c96f75067c7459c136b4ecb19130ee60"
+    },
+    {
+        "module":  "ThomsonN9.Energy",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Energy.ilean",
+        "sha256":  "5d966e2d508c146c494b563e1c1a3688eca731f4c6714ad3716300b0e929e5de"
+    },
+    {
+        "module":  "ThomsonN9.Energy",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Energy.olean",
+        "sha256":  "5a90fd3177cf93debd8198d6538ef19c475e2edba9804106a0b1b5b035148177"
+    },
+    {
+        "module":  "ThomsonN9.Energy",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Energy.olean.hash",
+        "sha256":  "99490bf612cfcfa1e4755474fbf2396311bb7e9cf81f211a3970b43a90e866ad"
+    },
+    {
+        "module":  "ThomsonN9.CentroidBound",
+        "path":  ".lake/build/lib/lean/ThomsonN9/CentroidBound.ilean",
+        "sha256":  "88a61ee45e1d0de0d779f586de5bb9d3df746b623e6b91edf7dd7b50041ec83d"
+    },
+    {
+        "module":  "ThomsonN9.CentroidBound",
+        "path":  ".lake/build/lib/lean/ThomsonN9/CentroidBound.olean",
+        "sha256":  "a56cb0b2311415dda0ab6e502d315c07745be0b728e7d0cb4ac34b1255f39e11"
+    },
+    {
+        "module":  "ThomsonN9.CentroidBound",
+        "path":  ".lake/build/lib/lean/ThomsonN9/CentroidBound.olean.hash",
+        "sha256":  "0061613e5e82594a2187298fb444a35939d5acd69da145e73c32053bc1173ebd"
+    },
+    {
+        "module":  "ThomsonN9.SDP.Summation",
+        "path":  ".lake/build/lib/lean/ThomsonN9/SDP/Summation.ilean",
+        "sha256":  "b68966794d615c2870d91920b28969fd7dabad9023e3b19a998e0d92b76c7fdf"
+    },
+    {
+        "module":  "ThomsonN9.SDP.Summation",
+        "path":  ".lake/build/lib/lean/ThomsonN9/SDP/Summation.olean",
+        "sha256":  "89087a34d8eb76a44e40884a0d9b495092bf9794e5949e8c3de8ebb8db8620c0"
+    },
+    {
+        "module":  "ThomsonN9.SDP.Summation",
+        "path":  ".lake/build/lib/lean/ThomsonN9/SDP/Summation.olean.hash",
+        "sha256":  "5fbfdcf07adb5a732dd0924d812fa206e0b32bc111600e1fbefb6dc0f904c54b"
+    },
+    {
+        "module":  "ThomsonN9.SDP.CircleKernel",
+        "path":  ".lake/build/lib/lean/ThomsonN9/SDP/CircleKernel.ilean",
+        "sha256":  "55a1ef6424eda7c3ba7ab0c734f0490e37a3f6397b8b28316d058548412df2fb"
+    },
+    {
+        "module":  "ThomsonN9.SDP.CircleKernel",
+        "path":  ".lake/build/lib/lean/ThomsonN9/SDP/CircleKernel.olean",
+        "sha256":  "88d503f3d4913775b43071368f070891cb8ebec7f0f24ab7764c4168dfafe961"
+    },
+    {
+        "module":  "ThomsonN9.SDP.CircleKernel",
+        "path":  ".lake/build/lib/lean/ThomsonN9/SDP/CircleKernel.olean.hash",
+        "sha256":  "c9853de349bd6362ed9b71fa4c5a6aabcbcdc8e745628275b4fb99ebc218594a"
+    },
+    {
+        "module":  "ThomsonN9.SDP.ProjectionComplex",
+        "path":  ".lake/build/lib/lean/ThomsonN9/SDP/ProjectionComplex.ilean",
+        "sha256":  "fb9f67c873f1cd0cd2815ef2d6102bf3dfc705414a98905cc126a306627a6b1a"
+    },
+    {
+        "module":  "ThomsonN9.SDP.ProjectionComplex",
+        "path":  ".lake/build/lib/lean/ThomsonN9/SDP/ProjectionComplex.olean",
+        "sha256":  "8659d30d686f6d95a3e5c80f2f3afa479de963a0573a395b40fb77dc80b1f6f7"
+    },
+    {
+        "module":  "ThomsonN9.SDP.ProjectionComplex",
+        "path":  ".lake/build/lib/lean/ThomsonN9/SDP/ProjectionComplex.olean.hash",
+        "sha256":  "fd9e1e4939f8ef0ae2d69dfaa3457b0443830250a675f09a6b52c665a1a4a6e3"
+    },
+    {
+        "module":  "ThomsonN9.SDP.Counting",
+        "path":  ".lake/build/lib/lean/ThomsonN9/SDP/Counting.ilean",
+        "sha256":  "d07508b4ebe055b82fcd4974266a81c9014162764b4b648b58eb363bfe93df69"
+    },
+    {
+        "module":  "ThomsonN9.SDP.Counting",
+        "path":  ".lake/build/lib/lean/ThomsonN9/SDP/Counting.olean",
+        "sha256":  "ebf3cf93937118af4132a26d26bdede97d9ce62a5dcbe8d08ce54e7c92692da9"
+    },
+    {
+        "module":  "ThomsonN9.SDP.Counting",
+        "path":  ".lake/build/lib/lean/ThomsonN9/SDP/Counting.olean.hash",
+        "sha256":  "4bbcbc9a090cb409888a6613675ef0f6eb2ec0cbf43758dfd8505bc5b9e5bbe0"
+    },
+    {
+        "module":  "ThomsonN9.SDP.RepeatedIndices",
+        "path":  ".lake/build/lib/lean/ThomsonN9/SDP/RepeatedIndices.ilean",
+        "sha256":  "8611b0b2736b913a382bf0ed5b97ee4303ee2cc643ffaca6b199cc6f7f0918fd"
+    },
+    {
+        "module":  "ThomsonN9.SDP.RepeatedIndices",
+        "path":  ".lake/build/lib/lean/ThomsonN9/SDP/RepeatedIndices.olean",
+        "sha256":  "f41575c4afd2a3039f6c7c444c5719cc81a05cd1c2181f6eba7d0945fcb6b7a9"
+    },
+    {
+        "module":  "ThomsonN9.SDP.RepeatedIndices",
+        "path":  ".lake/build/lib/lean/ThomsonN9/SDP/RepeatedIndices.olean.hash",
+        "sha256":  "1de7a498f9b9ce2d2a05083b0bce61ce288716655eb6095b61ca45afaa026997"
+    },
+    {
+        "module":  "ThomsonN9.SDP.Symmetrization",
+        "path":  ".lake/build/lib/lean/ThomsonN9/SDP/Symmetrization.ilean",
+        "sha256":  "15d93d3a509b4f0ad2b2c72d890c370614c03fce0810b2ef9090f4ee1d9f9bde"
+    },
+    {
+        "module":  "ThomsonN9.SDP.Symmetrization",
+        "path":  ".lake/build/lib/lean/ThomsonN9/SDP/Symmetrization.olean",
+        "sha256":  "711424296c2d8af93db8158c3caea159cad8c9b22cde23703cc9d7f37fd4ea85"
+    },
+    {
+        "module":  "ThomsonN9.SDP.Symmetrization",
+        "path":  ".lake/build/lib/lean/ThomsonN9/SDP/Symmetrization.olean.hash",
+        "sha256":  "e62ec7187cb1581ef3fa24a812bdc4e4bdff7b88eb2fd66af30b4807ee0dad43"
+    },
+    {
+        "module":  "ThomsonN9.SDP.FactoredKernels",
+        "path":  ".lake/build/lib/lean/ThomsonN9/SDP/FactoredKernels.ilean",
+        "sha256":  "93ebf66990501ad3cef5958eec1a5d8793fd6241e608189d5b42acde61d16fe0"
+    },
+    {
+        "module":  "ThomsonN9.SDP.FactoredKernels",
+        "path":  ".lake/build/lib/lean/ThomsonN9/SDP/FactoredKernels.olean",
+        "sha256":  "0d785a8a3276b47f7b8d85fffd5810cc60aa9f88fec57789321286d4cd6f9dd0"
+    },
+    {
+        "module":  "ThomsonN9.SDP.FactoredKernels",
+        "path":  ".lake/build/lib/lean/ThomsonN9/SDP/FactoredKernels.olean.hash",
+        "sha256":  "47aa69345281e499bef231a8b0fcd525048005f9a1dc84a3405728627e374970"
+    },
+    {
+        "module":  "ThomsonN9.SDP.GeometryBounds",
+        "path":  ".lake/build/lib/lean/ThomsonN9/SDP/GeometryBounds.ilean",
+        "sha256":  "457f15facae0cbe75d34b42402bbf8693e5edc113fa93e0e95da6aef3ac88ef9"
+    },
+    {
+        "module":  "ThomsonN9.SDP.GeometryBounds",
+        "path":  ".lake/build/lib/lean/ThomsonN9/SDP/GeometryBounds.olean",
+        "sha256":  "16b7d976533e377e039dd02baddb44432bfd2d91c0031c9ca40d9acb2c86ead6"
+    },
+    {
+        "module":  "ThomsonN9.SDP.GeometryBounds",
+        "path":  ".lake/build/lib/lean/ThomsonN9/SDP/GeometryBounds.olean.hash",
+        "sha256":  "027014f393792267c5f84b2466ef68fb3f6a0f82beb45952ecd3c0c59ed3b846"
+    },
+    {
+        "module":  "ThomsonN9.SDP.ResidualBound",
+        "path":  ".lake/build/lib/lean/ThomsonN9/SDP/ResidualBound.ilean",
+        "sha256":  "c8be03dfc12ab1a4e7150a748b4dbd3809ca7f9c937e2ebc158465fc4179ab69"
+    },
+    {
+        "module":  "ThomsonN9.SDP.ResidualBound",
+        "path":  ".lake/build/lib/lean/ThomsonN9/SDP/ResidualBound.olean",
+        "sha256":  "1e5f2b3c3e8d714209ee946961b5e41dec92c7e1ce4518c8ed6c1383c3703ef8"
+    },
+    {
+        "module":  "ThomsonN9.SDP.ResidualBound",
+        "path":  ".lake/build/lib/lean/ThomsonN9/SDP/ResidualBound.olean.hash",
+        "sha256":  "df2a8c53f57e673da9716d22496ec387eefa61cd88b96f8f9b8d090a3fdc37df"
+    },
+    {
+        "module":  "ThomsonN9.SDP.CertificateBound",
+        "path":  ".lake/build/lib/lean/ThomsonN9/SDP/CertificateBound.ilean",
+        "sha256":  "e873d06152a902693ffe72730f765e71b05cef394fe8082cb0f8b511e9831f91"
+    },
+    {
+        "module":  "ThomsonN9.SDP.CertificateBound",
+        "path":  ".lake/build/lib/lean/ThomsonN9/SDP/CertificateBound.olean",
+        "sha256":  "ab853d29abb5170e1eadc9998fa8120fa29fccbe3ad78aa6772140f3435f5e53"
+    },
+    {
+        "module":  "ThomsonN9.SDP.CertificateBound",
+        "path":  ".lake/build/lib/lean/ThomsonN9/SDP/CertificateBound.olean.hash",
+        "sha256":  "4f4e60636c26ac4e229188d01cc6a35da7157fc6f332b7cfb980f4bf1d82fbf2"
+    },
+    {
+        "module":  "ClaudeL1.Main",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Main.ilean",
+        "sha256":  "82d4ed2cc275412f2b02bc13b3eaeddee32fb8ea967455c4763bfc6d661ee642"
+    },
+    {
+        "module":  "ClaudeL1.Main",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Main.olean",
+        "sha256":  "839721773075dc8168c17bcd2f584e1d994c0c135f51712e2bd8e9d5943d9597"
+    },
+    {
+        "module":  "ClaudeL1.Main",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Main.olean.hash",
+        "sha256":  "a3103b8e7263569cae09f7b466f94aaddd9a08dbe65bb998aaa191fad6bb8828"
+    },
+    {
+        "module":  "ClaudeL1.Test.Negative",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Test/Negative.ilean",
+        "sha256":  "fc2897fad8f3f26c06dae706feeac5299dc42867ca290acc97f28da91cd49a40"
+    },
+    {
+        "module":  "ClaudeL1.Test.Negative",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Test/Negative.olean",
+        "sha256":  "9e53af6648f02988de282c1aa62436c3b95821918fcc9ce5d5c1ee1a91ebaf5d"
+    },
+    {
+        "module":  "ClaudeL1.Test.Negative",
+        "path":  ".lake/build/lib/lean/ClaudeL1/Test/Negative.olean.hash",
+        "sha256":  "72dadba5cee10ef570a14deee43105d395d3a6fd7af057407badd5e290c1d3ab"
+    },
+    {
+        "module":  "ClaudeL2b.ReducedData",
+        "path":  ".lake/build/lib/lean/ClaudeL2b/ReducedData.ilean",
+        "sha256":  "e2c6f53be3c3d53196cb46d6357104c788a0561d09056fd2e5502cfe12c95338"
+    },
+    {
+        "module":  "ClaudeL2b.ReducedData",
+        "path":  ".lake/build/lib/lean/ClaudeL2b/ReducedData.olean",
+        "sha256":  "87a3981252d5e9b566e4e73b103f3b8f0519b95c274b7fe74329bdba135ea66d"
+    },
+    {
+        "module":  "ClaudeL2b.ReducedData",
+        "path":  ".lake/build/lib/lean/ClaudeL2b/ReducedData.olean.hash",
+        "sha256":  "57b00b4125226310eccca379ca03a92f9d4b9701a236d6bb30d9f46ce39b5bec"
+    },
+    {
+        "module":  "ThomsonN9.Bernstein.Checker",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Bernstein/Checker.ilean",
+        "sha256":  "bab0c56aba8cc70d07703c3fc291cfc16b021fe06a8f33be2721c3fe46b914e0"
+    },
+    {
+        "module":  "ThomsonN9.Bernstein.Checker",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Bernstein/Checker.olean",
+        "sha256":  "13d341514240975827ecc43f6a86a5d8a058346e17e384aefd28a329cc757874"
+    },
+    {
+        "module":  "ThomsonN9.Bernstein.Checker",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Bernstein/Checker.olean.hash",
+        "sha256":  "2633f60de9c9872d444929faba67cc25fe766d3eda1d8585530c90fd97c11a1f"
+    },
+    {
+        "module":  "ThomsonN9.Bernstein.MinorantData",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Bernstein/MinorantData.ilean",
+        "sha256":  "92b7616cf3250ee8b5d5248ae8f7b99bd6c503e07c5c1be42e497b58653c3866"
+    },
+    {
+        "module":  "ThomsonN9.Bernstein.MinorantData",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Bernstein/MinorantData.olean",
+        "sha256":  "baa56886dfee218b1a6c47e9b1fe2a0f16ae879ade2deaf8cf26f9cd3a8deac9"
+    },
+    {
+        "module":  "ThomsonN9.Bernstein.MinorantData",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Bernstein/MinorantData.olean.hash",
+        "sha256":  "55c6d28015d283ca07a74c7c81d5f886607adad7ef7880e96e22a85ac1a61da4"
+    },
+    {
+        "module":  "ThomsonN9.Bernstein.MinorantCert",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Bernstein/MinorantCert.ilean",
+        "sha256":  "29a573af41e3e84d7c9f7490e8e7f65bc88ec85d75e502f36de2317886383142"
+    },
+    {
+        "module":  "ThomsonN9.Bernstein.MinorantCert",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Bernstein/MinorantCert.olean",
+        "sha256":  "57dc4f092f432bdc8e4cca65d6f2030717c3a1f87cd1537417b9a3c90da09b17"
+    },
+    {
+        "module":  "ThomsonN9.Bernstein.MinorantCert",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Bernstein/MinorantCert.olean.hash",
+        "sha256":  "98b8823cb306aee9c01b86030b65a28b7634058b23b7de03d33a61599bad8ae7"
+    },
+    {
+        "module":  "ThomsonN9.Bernstein.Minorant",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Bernstein/Minorant.ilean",
+        "sha256":  "52b7cb55691555ed00e39c7df8ad616d3cb91deec84c6e7c8d6d3ea6e86a9d7d"
+    },
+    {
+        "module":  "ThomsonN9.Bernstein.Minorant",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Bernstein/Minorant.olean",
+        "sha256":  "0ab8550cadb20f3e5f8eaccecf8bb12b42000ffcb3e455abd803e277c8fbbd21"
+    },
+    {
+        "module":  "ThomsonN9.Bernstein.Minorant",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Bernstein/Minorant.olean.hash",
+        "sha256":  "3d24050f3b78357d28ce04ba4788781e377f6f31aa53b0d839cba09873473b69"
+    },
+    {
+        "module":  "ClaudeL2b.ReducedMinorant",
+        "path":  ".lake/build/lib/lean/ClaudeL2b/ReducedMinorant.ilean",
+        "sha256":  "7b142da9695bd88a3229c154bb5069194f127b750255fc5b1189a0546244823a"
+    },
+    {
+        "module":  "ClaudeL2b.ReducedMinorant",
+        "path":  ".lake/build/lib/lean/ClaudeL2b/ReducedMinorant.olean",
+        "sha256":  "c9dbf3a2a99047c30b79ab0faaabfb692aa248fdb5c2a51c691b813d118cd8c1"
+    },
+    {
+        "module":  "ClaudeL2b.ReducedMinorant",
+        "path":  ".lake/build/lib/lean/ClaudeL2b/ReducedMinorant.olean.hash",
+        "sha256":  "5f836bf95c97309484115a53aa3893a142bd8e246524593285b147a6f0ac937f"
+    },
+    {
+        "module":  "ClaudeL2b.RefinedData",
+        "path":  ".lake/build/lib/lean/ClaudeL2b/RefinedData.ilean",
+        "sha256":  "c068d63cf05d82c46b5686833f8160cb9b318b4fdf04a08a9ce551042ae24712"
+    },
+    {
+        "module":  "ClaudeL2b.RefinedData",
+        "path":  ".lake/build/lib/lean/ClaudeL2b/RefinedData.olean",
+        "sha256":  "b63b16a428de6229a049dccd3f55091e33c7978c728b7ae8ad4804b5d3afa171"
+    },
+    {
+        "module":  "ClaudeL2b.RefinedData",
+        "path":  ".lake/build/lib/lean/ClaudeL2b/RefinedData.olean.hash",
+        "sha256":  "b76adab333701795059c7671781c93daf4200bc24250e21644800027373a2c32"
+    },
+    {
+        "module":  "ClaudeL2b.RefinedWindows",
+        "path":  ".lake/build/lib/lean/ClaudeL2b/RefinedWindows.ilean",
+        "sha256":  "16c69de801b5002b748b880a2950d1814a27026f90749440dccac00e01f077d8"
+    },
+    {
+        "module":  "ClaudeL2b.RefinedWindows",
+        "path":  ".lake/build/lib/lean/ClaudeL2b/RefinedWindows.olean",
+        "sha256":  "a62784b0abff55b009f452b9c831d528bb5ee0498742e1d2e418d3337f6d9b97"
+    },
+    {
+        "module":  "ClaudeL2b.RefinedWindows",
+        "path":  ".lake/build/lib/lean/ClaudeL2b/RefinedWindows.olean.hash",
+        "sha256":  "33eeee9afbe15920eca62706c4951774d71d749d84c106077c675f3c413f52fe"
+    },
+    {
+        "module":  "ClaudeWindow.Interval",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/Interval.ilean",
+        "sha256":  "637f4f0c727dfd97e020e2358346f63ae36334f97fcf046519c27f023bdfcac2"
+    },
+    {
+        "module":  "ClaudeWindow.Interval",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/Interval.olean",
+        "sha256":  "757c1989de0ed3093d9598a8bb5e8ad1572a030639170e612a637600de50bbcc"
+    },
+    {
+        "module":  "ClaudeWindow.Interval",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/Interval.olean.hash",
+        "sha256":  "0970676caaf747f2e494910cc682c82261f4e7c91f871338995811ca7932fbe2"
+    },
+    {
+        "module":  "ClaudeWindow.WindowCheck",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/WindowCheck.ilean",
+        "sha256":  "c939d4bb677de6247789f66dcc7123133ea79660ae619979bf681de8e74c08be"
+    },
+    {
+        "module":  "ClaudeWindow.WindowCheck",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/WindowCheck.olean",
+        "sha256":  "85248ec8580f3524a365a5cf20bee9255f0f21e650017b5bacd263384fbe0e34"
+    },
+    {
+        "module":  "ClaudeWindow.WindowCheck",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/WindowCheck.olean.hash",
+        "sha256":  "40876b1464e8d28b1bf2ec8eeea7dcba440199831e5f4b745154c16ca3cc929f"
+    },
+    {
+        "module":  "ClaudeWindow.Geometry",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/Geometry.ilean",
+        "sha256":  "ef2500cd3b6336e56c99d1a67cd46a5685bc3c1308f776ac9698d628680564bf"
+    },
+    {
+        "module":  "ClaudeWindow.Geometry",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/Geometry.olean",
+        "sha256":  "294c76c462c6038dbcb0667ad10884e63178b29630bf14827161f97e32980039"
+    },
+    {
+        "module":  "ClaudeWindow.Geometry",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/Geometry.olean.hash",
+        "sha256":  "4a66ae2193ac8d28fa8b761448aec2b982b07a80a99016e63720d7c9e28cfae4"
+    },
+    {
+        "module":  "ClaudeWindow.WindowData",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/WindowData.ilean",
+        "sha256":  "3421c6c98976e4b647eac9df4c92072c1e569dac5acfa364eddac503661fa563"
+    },
+    {
+        "module":  "ClaudeWindow.WindowData",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/WindowData.olean",
+        "sha256":  "db7243bd1cd8ffe7a84097db17cb8ce77f01cb65e125febd4da540ea51a3f7e4"
+    },
+    {
+        "module":  "ClaudeWindow.WindowData",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/WindowData.olean.hash",
+        "sha256":  "9367db913982077602b6519dc7741c44f91ac3575ab7db4eeec424c0f20be192"
+    },
+    {
+        "module":  "ClaudeWindow.WindowBoxes",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/WindowBoxes.ilean",
+        "sha256":  "4c5f3f1f42aa5b3fcd6d86e3498d346b5c54b0a8289ffe868f9886e023a46768"
+    },
+    {
+        "module":  "ClaudeWindow.WindowBoxes",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/WindowBoxes.olean",
+        "sha256":  "86e15e922e97caa6494253974c01054276ab6e4f187fc3caa78ee91b85bb3c2b"
+    },
+    {
+        "module":  "ClaudeWindow.WindowBoxes",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/WindowBoxes.olean.hash",
+        "sha256":  "2579fe6a1e56d8d5e154c4d6c8369becca75bad5cc7e87f6726b7f47a46185c2"
+    },
+    {
+        "module":  "ClaudeWindow.CandidateGram",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/CandidateGram.ilean",
+        "sha256":  "e9804351cfa376238304d13e56738be53b840edf94a6519e6efba9f6bd8787d1"
+    },
+    {
+        "module":  "ClaudeWindow.CandidateGram",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/CandidateGram.olean",
+        "sha256":  "bf4754b49ca28e12853f8ae5e3ff181b503c3f46d0314cbdb2c0850af501d199"
+    },
+    {
+        "module":  "ClaudeWindow.CandidateGram",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/CandidateGram.olean.hash",
+        "sha256":  "bdd819f6784eb0a5e9332d45bbd88a80c9d17b56c69c4b79b9d759cd2a74aea6"
+    },
+    {
+        "module":  "ClaudeWindow.FormulaSound",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/FormulaSound.ilean",
+        "sha256":  "fd5fe27ffff092ddd4dde63ab490154221414422c79c5d88b5de7dc00e391f43"
+    },
+    {
+        "module":  "ClaudeWindow.FormulaSound",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/FormulaSound.olean",
+        "sha256":  "b695380fe728598f6f307d23fd662790818d726aed6fb2c3fefa878913d25ab2"
+    },
+    {
+        "module":  "ClaudeWindow.FormulaSound",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/FormulaSound.olean.hash",
+        "sha256":  "cc803d784ce573ad619504775b5e7a0bd02311c26a2812e8461b843ba368a4e8"
+    },
+    {
+        "module":  "ClaudeWindow.AnchorFree",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/AnchorFree.ilean",
+        "sha256":  "adad7d555904fd246060d71fdd1fe0ee1e8ced671dd6bc9cf8faef4edba7f680"
+    },
+    {
+        "module":  "ClaudeWindow.AnchorFree",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/AnchorFree.olean",
+        "sha256":  "3b14dbf37d56d403dd22638dab63e4eff9586b23ca713306ff232d38c31a50ae"
+    },
+    {
+        "module":  "ClaudeWindow.AnchorFree",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/AnchorFree.olean.hash",
+        "sha256":  "913a72229613656f58f5ed858a2b08f5af7250d3d3c8df291657583e2f567d94"
+    },
+    {
+        "module":  "ClaudeWindow.Antipodal",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/Antipodal.ilean",
+        "sha256":  "8daf6a14629b84de3ebf0ba6868cf2ab01698cd26f60412781662b6f9d6f7fa4"
+    },
+    {
+        "module":  "ClaudeWindow.Antipodal",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/Antipodal.olean",
+        "sha256":  "689b32de9e990d23623bfedde6fd3529a187bd1e35ca66cda40c8a52cb57d12a"
+    },
+    {
+        "module":  "ClaudeWindow.Antipodal",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/Antipodal.olean.hash",
+        "sha256":  "7a27a2e402564507fd8d1d3b145a54c869fd9275ee7b01effc229addcca89797"
+    },
+    {
+        "module":  "ClaudeWindow.Soundness",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/Soundness.ilean",
+        "sha256":  "8752eea1dddc8acecd795c23216f90870ad9140e0b6fe9896e06f001b18598f4"
+    },
+    {
+        "module":  "ClaudeWindow.Soundness",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/Soundness.olean",
+        "sha256":  "9eafc1d0adaaf509d89148eb00233cf34cab812e7e9a9ee053a86f806e0fd65e"
+    },
+    {
+        "module":  "ClaudeWindow.Soundness",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/Soundness.olean.hash",
+        "sha256":  "67fb2e65d03cdc6ec5537dfb27af8b9dbdf286a045ad2da030b745d68472d5aa"
+    },
+    {
+        "module":  "ClaudeWindow.WindowKernelA",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/WindowKernelA.ilean",
+        "sha256":  "5c6c6f5b900056b8dcd0735688f3da9b5ee66442e377fef09294c269617c91b3"
+    },
+    {
+        "module":  "ClaudeWindow.WindowKernelA",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/WindowKernelA.olean",
+        "sha256":  "3df097bd09aaeaba150e4e232f2dd3229ce3d0892c33ceea0561c973145b89e8"
+    },
+    {
+        "module":  "ClaudeWindow.WindowKernelA",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/WindowKernelA.olean.hash",
+        "sha256":  "b7eb8789f0bf40a54a9577179f3ac1352c5b7bdfad6c049d737cd641d3921646"
+    },
+    {
+        "module":  "ClaudeWindow.WindowKernelB",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/WindowKernelB.ilean",
+        "sha256":  "59fe0124382ec6f102e6635dbbfe030821b2bc4d44ae5502a4bb9875e4743bba"
+    },
+    {
+        "module":  "ClaudeWindow.WindowKernelB",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/WindowKernelB.olean",
+        "sha256":  "d7e512a30924a374ab0a9bae3c7b6bd676d5f7a200cdaa1f622be40cf08b2765"
+    },
+    {
+        "module":  "ClaudeWindow.WindowKernelB",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/WindowKernelB.olean.hash",
+        "sha256":  "a6dd2c140fbbbe5eb016fdcedc4700dcf0b5123563b3e6c91a15b13ba47415cc"
+    },
+    {
+        "module":  "ClaudeWindow.WindowKernel",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/WindowKernel.ilean",
+        "sha256":  "8ad7669ad1c985428eca6a427ef60e176049a7780e22238dbfde0bffa59c6ae9"
+    },
+    {
+        "module":  "ClaudeWindow.WindowKernel",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/WindowKernel.olean",
+        "sha256":  "518e6883d915da482cd1444e93ddfc0d45e70bb402d9c08529783985ea185a8b"
+    },
+    {
+        "module":  "ClaudeWindow.WindowKernel",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/WindowKernel.olean.hash",
+        "sha256":  "d90604ed6e4cfbb270af63c2e7b1a9479ef3507bbdd40747999588abaf97e08c"
+    },
+    {
+        "module":  "ClaudeWindow.Main",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/Main.ilean",
+        "sha256":  "c65d557ecc11123b845452b4ff32bc9dae13669b52cc8f766c7f8a42b33d89ca"
+    },
+    {
+        "module":  "ClaudeWindow.Main",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/Main.olean",
+        "sha256":  "eb400ebdffe1ce1caf6db2b31ba673ff3ef88f74cf3989860f741cfca3ea92a5"
+    },
+    {
+        "module":  "ClaudeWindow.Main",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/Main.olean.hash",
+        "sha256":  "a77f46bfcf653f802b4ecc60f5d8b3a59e992cd6f1472406ddfd670c99e89a50"
+    },
+    {
+        "module":  "ClaudeWindow.Bridge",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/Bridge.ilean",
+        "sha256":  "f3ca2e5efc2d0919f1a2aea24ddadd2d18222afc53c2c13238b30a37f8415981"
+    },
+    {
+        "module":  "ClaudeWindow.Bridge",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/Bridge.olean",
+        "sha256":  "29ac7d6ef6e579acbbe37ada24c3ddc392359450128acea44066d83a795ba7b9"
+    },
+    {
+        "module":  "ClaudeWindow.Bridge",
+        "path":  ".lake/build/lib/lean/ClaudeWindow/Bridge.olean.hash",
+        "sha256":  "6bf42c4402bd0ecf1f3e9bf6c23e09f8a3426441a1f2aa85481fb1bbeda7eafd"
+    },
+    {
+        "module":  "ClaudeL2b.WindowAdapter",
+        "path":  ".lake/build/lib/lean/ClaudeL2b/WindowAdapter.ilean",
+        "sha256":  "82380aa04a2c90e32a3c4356a1349724236007905ede90c06b1947a9f66fbf3c"
+    },
+    {
+        "module":  "ClaudeL2b.WindowAdapter",
+        "path":  ".lake/build/lib/lean/ClaudeL2b/WindowAdapter.olean",
+        "sha256":  "1b3783300c025373ec0ba3874bfd4373abbdea3102d560ce39a02ad8dac821a7"
+    },
+    {
+        "module":  "ClaudeL2b.WindowAdapter",
+        "path":  ".lake/build/lib/lean/ClaudeL2b/WindowAdapter.olean.hash",
+        "sha256":  "9d7abad30996c7b626f0803301a3fad7f4f133dd5bb9094b7aa36fa5e5c8f4f3"
+    },
+    {
+        "module":  "ThomsonN9.LocalRigidity",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LocalRigidity.ilean",
+        "sha256":  "e11ce1868122597a2baf20949a7e2de296f9d6a2e5040ddecd2f4fddd44ec274"
+    },
+    {
+        "module":  "ThomsonN9.LocalRigidity",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LocalRigidity.olean",
+        "sha256":  "e6374a7aa5e0e71ed20bf97bcc852fc72aecf3f32559899467eeae5e2d07c6db"
+    },
+    {
+        "module":  "ThomsonN9.LocalRigidity",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LocalRigidity.olean.hash",
+        "sha256":  "93aed3b94092d1e43f1d9f3d2edef9a623737d0a7fee4156361c9810a8440bf6"
+    },
+    {
+        "module":  "ThomsonN9.Endgame",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Endgame.ilean",
+        "sha256":  "1d294be8e9bca6692ae1921b93782aef43f4d411bade7adf0abc98ddde0e1eb9"
+    },
+    {
+        "module":  "ThomsonN9.Endgame",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Endgame.olean",
+        "sha256":  "8e3114100426f49c706c845e0a94b345b2faea8c7d27c5ad3ece84a450282aac"
+    },
+    {
+        "module":  "ThomsonN9.Endgame",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Endgame.olean.hash",
+        "sha256":  "c207f2d342216b5a98caf200497c69e4cba822040e30b4cd6f20364a082d2bfd"
+    },
+    {
+        "module":  "ClaudeL2b.Integration",
+        "path":  ".lake/build/lib/lean/ClaudeL2b/Integration.ilean",
+        "sha256":  "2f16a09a517fdf6aeace3ede987a2093ded80f4643013c8260964d40fe3ac6d2"
+    },
+    {
+        "module":  "ClaudeL2b.Integration",
+        "path":  ".lake/build/lib/lean/ClaudeL2b/Integration.olean",
+        "sha256":  "6fec1a281ebcee5689dd46a4c4af8f57c6c9760be1f60a3accab9f39e34f6776"
+    },
+    {
+        "module":  "ClaudeL2b.Integration",
+        "path":  ".lake/build/lib/lean/ClaudeL2b/Integration.olean.hash",
+        "sha256":  "35d75daf1a273bb348d336da8a1df4d916ea7c49d8b51baee7c04642798282b4"
+    },
+    {
+        "module":  "ClaudeL2b.LPData",
+        "path":  ".lake/build/lib/lean/ClaudeL2b/LPData.ilean",
+        "sha256":  "e6680a42073f90726a11271df3bae1a87d6351715c2fb2be66f8eb67a451486d"
+    },
+    {
+        "module":  "ClaudeL2b.LPData",
+        "path":  ".lake/build/lib/lean/ClaudeL2b/LPData.olean",
+        "sha256":  "0042e2d4a4cea6b0e495558939a348ea2b09eafc5d67ebf176915fbcda568344"
+    },
+    {
+        "module":  "ClaudeL2b.LPData",
+        "path":  ".lake/build/lib/lean/ClaudeL2b/LPData.olean.hash",
+        "sha256":  "e040113f1c1e977ac0333ff82a20cb1bf483a7b11185365a275c414268d0c0ba"
+    },
+    {
+        "module":  "ClaudeL2b.LPCovers",
+        "path":  ".lake/build/lib/lean/ClaudeL2b/LPCovers.ilean",
+        "sha256":  "cb10414ce21b4989610aab9fa2425f33a164faf87f1e8dac4d2dcd27ab0eb01c"
+    },
+    {
+        "module":  "ClaudeL2b.LPCovers",
+        "path":  ".lake/build/lib/lean/ClaudeL2b/LPCovers.olean",
+        "sha256":  "4b1d1650e9a8e432f8435bfe7e92b6ff55d5cc4331ef232fb8d8c416d026fd5b"
+    },
+    {
+        "module":  "ClaudeL2b.LPCovers",
+        "path":  ".lake/build/lib/lean/ClaudeL2b/LPCovers.olean.hash",
+        "sha256":  "de5bc745a1abacba31f467e462cbb5e2696f2c7d366293c190e75fd230639a6a"
+    },
+    {
+        "module":  "ClaudeL2b.LPAdapterCodex",
+        "path":  ".lake/build/lib/lean/ClaudeL2b/LPAdapterCodex.ilean",
+        "sha256":  "bc9340fea03ea6fc9c1c50ac4bf09e3df214d88d8f838e742f31166d2c68731d"
+    },
+    {
+        "module":  "ClaudeL2b.LPAdapterCodex",
+        "path":  ".lake/build/lib/lean/ClaudeL2b/LPAdapterCodex.olean",
+        "sha256":  "1be4fc51584f192e42cfc085bdda780ea673e7af3738d0ab1aa67b34664e9bf9"
+    },
+    {
+        "module":  "ClaudeL2b.LPAdapterCodex",
+        "path":  ".lake/build/lib/lean/ClaudeL2b/LPAdapterCodex.olean.hash",
+        "sha256":  "8c89cd0b8ea787743dc6cca4258f07ed8eda097a20bf16a0319be52e9bb85c43"
+    },
+    {
+        "module":  "Delsarte.Certificate.Interval",
+        "path":  ".lake/build/lib/lean/Delsarte/Certificate/Interval.ilean",
+        "sha256":  "b414cc7f0b4d21851e91b55db77f09d0f3c59138667315e9962d245c19d4ee19"
+    },
+    {
+        "module":  "Delsarte.Certificate.Interval",
+        "path":  ".lake/build/lib/lean/Delsarte/Certificate/Interval.olean",
+        "sha256":  "b7fe0342b856a06e3fbe3992f99961691d2edeb009de0b67259c85a09ec56c56"
+    },
+    {
+        "module":  "Delsarte.Certificate.Interval",
+        "path":  ".lake/build/lib/lean/Delsarte/Certificate/Interval.olean.hash",
+        "sha256":  "0bb40966203531eb29a6f6aab0a107fa9080b17c4896ee838ff04875a87a87df"
+    },
+    {
+        "module":  "Delsarte.Gegenbauer.Basic",
+        "path":  ".lake/build/lib/lean/Delsarte/Gegenbauer/Basic.ilean",
+        "sha256":  "9ff9d8af5c5b27745e58b8f9998e14e7f46b0f10eb416d1a0a5867cf2bcb6f4e"
+    },
+    {
+        "module":  "Delsarte.Gegenbauer.Basic",
+        "path":  ".lake/build/lib/lean/Delsarte/Gegenbauer/Basic.olean",
+        "sha256":  "cb9c424bbb9c2ed1c051051721ed5ec3cd416e1ab1b35d31537a859f870124f5"
+    },
+    {
+        "module":  "Delsarte.Gegenbauer.Basic",
+        "path":  ".lake/build/lib/lean/Delsarte/Gegenbauer/Basic.olean.hash",
+        "sha256":  "42f1607a06f947ffc8d764dd37b8a8645f669e25cd93ed237208553696e89534"
+    },
+    {
+        "module":  "Delsarte.Harmonic.Fischer",
+        "path":  ".lake/build/lib/lean/Delsarte/Harmonic/Fischer.ilean",
+        "sha256":  "11130cfc0e1eb0bc997a56d58fb35d75d2c8b2d9e32dbe8ca954b6c2f8dfcd30"
+    },
+    {
+        "module":  "Delsarte.Harmonic.Fischer",
+        "path":  ".lake/build/lib/lean/Delsarte/Harmonic/Fischer.olean",
+        "sha256":  "5c8843bb5469b633c5679d994b65bacea05c2302e77ba9825bbebeeec27c0862"
+    },
+    {
+        "module":  "Delsarte.Harmonic.Fischer",
+        "path":  ".lake/build/lib/lean/Delsarte/Harmonic/Fischer.olean.hash",
+        "sha256":  "4cb6c3c43d959a4d1cdb3c3d4c3abf3980c4380fa77f69bc73bd230d3908a6ff"
+    },
+    {
+        "module":  "Delsarte.Sphere.LP",
+        "path":  ".lake/build/lib/lean/Delsarte/Sphere/LP.ilean",
+        "sha256":  "6b9263ae6e82d94e01ac863dd89dd3a131340a3b9ee79cd9cacfcf5bd90a5e86"
+    },
+    {
+        "module":  "Delsarte.Sphere.LP",
+        "path":  ".lake/build/lib/lean/Delsarte/Sphere/LP.olean",
+        "sha256":  "038274b9b09b006c35d1591bfc02ae6760fb10a0a06fd8ca1f7a22a2356ce17a"
+    },
+    {
+        "module":  "Delsarte.Sphere.LP",
+        "path":  ".lake/build/lib/lean/Delsarte/Sphere/LP.olean.hash",
+        "sha256":  "6af6d9b8afacc1ea79fbd6ccb8d4dec6714dc213c1be0572bc455729fc47b4f4"
+    },
+    {
+        "module":  "Delsarte.Harmonic.Zonal",
+        "path":  ".lake/build/lib/lean/Delsarte/Harmonic/Zonal.ilean",
+        "sha256":  "90e7eb278caec635ed0206a53d7bb8dc3780b741f6720593cbd62aaa64ed8d61"
+    },
+    {
+        "module":  "Delsarte.Harmonic.Zonal",
+        "path":  ".lake/build/lib/lean/Delsarte/Harmonic/Zonal.olean",
+        "sha256":  "a79c1820b5e1238d3052d7e06d7d4f3daa032f5f8ba1ea710a3e010752c336a7"
+    },
+    {
+        "module":  "Delsarte.Harmonic.Zonal",
+        "path":  ".lake/build/lib/lean/Delsarte/Harmonic/Zonal.olean.hash",
+        "sha256":  "94b70da27f3583f91d0632805caa282b1c7612562255167bd0cdbda44d694678"
+    },
+    {
+        "module":  "Delsarte.Sphere.DegreeTwo",
+        "path":  ".lake/build/lib/lean/Delsarte/Sphere/DegreeTwo.ilean",
+        "sha256":  "1cd2d8aa98a465fd277f5a75538f1fe8db4e8713ff04899602cc950a8607444e"
+    },
+    {
+        "module":  "Delsarte.Sphere.DegreeTwo",
+        "path":  ".lake/build/lib/lean/Delsarte/Sphere/DegreeTwo.olean",
+        "sha256":  "09f3e8899c903ec3e2fc1efa62deb847b955651a27fb3e1fb4aaa786b84a0940"
+    },
+    {
+        "module":  "Delsarte.Sphere.DegreeTwo",
+        "path":  ".lake/build/lib/lean/Delsarte/Sphere/DegreeTwo.olean.hash",
+        "sha256":  "4e32a6845f0e1232bcaf1433cf2bdde8c7525946e67774bd4052f8a793a12320"
+    },
+    {
+        "module":  "Delsarte.Sphere.DegreeThree",
+        "path":  ".lake/build/lib/lean/Delsarte/Sphere/DegreeThree.ilean",
+        "sha256":  "57cc7594d91bc7adabaa37070bbe86a7cc748739b9671a1714a28328f1745c64"
+    },
+    {
+        "module":  "Delsarte.Sphere.DegreeThree",
+        "path":  ".lake/build/lib/lean/Delsarte/Sphere/DegreeThree.olean",
+        "sha256":  "aedc9d333e7645467af630c232659206e612a1af73063c8db4243b4f9674979f"
+    },
+    {
+        "module":  "Delsarte.Sphere.DegreeThree",
+        "path":  ".lake/build/lib/lean/Delsarte/Sphere/DegreeThree.olean.hash",
+        "sha256":  "4f4bded8f73f9a36cb18bed70efb32bbeabeed20a52f2086d55c224c48fe1c9d"
+    },
+    {
+        "module":  "Delsarte.Sphere.Schoenberg",
+        "path":  ".lake/build/lib/lean/Delsarte/Sphere/Schoenberg.ilean",
+        "sha256":  "d0e606ece19e86ff4a10ece70a8850e72b4f849ec637a960e35fc425028ccae3"
+    },
+    {
+        "module":  "Delsarte.Sphere.Schoenberg",
+        "path":  ".lake/build/lib/lean/Delsarte/Sphere/Schoenberg.olean",
+        "sha256":  "de4f6e87a4cf41b7c750cc5200a547ee404a77f17ea837fb6af90d01d2732f9e"
+    },
+    {
+        "module":  "Delsarte.Sphere.Schoenberg",
+        "path":  ".lake/build/lib/lean/Delsarte/Sphere/Schoenberg.olean.hash",
+        "sha256":  "84baf6f6b80dcf26fbe597d7cf17f62f982c3a56fc00f73be80025906473906e"
+    },
+    {
+        "module":  "ThomsonN9.CandidateEnergy",
+        "path":  ".lake/build/lib/lean/ThomsonN9/CandidateEnergy.ilean",
+        "sha256":  "edbaca01bdb507235945d86426f6d4eb6c3cc133e4d4287f6fc46198c015d845"
+    },
+    {
+        "module":  "ThomsonN9.CandidateEnergy",
+        "path":  ".lake/build/lib/lean/ThomsonN9/CandidateEnergy.olean",
+        "sha256":  "729a4bd5221684d9158238096faf60d589ff134fcb864944d47d28a07cf555e8"
+    },
+    {
+        "module":  "ThomsonN9.CandidateEnergy",
+        "path":  ".lake/build/lib/lean/ThomsonN9/CandidateEnergy.olean.hash",
+        "sha256":  "630b5dad26746c5803f2a1b5ae16bc81513945e8a1c59480beb677bdb573981e"
+    },
+    {
+        "module":  "ThomsonN9.LocalGeometry",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LocalGeometry.ilean",
+        "sha256":  "14df8b22ec0e2f130dccd084d06113128dcd4bc57c1403d36b73017c6dc841d1"
+    },
+    {
+        "module":  "ThomsonN9.LocalGeometry",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LocalGeometry.olean",
+        "sha256":  "27997fac3377d732c93e766ceb7a2ffa8f35b11a0c8691fd0a0bd0b65172b354"
+    },
+    {
+        "module":  "ThomsonN9.LocalGeometry",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LocalGeometry.olean.hash",
+        "sha256":  "94fcd87b57389212e69ce5faf86ea6f4497212c43928e5a3b86b833466793fb3"
+    },
+    {
+        "module":  "ThomsonN9.Alignment",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Alignment.ilean",
+        "sha256":  "9505776ace4588b1572077d6b60e9beb0a151b92c7585f2fa929ea346e1604f6"
+    },
+    {
+        "module":  "ThomsonN9.Alignment",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Alignment.olean",
+        "sha256":  "f408810461c7e5b0a13ba045237715a72a01e2829770ede2dc70c7037bfd944c"
+    },
+    {
+        "module":  "ThomsonN9.Alignment",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Alignment.olean.hash",
+        "sha256":  "e6609f056ca92856e16317ecca54497a9b265313481d1b4fe94233a20fe100bc"
+    },
+    {
+        "module":  "ThomsonN9.GramSchmidtFrame",
+        "path":  ".lake/build/lib/lean/ThomsonN9/GramSchmidtFrame.ilean",
+        "sha256":  "fe59c778b01b3356156bba8f5a326e06e325de014bb2bcbe183bd9fb629fc6c6"
+    },
+    {
+        "module":  "ThomsonN9.GramSchmidtFrame",
+        "path":  ".lake/build/lib/lean/ThomsonN9/GramSchmidtFrame.olean",
+        "sha256":  "33390425592a1085a30511d880afded3b7cf0ca818fb0256ffc3da9f940ec99c"
+    },
+    {
+        "module":  "ThomsonN9.GramSchmidtFrame",
+        "path":  ".lake/build/lib/lean/ThomsonN9/GramSchmidtFrame.olean.hash",
+        "sha256":  "7473489cb5ff40d37918f9c8361d45a52f5639ea0aecf74c0a070b09d29d95c3"
+    },
+    {
+        "module":  "ThomsonN9.GramStability",
+        "path":  ".lake/build/lib/lean/ThomsonN9/GramStability.ilean",
+        "sha256":  "205ed751c2db2dbc6e86d332d4dd6758a6ac8a6b7b8a195191d5be73c63dffac"
+    },
+    {
+        "module":  "ThomsonN9.GramStability",
+        "path":  ".lake/build/lib/lean/ThomsonN9/GramStability.olean",
+        "sha256":  "011a85faf3dfc83683b5a2029dcfe9fd11b3e493d2dd125a28a5882000f3803c"
+    },
+    {
+        "module":  "ThomsonN9.GramStability",
+        "path":  ".lake/build/lib/lean/ThomsonN9/GramStability.olean.hash",
+        "sha256":  "0e2a4a1dab36d8f01b2c4a0ea225334600919508ba74f6ab12be91857884f5b4"
+    },
+    {
+        "module":  "ThomsonN9.GramAlignment",
+        "path":  ".lake/build/lib/lean/ThomsonN9/GramAlignment.ilean",
+        "sha256":  "3d85edb60f9ccbbd472a9b7c768a783f6dd5bc7ddfb1453c6de8a0df2fafb328"
+    },
+    {
+        "module":  "ThomsonN9.GramAlignment",
+        "path":  ".lake/build/lib/lean/ThomsonN9/GramAlignment.olean",
+        "sha256":  "69864d3f12d39df4739b0d26278ad7aa38b115ca5340adb44816fe8874ff6b76"
+    },
+    {
+        "module":  "ThomsonN9.GramAlignment",
+        "path":  ".lake/build/lib/lean/ThomsonN9/GramAlignment.olean.hash",
+        "sha256":  "3c5fdb6e4edfc95a4c9e44988786106bf0888ba81121775ef31f0ce8b187c873"
+    },
+    {
+        "module":  "ThomsonN9.CandidateAlignment",
+        "path":  ".lake/build/lib/lean/ThomsonN9/CandidateAlignment.ilean",
+        "sha256":  "7bd397433291afe18657b2755c8e1ab2a0fbba6bf318537918c5bef070273ba5"
+    },
+    {
+        "module":  "ThomsonN9.CandidateAlignment",
+        "path":  ".lake/build/lib/lean/ThomsonN9/CandidateAlignment.olean",
+        "sha256":  "edbaab7f82e7bdf180c46933caa41b2cc54fb9ac91c546f9fb5b4ef4f023c196"
+    },
+    {
+        "module":  "ThomsonN9.CandidateAlignment",
+        "path":  ".lake/build/lib/lean/ThomsonN9/CandidateAlignment.olean.hash",
+        "sha256":  "b12e3230fadd7223b0ec9fd1a7f3d9623d6eb5b904f3cf5a7bfa033ae3defe82"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.Interval",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/Interval.ilean",
+        "sha256":  "b40aeddb2e693b0743210b7e9ce7b1eae3bcb22f1887f047f599e04ca78117c0"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.Interval",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/Interval.olean",
+        "sha256":  "bac1c7d8d3f390a2ad347bfdef6e3a61e0841d168f253d96abf25a5358b3bf0d"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.Interval",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/Interval.olean.hash",
+        "sha256":  "2ab2cc98273ba2ddbf00ab7d15aa75789bbd7b4f629618cfb0e919151095041f"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.ScaledInterval",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/ScaledInterval.ilean",
+        "sha256":  "0479d05b79f575b8efced9b01adef5ef3066f6263747cfb68d3ca66b57e8c745"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.ScaledInterval",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/ScaledInterval.olean",
+        "sha256":  "b4ed8eee62d543da4df767e6d5afd18ca0095d6514696be36727b1cc8c0b62ab"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.ScaledInterval",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/ScaledInterval.olean.hash",
+        "sha256":  "7cb1b59ec2c2a249c3b68c94b1954d8dce8f1ddc69ba847f8eacfa002e2ebeb4"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.IntervalCircuit",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/IntervalCircuit.ilean",
+        "sha256":  "be3113f761c851058a22c8cf7b19d02c307410cbb08a0fa89e693e480a40f08e"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.IntervalCircuit",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/IntervalCircuit.olean",
+        "sha256":  "548d0575810bd4dec6d6f2146dd0abd73e065b71c03de0cb2c5405616905f004"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.IntervalCircuit",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/IntervalCircuit.olean.hash",
+        "sha256":  "89834c2570722a9f38b857f5076b9790ecd23937d5ba0af1c365971f9ec00b26"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelData",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelData.ilean",
+        "sha256":  "7c68fe94450213aeee1e12dbb865b0281363f3567255a3447b776f2fd9627d0d"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelData",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelData.olean",
+        "sha256":  "f171e52adafa1a2826b57692cdd833eb03e7ff850889c05351b902fdf72fc695"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelData",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelData.olean.hash",
+        "sha256":  "0755286ce5c0114fb3fcba07fdf1f80c9ca9feb9e9befad25bd84fd8bfcae31f"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.CircuitAlgebra",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/CircuitAlgebra.ilean",
+        "sha256":  "af254b62ab9d017759ebed70423f2045c655ecc9ebed9dc6515ba2b8d67d47fb"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.CircuitAlgebra",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/CircuitAlgebra.olean",
+        "sha256":  "9cae0486345f8190891f5f5270acfe79d544f8c6911697ee00e4ed60449ddc67"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.CircuitAlgebra",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/CircuitAlgebra.olean.hash",
+        "sha256":  "5355ed5ac8c35d2575f73037cea5d2ca03669fcbe8ebf6ebe3877e322af45cd9"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.CircuitConstants",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/CircuitConstants.ilean",
+        "sha256":  "6365a93e4dfe03851c080a34f5322e0a493998489c9a7c26e43b8f6619ccd1c5"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.CircuitConstants",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/CircuitConstants.olean",
+        "sha256":  "478b0c1fdbca3db0638b35dac613fa0eb53760a3a970e7dd2ef57c18dd2a4009"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.CircuitConstants",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/CircuitConstants.olean.hash",
+        "sha256":  "7ceb91b25ca15dc737843b92198390a0c6b0b27920e4e886ddb785c7b5e962da"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.CircuitMatrices",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/CircuitMatrices.ilean",
+        "sha256":  "7ca9031decde0e3770b6d0ec6e817cef063e992dc95b45f42db8803c5b11ee50"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.CircuitMatrices",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/CircuitMatrices.olean",
+        "sha256":  "5a9225991dd2f2c7cea17626496bdef3b62cafef18399dc199d688d9575ed5f8"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.CircuitMatrices",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/CircuitMatrices.olean.hash",
+        "sha256":  "ace7038cbb7e18f588e0800fe0970d1e43b07815ab8f7c3dc7d83257c3f19063"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientCongruenceData",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientCongruenceData.ilean",
+        "sha256":  "f3cace3930e240981dc1250423475aa541a5ec23123849f2e9939aab1534825e"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientCongruenceData",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientCongruenceData.olean",
+        "sha256":  "d8740c8b4eff905df620df11eb17a4ff50e7fd7c2c1ea4144566e82ae138b0f4"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientCongruenceData",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientCongruenceData.olean.hash",
+        "sha256":  "048fcd84d7c8ddd1ee02200d3d5bad0744522a41ae30ca75ccb5605ff21c075f"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.CircuitCoordinates",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/CircuitCoordinates.ilean",
+        "sha256":  "256de8ea45210b857750627f22262ab287ad3feb67c65d66983e4419c11a4c45"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.CircuitCoordinates",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/CircuitCoordinates.olean",
+        "sha256":  "4413795364da452fc2704ea9f10db54fcace34a4a1e2938a50755902784ff53d"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.CircuitCoordinates",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/CircuitCoordinates.olean.hash",
+        "sha256":  "255337883da03a8274b6f1119068a83e7579d6694aa44734b1ecea856942a794"
+    },
+    {
+        "module":  "ThomsonN9.LocalPotential",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LocalPotential.ilean",
+        "sha256":  "0749d18fe85bb68b52ef00ef3cc034a3938a2fd40204ffdcdd760e66e1b3ce6b"
+    },
+    {
+        "module":  "ThomsonN9.LocalPotential",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LocalPotential.olean",
+        "sha256":  "04acbf68e992015f02fa089accba19311e7da4220f5b0ed1a81f92f5c1f936f3"
+    },
+    {
+        "module":  "ThomsonN9.LocalPotential",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LocalPotential.olean.hash",
+        "sha256":  "7ff59d2a9b005982d1bb1c8538e6275d2a25a555d3d63583b13ecd6b44c5d45a"
+    },
+    {
+        "module":  "ThomsonN9.LocalStationarity",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LocalStationarity.ilean",
+        "sha256":  "45c5396ed7d8451aef75928958a885f566676d832503e5316105fdbfd047ba62"
+    },
+    {
+        "module":  "ThomsonN9.LocalStationarity",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LocalStationarity.olean",
+        "sha256":  "f3f7af06bd57588c1054be231820608ad793065cbaad20f97ccbecf1338abd55"
+    },
+    {
+        "module":  "ThomsonN9.LocalStationarity",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LocalStationarity.olean.hash",
+        "sha256":  "8c8195040f7463de909e2947d6038219e8836aa1b57ff9adbd9b0eb75793f630"
+    },
+    {
+        "module":  "ThomsonN9.LocalEnergy",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LocalEnergy.ilean",
+        "sha256":  "87b8014da191a2bc7dd4fd2a0da927a541d1505203a877869f24446480f377c8"
+    },
+    {
+        "module":  "ThomsonN9.LocalEnergy",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LocalEnergy.olean",
+        "sha256":  "2b5544c058609075b3f1faa03a5068e2003fdebbf8fb4c0d398167a3a3d4b274"
+    },
+    {
+        "module":  "ThomsonN9.LocalEnergy",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LocalEnergy.olean.hash",
+        "sha256":  "68f37e0d6a1d701864efde68b757336204ca4b156ef127bb3a83043bcf26d7cc"
+    },
+    {
+        "module":  "ThomsonN9.LocalEstimate",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LocalEstimate.ilean",
+        "sha256":  "ced1b9733f13c6e7174b7b72695475b45935940ba778ce4f295cc921f029f32a"
+    },
+    {
+        "module":  "ThomsonN9.LocalEstimate",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LocalEstimate.olean",
+        "sha256":  "62be4368166c662dc5f56fdc7b7acdf73348a578b95ffb17f710c91267efe81d"
+    },
+    {
+        "module":  "ThomsonN9.LocalEstimate",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LocalEstimate.olean.hash",
+        "sha256":  "16df3f1927511c7592df0911ac8b7ca09a9c472e090bcdea284f8f83224c8911"
+    },
+    {
+        "module":  "ThomsonN9.BlockHessian",
+        "path":  ".lake/build/lib/lean/ThomsonN9/BlockHessian.ilean",
+        "sha256":  "27e8709d370fdad11f0818b7f2f5a9df2052f8072a46d0366b44ebad2be2c0e5"
+    },
+    {
+        "module":  "ThomsonN9.BlockHessian",
+        "path":  ".lake/build/lib/lean/ThomsonN9/BlockHessian.olean",
+        "sha256":  "2c8980f3b438d1092777c48a13cb3767e022a9e2234da31694bbe581944ba11d"
+    },
+    {
+        "module":  "ThomsonN9.BlockHessian",
+        "path":  ".lake/build/lib/lean/ThomsonN9/BlockHessian.olean.hash",
+        "sha256":  "c4a50bea8fc3345de6886ae04f4308ee5ef84fcac7da5f3435f25729f479b9ef"
+    },
+    {
+        "module":  "ThomsonN9.HessianSymmetry",
+        "path":  ".lake/build/lib/lean/ThomsonN9/HessianSymmetry.ilean",
+        "sha256":  "2333dd647b677a502d760692fefea99036e8f9d6a7d935557d844161125b42ce"
+    },
+    {
+        "module":  "ThomsonN9.HessianSymmetry",
+        "path":  ".lake/build/lib/lean/ThomsonN9/HessianSymmetry.olean",
+        "sha256":  "3fa8ec017a4b5ef83d1d654713bb15f5900ebbae89e433dfae396888a1ead517"
+    },
+    {
+        "module":  "ThomsonN9.HessianSymmetry",
+        "path":  ".lake/build/lib/lean/ThomsonN9/HessianSymmetry.olean.hash",
+        "sha256":  "5fa3ffcc0bc39f10143d68ed983d8b1fdb2afcb6842aed5408933f4567e44f4e"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.CircuitPairBlock",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/CircuitPairBlock.ilean",
+        "sha256":  "72bd3714b7c0d737485a635e7f6b5a0bbd15a7812cbef1614b8fece266031504"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.CircuitPairBlock",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/CircuitPairBlock.olean",
+        "sha256":  "971d38304c998628be2863027318eeba7f8fbe426bdded10e7f088bc4d08455a"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.CircuitPairBlock",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/CircuitPairBlock.olean.hash",
+        "sha256":  "c0c0173682e63ac8ad4a554e19b11a4e3d7b2a5290619c0f54c7d65d9755a106"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.CircuitDifferences",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/CircuitDifferences.ilean",
+        "sha256":  "f64cc53a2b8eeff102024c3a8fab1456a308bc5beb045e54ae9f87919185f7d5"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.CircuitDifferences",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/CircuitDifferences.olean",
+        "sha256":  "524468f9b42f82759d292eb7bc3a5a9312054113e71828d9654b7d5101e2fe31"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.CircuitDifferences",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/CircuitDifferences.olean.hash",
+        "sha256":  "c6d0b4cb71709b527c0e5449df2ab88690ac336b2b55d1c3eea8c163f7d20713"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.CircuitRadial",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/CircuitRadial.ilean",
+        "sha256":  "8d9028906dcc7cca891d59118408be76ed4ab04acf319362a790c16c92b0593d"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.CircuitRadial",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/CircuitRadial.olean",
+        "sha256":  "63b6a82a929d174aea68578b4626eb67ee0d38209a266b2985dd2963238b0fd6"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.CircuitRadial",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/CircuitRadial.olean.hash",
+        "sha256":  "b54f5f0514cc8781d06bbe13603a5d8772eb7f2d274c702c0de2334a9fe50009"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelGeometry",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelGeometry.ilean",
+        "sha256":  "a9619f354b45a2073fc7b2a19933ad2c5aa96cb7e02b700e18925b636046b88c"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelGeometry",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelGeometry.olean",
+        "sha256":  "904cb88a4cbeedff3a3fdfaaeb51bd2c1cb957b59c55e4e2145a78ce3695e31c"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelGeometry",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelGeometry.olean.hash",
+        "sha256":  "66f0f9415f56b2b52b65188ca692dbaf10aa8d68bdb1ebc02933f097b238729e"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.CircuitRotation",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/CircuitRotation.ilean",
+        "sha256":  "fab6bfaf0c744b0724608198e1d0acf3d277b3082bbdb5fab603a3b82ae8a277"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.CircuitRotation",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/CircuitRotation.olean",
+        "sha256":  "ba59d96856bc767556793316f6ce91a6140b45c460ccb71b4c371e050748adec"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.CircuitRotation",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/CircuitRotation.olean.hash",
+        "sha256":  "3d20d4f70d948557af64e65f71feaa7c440adf1d003135783299ac28b78d04c3"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.CircuitSums",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/CircuitSums.ilean",
+        "sha256":  "f9e5a4e0a078832d055f7bf2b2e44efb4e35ff3d551a16b4ea08d737e8ac059a"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.CircuitSums",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/CircuitSums.olean",
+        "sha256":  "c624e89c1f1f94f23655e2e59c68626dee5ce6a19b2b390c2626976463ea7f1b"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.CircuitSums",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/CircuitSums.olean.hash",
+        "sha256":  "5c5be646411e9f83a61284c7aeadfc472ca8e9b5aabd2849b6d87708bc489ced"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelAssembly",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelAssembly.ilean",
+        "sha256":  "e4efcaac6e7adf8a3399d19c8babd3acc9815356bd2fa8ae8b70ac33c5004fd2"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelAssembly",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelAssembly.olean",
+        "sha256":  "611532ded9c80e658f7a05815c5ef7f88545b4f475674b8488e3c18d64c6eab6"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelAssembly",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelAssembly.olean.hash",
+        "sha256":  "8429f4f0ce7f8f870c280c2886a60cf2011ce2e1540c983661d4eeff3a0bfe89"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientCongruenceChecks00",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientCongruenceChecks00.ilean",
+        "sha256":  "f50c128c5e39677682897b7ed7bf985bb3b034f95c3af1e7bc7b28c997c26cbb"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientCongruenceChecks00",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientCongruenceChecks00.olean",
+        "sha256":  "b147dc50375fa89a4d0c7fbd8cb9654a3653edb778e07d99c6cc51db98769a60"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientCongruenceChecks00",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientCongruenceChecks00.olean.hash",
+        "sha256":  "c373e6843af65c7d7889697068b10969a45f4298f3ecae8bc6670eccaf473f8e"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientCongruenceChecks01",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientCongruenceChecks01.ilean",
+        "sha256":  "119b1346b0a8753c7d44b933b3acc9a392ae5fe19d83b6871989feabc91dc955"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientCongruenceChecks01",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientCongruenceChecks01.olean",
+        "sha256":  "0061080c6b797bbdf05eb2f16d7bdb4726c8f1fe6b175beae32c1725bd8478a7"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientCongruenceChecks01",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientCongruenceChecks01.olean.hash",
+        "sha256":  "83e177c6f635261db2f265be722eab08a8ecd9c50665597f46c005fcabdc31c3"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientCongruenceChecks02",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientCongruenceChecks02.ilean",
+        "sha256":  "9beccdae7019a9cd26cea1872251e5722e71d9e90dcdf975bdcbeacd4124ae6a"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientCongruenceChecks02",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientCongruenceChecks02.olean",
+        "sha256":  "e01a4d89d67efc66f58afd65328e934e2126179ef5e506229a1fedafd183f8fc"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientCongruenceChecks02",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientCongruenceChecks02.olean.hash",
+        "sha256":  "0c28cec5605b82aa4217c8c3eb2f4a895f0a26c935ebabfe100d496337968c4c"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientCongruenceChecks03",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientCongruenceChecks03.ilean",
+        "sha256":  "634838ccf78e241e49946f7578f579666b8d5dd1625ebc5ff82b98780cec507d"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientCongruenceChecks03",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientCongruenceChecks03.olean",
+        "sha256":  "f51b30dcfb7a0786cefd0d02c58883d364e8fe2c721228968dc414d6903b5cfb"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientCongruenceChecks03",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientCongruenceChecks03.olean.hash",
+        "sha256":  "2d7fc16ab5b62639b83241dd5b8fedb318da816c0e5ff14d573f5f50a6ce9d81"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientCongruenceChecks04",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientCongruenceChecks04.ilean",
+        "sha256":  "a0eeb785360f4290ba319749eece7eafe00519d28d36020bf27ed85fada1526a"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientCongruenceChecks04",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientCongruenceChecks04.olean",
+        "sha256":  "b6c4f994fd13e4e8cb3be07eb29a0ceadd6c746b9ec73e5139e9fb8e2088b488"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientCongruenceChecks04",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientCongruenceChecks04.olean.hash",
+        "sha256":  "834c61da7d372e242394b5dbbd9d0815b9db644bf35ea061329d3d3c8eaf6fda"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientCongruenceChecks05",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientCongruenceChecks05.ilean",
+        "sha256":  "7e44c13baff6626f5fb33ed2877b7bf1672a68d4fea6af07507b1299c1cd68ea"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientCongruenceChecks05",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientCongruenceChecks05.olean",
+        "sha256":  "875c93172f0e0f6edd93889a6fc5780cb3e65f22514af2ab45ebf60b7dd3305b"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientCongruenceChecks05",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientCongruenceChecks05.olean.hash",
+        "sha256":  "bbc6c1829a46bda3376fe6f8300b629071a6389f3e521abe8f6866fe55c64106"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientCongruenceChecks06",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientCongruenceChecks06.ilean",
+        "sha256":  "c0543afd2b28b16a41ec4dde1e206becd022490c1fcd25185113d26cbc6cad6a"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientCongruenceChecks06",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientCongruenceChecks06.olean",
+        "sha256":  "42a20854a5c9e2da71cf94accdceeb288339bebbb8d3ecd85903a39d265c40f7"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientCongruenceChecks06",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientCongruenceChecks06.olean.hash",
+        "sha256":  "3f1e89043e2737758fcc51cd9bee70546777ad38c7e5ed8d30e0252d0a82cb29"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientCongruenceChecks07",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientCongruenceChecks07.ilean",
+        "sha256":  "5eb29652df3e3caec9646463e2783b9dca5e6e6b59ef9e3c392d9831edcdaad1"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientCongruenceChecks07",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientCongruenceChecks07.olean",
+        "sha256":  "7eb6088dd1b3020c31d3c4ceb13207dc26ebb58f776090a931c363b27f1b26af"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientCongruenceChecks07",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientCongruenceChecks07.olean.hash",
+        "sha256":  "e021a585b6c7a6703adf688f3504bcded92e027efc1996f9fc1b90b83f4cde4a"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientCongruenceChecks08",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientCongruenceChecks08.ilean",
+        "sha256":  "3231dd845bf20328df99fabedda7c88103e1ef4364e19317c4443d2faf7899ca"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientCongruenceChecks08",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientCongruenceChecks08.olean",
+        "sha256":  "fdde1af5f37fa65556a978ad98b147a4f85fbf5eedc4b8e8d1ecf3a55eb3bbf4"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientCongruenceChecks08",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientCongruenceChecks08.olean.hash",
+        "sha256":  "ced0cea5c7de8b9c9aba3097da9bf969bbc67b0862376274e3c845f6f341329e"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientCongruence",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientCongruence.ilean",
+        "sha256":  "95920b10445e2567557b198129e8c7cb74af1ec981aa693d5bd559b8e1acf8de"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientCongruence",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientCongruence.olean",
+        "sha256":  "c64d36e330691ef6d43e099a59935846e32190279825c46e12ec2628ebba7676"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientCongruence",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientCongruence.olean.hash",
+        "sha256":  "d119c0432dd88847a8bf01de5859517c6f31a93d6c704caa45bafa9fdaaf7e5b"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelChecks00",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelChecks00.ilean",
+        "sha256":  "14a129eb7c382b6874842e7a6203871c3455a17fa4d1b32d4569ce7cbf31474b"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelChecks00",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelChecks00.olean",
+        "sha256":  "8edfbc2eea646e789063342783cf96b78316f0681d995b28cf9e16cc8c1abd0d"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelChecks00",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelChecks00.olean.hash",
+        "sha256":  "c6dae7b0ac5235048a57f64a83365d3294df30cc5cf0998bfd13f14ba383ed85"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelChecks01",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelChecks01.ilean",
+        "sha256":  "6efe6e8e8e9a51f85f8c04f26d9586bc8719db51356b2274633d71ccbd2ce400"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelChecks01",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelChecks01.olean",
+        "sha256":  "19ce0eaf69eebc6e1a49fa26a343343788f3d4803db0bf9f22fa176702d08bbb"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelChecks01",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelChecks01.olean.hash",
+        "sha256":  "f42d1a6b21ee7163f29c20904b3e72baa857348399c8aff4773e0402b36cd7e0"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelChecks02",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelChecks02.ilean",
+        "sha256":  "3f31343901dac747a5bd7ecc6c7bf45e9b6c3c99aaea196c2338cbf5e2d58564"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelChecks02",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelChecks02.olean",
+        "sha256":  "7f3c8f73be66f24591b9f4352514e7a672a06634439431dcbdb340fd986b64a8"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelChecks02",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelChecks02.olean.hash",
+        "sha256":  "403bc6bf7ece77ed27977a4577a7ce7ed27fe54d92608ec6b3a0dbb564baf72e"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelChecks03",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelChecks03.ilean",
+        "sha256":  "43b0590da726d1c9f22fd38fbe93b2b6bcb6f546ad0de157413893e046ecc5f7"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelChecks03",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelChecks03.olean",
+        "sha256":  "8a464055623b55196b5710a7b05c9d54300683633794b93513f0d3a690f0f1ba"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelChecks03",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelChecks03.olean.hash",
+        "sha256":  "35ed3a584942bb1ff3274c68fccd425ce618c559330be5376ab2647b0c29b4f7"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelChecks04",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelChecks04.ilean",
+        "sha256":  "d7c6f8eef88aa201c0e964ce91ebe8aed0d671a2ed7b85ae94f34c2edbaaf02d"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelChecks04",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelChecks04.olean",
+        "sha256":  "4072f81e2448e170b5b1d89f2b481635f57e9d0931ca1ba1305bda62841e7b8e"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelChecks04",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelChecks04.olean.hash",
+        "sha256":  "ed62fe1b97f55bd51797983ecd9c0b514a82925ca2dc24af9e9cb3e677dbcfae"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelChecks05",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelChecks05.ilean",
+        "sha256":  "dfe032cfca0aaf435100f5c63bbbdf0cc9549b63383faab67d81b62cfac79142"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelChecks05",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelChecks05.olean",
+        "sha256":  "55b0cbf10f2644570cce12c011e445c5da8313aa242c119e0cd41243cfacc76d"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelChecks05",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelChecks05.olean.hash",
+        "sha256":  "2f0aec2f90777b70640ba416f23155d288fc39c7a391121d039e6a4de6f0eb33"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelChecks06",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelChecks06.ilean",
+        "sha256":  "aa4e03db472bdaabce82ea6a27fa27a0733e4077df86af8d97f55d29669a2c61"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelChecks06",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelChecks06.olean",
+        "sha256":  "e84f7ce74e82edc1fec4e2ed7c125dcd338c76240564815831fa6614f2b9c818"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelChecks06",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelChecks06.olean.hash",
+        "sha256":  "e20ca23dd9090e6a56d39453bc3f760df029535648deec80c57426cea6556db3"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelChecks07",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelChecks07.ilean",
+        "sha256":  "07f5bbe1ce8b171ef31bd0c52ec6507aa444f60d38fb7b3594f8e6a329979a80"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelChecks07",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelChecks07.olean",
+        "sha256":  "14ad7dc868b4d1feb0cd6f2c112804c2dd83dc934edaa1544681353a8465e275"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelChecks07",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelChecks07.olean.hash",
+        "sha256":  "92a4565bef4b006be7bf9d6dcb66d03fae613077fb8187893d19b94e597c1370"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelChecks08",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelChecks08.ilean",
+        "sha256":  "038eeea93360691cabd5827394af740bc518bd8bc598e5a16c6885fdbe7199bb"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelChecks08",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelChecks08.olean",
+        "sha256":  "2966933670dcc8095713c1cbaf715cb2a77b58585bfdc7ef1c0124eae29d7b2f"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelChecks08",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelChecks08.olean.hash",
+        "sha256":  "0708ac80f8b63a71d3bc95dcfda30c67d31a77b47c728a689da38ef687472cfd"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelChecks09",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelChecks09.ilean",
+        "sha256":  "5ef711083ba1f6470dd84e0c16a8605a263c8e927032e8cdfaf822faf419a747"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelChecks09",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelChecks09.olean",
+        "sha256":  "6fc1be6e5a8e4029c0a67965bd943da36ba8cf917ceee087e4c95ab50a5bc75c"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelChecks09",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelChecks09.olean.hash",
+        "sha256":  "05ba63093a77883ebcd5cc62a6d38d17ed2a558272d482b06996dcd9f68407f3"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelAll",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelAll.ilean",
+        "sha256":  "ac3d8155f4d7ae8cb192e9e235740a02acd459fb791c2b369065b019127300cb"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelAll",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelAll.olean",
+        "sha256":  "71ebcaca3d68d3f3344f6fffbc07a1f2e40a1716faede73d949f0f93b84133a5"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelAll",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelAll.olean.hash",
+        "sha256":  "7cc5775f7bd80ebe45488f7002dcc70de19332b70081454796e85ef88a0b6815"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.DiagonalDominance",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/DiagonalDominance.ilean",
+        "sha256":  "4868784e233ee2442bbee250c57d972afa867b6c21eff54e74123cc8eb1a2b8d"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.DiagonalDominance",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/DiagonalDominance.olean",
+        "sha256":  "b4a016f2dd6f55a87abd1d990ab58f8c245314fd4abd434809d3fa953ac989b0"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.DiagonalDominance",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/DiagonalDominance.olean.hash",
+        "sha256":  "0dda4bcd72920da0858035858d11007c071ddfbb496744c1810a690f08885bd0"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.ZeroPenalty",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/ZeroPenalty.ilean",
+        "sha256":  "24230d438563fafaab1f231131707e1a861136fd7fffe89fd8c40aa3afc39297"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.ZeroPenalty",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/ZeroPenalty.olean",
+        "sha256":  "947550f63009c97041f2a7ea9e535ed625b39e49c082ecc41185496b68939da7"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.ZeroPenalty",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/ZeroPenalty.olean.hash",
+        "sha256":  "76349ed146f155321b441492117e37ff02364ccc4eebb40e968e43222aa22368"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelBounds",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelBounds.ilean",
+        "sha256":  "83b97e4dc1ef23472f782b1af3833e99fbdac6f560473e292cb57cb6fea4eedd"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelBounds",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelBounds.olean",
+        "sha256":  "4e040487ab6da76c6e384810c198ca4dbd4a587eeede90f003cd3156327ee3e5"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientKernelBounds",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientKernelBounds.olean.hash",
+        "sha256":  "b584735bb251206f17ea08aabe3879432f26d2c05901ffa8f8a910d8db28fdfc"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.HessianTransport",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/HessianTransport.ilean",
+        "sha256":  "5ac8c45750cbfd144953e8039c64ac9e0ad1a8a7063067d63430354eaeeedebc"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.HessianTransport",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/HessianTransport.olean",
+        "sha256":  "ab682b8bbdec8a546dee9b2e3f858ee7163eab5d14a49b4ab59852e12397d6ef"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.HessianTransport",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/HessianTransport.olean.hash",
+        "sha256":  "5fd15376851bc9c1b5d4b99c906f2ab2d7c41f79b8ebe69ec08b09b278fd4062"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientHessian",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientHessian.ilean",
+        "sha256":  "a0da0db350f05174f4d943306b1355f7cf3b00f09f2065e9f0262f7aee04947f"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientHessian",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientHessian.olean",
+        "sha256":  "363bb0384935fe3269a0fe5a7c94f243108ee84244a9fa94442ed82170261490"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.AmbientHessian",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/AmbientHessian.olean.hash",
+        "sha256":  "7a531cfdfb21f80409905fc31d66d1cc50a6fbc45099b2652ea7ada609af2b31"
+    },
+    {
+        "module":  "ThomsonN9.ParameterSigns",
+        "path":  ".lake/build/lib/lean/ThomsonN9/ParameterSigns.ilean",
+        "sha256":  "150795f02471cc68094ba779af3e9e79c2cdece426df7c9c828b145b96476911"
+    },
+    {
+        "module":  "ThomsonN9.ParameterSigns",
+        "path":  ".lake/build/lib/lean/ThomsonN9/ParameterSigns.olean",
+        "sha256":  "f5216b20c36b1e5f2720bf2d3d9b05a6a83ffa4a559fde103b20dbc8d9c08b1e"
+    },
+    {
+        "module":  "ThomsonN9.ParameterSigns",
+        "path":  ".lake/build/lib/lean/ThomsonN9/ParameterSigns.olean.hash",
+        "sha256":  "c0718a9f5ea2300f227541a60226ccb19a5a198d4f2d97652381238fa304a929"
+    },
+    {
+        "module":  "ThomsonN9.ParameterExists",
+        "path":  ".lake/build/lib/lean/ThomsonN9/ParameterExists.ilean",
+        "sha256":  "bff22e55cb29151703587a32e2122ffafda4fbedf827881ae978713c051f70bb"
+    },
+    {
+        "module":  "ThomsonN9.ParameterExists",
+        "path":  ".lake/build/lib/lean/ThomsonN9/ParameterExists.olean",
+        "sha256":  "17139b2344664e4d4a9367c04fa27ad4e213430f1f5dd8076713d91e8520d909"
+    },
+    {
+        "module":  "ThomsonN9.ParameterExists",
+        "path":  ".lake/build/lib/lean/ThomsonN9/ParameterExists.olean.hash",
+        "sha256":  "24626decc6e4bfb99e76d4cb4d1d29418028f13709d2aeb195df10fec05aac66"
+    },
+    {
+        "module":  "ThomsonN9.FamilyEnergy",
+        "path":  ".lake/build/lib/lean/ThomsonN9/FamilyEnergy.ilean",
+        "sha256":  "b0fc4d72e42a73a234035fdb8714a2eeafb4e160245592cd12022fd9d42f48f2"
+    },
+    {
+        "module":  "ThomsonN9.FamilyEnergy",
+        "path":  ".lake/build/lib/lean/ThomsonN9/FamilyEnergy.olean",
+        "sha256":  "1db0b43c0847846149833646bd3604bfcd7266140863b73e14a8a209dce6efd1"
+    },
+    {
+        "module":  "ThomsonN9.FamilyEnergy",
+        "path":  ".lake/build/lib/lean/ThomsonN9/FamilyEnergy.olean.hash",
+        "sha256":  "1655a08216f790febc71c7a6b033093f69e6c810cecba1efbf30beeafd494410"
+    },
+    {
+        "module":  "ThomsonN9.FamilyMinimum",
+        "path":  ".lake/build/lib/lean/ThomsonN9/FamilyMinimum.ilean",
+        "sha256":  "3ddd655a48de8411739abce9e155267fba8f421ecea604995765b4f3427dc39f"
+    },
+    {
+        "module":  "ThomsonN9.FamilyMinimum",
+        "path":  ".lake/build/lib/lean/ThomsonN9/FamilyMinimum.olean",
+        "sha256":  "7394f77ee0f502f40a16d492075fdbb4507319e1480d49c20cdab6aa99d34a0f"
+    },
+    {
+        "module":  "ThomsonN9.FamilyMinimum",
+        "path":  ".lake/build/lib/lean/ThomsonN9/FamilyMinimum.olean.hash",
+        "sha256":  "1cbf1c7ea832548133ff751d0bdf8db4a4d5b23d1c03114e0f11d04019790d1a"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.ReducedEnergy",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/ReducedEnergy.ilean",
+        "sha256":  "f4fccbb73c53fb6aa0b42d87fc8eedecf27a4b242988b31ba196546a2d67b1d2"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.ReducedEnergy",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/ReducedEnergy.olean",
+        "sha256":  "213ac5626be1f06e539d608300cbe57dd48a418ca7cc9d9a50b0099cef730172"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.ReducedEnergy",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/ReducedEnergy.olean.hash",
+        "sha256":  "b84b3823bf134b5ce6747e4df11ad1dcb6bb6252f4a4df3e714da09bbaa7b724"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.EnergyControls",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/EnergyControls.ilean",
+        "sha256":  "a43674a934cb3bdbf4aeb6cbc53c47beef43eb0f4bb390e4d4f024e598c2d470"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.EnergyControls",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/EnergyControls.olean",
+        "sha256":  "7f5f0310161e0ec5bcbbf6ce1afa811411ccf796ee035089708fc9cdff1c13b6"
+    },
+    {
+        "module":  "ThomsonN9.Certificates.EnergyControls",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Certificates/EnergyControls.olean.hash",
+        "sha256":  "e94e8e5eac7939a91a3bef6b68c608fa5371e05beec190ff516fcc08df96f709"
+    },
+    {
+        "module":  "ThomsonN9.LocalCoercivity",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LocalCoercivity.ilean",
+        "sha256":  "2c1fff630edc67bc7a105ebf2b8c4c6a69a8771917982130ff7e2153c85730e9"
+    },
+    {
+        "module":  "ThomsonN9.LocalCoercivity",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LocalCoercivity.olean",
+        "sha256":  "35e57494bb1de3dd794e420a18216c33b5de57bd1ca94c38de26a80660e6deb6"
+    },
+    {
+        "module":  "ThomsonN9.LocalCoercivity",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LocalCoercivity.olean.hash",
+        "sha256":  "7830c1c6365527193b00f5c624c24e69e3ef8e7a79c32cc8c824127810a95391"
+    },
+    {
+        "module":  "ThomsonN9.LocalTarget",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LocalTarget.ilean",
+        "sha256":  "fcd0e9ff2d742071e37c29600dff532b38d9b7c3df4a55f74781ae377622ebb6"
+    },
+    {
+        "module":  "ThomsonN9.LocalTarget",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LocalTarget.olean",
+        "sha256":  "239d4315d136b9e1f7e84f7c9c8a10e15ff50392542bcca59c36a6779b3a00b8"
+    },
+    {
+        "module":  "ThomsonN9.LocalTarget",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LocalTarget.olean.hash",
+        "sha256":  "5a14b81e6a32286dd3284ac6af96b3df813a04c73145d7f2f4e80535dd2c5cce"
+    },
+    {
+        "module":  "ThomsonN9.WindowLocalization",
+        "path":  ".lake/build/lib/lean/ThomsonN9/WindowLocalization.ilean",
+        "sha256":  "100d907509ed5b42326690da2f00c8bf8650f2d2b559848c7dd0ded5129ff266"
+    },
+    {
+        "module":  "ThomsonN9.WindowLocalization",
+        "path":  ".lake/build/lib/lean/ThomsonN9/WindowLocalization.olean",
+        "sha256":  "cbf278b2f43ff5b990b49c225ad126931e5fd19c2206918d5ef50c73c4d8e437"
+    },
+    {
+        "module":  "ThomsonN9.WindowLocalization",
+        "path":  ".lake/build/lib/lean/ThomsonN9/WindowLocalization.olean.hash",
+        "sha256":  "4b2854c9a513890cf1a3b93d53bfd79d1c0c0cbc8b4bd16e136e990ee370ca99"
+    },
+    {
+        "module":  "ThomsonN9.GlobalReduction",
+        "path":  ".lake/build/lib/lean/ThomsonN9/GlobalReduction.ilean",
+        "sha256":  "022be4d9ee21e996671ff3ec752383766b1529924f19a5804c3e7c8a5ecb0d84"
+    },
+    {
+        "module":  "ThomsonN9.GlobalReduction",
+        "path":  ".lake/build/lib/lean/ThomsonN9/GlobalReduction.olean",
+        "sha256":  "34a4194f344e8f7c552c3ae596d51313896b9a9ab3c000cbb0798c5e2e96d4d5"
+    },
+    {
+        "module":  "ThomsonN9.GlobalReduction",
+        "path":  ".lake/build/lib/lean/ThomsonN9/GlobalReduction.olean.hash",
+        "sha256":  "f15a9f936fef4af35e2a4661dcdaefbbdb009de7ba7534024ac657c7f716bcac"
+    },
+    {
+        "module":  "ThomsonN9.LP.Schoenberg",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LP/Schoenberg.ilean",
+        "sha256":  "3f20d4be519650e2ee2e3bacbedc5cf0e4da57a6182c35137d859f898533f03c"
+    },
+    {
+        "module":  "ThomsonN9.LP.Schoenberg",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LP/Schoenberg.olean",
+        "sha256":  "d1999c65a44e8f083ead5527526248fce86a025a9264eab0b8d1af41003200ac"
+    },
+    {
+        "module":  "ThomsonN9.LP.Schoenberg",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LP/Schoenberg.olean.hash",
+        "sha256":  "040b60f1f961683aa8a47b14ca87b4b0f32a190f3ac6902e158b4943e6a55a9b"
+    },
+    {
+        "module":  "ThomsonN9.LP.EnergyBound",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LP/EnergyBound.ilean",
+        "sha256":  "9db7e284cbdcf52354030366395ebc832dce1091da62371c6a053126e01d0070"
+    },
+    {
+        "module":  "ThomsonN9.LP.EnergyBound",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LP/EnergyBound.olean",
+        "sha256":  "c67c8f29fe1d66f47554cc1f5241fc008bc1f21a1cabe000fb3364c556818912"
+    },
+    {
+        "module":  "ThomsonN9.LP.EnergyBound",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LP/EnergyBound.olean.hash",
+        "sha256":  "c6c4b1844fc2fd79ccecfd605dcb0099d2408cc9f729ca50f5f3060ca1fcdca0"
+    },
+    {
+        "module":  "ThomsonN9.LP.Covariance",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LP/Covariance.ilean",
+        "sha256":  "31d03f2661e1045b87e8aef0c77aa173fe7f34c324651d99789dd11b86e907fb"
+    },
+    {
+        "module":  "ThomsonN9.LP.Covariance",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LP/Covariance.olean",
+        "sha256":  "98be3fa18987d522c30407b344da057c000a5bf1bf7dc65862590478493287a3"
+    },
+    {
+        "module":  "ThomsonN9.LP.Covariance",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LP/Covariance.olean.hash",
+        "sha256":  "28b8616a433cbbe4cc4232a340d3bc6d45c34b6dc1be5f0cdbdbbe7df9103487"
+    },
+    {
+        "module":  "ThomsonN9.LP.Anchor",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LP/Anchor.ilean",
+        "sha256":  "f2d51287e03b0b889b2a1b49800d541ed5483ca3aadd24f2936172e035756183"
+    },
+    {
+        "module":  "ThomsonN9.LP.Anchor",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LP/Anchor.olean",
+        "sha256":  "609616f0956723e368b5a076425a6eca6ae2591226f8a5ae2cee1386f2fff5d1"
+    },
+    {
+        "module":  "ThomsonN9.LP.Anchor",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LP/Anchor.olean.hash",
+        "sha256":  "cb3c218771194e802af5365b3095db20465088e64ac526ed2ad418b8a44ca6f2"
+    },
+    {
+        "module":  "ThomsonN9.LP.Concrete",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LP/Concrete.ilean",
+        "sha256":  "be8caa9db9465273555145b82ba41b978cf8d2c3c56112b1a20dd1d8823da7b8"
+    },
+    {
+        "module":  "ThomsonN9.LP.Concrete",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LP/Concrete.olean",
+        "sha256":  "b10acda1a05f75ff2965c958eee2058db9e31b670a7d305068be7abb8d01a2a9"
+    },
+    {
+        "module":  "ThomsonN9.LP.Concrete",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LP/Concrete.olean.hash",
+        "sha256":  "1f09683067bae2080e997b5046d05a06ed7619481cefd3edfa501d64ee801021"
+    },
+    {
+        "module":  "ThomsonN9.LP.PolynomialLinkage",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LP/PolynomialLinkage.ilean",
+        "sha256":  "35e9262f2557b420f2f7730796c72f8f391ce6b50a05f37da8281df7943102e7"
+    },
+    {
+        "module":  "ThomsonN9.LP.PolynomialLinkage",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LP/PolynomialLinkage.olean",
+        "sha256":  "776aea0ad460596b80b7db2e27f763e8531d2581cad025db186b8f1d3040c280"
+    },
+    {
+        "module":  "ThomsonN9.LP.PolynomialLinkage",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LP/PolynomialLinkage.olean.hash",
+        "sha256":  "b4dff2b90b74252883cb0183790bada9f554e91178fd5ed96e7106510b03cc9d"
+    },
+    {
+        "module":  "ThomsonN9.LP.ConcreteLinkage",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LP/ConcreteLinkage.ilean",
+        "sha256":  "5b0cf89f2010df37a1507b4ae2807eace810dcee4e3103187480ae9298a9e309"
+    },
+    {
+        "module":  "ThomsonN9.LP.ConcreteLinkage",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LP/ConcreteLinkage.olean",
+        "sha256":  "4ddf20fc573bacfae0abcdd2065cb2bb7a4965ec3fe437ada206a721fa5dd20a"
+    },
+    {
+        "module":  "ThomsonN9.LP.ConcreteLinkage",
+        "path":  ".lake/build/lib/lean/ThomsonN9/LP/ConcreteLinkage.olean.hash",
+        "sha256":  "dab899a5a961ce0c4ab64e74a63ef0fbf1dbaaf83b4e6e14b155d3df7eef2be5"
+    },
+    {
+        "module":  "ThomsonN9.ScalarCertificates",
+        "path":  ".lake/build/lib/lean/ThomsonN9/ScalarCertificates.ilean",
+        "sha256":  "8be5afbe56f46de427a1effe70ff400e4f565c7467905b0b1c200a55e3528fd5"
+    },
+    {
+        "module":  "ThomsonN9.ScalarCertificates",
+        "path":  ".lake/build/lib/lean/ThomsonN9/ScalarCertificates.olean",
+        "sha256":  "9278c96f8ef6041df3e98609efcbd20a1e04a90b42622d17c507c1090986f344"
+    },
+    {
+        "module":  "ThomsonN9.ScalarCertificates",
+        "path":  ".lake/build/lib/lean/ThomsonN9/ScalarCertificates.olean.hash",
+        "sha256":  "9199b39bfd79ce65e9809ecf2669a2466fa6a00d743f57bd900b0a9f2a289a03"
+    },
+    {
+        "module":  "ThomsonN9.Completion",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Completion.ilean",
+        "sha256":  "b88371635f513bca24653db954f413b924e16abb1cf0e5a14f6b9278147881e5"
+    },
+    {
+        "module":  "ThomsonN9.Completion",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Completion.olean",
+        "sha256":  "b279fc070dbfa74db94bbb4b64da4262cea5b7b8867968b5418e079b634b21a1"
+    },
+    {
+        "module":  "ThomsonN9.Completion",
+        "path":  ".lake/build/lib/lean/ThomsonN9/Completion.olean.hash",
+        "sha256":  "fba0e9d980b6da60c3f2f13330321768950667728b02e2db372f54c5de743474"
+    },
+    {
+        "module":  "ThomsonN9.MainTheorem",
+        "path":  ".lake/build/lib/lean/ThomsonN9/MainTheorem.ilean",
+        "sha256":  "e9359f9acfd6882df130cc2fe4a2268b077e12dfe5aba28c64500d2f4c9bea12"
+    },
+    {
+        "module":  "ThomsonN9.MainTheorem",
+        "path":  ".lake/build/lib/lean/ThomsonN9/MainTheorem.olean",
+        "sha256":  "c6bca28951528960711a1274e13eccb61b4890e02f794837a598a34e4b788343"
+    },
+    {
+        "module":  "ThomsonN9.MainTheorem",
+        "path":  ".lake/build/lib/lean/ThomsonN9/MainTheorem.olean.hash",
+        "sha256":  "efed2db4d145b1d3d9144b7faa40c9bcf379bf3294d0d487b0e90901b754e002"
+    },
+    {
+        "module":  "ThomsonN9.QuantitativeStability",
+        "path":  ".lake/build/lib/lean/ThomsonN9/QuantitativeStability.ilean",
+        "sha256":  "7b8a34735fe1f42c5227f93b56178d123cb9c8ae70fa4b94ed900b845e346d23"
+    },
+    {
+        "module":  "ThomsonN9.QuantitativeStability",
+        "path":  ".lake/build/lib/lean/ThomsonN9/QuantitativeStability.olean",
+        "sha256":  "ec86dd8df61dfac9fca8e35243964257635c987773de22e676572994e440ba4e"
+    },
+    {
+        "module":  "ThomsonN9.QuantitativeStability",
+        "path":  ".lake/build/lib/lean/ThomsonN9/QuantitativeStability.olean.hash",
+        "sha256":  "4c2445e43ca9e7b1ccaf660425b3360b7cf9167858030b0008fa3c55a91cafed"
+    },
+    {
+        "module":  "ThomsonN9.SDP.PolynomialKernel",
+        "path":  ".lake/build/lib/lean/ThomsonN9/SDP/PolynomialKernel.ilean",
+        "sha256":  "c7ee861561716531c86854048ece37385d0569ee950021df18dd3c9ecdf18e8c"
+    },
+    {
+        "module":  "ThomsonN9.SDP.PolynomialKernel",
+        "path":  ".lake/build/lib/lean/ThomsonN9/SDP/PolynomialKernel.olean",
+        "sha256":  "e1088a00ad0eb7cacf0ad83d16dfd1f55b4b3b94e102de1fbb481628ed621aa2"
+    },
+    {
+        "module":  "ThomsonN9.SDP.PolynomialKernel",
+        "path":  ".lake/build/lib/lean/ThomsonN9/SDP/PolynomialKernel.olean.hash",
+        "sha256":  "46862a204fb51bbb4f90015087cbdd65fdb97b23fb97b7dea8401fc7c7478aa9"
+    },
+    {
+        "module":  "ThomsonN9",
+        "path":  ".lake/build/lib/lean/ThomsonN9.ilean",
+        "sha256":  "3af2f5d2aed074666b506bb1adf8a54208fb0f3d736711cf0f06a7d1c2a3645f"
+    },
+    {
+        "module":  "ThomsonN9",
+        "path":  ".lake/build/lib/lean/ThomsonN9.olean",
+        "sha256":  "5cbd079b84aa512718263b274976349ca39b693749972471a6d1a0c66f14835a"
+    },
+    {
+        "module":  "ThomsonN9",
+        "path":  ".lake/build/lib/lean/ThomsonN9.olean.hash",
+        "sha256":  "6b4e40d685a46df7749efe56a7b5ba09a81750199773c14a2db5fbde1196d2ce"
+    },
+    {
+        "module":  "Solution",
+        "path":  ".lake/build/lib/lean/Solution.ilean",
+        "sha256":  "d5d4f48f406426ae94fa2fd05a0b178e8e8b90239404551c147ed503668abbe0"
+    },
+    {
+        "module":  "Solution",
+        "path":  ".lake/build/lib/lean/Solution.olean",
+        "sha256":  "87270cf12bb5cb2e3086b0ffb69f261c873e3ee4ff5de08ad7e5770a139f1099"
+    },
+    {
+        "module":  "Solution",
+        "path":  ".lake/build/lib/lean/Solution.olean.hash",
+        "sha256":  "e07bd938b28c3acf2552f779dc74ce4cbe1d70a175b19aa1c7349393d20e669a"
+    }
+]

@@ -1,0 +1,15 @@
+{
+ "status": "REJECTED",
+ "cls": "typecheck",
+ "message": "panic at src/tc.rs:505:21: infer_proj prop [whitelisted site tc505-infer-proj-prop]",
+ "declarations": null,
+ "site": "tc505-infer-proj-prop",
+ "column_matches": true,
+ "axioms": [],
+ "invocation": "b.3",
+ "exit_code": 101,
+ "wall_seconds": 0.11,
+ "peak_job_commit_gb": 0.01,
+ "semantic_sites_sha256": "ff6fb1166da58ddb0af8f154ac284961c96371ff4d95be5d20e698ec903f4b2f",
+ "semantic_sites_error": null
+}

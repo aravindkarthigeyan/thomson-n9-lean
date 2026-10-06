@@ -1,0 +1,56 @@
+[
+  {
+    "package": "mathlib",
+    "directory": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\prior\\thomson-n7-lean\\formal\\lean\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean",
+    "present": true,
+    "status": "cached object directory present"
+  },
+  {
+    "package": "plausible",
+    "directory": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\prior\\thomson-n7-lean\\formal\\lean\\.lake\\packages\\plausible\\.lake\\build\\lib\\lean",
+    "present": true,
+    "status": "cached object directory present"
+  },
+  {
+    "package": "LeanSearchClient",
+    "directory": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\prior\\thomson-n7-lean\\formal\\lean\\.lake\\packages\\LeanSearchClient\\.lake\\build\\lib\\lean",
+    "present": true,
+    "status": "cached object directory present"
+  },
+  {
+    "package": "importGraph",
+    "directory": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\prior\\thomson-n7-lean\\formal\\lean\\.lake\\packages\\importGraph\\.lake\\build\\lib\\lean",
+    "present": true,
+    "status": "cached object directory present"
+  },
+  {
+    "package": "proofwidgets",
+    "directory": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\prior\\thomson-n7-lean\\formal\\lean\\.lake\\packages\\proofwidgets\\.lake\\build\\lib\\lean",
+    "present": true,
+    "status": "cached object directory present"
+  },
+  {
+    "package": "aesop",
+    "directory": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\prior\\thomson-n7-lean\\formal\\lean\\.lake\\packages\\aesop\\.lake\\build\\lib\\lean",
+    "present": true,
+    "status": "cached object directory present"
+  },
+  {
+    "package": "Qq",
+    "directory": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\prior\\thomson-n7-lean\\formal\\lean\\.lake\\packages\\Qq\\.lake\\build\\lib\\lean",
+    "present": true,
+    "status": "cached object directory present"
+  },
+  {
+    "package": "batteries",
+    "directory": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\prior\\thomson-n7-lean\\formal\\lean\\.lake\\packages\\batteries\\.lake\\build\\lib\\lean",
+    "present": true,
+    "status": "cached object directory present"
+  },
+  {
+    "package": "Cli",
+    "directory": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\prior\\thomson-n7-lean\\formal\\lean\\.lake\\packages\\Cli\\.lake\\build\\lib\\lean",
+    "present": false,
+    "status": "no cached object directory; not a build result"
+  }
+]

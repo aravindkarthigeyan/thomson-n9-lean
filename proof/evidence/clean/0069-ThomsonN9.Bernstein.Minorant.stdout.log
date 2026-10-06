@@ -1,0 +1,12 @@
+ℹ [2115/2115] Built ThomsonN9.Bernstein.Minorant (12s)
+info: ThomsonN9/Bernstein/Minorant.lean:252:0: 'ThomsonN9.Bernstein.minorant_le_phi' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Bernstein/Minorant.lean:253:0: 'ThomsonN9.Bernstein.minorant_le_inv_sqrt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Bernstein/Minorant.lean:254:0: 'ThomsonN9.Bernstein.minorant_le_inv_dist' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Bernstein/Minorant.lean:255:0: 'ThomsonN9.Bernstein.exterior_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Bernstein/Minorant.lean:256:0: 'ThomsonN9.Bernstein.exterior_gap'' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Bernstein/Minorant.lean:257:0: 'ThomsonN9.Bernstein.minorant_eq_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Bernstein/Minorant.lean:258:0: 'ThomsonN9.Bernstein.phi_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Bernstein/Minorant.lean:259:0: 'ThomsonN9.Bernstein.checkInterval_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Bernstein/Minorant.lean:260:0: 'ThomsonN9.Bernstein.checkCover_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/Bernstein/Minorant.lean:261:0: 'ThomsonN9.Bernstein.runSteps_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (2115 jobs).

@@ -1,0 +1,303 @@
+"""Preserve one exact set of post-build Lake hash sidecars; never rebuild proofs."""
+import argparse
+from datetime import datetime, timezone
+import hashlib
+import json
+import os
+from pathlib import Path, PurePosixPath
+import re
+import stat
+import sys
+
+ROOT = Path(__file__).absolute().parents[2]
+SNAPSHOT = ROOT / "work/clean-n9/20261006-adaptive-v4"
+RUN = SNAPSHOT / "fresh-evidence/20261006T024511Z"
+BUILD = SNAPSHOT / ".lake/build/lib/lean"
+OUTPUT_ROOT = ROOT / "work/n9-metadata-preservation/preserved"
+FREEZE_SHA = "22bb7406fef5a4379c856c8dbca26c8f964685e2bd036f24bdb45e0f5af3d10e"
+DRIVER_SHA = "6ddcd40c4817da077a7329bb3839bbfca62aa0b1707e93750fb9ae32d3aa19b5"
+CONSUMER = ROOT / "work/n9-independent-verification/tools/second_kernel/sk_tool.py"
+CONSUMER_SHA = "b20645f1a745b8e54c52dcaac27bbc8310d7fbd22887d0acf5dcb23e82b2473d"
+RESULT_KEYS = {"status", "claim", "manifestSha256", "modules", "supplementalTests",
+               "stepsSha256", "targetsSha256", "driverSha256", "evidenceFiles",
+               "finalTheoremsChecked", "completedUtc"}
+HEX64 = re.compile(r"[0-9a-f]{64}\Z")
+MODULE = re.compile(r"[A-Za-z_][A-Za-z0-9_']*(?:\.[A-Za-z_][A-Za-z0-9_']*)*\Z")
+BROAD = re.compile(r"\.(olean|ilean)(\.|$)")
+
+
+def need(ok, message):
+    if not ok:
+        raise ValueError(message)
+
+
+def utc():
+    return datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+
+
+def digest(data):
+    return hashlib.sha256(data).hexdigest()
+
+
+def sha(path):
+    h = hashlib.sha256()
+    with path.open("rb") as stream:
+        for block in iter(lambda: stream.read(1024 * 1024), b""):
+            h.update(block)
+    return h.hexdigest()
+
+
+def plain(path):
+    path = Path(os.path.abspath(path))
+    for part in reversed((path, *path.parents)):
+        try:
+            info = part.lstat()
+        except FileNotFoundError:
+            continue
+        need(not stat.S_ISLNK(info.st_mode) and not getattr(info, "st_file_attributes", 0) & 0x400,
+             f"Reparse/symlink path refused: {part}")
+    return path
+
+
+def regular(path):
+    path = plain(path)
+    need(path.is_file() and stat.S_ISREG(path.lstat().st_mode), f"Expected regular file: {path}")
+    return path
+
+
+def parse(raw):
+    def unique(pairs):
+        answer = {}
+        for key, value in pairs:
+            need(key not in answer, f"Duplicate JSON key: {key}")
+            answer[key] = value
+        return answer
+    return json.loads(raw.decode("utf-8-sig"), object_pairs_hook=unique)
+
+
+def relative(value):
+    need(isinstance(value, str) and value and "\\" not in value and ":" not in value,
+         f"Invalid relative path: {value!r}")
+    parts = PurePosixPath(value).parts
+    need(not value.startswith("/") and all(p not in (".", "..") for p in parts)
+         and "/".join(parts) == value, f"Noncanonical relative path: {value}")
+    for part in parts:
+        need(not part.endswith((".", " ")) and not re.search(r"[<>\"|?*\x00-\x1f]", part),
+             f"Invalid path component: {value}")
+        need(part.split(".")[0].upper() not in {"CON", "PRN", "AUX", "NUL", *[f"COM{i}" for i in range(1, 10)],
+                                             *[f"LPT{i}" for i in range(1, 10)]}, f"Reserved path: {value}")
+    return value
+
+
+def indexed(rows):
+    need(isinstance(rows, list), "Expected inventory list")
+    result, folded = {}, set()
+    for row in rows:
+        rel = relative(row["path"])
+        need(rel.casefold() not in folded, f"Duplicate/case-colliding path: {rel}")
+        need(isinstance(row.get("sha256"), str) and HEX64.fullmatch(row["sha256"]), f"Bad hash: {rel}")
+        if "bytes" in row:
+            need(type(row["bytes"]) is int and row["bytes"] >= 0, f"Bad byte count: {rel}")
+        folded.add(rel.casefold())
+        result[rel] = row
+    return result
+
+
+def check_rows(base, rows):
+    for rel, row in indexed(rows).items():
+        path = regular(base / rel)
+        if "bytes" in row:
+            need(path.stat().st_size == row["bytes"], f"Size changed: {path}")
+        need(sha(path) == row["sha256"], f"Hash changed: {path}")
+
+
+def tree_files(base, skip=()):
+    plain(base)
+    found, folded = {}, set()
+    for directory, dirs, files in os.walk(base, followlinks=False):
+        current = Path(directory)
+        if current == base:
+            dirs[:] = [name for name in dirs if name not in skip]
+        for name in dirs:
+            plain(current / name)
+        for name in files:
+            path = regular(current / name)
+            rel = relative(path.relative_to(base).as_posix())
+            need(rel.casefold() not in folded, f"Case collision in tree: {rel}")
+            folded.add(rel.casefold())
+            found[rel] = path
+    return found
+
+
+def expected_sets(targets):
+    need(len(targets) == 181 and len(set(targets)) == 181
+         and all(MODULE.fullmatch(t) for t in targets), "Expected exact 181 distinct module names")
+    stems = {t.replace(".", "/") for t in targets}
+    objects = {stem + suffix for stem in stems for suffix in (".olean", ".olean.hash", ".ilean")}
+    sidecars = {stem + ".ilean.hash" for stem in stems}
+    return objects, sidecars
+
+
+def classify(present, recorded, targets):
+    expected, sidecars = expected_sets(targets)
+    need(set(recorded) == expected, "Recorded artifacts differ from the exact target-derived 543 files")
+    need(set(present) == expected | sidecars, "Actual broad artifact membership is not exact 543+181")
+    for rel in sidecars:
+        need(present[rel].stat().st_size == 16, f"Sidecar is not 16 bytes: {rel}")
+        need(rel[:-5] in recorded, f"Missing matching ilean: {rel}")
+    return sorted(sidecars)
+
+
+def unchanged_inputs(context, after=False):
+    need(sha(SNAPSHOT / "FREEZE.json") == FREEZE_SHA, "FREEZE changed")
+    need(sha(RUN / "RESULT.json") == context["resultSha256"], "RESULT changed")
+    need(sha(CONSUMER) == CONSUMER_SHA, "Secondary consumer changed")
+    need(sha(Path(__file__)) == context["scriptSha256"], "Preservation script changed")
+    frozen = context["freeze"]["files"]
+    check_rows(SNAPSHOT, frozen)
+    present_sources = set(tree_files(SNAPSHOT, skip=(".lake", "fresh-evidence")))
+    need(present_sources == set(indexed(frozen)) | {"FREEZE.json"}, "Unexpected/missing source-tree member")
+    evidence = context["result"]["evidenceFiles"]
+    check_rows(RUN, evidence)
+    flat = tree_files(RUN)
+    need(all("/" not in rel for rel in flat), "Evidence is not flat")
+    need(set(flat) == set(indexed(evidence)) | {"RESULT.json"}, "Evidence membership changed")
+    check_rows(SNAPSHOT, context["objects"])
+    if after:
+        broad = {rel for rel in tree_files(BUILD) if BROAD.search(rel)}
+        need(broad == set(context["recorded"]), "Post-relocation broad membership differs from recorded artifacts")
+
+
+def prepare(result_sha, destination_name):
+    need(HEX64.fullmatch(result_sha) is not None, "Supply exact lowercase successful RESULT SHA-256")
+    need(re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9_-]{0,70}", destination_name) is not None, "Bad destination name")
+    destination = plain(OUTPUT_ROOT / destination_name)
+    need(not destination.exists(), "Preservation destination already exists; no autoresume")
+    need(sha(regular(SNAPSHOT / "FREEZE.json")) == FREEZE_SHA, "Wrong freeze")
+    freeze = parse((SNAPSHOT / "FREEZE.json").read_bytes())
+    need(len(indexed(freeze["files"])) == 222, "Expected exact 222-file source freeze")
+    need(sha(regular(RUN / "RESULT.json")) == result_sha, "Wrong RESULT hash")
+    result = parse((RUN / "RESULT.json").read_bytes())
+    need(set(result) == RESULT_KEYS and result["status"] == "PASS" and result["manifestSha256"] == FREEZE_SHA,
+         "Actual successful unchanged-schema RESULT required")
+    need(type(result["modules"]) is int and result["modules"] == 181
+         and type(result["supplementalTests"]) is int and result["supplementalTests"] == 17
+         and type(result["finalTheoremsChecked"]) is int and result["finalTheoremsChecked"] == 6
+         and result["driverSha256"] == DRIVER_SHA, "Unexpected successful-run scope")
+    need(sha(regular(SNAPSHOT / "fresh-verification/FreezeRebuild.ps1")) == DRIVER_SHA, "Changed frozen producer")
+    evidence = indexed(result["evidenceFiles"])
+    need(len(evidence) >= 622 and evidence["steps.json"]["sha256"] == result["stepsSha256"]
+         and evidence["targets.txt"]["sha256"] == result["targetsSha256"], "Incomplete evidence bindings")
+    objects = parse((RUN / "local-objects.json").read_bytes())
+    target_raw = (RUN / "targets.txt").read_bytes()
+    targets = target_raw.decode("utf-8-sig").splitlines()
+    recorded = {}
+    prefix = ".lake/build/lib/lean/"
+    for rel, row in indexed(objects).items():
+        need(rel.startswith(prefix), "Recorded artifact outside consumed build tree")
+        recorded[rel[len(prefix):]] = row
+    context = {"freeze": freeze, "result": result, "objects": objects, "recorded": recorded,
+               "resultSha256": result_sha, "scriptSha256": sha(regular(Path(__file__)))}
+    unchanged_inputs(context)
+    present = {rel: path for rel, path in tree_files(BUILD).items() if BROAD.search(rel)}
+    extras = classify(present, recorded, targets)
+    rows = []
+    for rel in extras:
+        source = regular(BUILD / rel)
+        raw = source.read_bytes()
+        need(len(raw) == 16, f"Sidecar changed while reading: {rel}")
+        rows.append({"path": rel, "source": str(source), "destination": str(destination / "files" / rel),
+                     "bytes": len(raw), "sha256": digest(raw), "originalBytesHex": raw.hex()})
+    plan = {"schema": 1, "status": "PREPARED_NOT_MOVED", "snapshot": str(SNAPSHOT), "run": str(RUN),
+            "destination": str(destination), "freezeSha256": FREEZE_SHA, "resultSha256": result_sha,
+            "scriptSha256": context["scriptSha256"], "driverSha256": DRIVER_SHA,
+            "consumerSha256": CONSUMER_SHA, "localObjectsSha256": evidence["local-objects.json"]["sha256"],
+            "targetsSha256": result["targetsSha256"], "sourceFiles": 222, "recordedArtifacts": 543,
+            "originalEvidenceFiles": len(evidence), "sidecars": rows, "sidecarBytes": 2896,
+            "createdUtc": utc()}
+    return context, plan, destination
+
+
+def encode(value):
+    return (json.dumps(value, indent=2, sort_keys=True) + "\n").encode("utf-8")
+
+
+def exclusive(path, raw):
+    plain(path)
+    with path.open("xb") as stream:
+        stream.write(raw)
+        stream.flush()
+        os.fsync(stream.fileno())
+
+
+def apply(context, plan, destination):
+    need(os.name == "nt", "Leaf rename is reviewed for Windows non-overwriting semantics only")
+    need(not destination.exists(), "Destination now exists")
+    need(destination.drive.casefold() == BUILD.drive.casefold(), "Cross-volume move refused")
+    unchanged_inputs(context)
+    plain(destination.parent)
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    destination.mkdir()
+    exclusive(destination / "PLAN.json", encode(plan))
+    exclusive(destination / "preservation-source.txt", Path(__file__).read_bytes())
+    events = destination / "events.jsonl"
+    moved = []
+    try:
+        with events.open("x", encoding="utf-8", newline="\n") as journal:
+            for row in plan["sidecars"]:
+                source, target = regular(Path(row["source"])), plain(Path(row["destination"]))
+                need(source.read_bytes().hex() == row["originalBytesHex"], f"Sidecar changed before move: {source}")
+                need(not target.exists(), f"Destination exists: {target}")
+                target.parent.mkdir(parents=True, exist_ok=True)
+                source.rename(target)
+                need(not source.exists() and regular(target).read_bytes().hex() == row["originalBytesHex"],
+                     f"Leaf move verification failed: {source}")
+                moved.append(row["path"])
+                journal.write(json.dumps({"path": row["path"], "sha256": row["sha256"], "movedUtc": utc()}) + "\n")
+                journal.flush()
+                os.fsync(journal.fileno())
+        unchanged_inputs(context, after=True)
+        preserved = tree_files(destination / "files")
+        need(set(preserved) == {row["path"] for row in plan["sidecars"]}, "Preserved membership differs")
+        for row in plan["sidecars"]:
+            need(preserved[row["path"]].read_bytes().hex() == row["originalBytesHex"], "Preserved sidecar changed")
+        receipt = {**plan, "status": "EXACT_ILEAN_HASH_SIDECARS_PRESERVED", "completedUtc": utc(),
+                   "beforeBroadArtifactCount": 724, "afterBroadArtifactCount": 543,
+                   "frozenSourcesUnchanged": True, "recordedArtifactsUnchanged": True,
+                   "originalResultAndEvidenceUnchanged": True, "compilerOrExporterRun": False,
+                   "eventsSha256": sha(events), "planSha256": sha(destination / "PLAN.json")}
+        exclusive(destination / "RELOCATION.json", encode(receipt))
+        receipt_sha = sha(destination / "RELOCATION.json")
+        exclusive(destination / "RELOCATION.sha256.txt", (receipt_sha + "  RELOCATION.json\n").encode("ascii"))
+        return {"status": receipt["status"], "receipt": str(destination / "RELOCATION.json"),
+                "receiptSha256": receipt_sha, "scriptSha256": context["scriptSha256"], "moved": len(moved)}
+    except BaseException as exc:
+        try:
+            exclusive(destination / "INCOMPLETE.json", encode({"status": "INCOMPLETE_PRESERVATION",
+                      "error": str(exc), "moved": moved, "failedUtc": utc(),
+                      "claim": "No proof verdict; preserve all bytes and inspect before any recovery."}))
+        except BaseException:
+            pass
+        raise
+
+
+def main():
+    need(__debug__ and not sys.flags.optimize and not os.environ.get("PYTHONOPTIMIZE"), "Optimized Python refused")
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--result-sha", required=True)
+    parser.add_argument("--destination-name", required=True)
+    parser.add_argument("--apply", action="store_true", help="Perform the separately authorized leaf preservation")
+    args = parser.parse_args()
+    context, plan, destination = prepare(args.result_sha, args.destination_name)
+    report = apply(context, plan, destination) if args.apply else {
+        "status": "VALIDATED_NOT_MOVED", "sidecars": len(plan["sidecars"]), "bytes": plan["sidecarBytes"],
+        "destination": str(destination), "scriptSha256": context["scriptSha256"]}
+    print(json.dumps(report, indent=2))
+
+
+if __name__ == "__main__":
+    try:
+        main()
+    except (OSError, ValueError, KeyError, TypeError) as error:
+        print(json.dumps({"status": "REFUSED_OR_INCOMPLETE", "error": str(error)}))
+        raise SystemExit(1)

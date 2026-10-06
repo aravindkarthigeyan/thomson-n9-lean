@@ -1,0 +1,73 @@
+{
+ "recorded_utc": "2026-10-05T22:05Z",
+ "rust": {
+  "toolchain": "1.98.1-x86_64-pc-windows-gnu",
+  "profile": "minimal (rustc, cargo, rust-std, rust-mingw)",
+  "rustc_Vv": "rustc 1.98.1 (48a229cea 2026-09-01); commit-hash 48a229ceaefd4985c50990b14116b6d856af0985; commit-date 2026-09-01; host x86_64-pc-windows-gnu; release 1.98.1; LLVM 22.1.8",
+  "cargo_V": "cargo 1.98.1 (797e8a9bc 2026-08-05)",
+  "why_1.98.1": "same cargo build string as the N=7 run (verification/environment.txt: cargo 1.98.1 (797e8a9bc 2026-08-05)); stable on 2026-10-05 is 1.99.0",
+  "channel_manifest_url": "https://static.rust-lang.org/dist/channel-rust-1.98.1.toml",
+  "channel_manifest_sha256": "a7c8774a5fd8441c997d94c029776cbc5eb111e9d72ab5d256fa69866644347e",
+  "components": {
+   "rustc": ["https://static.rust-lang.org/dist/2026-09-03/rustc-1.98.1-x86_64-pc-windows-gnu.tar.xz", "f0e8e33973771acc4d2f87891b19d4f3f2d3827e2e7848c091d7c070bd63479c"],
+   "cargo": ["https://static.rust-lang.org/dist/2026-09-03/cargo-1.98.1-x86_64-pc-windows-gnu.tar.xz", "4bd77f16bd2a26db6eacf9320414d3a792d9998cb5e9ac122280ba56126f2a44"],
+   "rust-std": ["https://static.rust-lang.org/dist/2026-09-03/rust-std-1.98.1-x86_64-pc-windows-gnu.tar.xz", "5bb599a541fcb9c0edc00e512570f60d2262623f1e2a19a44cce3a7a97208788"],
+   "rust-mingw": ["https://static.rust-lang.org/dist/2026-09-03/rust-mingw-1.98.1-x86_64-pc-windows-gnu.tar.xz", "75d898804789c12ca969365f0a86d85c3bca1fdb070f0be615ca513a986b2674"]
+  },
+  "installed_binaries_sha256": {
+   "rustc.exe": "7ad76e93c15b06e41b0a6ef538bf3c0467c0b497638c1d9c9de2566d299d876e",
+   "cargo.exe": "135cb112917fc079b0f286ddffcd1f45a3435a620fcf4331f952f137ff176945",
+   "self-contained/x86_64-w64-mingw32-gcc.exe (linker driver only)": "aa69d8b34b0853094762681c7e9ccbf7ca529a703ae9d7f50c153c6851d93696",
+   "self-contained/ld.exe": "8399397347548adceef07a11c988c95a12fce89f13ac5b24e3f72ed97ecb1299"
+  },
+  "CARGO_HOME": "claude/verify_final/tools/second_kernel/rust/cargo",
+  "RUSTUP_HOME": "claude/verify_final/tools/second_kernel/rust/rustup"
+ },
+ "rustup_init": {
+  "url": "https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-gnu/rustup-init.exe",
+  "sha256": "6d5b5709addc0122c916d8c810da8d8a7b086a5d64fa805ef404d506392aadc8",
+  "published_sha256_url": "https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-gnu/rustup-init.exe.sha256",
+  "published_sha256_matches": true,
+  "version": "rustup-init 1.29.1 (d95a37b6a 2026-08-13)",
+  "size_bytes": 14686353,
+  "last_modified": "Tue, 01 Sep 2026 11:43:31 GMT",
+  "authenticode": "NotSigned",
+  "command": "rustup-init.exe -y --no-modify-path --profile minimal --default-host x86_64-pc-windows-gnu --default-toolchain 1.98.1  (CARGO_HOME, RUSTUP_HOME set to the dirs above)"
+ },
+ "lean4export": {
+  "repo": "https://github.com/leanprover/lean4export",
+  "rev": "076e8e57707e813375e8f9da8bf989799ace9680",
+  "tree": "453ea26e6e04de481ae90be77bf1677e6759465c",
+  "tag": "v4.34.0 (no v4.34.1 tag upstream)",
+  "commit_date": "2026-09-14T16:12:51+02:00",
+  "subject": "chore: bump toolchain to v4.34.0 (#49)",
+  "export_format": "3.1.0",
+  "upstream_HEAD_2026-10-05": "66f1fb4bc256072069767fce52d39480e4524869 (2026-09-24, chore: bump toolchain to v4.35.0-rc3 (#53))",
+  "dependencies": "none (lake-manifest packages: [])",
+  "local_change_phase2": "lean-toolchain: leanprover/lean4:v4.34.0 -> leanprover/lean4:v4.34.1 (only change, as N=7)",
+  "checkout": "core.autocrlf=false, core.eol=lf in the clone: working tree bytes = git blobs"
+ },
+ "nanoda_lib": {
+  "repo": "https://github.com/ammkrn/nanoda_lib",
+  "rev": "3a2407216ee84a75f9e1aead6803d0578be06ae7",
+  "tree": "e806ef6d8ca32d0b37dde01bc737eab3a22482b0",
+  "version": "0.4.19",
+  "commit_date": "2026-09-22T10:32:52-07:00",
+  "subject": "Merge pull request #34 from scottdhughes/fix/pretty-printer-binder-prefix",
+  "upstream_HEAD_2026-10-05": "3a2407216ee84a75f9e1aead6803d0578be06ae7 (= pin)",
+  "Cargo.lock": "committed; sha256 9b921e794ce5ed515eb31db9ada0c2f34df999b6c9b5135ad308a412872e42be (LF bytes, git blob 88b438954ebbe7e5e01c0d6e55ed1fe93c697164); lockfile version 4; 29 packages (28 crates.io + nanoda_lib)",
+  "cargo_fetch": "cargo fetch --locked: 28 crates downloaded into CARGO_HOME/registry; all 28 .crate sha256 equal the Cargo.lock checksums (logs/crate-sha256.txt); Cargo.lock unchanged; nothing compiled; cargo fetch --locked --offline re-check ok",
+  "release_dependencies": "indexmap 2.13.0 (equivalent 1.0.1, hashbrown 0.16.1), rustc-hash 1.1.0, num-bigint 0.5.1, num-integer 0.1.47, num-traits 0.2.19 (autocfg 1.1.0), semver 1.0.27, serde 1.0.228 / serde_core / serde_derive (proc-macro2 1.0.103, quote 1.0.35, syn 2.0.111, unicode-ident 1.0.12), serde_json 1.0.145 (itoa 1.0.15, memchr 2.7.6, ryu 1.0.20); dev-only: rand 0.10.2 and its deps. All pure Rust: no C compiler needed.",
+  "release_profile": "opt-level=3, overflow-checks=true, lto=true",
+  "phase2_build": "cargo rustc --release --locked --offline -j 1 --bin nanoda_bin -- -C link-arg=-Wl,--stack,1073741824"
+ },
+ "lean": {
+  "toolchain": "work/toolchains/lean-4.34.1-windows (read-only)",
+  "version": "Lean 4.34.1, commit 5045d0056413266e57c625dcd7c365b10e377c52",
+  "mathlib": "d13f23b723b8a846827a245b89c10fc7d3f11612 (oleans from work/prior/thomson-n7-lean/formal/lean/.lake/packages, read-only)"
+ },
+ "n7_reference": {
+  "scripts": "work/prior/thomson-n7-lean/formal/lean/scripts/{tools.sh,second-kernel.sh}",
+  "result": "Checked 47854 declarations with no errors; export 7,218,186 lines, 387,517,967 bytes, sha256 5a631ea6...; 233 s on an M5 Pro (48 GiB); tampered literal rejected (panic at src/tc.rs:955 assertion self.def_eq(u, v))"
+ }
+}

@@ -1,0 +1,1710 @@
+{
+  "schema": 1,
+  "claim": "source-only snapshot, NOT a build result",
+  "resourcePolicy": "adaptive-v3 exact-source profiles; retained process handle",
+  "createdUtc": "2026-10-06T02:43:52.9585966Z",
+  "sourceRoot": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean",
+  "snapshotRoot": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4",
+  "externalPackages": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\prior\\thomson-n7-lean\\formal\\lean\\.lake\\packages",
+  "lake": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\toolchains\\lean-4.34.1-windows\\bin\\lake.exe",
+  "lean": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\toolchains\\lean-4.34.1-windows\\bin\\lean.exe",
+  "lakeSha256": "9780a6abfb6d751c7958f2fd7f696154bdda8b46c0de9755c4080ffb8a8788e6",
+  "leanSha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "files": [
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\Data\\SOS\\T10.lean",
+      "path": "ClaudeL1/Data/SOS/T10.lean",
+      "role": "local or imported proof source",
+      "bytes": 275663,
+      "sha256": "70cc7ee968bc2054a519c47f581a8fb22d02183bc7244e5658d36d51ecabdafc"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\Data\\SOS\\T09.lean",
+      "path": "ClaudeL1/Data/SOS/T09.lean",
+      "role": "local or imported proof source",
+      "bytes": 275656,
+      "sha256": "af7936855a1b5d7054f88923068c0a4dd9e6c2eecf3f6f7f18cc94ed875ed337"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\Data\\SOS\\T08.lean",
+      "path": "ClaudeL1/Data/SOS/T08.lean",
+      "role": "local or imported proof source",
+      "bytes": 275646,
+      "sha256": "8d3c6329e4c6511e58a1780ccb448091e2b99ef9fbea0deef23772bf5da9c640"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\Data\\SOS\\T13.lean",
+      "path": "ClaudeL1/Data/SOS/T13.lean",
+      "role": "local or imported proof source",
+      "bytes": 275957,
+      "sha256": "c170b5d0a12e619b08eae412accbe53f5e3eae7965f248bbf2f97d88c16fdf26"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\Data\\SOS\\T12.lean",
+      "path": "ClaudeL1/Data/SOS/T12.lean",
+      "role": "local or imported proof source",
+      "bytes": 275889,
+      "sha256": "a0b33232e07fd4e6796eee64b6903a1df063ebb026c804ad10485f421f5b6034"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\Data\\SOS\\T11.lean",
+      "path": "ClaudeL1/Data/SOS/T11.lean",
+      "role": "local or imported proof source",
+      "bytes": 275622,
+      "sha256": "670dea6da1840447be4ae33f85b0d739dbb86b2ad635a6f1d796370ca0811fdc"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\Data\\SOS\\T07.lean",
+      "path": "ClaudeL1/Data/SOS/T07.lean",
+      "role": "local or imported proof source",
+      "bytes": 275634,
+      "sha256": "35e2db412a20c64566edc43e1c154a67ea388e05fe318e82cbedab754b2a32c5"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\Data\\SOS\\T03.lean",
+      "path": "ClaudeL1/Data/SOS/T03.lean",
+      "role": "local or imported proof source",
+      "bytes": 275656,
+      "sha256": "aa5c687a0fecf66fcb80dd6a912546a83fa041fbf0136bb54526fe1836fb6799"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\Data\\SOS\\T02.lean",
+      "path": "ClaudeL1/Data/SOS/T02.lean",
+      "role": "local or imported proof source",
+      "bytes": 275631,
+      "sha256": "26dd49f2e3e4fe37ea02ff8bc443b93a52031c90609aaa35a6b34a8f2ee7ca43"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\Data\\SOS\\T01.lean",
+      "path": "ClaudeL1/Data/SOS/T01.lean",
+      "role": "local or imported proof source",
+      "bytes": 274951,
+      "sha256": "488bc9889ddfbf88910608c29561ac25cd844a27c746cf43a0ff7d434208ab31"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\Data\\SOS\\T06.lean",
+      "path": "ClaudeL1/Data/SOS/T06.lean",
+      "role": "local or imported proof source",
+      "bytes": 275628,
+      "sha256": "3948beb33e11d46c787cea9f24c611f7d4b7684b948cc3cef5eb0bc6e6d27948"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\Data\\SOS\\T05.lean",
+      "path": "ClaudeL1/Data/SOS/T05.lean",
+      "role": "local or imported proof source",
+      "bytes": 275646,
+      "sha256": "8a48145b59eabc979ef88573151ba1212dea3605af5a14880778eed6731eac12"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\Data\\SOS\\T04.lean",
+      "path": "ClaudeL1/Data/SOS/T04.lean",
+      "role": "local or imported proof source",
+      "bytes": 275656,
+      "sha256": "bc75ab152b4affda19ad3a95eb4a71d3ec85f31cace522b40d16ebe254a5a20c"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\Data\\SOS\\T14.lean",
+      "path": "ClaudeL1/Data/SOS/T14.lean",
+      "role": "local or imported proof source",
+      "bytes": 275956,
+      "sha256": "f890f532ffac0903ec1182502c1faa0ca8228115819973f1e9085ff846189f39"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\KC\\Kronecker.lean",
+      "path": "ClaudeL1/KC/Kronecker.lean",
+      "role": "local or imported proof source",
+      "bytes": 24935,
+      "sha256": "1f7c93a4b13b637890a5b556d3918fb59b98d0117133dae6d3e840f69f4b1f1a"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\KC\\Kernel.lean",
+      "path": "ClaudeL1/KC/Kernel.lean",
+      "role": "local or imported proof source",
+      "bytes": 4499,
+      "sha256": "225ace47da782f7e8fa3095f6b601e4f40dc4f9292a35064d8f0eee006450a85"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\KC\\Extra.lean",
+      "path": "ClaudeL1/KC/Extra.lean",
+      "role": "local or imported proof source",
+      "bytes": 855,
+      "sha256": "1e467d5e0565f9010ed888aafcf1a875c920e1acdcef3c207b98621e8d89204d"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\Test\\Negative.lean",
+      "path": "ClaudeL1/Test/Negative.lean",
+      "role": "local or imported proof source",
+      "bytes": 1146,
+      "sha256": "19b771b705feb19566dcd3304b89bf281e4e4d692a9fbd083666d0b83d9480d3"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\KC\\Poly.lean",
+      "path": "ClaudeL1/KC/Poly.lean",
+      "role": "local or imported proof source",
+      "bytes": 10685,
+      "sha256": "5fdf50a910fae32c1823c640840e2fe7e822363fbcd4bba2c79c00df4278fa0d"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\KC\\Ops.lean",
+      "path": "ClaudeL1/KC/Ops.lean",
+      "role": "local or imported proof source",
+      "bytes": 21367,
+      "sha256": "913f6448c26c161546031dde5aaaa017f4b9a696a8ee0421d26a4043bc42d8f2"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\KC\\Check.lean",
+      "path": "ClaudeL1/KC/Check.lean",
+      "role": "local or imported proof source",
+      "bytes": 19763,
+      "sha256": "910c60d72348a2aa16b0fc7f1c33bbb07ffb29371491bf808afc27b21c8db77b"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\Data\\Kernel.lean",
+      "path": "ClaudeL1/Data/Kernel.lean",
+      "role": "local or imported proof source",
+      "bytes": 152124,
+      "sha256": "097e02ddd20da65acb82897e8842e156ecfbd5692ea384f8184221512cd32695"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\Data\\Assembly.lean",
+      "path": "ClaudeL1/Data/Assembly.lean",
+      "role": "local or imported proof source",
+      "bytes": 2820,
+      "sha256": "21d53b38c112d8bc995b310f8d1583b33bf6efcd94e4380532e895ef474b4d50"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\Data\\SOS\\T15.lean",
+      "path": "ClaudeL1/Data/SOS/T15.lean",
+      "role": "local or imported proof source",
+      "bytes": 275910,
+      "sha256": "515e29cfc6c67d53018bea28e90071d3c0baa2af85017516fb54de10dbb0c18b"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\KC\\Chain.lean",
+      "path": "ClaudeL1/KC/Chain.lean",
+      "role": "local or imported proof source",
+      "bytes": 3561,
+      "sha256": "49dbddbdb6fe826dbba720cbb1e2f33f59790aa8bdc7ef1c40c22dc39865d3b6"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\KC\\Assembly.lean",
+      "path": "ClaudeL1/KC/Assembly.lean",
+      "role": "local or imported proof source",
+      "bytes": 7949,
+      "sha256": "9208cb6603ce3f5f57ed4fb6143c34ad2d565f14cf23edbc47b51f02084735d2"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\Data\\Mult.lean",
+      "path": "ClaudeL1/Data/Mult.lean",
+      "role": "local or imported proof source",
+      "bytes": 1484,
+      "sha256": "1c56e4d0a4727922609c327eaebf425409b8cbf7b82e53c8118a187398361a6f"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\Data\\SOS\\T00.lean",
+      "path": "ClaudeL1/Data/SOS/T00.lean",
+      "role": "local or imported proof source",
+      "bytes": 347,
+      "sha256": "e4dc34beaaa4b902ccce023d0ad8d87cdadadfb8faeb1e852feb5ec1dce1522f"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeWindow\\WindowKernelB.lean",
+      "path": "ClaudeWindow/WindowKernelB.lean",
+      "role": "local or imported proof source",
+      "bytes": 2352,
+      "sha256": "a0082c7cf99e12681dd0de66f7646a9c9715cd2629f86190159f4814722edae6"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeWindow\\WindowKernelA.lean",
+      "path": "ClaudeWindow/WindowKernelA.lean",
+      "role": "local or imported proof source",
+      "bytes": 2351,
+      "sha256": "a32a55957ed76d88d3bb7f1c6ceb31ba735a939a0c4a128623c546b793cf2a14"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeWindow\\WindowKernel.lean",
+      "path": "ClaudeWindow/WindowKernel.lean",
+      "role": "local or imported proof source",
+      "bytes": 1444,
+      "sha256": "07ed803a2fff53f56e6426eebd60b95529916b80f8e496accbd7d67837235fc7"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\Data\\SOS\\C03.lean",
+      "path": "ClaudeL1/Data/SOS/C03.lean",
+      "role": "local or imported proof source",
+      "bytes": 949464,
+      "sha256": "fe0f5203af30d7284e3a948bf7d92445d99cd2f714a83d20cd739e42a2dd6770"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\Data\\SOS\\C02.lean",
+      "path": "ClaudeL1/Data/SOS/C02.lean",
+      "role": "local or imported proof source",
+      "bytes": 940009,
+      "sha256": "3c0b54a9f0904507e72f40d6d6a8f6c8f9dc64dcfcd149f688bc8fd405aa9c79"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\Data\\SOS\\C01.lean",
+      "path": "ClaudeL1/Data/SOS/C01.lean",
+      "role": "local or imported proof source",
+      "bytes": 936150,
+      "sha256": "125ff025a5591ad3839aa5d5a71401c4b8cb45fc640ac0f3092c4fba4ed692e6"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeWindow\\WindowData.lean",
+      "path": "ClaudeWindow/WindowData.lean",
+      "role": "local or imported proof source",
+      "bytes": 11138,
+      "sha256": "e3bcbb0f7424f32c9d4342794c872828b7a934883629b5c44a03044ac5a7079a"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeWindow\\Main.lean",
+      "path": "ClaudeWindow/Main.lean",
+      "role": "local or imported proof source",
+      "bytes": 11582,
+      "sha256": "3b9bba8cd26d0cec003acc774efe6ebcc07dbe4d5b8f5564c5f6024b87edbeb0"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeWindow\\Interval.lean",
+      "path": "ClaudeWindow/Interval.lean",
+      "role": "local or imported proof source",
+      "bytes": 5665,
+      "sha256": "e538a83a7280995bcbaeda88007f4ed692400836ea6f292451a9eb1c3d2302fb"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeWindow\\Geometry.lean",
+      "path": "ClaudeWindow/Geometry.lean",
+      "role": "local or imported proof source",
+      "bytes": 5225,
+      "sha256": "5f13164b8acfaad6f1bdf93f7cb85aff3697e6ccd0c413a7f04c127c2e005393"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeWindow\\WindowCheck.lean",
+      "path": "ClaudeWindow/WindowCheck.lean",
+      "role": "local or imported proof source",
+      "bytes": 6698,
+      "sha256": "416b377db3f437a487559538d976ea227f457b9c900c430da88927dddb1669ca"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeWindow\\WindowBoxes.lean",
+      "path": "ClaudeWindow/WindowBoxes.lean",
+      "role": "local or imported proof source",
+      "bytes": 3660,
+      "sha256": "dee4665b8774845874d36ca36575affe5174c553e7970349a649b40a89392579"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeWindow\\Soundness.lean",
+      "path": "ClaudeWindow/Soundness.lean",
+      "role": "local or imported proof source",
+      "bytes": 17997,
+      "sha256": "0397cee95227d463a9e8a028de4b9e4e960c9fc5fda96ca41ba7fddbfdd6209f"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\Data\\SOS\\C04.lean",
+      "path": "ClaudeL1/Data/SOS/C04.lean",
+      "role": "local or imported proof source",
+      "bytes": 912860,
+      "sha256": "ae11ffd11fde022a78eee66c88b0a94effa28966f275878663a97e8b44d270c2"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\Data\\SOS\\C14.lean",
+      "path": "ClaudeL1/Data/SOS/C14.lean",
+      "role": "local or imported proof source",
+      "bytes": 1032413,
+      "sha256": "bc3d6ec3560e6f694cde88452a675cb616ca8f9b1cba8882b70ba85297e47359"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\Data\\SOS\\C13.lean",
+      "path": "ClaudeL1/Data/SOS/C13.lean",
+      "role": "local or imported proof source",
+      "bytes": 1075509,
+      "sha256": "fe6dca7e4d127f54fe1fc7416ee9cb53226dd02ac5db05cbf6df713715d464c3"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\Data\\SOS\\C12.lean",
+      "path": "ClaudeL1/Data/SOS/C12.lean",
+      "role": "local or imported proof source",
+      "bytes": 1089920,
+      "sha256": "4086d1d3d8365c06d2c67ec8860c3a1573033fda085b001be2ca09f1dcd647da"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\Data\\SOS\\Last.lean",
+      "path": "ClaudeL1/Data/SOS/Last.lean",
+      "role": "local or imported proof source",
+      "bytes": 455,
+      "sha256": "429323d725741c50f512b69b5d86b1db759276b5ee81b06259d17cbf869a8eca"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\Data\\SOS\\Glue.lean",
+      "path": "ClaudeL1/Data/SOS/Glue.lean",
+      "role": "local or imported proof source",
+      "bytes": 2495,
+      "sha256": "d1078d5e487415f3c2752994e12792a87def32679b03485c8ccf6354f62c43d0"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\Data\\SOS\\C15.lean",
+      "path": "ClaudeL1/Data/SOS/C15.lean",
+      "role": "local or imported proof source",
+      "bytes": 812662,
+      "sha256": "500c3642bb9a86ca468a1ed900706146f4e95c675107b9280691ebf18c781e71"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\Data\\SOS\\C11.lean",
+      "path": "ClaudeL1/Data/SOS/C11.lean",
+      "role": "local or imported proof source",
+      "bytes": 1127758,
+      "sha256": "05555000456c79680a7a89ab138712f1a9e1e6b245a3547383ae9ee49d7c67ad"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\Data\\SOS\\C07.lean",
+      "path": "ClaudeL1/Data/SOS/C07.lean",
+      "role": "local or imported proof source",
+      "bytes": 1030612,
+      "sha256": "e5435780cc8b8738c884f1df5d2b93d5400be63e9aba9edd46d71574c14cd03e"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\Data\\SOS\\C06.lean",
+      "path": "ClaudeL1/Data/SOS/C06.lean",
+      "role": "local or imported proof source",
+      "bytes": 1073493,
+      "sha256": "900fd4fb79af7f9c5d03d5b8f2a829cec8b59c202cc172e99887684f75c9c54e"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\Data\\SOS\\C05.lean",
+      "path": "ClaudeL1/Data/SOS/C05.lean",
+      "role": "local or imported proof source",
+      "bytes": 1086009,
+      "sha256": "96cc5340652345c780f32b12b01549da1c98f9ef22a83bb14075acdc46306f8e"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\Data\\SOS\\C10.lean",
+      "path": "ClaudeL1/Data/SOS/C10.lean",
+      "role": "local or imported proof source",
+      "bytes": 1031359,
+      "sha256": "308b60826a68ac3fcb8e35194b3469435e39e7eba1acffeebb451a8ca7a2756b"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\Data\\SOS\\C09.lean",
+      "path": "ClaudeL1/Data/SOS/C09.lean",
+      "role": "local or imported proof source",
+      "bytes": 1074037,
+      "sha256": "4fbb00801b876a89169decd5846030be541e3579cfad483264e1065b51710097"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\Data\\SOS\\C08.lean",
+      "path": "ClaudeL1/Data/SOS/C08.lean",
+      "role": "local or imported proof source",
+      "bytes": 1087122,
+      "sha256": "ff3aeb3073d8a23bf174071cc95f8383dfba6ed59eef702aebe6e77b81bf503c"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\Bridge.lean",
+      "path": "ClaudeL1/Bridge.lean",
+      "role": "local or imported proof source",
+      "bytes": 11416,
+      "sha256": "84bed87eec85cb63d7bd821d45f701b3fc7d875312c77fa7ffb3ba2be4ef2648"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\verification\\CLAUDE_L2B_IMPORT.json",
+      "path": "frozen-provenance/CLAUDE_L2B_IMPORT.json",
+      "role": "source-import provenance, not a fresh build report",
+      "bytes": 4029,
+      "sha256": "063b4bc1cd465b951829a62b7b2892932b0d248d8ad7b8892a4d5848988b6cf5"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\verification\\CLAUDE_L1_IMPORT.json",
+      "path": "frozen-provenance/CLAUDE_L1_IMPORT.json",
+      "role": "source-import provenance, not a fresh build report",
+      "bytes": 54238,
+      "sha256": "7c08efd0749e6c368393ddc66cf2baec8dcafd114a9cedfaee7ef27ecd8b74cc"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\verification\\CLAUDE_FORMAL_IMPORT.json",
+      "path": "frozen-provenance/CLAUDE_FORMAL_IMPORT.json",
+      "role": "source-import provenance, not a fresh build report",
+      "bytes": 5757,
+      "sha256": "019c67f32eda81d241049fa7cef60f4f6a89c27c1c2ab386bd55e4e4673cb0d0"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\verification\\claude-import\\BernsteinNegative.lean",
+      "path": "frozen-tests/BernsteinNegative.lean",
+      "role": "Fresh Lean proof/control fixture; prior execution status is separate",
+      "bytes": 1085,
+      "sha256": "0df78b5a87715d1ad551f5ccf7883279a8b8e5b855cd41b6851ec9415e450912"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\verification\\claude-import\\BernsteinAxioms.lean",
+      "path": "frozen-tests/BernsteinAxioms.lean",
+      "role": "Fresh Lean proof/control fixture; prior execution status is separate",
+      "bytes": 476,
+      "sha256": "c58f0c4663fa9f7141af060fb3cadbd3e08f93dfed9c9016731fc020e0400179"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-lean-drafts\\verification\\QuantitativeTargetAudit.lean",
+      "path": "frozen-tests/QuantitativeTargetAudit.lean",
+      "role": "Fresh exact-type and axiom fixture for quantitative stability",
+      "bytes": 700,
+      "sha256": "1bb3b2e627d086decd2d276701dd07aec0e58e11ffecec06d4946550c92db253"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-lean-drafts\\verification\\adaptive-v2\\memory-profiles-v2.json",
+      "path": "fresh-verification/MemoryProfiles.json",
+      "role": "historical resource profiles; scheduling only, not proof premises",
+      "bytes": 198027,
+      "sha256": "cd52cdc7b589c71e366afa8e73a3d8eeeb387b9a46ed635ace292b32b58048c8"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\verification\\TestSourceScanner.ps1",
+      "path": "verification/TestSourceScanner.ps1",
+      "role": "verification script",
+      "bytes": 1182,
+      "sha256": "5ea636398f2a8b824acb4c979f83696b183bc98611b5090215f6b145f0a4811b"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\verification\\SOURCE_AUDIT_REPAIR.md",
+      "path": "verification/SOURCE_AUDIT_REPAIR.md",
+      "role": "verification design and audit-scope documentation",
+      "bytes": 4107,
+      "sha256": "3f484dac35e0f66a9b5f9a9d69b16d5d78f29927bf54425e3278b59c14bb9888"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\verification\\RESOURCE_CONTROLS.md",
+      "path": "verification/RESOURCE_CONTROLS.md",
+      "role": "verification design and audit-scope documentation",
+      "bytes": 3526,
+      "sha256": "fb1525c7fb6b30a8433a46be0f563438c01dd906bafafd729b808a082e5822fa"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-lean-drafts\\verification\\adaptive-v4\\FreezeRebuild.ps1",
+      "path": "fresh-verification/FreezeRebuild.ps1",
+      "role": "fresh verification fixture",
+      "bytes": 38930,
+      "sha256": "6ddcd40c4817da077a7329bb3839bbfca62aa0b1707e93750fb9ae32d3aa19b5"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-lean-drafts\\verification\\adaptive-v4\\DumpLeanEnvironment.ps1",
+      "path": "fresh-verification/DumpLeanEnvironment.ps1",
+      "role": "fresh verification fixture",
+      "bytes": 291,
+      "sha256": "53f4545ca0592741fdfa2dd0da3d45e1d0d19b2e27d3e543e56756462115bafc"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-lean-drafts\\verification\\adaptive-v4\\FinalTargetAudit.lean",
+      "path": "fresh-verification/FinalTargetAudit.lean",
+      "role": "fresh verification fixture",
+      "bytes": 1496,
+      "sha256": "a2929cc7ca393c4710551d338f3d7a639d04fe25b2f89658fd0544e39c21b2db"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-lean-drafts\\verification\\adaptive-v4\\fixtures\\WindowAxioms.lean",
+      "path": "frozen-tests/WindowAxioms.lean",
+      "role": "Fresh Lean proof/control fixture; prior execution status is separate",
+      "bytes": 886,
+      "sha256": "3fb8b16ec0a37b0e32432b8d755fc5a58b8ec7fbc62cface1f8a428c34ce827f"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\formal_support\\l1\\review\\src\\ReviewL1\\MutC07.lean",
+      "path": "frozen-tests/MutC07.lean",
+      "role": "Intentionally corrupted Lean source, expected exact proof failure",
+      "bytes": 1042516,
+      "sha256": "720de894aae753df9c7ca1a5c9d8abd7903ec9802cb21851a4c6f0b6dac5f8ff"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-lean-drafts\\verification\\adaptive-v4\\fixtures\\SemanticMutations.lean",
+      "path": "frozen-tests/SemanticMutations.lean",
+      "role": "Fresh Lean proof/control fixture; prior execution status is separate",
+      "bytes": 5924,
+      "sha256": "1586ea1a47f0ec0ee46890c94879d3725a6deacf6c04a13893bcbae058731e61"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\formal_support\\l1\\review\\src\\ReviewL1\\StatementCheck.lean",
+      "path": "frozen-tests/L1StatementCheck.lean",
+      "role": "Fresh Lean proof/control fixture; prior execution status is separate",
+      "bytes": 7980,
+      "sha256": "c718f7b5ae9b261cd526593961643409bcc9a29f843cca36f67bcf226d819863"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\formal_support\\l1\\review\\src\\ReviewL1\\MutNumbers.lean",
+      "path": "frozen-tests/MutNumbers.lean",
+      "role": "Intentionally corrupted Lean source, expected exact proof failure",
+      "bytes": 6422,
+      "sha256": "c89a2ea3ec40167a51443da79cf5d9a32f08c08462c6a739b9e48341322813d9"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\formal_support\\l1\\review\\src\\ReviewL1\\MutAsm.lean",
+      "path": "frozen-tests/MutAsm.lean",
+      "role": "Intentionally corrupted Lean source, expected exact proof failure",
+      "bytes": 2884,
+      "sha256": "905cedc759c09d4f968581587fa19dd83abb4f62b8cdb6d4070deb5743c1a9a3"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\formal_support\\l1\\review\\src\\ReviewL1\\MutKernel.lean",
+      "path": "frozen-tests/MutKernel.lean",
+      "role": "Intentionally corrupted Lean source, expected exact proof failure",
+      "bytes": 152988,
+      "sha256": "ea239aa90b5d23a304df80070c75c10549a51b546a79fe7850030475d7354702"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-lean-drafts\\verification\\adaptive-v4\\fixtures\\L1AdditionalMutations.lean",
+      "path": "frozen-tests/L1AdditionalMutations.lean",
+      "role": "Fresh Lean proof/control fixture; prior execution status is separate",
+      "bytes": 1888,
+      "sha256": "86f3391efadf48ef6cc0e3baa237abe2a9ff2064eea04deda7ad1ddf02f3ce9f"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\verification\\l2b-import\\ReviewerNegative.lean",
+      "path": "frozen-tests/L2bReviewNegative.lean",
+      "role": "Fresh Lean proof/control fixture; prior execution status is separate",
+      "bytes": 3570,
+      "sha256": "90a15a94d356ebd6dce18d2b91f1f18e8d8cf0a02e26632e27d3d494f6247fec"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\verification\\l2b-import\\OriginalNegative.lean",
+      "path": "frozen-tests/L2bNegative.lean",
+      "role": "Fresh Lean proof/control fixture; prior execution status is separate",
+      "bytes": 3007,
+      "sha256": "b29f8da4b325a5f66ffb27cdf39b853a779773b42d74d9f70d8bc99a97780282"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\verification\\claude-import\\WindowNegative.lean",
+      "path": "frozen-tests/WindowNegative.lean",
+      "role": "Fresh Lean proof/control fixture; prior execution status is separate",
+      "bytes": 2413,
+      "sha256": "cff53bba2255e9c04a03c72c66d2ea9fcf7267ae903c6b15c11c9ac0aff40ae0"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\verification\\l1-import\\L1Axioms.lean",
+      "path": "frozen-tests/L1Axioms.lean",
+      "role": "Fresh Lean proof/control fixture; prior execution status is separate",
+      "bytes": 1081,
+      "sha256": "cd008404954a5ece0457cf9631752a622855cd7740534e844ed8de0aaf11bfe0"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\verification\\l2b-import\\AllAxioms.lean",
+      "path": "frozen-tests/L2bAllAxioms.lean",
+      "role": "Fresh independent closure audit for all 75 L2b declarations",
+      "bytes": 4026,
+      "sha256": "58af688d2360db3773586b10c45f783ceb1d3ca404a3e031cee9f75385f1c08e"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\verification\\l2b-import\\StatementPins.lean",
+      "path": "frozen-tests/L2bReviewStatements.lean",
+      "role": "Fresh Lean proof/control fixture; prior execution status is separate",
+      "bytes": 9527,
+      "sha256": "3f531d3994c2bdd59c64b05e27d2dc4fce4dc3ada75037906fe50389d6d1db22"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\verification\\RejectCorruptCoefficient.ps1",
+      "path": "verification/RejectCorruptCoefficient.ps1",
+      "role": "verification script",
+      "bytes": 1774,
+      "sha256": "f9fce85c6cc2e9f47ed115d3003b09ed7021191892da3c34ee1e75d05d91b45d"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL2b\\RefinedData.lean",
+      "path": "ClaudeL2b/RefinedData.lean",
+      "role": "local or imported proof source",
+      "bytes": 2136,
+      "sha256": "ffd5c9cfc07087d72dc0f7b0cec7f70823617cb9d99d35cb44d0245b99a33fcb"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL2b\\ReducedMinorant.lean",
+      "path": "ClaudeL2b/ReducedMinorant.lean",
+      "role": "local or imported proof source",
+      "bytes": 7862,
+      "sha256": "60a4d487386e31fc27de899737daea85e01c8646a88eedb9b63d3c38abb52ed7"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL2b\\ReducedData.lean",
+      "path": "ClaudeL2b/ReducedData.lean",
+      "role": "local or imported proof source",
+      "bytes": 5305,
+      "sha256": "01d823b6c8b9146167fe86197438899b7c66aadc497dd91055322535107d5ee2"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\vendor\\Delsarte\\Certificate\\Interval.lean",
+      "path": "vendor/Delsarte/Certificate/Interval.lean",
+      "role": "local or imported proof source",
+      "bytes": 4932,
+      "sha256": "a992a57f94eee03a4e897678cd651fd0e42ee9a7711f18d0013274c39acb0726"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL2b\\WindowAdapter.lean",
+      "path": "ClaudeL2b/WindowAdapter.lean",
+      "role": "local or imported proof source",
+      "bytes": 8571,
+      "sha256": "a8ca41ee0a907b3c39d75f130037d5f4e9e750877accc5485f62bcc61d70c242"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL2b\\RefinedWindows.lean",
+      "path": "ClaudeL2b/RefinedWindows.lean",
+      "role": "local or imported proof source",
+      "bytes": 7210,
+      "sha256": "b63ef49c22d6c7b6d4d752b3584ce8975ac9fac2b9c9f4edad67f30484bf1473"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL2b\\LPData.lean",
+      "path": "ClaudeL2b/LPData.lean",
+      "role": "local or imported proof source",
+      "bytes": 2930,
+      "sha256": "38bb313ddc9b55ae620d7c4a4926f52c6219edd3e980eff1d1b1d5c1f2792582"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\Numbers.lean",
+      "path": "ClaudeL1/Numbers.lean",
+      "role": "local or imported proof source",
+      "bytes": 6286,
+      "sha256": "03009787a9cbb481509d329136191b7de405f7c54abaabe0bb03653d88245b6d"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\Main.lean",
+      "path": "ClaudeL1/Main.lean",
+      "role": "local or imported proof source",
+      "bytes": 6115,
+      "sha256": "838a15d92e679979d941c525bbfa1bbe04735195ebe2c3b169327ba7a5f7d2e3"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL1\\Identity.lean",
+      "path": "ClaudeL1/Identity.lean",
+      "role": "local or imported proof source",
+      "bytes": 8658,
+      "sha256": "695240f5015c597b6da99608562c325775ee034eff0f557e994f0657c1c797db"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL2b\\LPCovers.lean",
+      "path": "ClaudeL2b/LPCovers.lean",
+      "role": "local or imported proof source",
+      "bytes": 10336,
+      "sha256": "d58de001c00548f4ce4c4ca65267a1b08c02d728012411255c14775d285bc39b"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL2b\\LPAdapterCodex.lean",
+      "path": "ClaudeL2b/LPAdapterCodex.lean",
+      "role": "local or imported proof source",
+      "bytes": 3259,
+      "sha256": "ac98e426aa246597d3f776703e2c6fc788f78e5a816c28b6f98313413f1e12a1"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeL2b\\Integration.lean",
+      "path": "ClaudeL2b/Integration.lean",
+      "role": "local or imported proof source",
+      "bytes": 7896,
+      "sha256": "277b858cba6fa9c644b298f39e87a1470a6b0879b3593f335c95b06b8a191ac4"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\vendor\\Delsarte\\Gegenbauer\\Basic.lean",
+      "path": "vendor/Delsarte/Gegenbauer/Basic.lean",
+      "role": "local or imported proof source",
+      "bytes": 14578,
+      "sha256": "02ce558ad65bb5d74f7eef0f4592895985c527928049317eedb90e8cbd3661d0"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\verification\\BuildSDP.ps1",
+      "path": "verification/BuildSDP.ps1",
+      "role": "verification script",
+      "bytes": 972,
+      "sha256": "e9bdd1669758db59a4b82aa890be7514d961792dfd1f3447aa40a600fdd78e91"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\verification\\Build.ps1",
+      "path": "verification/Build.ps1",
+      "role": "verification script",
+      "bytes": 3986,
+      "sha256": "8f73fec106298315631b59b7b59400f0979ab17b1d348cdb8f339e506f173b89"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\vendor\\DELSARTE_PROVENANCE.md",
+      "path": "vendor/DELSARTE_PROVENANCE.md",
+      "role": "local or imported proof source",
+      "bytes": 2921,
+      "sha256": "33131a007e06de633fc65100675cbbbcb881d34682f9e83957b9ffd958b566a9"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\verification\\LeanSource.ps1",
+      "path": "verification/LeanSource.ps1",
+      "role": "verification script",
+      "bytes": 3020,
+      "sha256": "077d5fc70764c3037a921a44df761960361021f47d1347a4c4c4528bbc61cd08"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\verification\\CheckSource.ps1",
+      "path": "verification/CheckSource.ps1",
+      "role": "verification script",
+      "bytes": 3595,
+      "sha256": "469bc994c30c0f159581004464a16cd0acebdb061da0915f3c87afdbf90956ad"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\verification\\CheckAxioms.ps1",
+      "path": "verification/CheckAxioms.ps1",
+      "role": "verification script",
+      "bytes": 2009,
+      "sha256": "58a9d80ff7ce1f7a4c4f232640d64abd6eab6b43869486fd73203324e48f165c"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\vendor\\DELSARTE_LICENSE",
+      "path": "vendor/DELSARTE_LICENSE",
+      "role": "local or imported proof source",
+      "bytes": 11351,
+      "sha256": "aab26d4867858c55a78c276837d65833cd4b3045be27b75da7353ae8f0739ddd"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\vendor\\Delsarte\\Sphere\\DegreeThree.lean",
+      "path": "vendor/Delsarte/Sphere/DegreeThree.lean",
+      "role": "local or imported proof source",
+      "bytes": 17803,
+      "sha256": "509973f9ccda55a1518dc6b3b705fb398e29c58afab8b7a445e6642fd2f7df42"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\vendor\\Delsarte\\Harmonic\\Zonal.lean",
+      "path": "vendor/Delsarte/Harmonic/Zonal.lean",
+      "role": "local or imported proof source",
+      "bytes": 19848,
+      "sha256": "f66cd8c9a0f940e4e85b9c2f5408bc31c9ca913a76546dc2e412bd73fa44575b"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\vendor\\Delsarte\\Harmonic\\Fischer.lean",
+      "path": "vendor/Delsarte/Harmonic/Fischer.lean",
+      "role": "local or imported proof source",
+      "bytes": 17581,
+      "sha256": "53f50d01d3838398e0f910b5a8846d6007be42c70d5fb364f212ae747c9bb60f"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\vendor\\Delsarte\\Sphere\\Schoenberg.lean",
+      "path": "vendor/Delsarte/Sphere/Schoenberg.lean",
+      "role": "local or imported proof source",
+      "bytes": 6495,
+      "sha256": "56463b6c6639b7e724e266a80aeed9f41c71c5c66fa45622da568092d3343622"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\vendor\\Delsarte\\Sphere\\LP.lean",
+      "path": "vendor/Delsarte/Sphere/LP.lean",
+      "role": "local or imported proof source",
+      "bytes": 15958,
+      "sha256": "8aa9d0577a17976a42aeb2eadff01cbc492119027d919edbd774cfb58cfd87d4"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\vendor\\Delsarte\\Sphere\\DegreeTwo.lean",
+      "path": "vendor/Delsarte/Sphere/DegreeTwo.lean",
+      "role": "local or imported proof source",
+      "bytes": 7729,
+      "sha256": "e40db766612afa42fec636f4726ed73b20d948e426d4445b78a17860167591c1"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\AmbientKernelGeometry.lean",
+      "path": "ThomsonN9/Certificates/AmbientKernelGeometry.lean",
+      "role": "local or imported proof source",
+      "bytes": 63269,
+      "sha256": "4931619efa6e88febd5d9e38438ed41db9c59cce34b9bb8ba587a1ecaec462e0"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\AmbientKernelData.lean",
+      "path": "ThomsonN9/Certificates/AmbientKernelData.lean",
+      "role": "local or imported proof source",
+      "bytes": 4852481,
+      "sha256": "dd508201539d8bdde647d506c4f71c8981185fa4e6aa6c98f92e4144312b7478"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\AmbientKernelChecks09.lean",
+      "path": "ThomsonN9/Certificates/AmbientKernelChecks09.lean",
+      "role": "local or imported proof source",
+      "bytes": 1907,
+      "sha256": "75e01c3b864ded9b2692b66bfb7fb08be7cc6c2951a29833a58c72b7cf7547c9"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\CircuitCoordinates.lean",
+      "path": "ThomsonN9/Certificates/CircuitCoordinates.lean",
+      "role": "local or imported proof source",
+      "bytes": 4818,
+      "sha256": "a7c7a6bb7fdbf298554a98732af4eeaa5d5ce69115b29ecafe278ffd7dacb81d"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\CircuitConstants.lean",
+      "path": "ThomsonN9/Certificates/CircuitConstants.lean",
+      "role": "local or imported proof source",
+      "bytes": 6325,
+      "sha256": "afce14fdb1bfd907c561a139d2c6e31b2e753845bcac674e10f8f4797167360c"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\CircuitAlgebra.lean",
+      "path": "ThomsonN9/Certificates/CircuitAlgebra.lean",
+      "role": "local or imported proof source",
+      "bytes": 5546,
+      "sha256": "bbf2f7a7c1ec7131235123435ee0c0fe19aecdd1564a4c80412185b800324ecd"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\AmbientKernelChecks08.lean",
+      "path": "ThomsonN9/Certificates/AmbientKernelChecks08.lean",
+      "role": "local or imported proof source",
+      "bytes": 6972,
+      "sha256": "e8c13d0acad1dc975d33ea6a0c7f1b2604ce62bc3251a3d6c268a35f2a9206b7"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\AmbientKernelChecks04.lean",
+      "path": "ThomsonN9/Certificates/AmbientKernelChecks04.lean",
+      "role": "local or imported proof source",
+      "bytes": 6972,
+      "sha256": "4278b3abd5e22d41a93dcb195818dd0c4a81b6d76ff697c987adff6ba10a12e2"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\AmbientKernelChecks03.lean",
+      "path": "ThomsonN9/Certificates/AmbientKernelChecks03.lean",
+      "role": "local or imported proof source",
+      "bytes": 6956,
+      "sha256": "3154f173a21eb964772b3eed90b5c7bf402d01ee32d77950a28417207cdb1bcc"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\AmbientKernelChecks02.lean",
+      "path": "ThomsonN9/Certificates/AmbientKernelChecks02.lean",
+      "role": "local or imported proof source",
+      "bytes": 6829,
+      "sha256": "8f14a43427b9da90793dce8316fbac2aa310c49b7f4572058038a1faa0a551e6"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\AmbientKernelChecks07.lean",
+      "path": "ThomsonN9/Certificates/AmbientKernelChecks07.lean",
+      "role": "local or imported proof source",
+      "bytes": 6972,
+      "sha256": "e74598a1e98eb89b33e5f8b12dfeb8cce8a57409b2209f24abd4e1253e6af0a5"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\AmbientKernelChecks06.lean",
+      "path": "ThomsonN9/Certificates/AmbientKernelChecks06.lean",
+      "role": "local or imported proof source",
+      "bytes": 6972,
+      "sha256": "4bbac87b4cc51ed28f5b2d96c1b170020ffc7ec59491a2e3210023d97031812c"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\AmbientKernelChecks05.lean",
+      "path": "ThomsonN9/Certificates/AmbientKernelChecks05.lean",
+      "role": "local or imported proof source",
+      "bytes": 6972,
+      "sha256": "5f8aa8c9dc35e2c9168ec011ccfda4ebb84e70abc1050f941480707f07adaf3a"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\CircuitDifferences.lean",
+      "path": "ThomsonN9/Certificates/CircuitDifferences.lean",
+      "role": "local or imported proof source",
+      "bytes": 3604,
+      "sha256": "81fa03211317dbc2050b8277fe010e4a70fc55287a80ea235df61915a06fc3db"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\IntervalCircuit.lean",
+      "path": "ThomsonN9/Certificates/IntervalCircuit.lean",
+      "role": "local or imported proof source",
+      "bytes": 5605,
+      "sha256": "6e788198e5b470e128ef3d08dbd4b14e88c4772d14be5d71d8a5d184bcb33aec"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\Interval.lean",
+      "path": "ThomsonN9/Certificates/Interval.lean",
+      "role": "local or imported proof source",
+      "bytes": 8007,
+      "sha256": "4162f12daa4a7643da5517403b28cb9d7577a929a72e38db72f170ab06a8e52c"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\HessianTransport.lean",
+      "path": "ThomsonN9/Certificates/HessianTransport.lean",
+      "role": "local or imported proof source",
+      "bytes": 5541,
+      "sha256": "2088ec22ae64fe61c93b81600d4cddb99a912882572c9fd4277bcc0ea9b03529"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\ZeroPenalty.lean",
+      "path": "ThomsonN9/Certificates/ZeroPenalty.lean",
+      "role": "local or imported proof source",
+      "bytes": 2038,
+      "sha256": "e90e6440f6bd5dd9cf979a7f5a5afc6a25892ed536a19a6ee7f048538910c0a2"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\ScaledInterval.lean",
+      "path": "ThomsonN9/Certificates/ScaledInterval.lean",
+      "role": "local or imported proof source",
+      "bytes": 8413,
+      "sha256": "103a1dbc16c3557a9f42ce55f6ec08df510ef727d2eda041cb8ebc7b01dc2449"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\ReducedEnergy.lean",
+      "path": "ThomsonN9/Certificates/ReducedEnergy.lean",
+      "role": "local or imported proof source",
+      "bytes": 23264,
+      "sha256": "a39d9ffd65721967b938c9c8505e0b3b556f79f91cd12ce3bc38e1399ba5c3e4"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\EnergyControls.lean",
+      "path": "ThomsonN9/Certificates/EnergyControls.lean",
+      "role": "local or imported proof source",
+      "bytes": 620,
+      "sha256": "38e1c6a56b8c822e3f31c284e3b803ba90a02d79090bc4535ce9c86b6cac2a9e"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\CircuitRadial.lean",
+      "path": "ThomsonN9/Certificates/CircuitRadial.lean",
+      "role": "local or imported proof source",
+      "bytes": 1451,
+      "sha256": "add214f13d0fc0b116d842067f006562ab9969ac34b9c1bcc93d04d0fefe422a"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\CircuitPairBlock.lean",
+      "path": "ThomsonN9/Certificates/CircuitPairBlock.lean",
+      "role": "local or imported proof source",
+      "bytes": 7655,
+      "sha256": "6670414076a25d8f3bc0b332ff5176527c0f022847118022f22b62bd23b38672"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\CircuitMatrices.lean",
+      "path": "ThomsonN9/Certificates/CircuitMatrices.lean",
+      "role": "local or imported proof source",
+      "bytes": 3763,
+      "sha256": "a8ad6422b0713877e934ba8ffdf48fee74193a98d0983d8d32102ab11803fd34"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\DiagonalDominance.lean",
+      "path": "ThomsonN9/Certificates/DiagonalDominance.lean",
+      "role": "local or imported proof source",
+      "bytes": 10618,
+      "sha256": "6e2b87a827a3cc0effae59d150e385e8cf7300903c5b93773598249fb1139a4a"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\CircuitSums.lean",
+      "path": "ThomsonN9/Certificates/CircuitSums.lean",
+      "role": "local or imported proof source",
+      "bytes": 3052,
+      "sha256": "31a981baa9ee9766d6d133cd4b5f3ea8594fcb61307f9418d9f1e706ac2d6833"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\CircuitRotation.lean",
+      "path": "ThomsonN9/Certificates/CircuitRotation.lean",
+      "role": "local or imported proof source",
+      "bytes": 1830,
+      "sha256": "f60b1cf2d9f5a479dc3f6cb871f850c16fe3719abbc10cb54037e6f19839ef0a"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\AmbientKernelChecks01.lean",
+      "path": "ThomsonN9/Certificates/AmbientKernelChecks01.lean",
+      "role": "local or imported proof source",
+      "bytes": 6812,
+      "sha256": "2c0eed2258f65cf07b98b0790c35eba293b20427c58bfc458d49730e40cd7636"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Bernstein\\MinorantCert.lean",
+      "path": "ThomsonN9/Bernstein/MinorantCert.lean",
+      "role": "local or imported proof source",
+      "bytes": 5531,
+      "sha256": "d0f5c2a1090ee940aec6ad81f17ec1e5bda2f5896738424020c9b84bdf54e3fb"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Bernstein\\Minorant.lean",
+      "path": "ThomsonN9/Bernstein/Minorant.lean",
+      "role": "local or imported proof source",
+      "bytes": 12797,
+      "sha256": "e19ab1001a583ae51b398d5533ee672e84c4165e07ed1793a941f9b8d1916e4e"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Bernstein\\Checker.lean",
+      "path": "ThomsonN9/Bernstein/Checker.lean",
+      "role": "local or imported proof source",
+      "bytes": 22606,
+      "sha256": "e1be2caeebe4e449489bc03370c80a875c532b6e14adc3a2f75682258f24e8cb"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\AmbientCongruenceChecks00.lean",
+      "path": "ThomsonN9/Certificates/AmbientCongruenceChecks00.lean",
+      "role": "local or imported proof source",
+      "bytes": 136922,
+      "sha256": "304d728a9940015fdceca083898734e94767eaecb9786a1ca2679854f2176394"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\AmbientCongruence.lean",
+      "path": "ThomsonN9/Certificates/AmbientCongruence.lean",
+      "role": "local or imported proof source",
+      "bytes": 34702,
+      "sha256": "0a32d25c3063567878ae429f959cdb2f40d200f68f145b0ce4c867e10a848a13"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Bernstein\\MinorantData.lean",
+      "path": "ThomsonN9/Bernstein/MinorantData.lean",
+      "role": "local or imported proof source",
+      "bytes": 16244,
+      "sha256": "b7a26af2d85e9be4d28414d48dede739f70979ffc55781c4b83f918470c97c36"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9.lean",
+      "path": "ThomsonN9.lean",
+      "role": "package source or metadata",
+      "bytes": 1882,
+      "sha256": "e5d07071e8a1f37dad129a353a914836f3fbe65b771ad4a375a7b26beb1685e1"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\lakefile.toml",
+      "path": "lakefile.toml",
+      "role": "package source or metadata",
+      "bytes": 518,
+      "sha256": "a5dd209e28bf76a39ef3f3e77e17443d96446d576d91dee0b767e9775a6d5f90"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\lake-manifest.json",
+      "path": "lake-manifest.json",
+      "role": "package source or metadata",
+      "bytes": 3180,
+      "sha256": "7017113ef97e77cee9048658a3fcadc1152924f74bddbefb7eca5144a08d6df6"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\Challenge.lean",
+      "path": "Challenge.lean",
+      "role": "package source or metadata",
+      "bytes": 749,
+      "sha256": "ea32b730538646d67c9e4a5ef5efcdc892a75c27b4b3e1b861eaecac68d9fe9f"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\Solution.lean",
+      "path": "Solution.lean",
+      "role": "package source or metadata",
+      "bytes": 283004,
+      "sha256": "8995b0faf7e2a75c6f838e21c74c19e4e420203f53e00a8f6c3e730baf2386ec"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\README.md",
+      "path": "README.md",
+      "role": "package source or metadata",
+      "bytes": 9260,
+      "sha256": "80cfbfbf0c82fbf4666e0473c942121484b5a18d76e4f9550395c881c894dd28"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\lean-toolchain",
+      "path": "lean-toolchain",
+      "role": "package source or metadata",
+      "bytes": 25,
+      "sha256": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\AmbientCongruenceChecks01.lean",
+      "path": "ThomsonN9/Certificates/AmbientCongruenceChecks01.lean",
+      "role": "local or imported proof source",
+      "bytes": 140527,
+      "sha256": "2fba079548af5c41e2d5937f941bedf0798cf43828fe2f90f3457b5afba8853d"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\AmbientKernelAll.lean",
+      "path": "ThomsonN9/Certificates/AmbientKernelAll.lean",
+      "role": "local or imported proof source",
+      "bytes": 121072,
+      "sha256": "cad6b0871f0a0dbc581398e73ecb35a5e557a93c7d1d38c6e2dfcb0bed92d1db"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\AmbientHessian.lean",
+      "path": "ThomsonN9/Certificates/AmbientHessian.lean",
+      "role": "local or imported proof source",
+      "bytes": 1788,
+      "sha256": "eb16c7556934f39c50d88cbe76dd67b13dfeb2f91fa75f823af2c7b4e3025322"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\AmbientCongruenceData.lean",
+      "path": "ThomsonN9/Certificates/AmbientCongruenceData.lean",
+      "role": "local or imported proof source",
+      "bytes": 22442,
+      "sha256": "597558b2ae4362cdf8ef0a3a4947a543fa1c3d0253120b0d2c673e15b6ffe090"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\AmbientKernelChecks00.lean",
+      "path": "ThomsonN9/Certificates/AmbientKernelChecks00.lean",
+      "role": "local or imported proof source",
+      "bytes": 7050,
+      "sha256": "117585f503f3ba885771842841ed870ccfefaef5208044340742b15b679173ab"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\AmbientKernelBounds.lean",
+      "path": "ThomsonN9/Certificates/AmbientKernelBounds.lean",
+      "role": "local or imported proof source",
+      "bytes": 14677,
+      "sha256": "547476f84fe1dad10c8254dd15d358de31fcea98a80a58efa66d6dc45d47896b"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\AmbientKernelAssembly.lean",
+      "path": "ThomsonN9/Certificates/AmbientKernelAssembly.lean",
+      "role": "local or imported proof source",
+      "bytes": 333644,
+      "sha256": "d7212e6b5138c2914862514d5e69b2aaf194131cde77d47c726b61020c24942e"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\AmbientCongruenceChecks08.lean",
+      "path": "ThomsonN9/Certificates/AmbientCongruenceChecks08.lean",
+      "role": "local or imported proof source",
+      "bytes": 152677,
+      "sha256": "669a305fdb65e034aa49ca7aec90c3982c71581c2ccdb138cb759390776508e9"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\AmbientCongruenceChecks04.lean",
+      "path": "ThomsonN9/Certificates/AmbientCongruenceChecks04.lean",
+      "role": "local or imported proof source",
+      "bytes": 148281,
+      "sha256": "289ff2af377e477b6640cbaec589c51870ce9f3ab402f84f2a009a6b1207ee18"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\AmbientCongruenceChecks03.lean",
+      "path": "ThomsonN9/Certificates/AmbientCongruenceChecks03.lean",
+      "role": "local or imported proof source",
+      "bytes": 142391,
+      "sha256": "03d0f05469342753f20f553e6cae95a3fcbf3ea5eae8eb5ce177129808fd5f21"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\AmbientCongruenceChecks02.lean",
+      "path": "ThomsonN9/Certificates/AmbientCongruenceChecks02.lean",
+      "role": "local or imported proof source",
+      "bytes": 141742,
+      "sha256": "a37149413be8f23b60635e8051fa6558f7774824ec6a5d4e60975f18261939b4"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\AmbientCongruenceChecks07.lean",
+      "path": "ThomsonN9/Certificates/AmbientCongruenceChecks07.lean",
+      "role": "local or imported proof source",
+      "bytes": 151498,
+      "sha256": "3f476b67390892d406900d61e13fab11644f7e5773e660cc8921d5fec48a9457"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\AmbientCongruenceChecks06.lean",
+      "path": "ThomsonN9/Certificates/AmbientCongruenceChecks06.lean",
+      "role": "local or imported proof source",
+      "bytes": 147283,
+      "sha256": "f99f7df4bdcd5113174bcac9fb48658402fa8f3a8382c1d19eaf449db97bc57b"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Certificates\\AmbientCongruenceChecks05.lean",
+      "path": "ThomsonN9/Certificates/AmbientCongruenceChecks05.lean",
+      "role": "local or imported proof source",
+      "bytes": 149496,
+      "sha256": "d18a0662c590f8444d7e43c960eef40f0bb545963a83dcfe9d78e366c8922cca"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\LP\\Anchor.lean",
+      "path": "ThomsonN9/LP/Anchor.lean",
+      "role": "local or imported proof source",
+      "bytes": 9141,
+      "sha256": "93b4ae9bd428f70e895ab16ad2cd4bcb5c106053ab4835bfaaedf4fb0ea9f428"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\LocalEnergy.lean",
+      "path": "ThomsonN9/LocalEnergy.lean",
+      "role": "local or imported proof source",
+      "bytes": 4333,
+      "sha256": "7f4c0be3c9b4c701b7de4343ad0178edb80c4886f776ee052892f61bc095db9c"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\LocalCoercivity.lean",
+      "path": "ThomsonN9/LocalCoercivity.lean",
+      "role": "local or imported proof source",
+      "bytes": 3815,
+      "sha256": "f5420c4d4ca2ef3f2b6451e173e73b94e37357a2d93020584a3d52612ac1972a"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\HessianSymmetry.lean",
+      "path": "ThomsonN9/HessianSymmetry.lean",
+      "role": "local or imported proof source",
+      "bytes": 2383,
+      "sha256": "1e356afde29598cf07aeade3f0463c51721cb5e0a335d757bbce006e4d97f41a"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\LocalPotential.lean",
+      "path": "ThomsonN9/LocalPotential.lean",
+      "role": "local or imported proof source",
+      "bytes": 4787,
+      "sha256": "95a437a7528f50b4ec9a246be3713e2acbb5f2eade324c27e020497a5a8ecaef"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\LocalGeometry.lean",
+      "path": "ThomsonN9/LocalGeometry.lean",
+      "role": "local or imported proof source",
+      "bytes": 4005,
+      "sha256": "7ec268df5a347a98dc1bdd6ca2a4c7e56edc5244ffdc26773c2f4b4e09a12ab6"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\LocalEstimate.lean",
+      "path": "ThomsonN9/LocalEstimate.lean",
+      "role": "local or imported proof source",
+      "bytes": 5128,
+      "sha256": "159eb93f533d3b1ad6c012b297b7f35a2244f03592164c9293f6c024e903820c"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\GramStability.lean",
+      "path": "ThomsonN9/GramStability.lean",
+      "role": "local or imported proof source",
+      "bytes": 7911,
+      "sha256": "88a14c7c7983d54356fd35b7e035e826c373a5c3a993a88e5bce8e23173a678f"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\FamilyMinimum.lean",
+      "path": "ThomsonN9/FamilyMinimum.lean",
+      "role": "local or imported proof source",
+      "bytes": 1912,
+      "sha256": "fc3a55f9ed32a3ed7502c7f1c5f42c51b0b73b6e07886c6a21b9fc08c2382f5f"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\FamilyEnergy.lean",
+      "path": "ThomsonN9/FamilyEnergy.lean",
+      "role": "local or imported proof source",
+      "bytes": 2323,
+      "sha256": "6aa25e3d6a9a0e23e3793cbccd11ed817161ff810a09fdc7bd63ed9ebdb5f5bd"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Energy.lean",
+      "path": "ThomsonN9/Energy.lean",
+      "role": "local or imported proof source",
+      "bytes": 1400,
+      "sha256": "43ec5f5770d9df21fa1c506e9fce26a5ed05a264c191b88ba29c9332254e3258"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\GramSchmidtFrame.lean",
+      "path": "ThomsonN9/GramSchmidtFrame.lean",
+      "role": "local or imported proof source",
+      "bytes": 7893,
+      "sha256": "6e2c1479f072a4c1dc87eca8a58d6e654911bf64f5fb072f6e1d5fa48348eb73"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\GramAlignment.lean",
+      "path": "ThomsonN9/GramAlignment.lean",
+      "role": "local or imported proof source",
+      "bytes": 5530,
+      "sha256": "451d32b4e9aba93fb516a9530353ba3536b63c78bd2883f81fd25879cfadf375"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\GlobalReduction.lean",
+      "path": "ThomsonN9/GlobalReduction.lean",
+      "role": "local or imported proof source",
+      "bytes": 3178,
+      "sha256": "b82f77f761fb6b27845499812d86c38259a5ad0a6c6226c63003ad7b02dee3e2"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\LocalRigidity.lean",
+      "path": "ThomsonN9/LocalRigidity.lean",
+      "role": "local or imported proof source",
+      "bytes": 532,
+      "sha256": "7451ba7e3398a71ab0c476c04cd0d2049fdd6ee3e00e804447e7948a38f82dd2"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeWindow\\Antipodal.lean",
+      "path": "ClaudeWindow/Antipodal.lean",
+      "role": "local or imported proof source",
+      "bytes": 2375,
+      "sha256": "eb9a890a448918936b3cb9759a3d8173cd9f4271498fd7ae5eb9577f90f1c188"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeWindow\\AnchorFree.lean",
+      "path": "ClaudeWindow/AnchorFree.lean",
+      "role": "local or imported proof source",
+      "bytes": 4832,
+      "sha256": "1efb9c020b30bca31a650de4eb5774ff42d7776b1ab3b8777952241354dde8da"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\WindowLocalization.lean",
+      "path": "ThomsonN9/WindowLocalization.lean",
+      "role": "local or imported proof source",
+      "bytes": 8126,
+      "sha256": "cf8cc9f5990ef39e15f3a5b7322ae32f70a12d0964336a71e73177653cc0181b"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeWindow\\FormulaSound.lean",
+      "path": "ClaudeWindow/FormulaSound.lean",
+      "role": "local or imported proof source",
+      "bytes": 3151,
+      "sha256": "a36de92a7cf95204c268e968e48da5e78f62a3d9d7797d4a99c2a72672ba5023"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeWindow\\CandidateGram.lean",
+      "path": "ClaudeWindow/CandidateGram.lean",
+      "role": "local or imported proof source",
+      "bytes": 1464,
+      "sha256": "4e8f9c764379978221975344f9b78b4322724d6a7dade053444488486fd97d74"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ClaudeWindow\\Bridge.lean",
+      "path": "ClaudeWindow/Bridge.lean",
+      "role": "local or imported proof source",
+      "bytes": 7406,
+      "sha256": "5de430cb3637b43f5a9a3900728bea6b6193586ecf2a57fcb954da856dfe1b9b"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\ScalarCertificates.lean",
+      "path": "ThomsonN9/ScalarCertificates.lean",
+      "role": "local or imported proof source",
+      "bytes": 3977,
+      "sha256": "3a0ba171c999b205658a1933138766c7e0b7d15f1bd898d148af13ba33c147fe"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\MainTheorem.lean",
+      "path": "ThomsonN9/MainTheorem.lean",
+      "role": "local or imported proof source",
+      "bytes": 879,
+      "sha256": "a64f0a3c7d4b695a12693eea266e672b21db71adfba5704342acbb7f4212f9aa"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\LocalTarget.lean",
+      "path": "ThomsonN9/LocalTarget.lean",
+      "role": "local or imported proof source",
+      "bytes": 2601,
+      "sha256": "ff20c80626145d8a7c73d3193a0219f43606d4099ed653208390a17fef20c831"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\LocalStationarity.lean",
+      "path": "ThomsonN9/LocalStationarity.lean",
+      "role": "local or imported proof source",
+      "bytes": 3263,
+      "sha256": "bf293f5d2a0c79a0856f10bb945ce545bfe6f134562637ae22bdaa4f32cbec63"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\QuantitativeStability.lean",
+      "path": "ThomsonN9/QuantitativeStability.lean",
+      "role": "local or imported proof source",
+      "bytes": 3682,
+      "sha256": "50590a7d72d458ddebcc442d1b83017a7c1b677bb4e063b42ee18740bea3c8e2"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\ParameterSigns.lean",
+      "path": "ThomsonN9/ParameterSigns.lean",
+      "role": "local or imported proof source",
+      "bytes": 4688,
+      "sha256": "59d55421411211cf14ddc97017303203e5139559a74005e9f42e80f54e03e59e"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\ParameterExists.lean",
+      "path": "ThomsonN9/ParameterExists.lean",
+      "role": "local or imported proof source",
+      "bytes": 2606,
+      "sha256": "3f0cc396e7e62b31f279b7e446e86819bb353c270f5657944f5d10688f22c32e"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Endgame.lean",
+      "path": "ThomsonN9/Endgame.lean",
+      "role": "local or imported proof source",
+      "bytes": 5716,
+      "sha256": "df04f54fd28a3c6622a46baa85bd558fa07625fd216a5c9229b38baf491815ba"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\SDP\\Counting.lean",
+      "path": "ThomsonN9/SDP/Counting.lean",
+      "role": "local or imported proof source",
+      "bytes": 4927,
+      "sha256": "f5458df8e51a9354279b42c57e0235ea30fa6be3fb7dcc8a5f57f3cade1f17b2"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\SDP\\CircleKernel.lean",
+      "path": "ThomsonN9/SDP/CircleKernel.lean",
+      "role": "local or imported proof source",
+      "bytes": 1211,
+      "sha256": "8224e2c6dea6d8a0c1c1c970319f7d96c77b3820b9e7912459ae9fae57ac08df"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\SDP\\CertificateBound.lean",
+      "path": "ThomsonN9/SDP/CertificateBound.lean",
+      "role": "local or imported proof source",
+      "bytes": 5498,
+      "sha256": "5fb471d207258e90f826e37b1f3573f08d40a815b88ae2d774813ccfc331746d"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\SDP\\PolynomialKernel.lean",
+      "path": "ThomsonN9/SDP/PolynomialKernel.lean",
+      "role": "local or imported proof source",
+      "bytes": 5597,
+      "sha256": "1a2b8efe8032dc11b0f9e016abb17b72ef4459a5dc667bcea3ba737e899e5e02"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\SDP\\GeometryBounds.lean",
+      "path": "ThomsonN9/SDP/GeometryBounds.lean",
+      "role": "local or imported proof source",
+      "bytes": 1615,
+      "sha256": "c1b141eec8e6e6b35ff953524d2714534b2e3537d231842d8e91a98db5e4458b"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\SDP\\FactoredKernels.lean",
+      "path": "ThomsonN9/SDP/FactoredKernels.lean",
+      "role": "local or imported proof source",
+      "bytes": 4703,
+      "sha256": "20f3a46f9a8ebe683fc72cc96a578b40eccbd1f1be38ed9f2938b591c281197b"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\LP\\Schoenberg.lean",
+      "path": "ThomsonN9/LP/Schoenberg.lean",
+      "role": "local or imported proof source",
+      "bytes": 2206,
+      "sha256": "28400e677df6994ac4c2b083c729bd8f6e817ef739c4a054347c123d19b373a2"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\LP\\Covariance.lean",
+      "path": "ThomsonN9/LP/Covariance.lean",
+      "role": "local or imported proof source",
+      "bytes": 3074,
+      "sha256": "53b62da889efd67b288e9ad384d1f26763c50a77fe55d00b0b0d2783f7b51924"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\LP\\ConcreteLinkage.lean",
+      "path": "ThomsonN9/LP/ConcreteLinkage.lean",
+      "role": "local or imported proof source",
+      "bytes": 950,
+      "sha256": "78b24468ce10aacaf89d00c4bb293d9df696387468c942571450388d1d1a7dbd"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\LP\\Concrete.lean",
+      "path": "ThomsonN9/LP/Concrete.lean",
+      "role": "local or imported proof source",
+      "bytes": 6962,
+      "sha256": "50af667ee106984d15e3027dab767866cab09ff68c88cae2d5b4a6b775919b16"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\LP\\README.md",
+      "path": "ThomsonN9/LP/README.md",
+      "role": "local or imported proof source",
+      "bytes": 4163,
+      "sha256": "8fb1b0552716c7b3b046d7e08c4e625f93144030afd2a7b2fd8f16f94427abef"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\LP\\PolynomialLinkage.lean",
+      "path": "ThomsonN9/LP/PolynomialLinkage.lean",
+      "role": "local or imported proof source",
+      "bytes": 13461,
+      "sha256": "06036607524e493630966cb8310f236ae46348b451fb8584b793eb75bd85b86c"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\LP\\EnergyBound.lean",
+      "path": "ThomsonN9/LP/EnergyBound.lean",
+      "role": "local or imported proof source",
+      "bytes": 4469,
+      "sha256": "b1873f636d898b33116bbf2b4f6876a8cc6bb9ea01b67f8e19923b665695d510"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\SDP\\ProjectionComplex.lean",
+      "path": "ThomsonN9/SDP/ProjectionComplex.lean",
+      "role": "local or imported proof source",
+      "bytes": 4505,
+      "sha256": "421c00c6b711ff8c885b6f9eeab19f2d7a5ad34c2b8352dd973f5a20cc0a025d"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\CandidateAlignment.lean",
+      "path": "ThomsonN9/CandidateAlignment.lean",
+      "role": "local or imported proof source",
+      "bytes": 4107,
+      "sha256": "8939aa7c67b30ca0beb65da8ffae13be53dfa37b80a5e68f3b2ae460fef9b7d6"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Candidate.lean",
+      "path": "ThomsonN9/Candidate.lean",
+      "role": "local or imported proof source",
+      "bytes": 2757,
+      "sha256": "6cb03242b8a5a29249ef7cd6128e9cfaa09b8e07e44b4a429246fab5981251ef"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\BlockHessian.lean",
+      "path": "ThomsonN9/BlockHessian.lean",
+      "role": "local or imported proof source",
+      "bytes": 6211,
+      "sha256": "ec733087891e728b29631167b7cc18ab1c58b47ca6adbbed4e9150c69467ffa7"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Completion.lean",
+      "path": "ThomsonN9/Completion.lean",
+      "role": "local or imported proof source",
+      "bytes": 1801,
+      "sha256": "c652dc08a7dae24d79dc17f30ee31497cf765a4cfadc146d0bf81983ce77e687"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\CentroidBound.lean",
+      "path": "ThomsonN9/CentroidBound.lean",
+      "role": "local or imported proof source",
+      "bytes": 3376,
+      "sha256": "a2214fa8fab9b5e8abc8aa7dd557e3013f2a0de8d6bee230f585d6b292f97fd7"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\CandidateEnergy.lean",
+      "path": "ThomsonN9/CandidateEnergy.lean",
+      "role": "local or imported proof source",
+      "bytes": 2991,
+      "sha256": "20713429043de389bb3c51d66bbc6e425e6d631c48b385c2a935fa5b9bd60143"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Basic.lean",
+      "path": "ThomsonN9/Basic.lean",
+      "role": "local or imported proof source",
+      "bytes": 1012,
+      "sha256": "9047b6eb65ff0b86bbc899b6633a2564a400c8681b66267ff9406ca2f0b9a7bb"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\SDP\\ResidualBound.lean",
+      "path": "ThomsonN9/SDP/ResidualBound.lean",
+      "role": "local or imported proof source",
+      "bytes": 3045,
+      "sha256": "b18ee2d90fcf7dfafebc57acfd6ae12cfc84a427644c8684e7c7f74046c7e2e4"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\SDP\\RepeatedIndices.lean",
+      "path": "ThomsonN9/SDP/RepeatedIndices.lean",
+      "role": "local or imported proof source",
+      "bytes": 4087,
+      "sha256": "e1e06e044cd9fc5b1bbdf47d61f25e2d3e5bf6a1e59679539a9d441c9328f6a8"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\SDP\\README.md",
+      "path": "ThomsonN9/SDP/README.md",
+      "role": "local or imported proof source",
+      "bytes": 3915,
+      "sha256": "4436e0f9b3e29744395ebeb9f8dc259d56bb1184d378304a90ff59fdb57ebcd1"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\Alignment.lean",
+      "path": "ThomsonN9/Alignment.lean",
+      "role": "local or imported proof source",
+      "bytes": 8907,
+      "sha256": "a1dc8f77b8d794f6f090c229b1d609078594602d488f12fb612fe21d3d7622a8"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\SDP\\Symmetrization.lean",
+      "path": "ThomsonN9/SDP/Symmetrization.lean",
+      "role": "local or imported proof source",
+      "bytes": 2792,
+      "sha256": "b2ec855efc8f355a7355e7defbed32f5f7c2856e7cca47ba983a51c50365a89a"
+    },
+    {
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\outputs\\thomson-n9\\lean\\ThomsonN9\\SDP\\Summation.lean",
+      "path": "ThomsonN9/SDP/Summation.lean",
+      "role": "local or imported proof source",
+      "bytes": 2603,
+      "sha256": "83768bae6ac5037debed78eec952739054d3198a08c2b419edfbcfe129a90d11"
+    }
+  ],
+  "tests": [
+    {
+      "path": "frozen-tests/QuantitativeTargetAudit.lean",
+      "expectation": "pass",
+      "categories": [
+        "stability"
+      ]
+    },
+    {
+      "path": "frozen-tests/BernsteinAxioms.lean",
+      "expectation": "pass",
+      "categories": [
+        "bernstein"
+      ]
+    },
+    {
+      "path": "frozen-tests/BernsteinNegative.lean",
+      "expectation": "pass",
+      "categories": [
+        "bernstein"
+      ]
+    },
+    {
+      "path": "frozen-tests/WindowAxioms.lean",
+      "expectation": "pass",
+      "categories": [
+        "window"
+      ]
+    },
+    {
+      "path": "frozen-tests/WindowNegative.lean",
+      "expectation": "pass",
+      "categories": [
+        "window"
+      ]
+    },
+    {
+      "path": "frozen-tests/L2bNegative.lean",
+      "expectation": "pass",
+      "categories": [
+        "refined",
+        "lp"
+      ]
+    },
+    {
+      "path": "frozen-tests/L2bReviewNegative.lean",
+      "expectation": "pass",
+      "categories": [
+        "refined",
+        "lp"
+      ]
+    },
+    {
+      "path": "frozen-tests/L2bReviewStatements.lean",
+      "expectation": "pass",
+      "categories": [
+        "refined",
+        "lp"
+      ]
+    },
+    {
+      "path": "frozen-tests/L2bAllAxioms.lean",
+      "expectation": "pass",
+      "categories": [
+        "refined",
+        "lp"
+      ]
+    },
+    {
+      "path": "frozen-tests/L1Axioms.lean",
+      "expectation": "pass",
+      "categories": [
+        "sos"
+      ]
+    },
+    {
+      "path": "frozen-tests/L1AdditionalMutations.lean",
+      "expectation": "pass",
+      "categories": [
+        "sos"
+      ]
+    },
+    {
+      "path": "frozen-tests/L1StatementCheck.lean",
+      "expectation": "pass",
+      "categories": [
+        "sos"
+      ]
+    },
+    {
+      "path": "frozen-tests/SemanticMutations.lean",
+      "expectation": "pass",
+      "categories": [
+        "hessian"
+      ]
+    },
+    {
+      "path": "frozen-tests/MutC07.lean",
+      "expectation": "reject",
+      "categories": [
+        "sos"
+      ],
+      "expectedDiagnostic": "(?s)Tactic `decide` proved that the proposition.*is false",
+      "expectedErrorLines": [
+        11859
+      ]
+    },
+    {
+      "path": "frozen-tests/MutKernel.lean",
+      "expectation": "reject",
+      "categories": [
+        "sos"
+      ],
+      "expectedDiagnostic": "(?s)\\(kernel\\) application type mismatch.*KTotal\\.check ktotal",
+      "expectedErrorLines": [
+        815
+      ]
+    },
+    {
+      "path": "frozen-tests/MutAsm.lean",
+      "expectation": "reject",
+      "categories": [
+        "sos"
+      ],
+      "expectedDiagnostic": "(?s)\\(kernel\\) application type mismatch.*Assembly\\.checkL1 asm Lres",
+      "expectedErrorLines": [
+        25
+      ]
+    },
+    {
+      "path": "frozen-tests/MutNumbers.lean",
+      "expectation": "reject",
+      "categories": [
+        "sos"
+      ],
+      "expectedDiagnostic": "(?s)unsolved goals.*False",
+      "expectedErrorLines": [
+        75
+      ]
+    }
+  ]
+}

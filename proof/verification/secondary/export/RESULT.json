@@ -1,0 +1,17 @@
+{
+ "verdict": "EXPORT-ONLY:PASS",
+ "steps": [
+  {
+   "step": "export",
+   "invocation": "sk.1",
+   "exit_code": 0,
+   "stopped_before_start": null,
+   "launch_error": null,
+   "wall_seconds": 78.01,
+   "cpu_seconds": 72.05,
+   "peak_job_commit_gb": 5.034,
+   "peak_tree_working_set_gb_sampled": 0.0,
+   "min_free_physical_gb_sampled": 12.392
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+⚠ [3160/3169] Replayed ThomsonN9.CandidateEnergy
+warning: ThomsonN9/CandidateEnergy.lean:61:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3166/3169] Replayed ThomsonN9.GramSchmidtFrame
+warning: ThomsonN9/GramSchmidtFrame.lean:21:4: This simp argument is unused:
+  real_inner_self_eq_norm_sq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [gsResidual, inner_sub_right, real_inner_smul_right, hx]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ThomsonN9/GramSchmidtFrame.lean:78:4: This simp argument is unused:
+  real_inner_self_eq_norm_sq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [gsFinalResidual, inner_sub_right, real_inner_smul_right, hx, gsUnit_inner hx]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ThomsonN9/GramSchmidtFrame.lean:84:4: This simp argument is unused:
+  real_inner_self_eq_norm_sq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [gsFinalResidual, inner_sub_right, real_inner_smul_right, gsUnit_norm hs, he]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3167/3169] Replayed ThomsonN9.GramStability
+warning: ThomsonN9/GramStability.lean:33:75: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: ThomsonN9/GramStability.lean:33:75: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+✔ [3169/3169] Built ThomsonN9.CandidateAlignment (49s)
+Build completed successfully (3169 jobs).

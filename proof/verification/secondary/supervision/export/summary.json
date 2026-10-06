@@ -1,0 +1,98 @@
+{
+  "schema": "n9-second-kernel-process-summary-v1",
+  "stage": "export",
+  "process_outcome": "INCONCLUSIVE_PROCESS_FAILURE",
+  "mathematical_classification": "NONE",
+  "changed_prebound_inputs": [],
+  "stage_completion": "EXPORT_ONLY_COMPLETED",
+  "export_artifacts": {
+    "RUN_MANIFEST.json": {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\RUN_MANIFEST.json",
+      "sha256": "2f82f92d9dc35e309bd4508970ca308354bee5714fb0be5cce780bfb91ce140e",
+      "bytes": 3360
+    },
+    "export.ndjson": {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\export.ndjson",
+      "sha256": "6ea32a64e1aabdfbf06dc731537de0083f7e60e5eb76b408e5c418ccf1a93b3c",
+      "bytes": 514465728
+    },
+    "VERDICT.json": {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\VERDICT.json",
+      "sha256": "0c467d078ae91e98957655b98011f19a86bc2fb2749f3f22aeaf45527b63dab2",
+      "bytes": 1252
+    },
+    "RESULT.json": {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\RESULT.json",
+      "sha256": "6b47fca37251abcd61bf53f0bfcbe841c83b43a0ad7951aed9ad6d6fe06f9a11",
+      "bytes": 351
+    }
+  },
+  "plan": {
+    "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\export-plan-v4-20261006-01.json",
+    "sha256": "d88103ee3aeb675031b2a95bf85dbf6747d82abc71a768ebd3e49c5fdcbda8dd",
+    "bytes": 139185
+  },
+  "authorization": {
+    "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\ROOT_EXPORT_AUTHORIZATION_01.json",
+    "sha256": "70551d2402e55b6ec074f960b21f7c2892fbe0cacbae050d291d5ac34a598249",
+    "bytes": 1527
+  },
+  "process_result": {
+    "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-export-01\\process\\result.json",
+    "sha256": "6df6fa7c87a5d99b311bea7acac2848287c31ef9547617e2d5ea12dc1e172b1a",
+    "bytes": 3969
+  },
+  "process_logs": {
+    "stdout.log": {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-export-01\\process\\stdout.log",
+      "sha256": "df9007939b7077eb1aa549fcf2e90cd5f6c1f978f84e71d3c48d9e11283b942d",
+      "bytes": 5074
+    },
+    "stderr.log": {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-export-01\\process\\stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "events.jsonl": {
+      "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-export-01\\process\\events.jsonl",
+      "sha256": "8dbf5e6fae81a4a467fac95e83952a92c815a34781b04c989f8cc8f6131c0277",
+      "bytes": 776455
+    }
+  },
+  "pipeline": {
+    "classification": "UNINTERPRETED_PIPELINE_OUTPUT",
+    "new_directory_count": 1,
+    "observations": [
+      {
+        "directory": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01",
+        "files": [
+          {
+            "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\VERDICT",
+            "sha256": "65715825d8a94f5ade22bbd3af167c5180c2444fb94860438dab6950d76ea913",
+            "bytes": 17,
+            "text": "EXPORT-ONLY:PASS\n"
+          },
+          {
+            "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\VERDICT.json",
+            "sha256": "0c467d078ae91e98957655b98011f19a86bc2fb2749f3f22aeaf45527b63dab2",
+            "bytes": 1252,
+            "text": "{\n \"verdict\": \"EXPORT-ONLY:PASS\",\n \"scope\": \"EXPORT-ONLY\",\n \"aggregate\": \"PASS\",\n \"scope_reasons\": [],\n \"considered_checks\": [\n  \"preflight\",\n  \"export\",\n  \"bind\"\n ],\n \"required_checks\": [\n  \"preflight\",\n  \"export\",\n  \"bind\"\n ],\n \"requested_optional_checks\": [],\n \"checks\": {\n  \"preflight\": {\n   \"status\": \"PASS\",\n   \"detail\": \"toolchain, tool record, inputs, disk, slot\"\n  },\n  \"export\": {\n   \"status\": \"PASS\",\n   \"detail\": \"9727409 lines, 55248 declarations, sha256 6ea32a64e1aabdfb\"\n  },\n  \"bind\": {\n   \"status\": \"PASS\",\n   \"detail\": \"codex-clean freeze 22bb7406fef5a437 build C:\\\\Users\\\\REDACTED\\\\Documents\\\\Codex\\\\2026-10-05\\\\analyze-what-s-u\\\\work\\\\clean-n9\\\\20261006-adaptive-v4\\\\.lake\\\\build\\\\lib\\\\lean\"\n  }\n },\n \"subverdicts\": {\n  \"source_provenance\": \"NOT-REQUESTED\",\n  \"clean_build\": \"PASS\",\n  \"axioms\": \"NOT-REQUESTED\",\n  \"statement_pins\": \"NOT-REQUESTED\",\n  \"project_kernel_replay\": \"NOT-REQUESTED\",\n  \"full_env_replay\": \"NOT-REQUESTED\"\n },\n \"preset\": \"final\",\n \"stage\": \"export\",\n \"run_id\": \"n9-complete-v4-20261006-export-01\",\n \"modules\": \"Solution\",\n \"theorems\": \"ThomsonN9.thomson_nine_complete\",\n \"axioms\": \"propext Classical.choice Quot.sound\",\n \"final_pins_sha256\": \"cddbfe242244383c592bcf187994ca3550e0c5c6749c53439c13b38ed3f6844a\"\n}\n"
+          },
+          {
+            "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\RESULT.json",
+            "sha256": "6b47fca37251abcd61bf53f0bfcbe841c83b43a0ad7951aed9ad6d6fe06f9a11",
+            "bytes": 351,
+            "text": "{\n \"verdict\": \"EXPORT-ONLY:PASS\",\n \"steps\": [\n  {\n   \"step\": \"export\",\n   \"invocation\": \"sk.1\",\n   \"exit_code\": 0,\n   \"stopped_before_start\": null,\n   \"launch_error\": null,\n   \"wall_seconds\": 78.01,\n   \"cpu_seconds\": 72.05,\n   \"peak_job_commit_gb\": 5.034,\n   \"peak_tree_working_set_gb_sampled\": 0.0,\n   \"min_free_physical_gb_sampled\": 12.392\n  }\n ]\n}\n"
+          },
+          {
+            "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\STATUS.tsv",
+            "sha256": "7ba953aceff7783d32624a2242f6a607a8da317e44c7fdb89ee033106b6a8806",
+            "bytes": 296,
+            "text": "bind\tPASS\tcodex-clean freeze 22bb7406fef5a437 build C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\npreflight\tPASS\ttoolchain, tool record, inputs, disk, slot\nexport\tPASS\t9727409 lines, 55248 declarations, sha256 6ea32a64e1aabdfb\n"
+          }
+        ]
+      }
+    ]
+  },
+  "artifact_paths_are_pipeline_owned": true
+}

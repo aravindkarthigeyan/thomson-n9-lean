@@ -1,0 +1,4 @@
+'ThomsonN9.UpstreamN7Bridge.candidate_eq_upstream' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThomsonN9.UpstreamN7Bridge.candidate_energy_eq_upstream' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThomsonN9.UpstreamN7Bridge.thomson_nine' depends on axioms: [propext, Classical.choice, Quot.sound]
+PASS: bridge declaration type is definitionally equal to the upstream N=9 target.

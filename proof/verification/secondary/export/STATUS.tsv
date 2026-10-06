@@ -1,0 +1,3 @@
+bind	PASS	codex-clean freeze 22bb7406fef5a437 build C:\Users\REDACTED\Documents\Codex\2026-10-05\analyze-what-s-u\work\clean-n9\20261006-adaptive-v4\.lake\build\lib\lean
+preflight	PASS	toolchain, tool record, inputs, disk, slot
+export	PASS	9727409 lines, 55248 declarations, sha256 6ea32a64e1aabdfb

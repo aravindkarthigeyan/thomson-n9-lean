@@ -1,0 +1,48 @@
+{
+  "name": "source-audit",
+  "executable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "arguments": [
+    "-NoProfile",
+    "-ExecutionPolicy",
+    "Bypass",
+    "-File",
+    "verification/CheckSource.ps1"
+  ],
+  "exitCode": 0,
+  "expectation": "pass",
+  "passed": true,
+  "seconds": 5.747557,
+  "sampledPeakPrivateBytes": 125673472,
+  "sampledPeakWorkingBytes": 154886144,
+  "sampledLargestOwnedPrivateBytes": 123523072,
+  "resourcePolicy": {
+    "classification": "explicit-noncompiler-scanner",
+    "gateGiB": 8.5,
+    "physicalFloorGiB": 6.5,
+    "reason": "Reviewed named frozen source-only scanner; no Lean invocation",
+    "module": null,
+    "sourceSha256": null,
+    "helperSha256": "469bc994c30c0f159581004464a16cd0acebdb061da0915f3c87afdbf90956ad",
+    "baselines": []
+  },
+  "resourceOutcome": "WITHIN_SAMPLED_PROFILE_OR_UNPROFILED",
+  "profileGrowthViolations": [],
+  "ownedProcessIdentities": [
+    {
+      "pid": 15232,
+      "creationUtcTicks": "639268644742815960"
+    },
+    {
+      "pid": 61140,
+      "creationUtcTicks": "639268644743166370"
+    }
+  ],
+  "stdout": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\fresh-evidence\\20261006T024511Z\\0184-source-audit.stdout.log",
+  "stderr": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\fresh-evidence\\20261006T024511Z\\0184-source-audit.stderr.log",
+  "stdoutSha256": "3cec733cfaa633722e29d43b345a65322f7ce00b84518b0abbb0f3371134ea08",
+  "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "effectiveEnvironment": {
+    "LEAN_NUM_THREADS": "1"
+  },
+  "compilerThreadControl": "explicit -j1 for direct Lean; package moreLeanArgs=-j1 for Lake builds"
+}

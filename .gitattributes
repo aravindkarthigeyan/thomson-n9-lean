@@ -1,0 +1,2 @@
+# Release inventories bind bytes, so disable automatic newline conversion.
+* -text

@@ -1,0 +1,70 @@
+⚠ [1063/1092] Replayed ClaudeL1.KC.Check
+warning: ClaudeL1/KC/Check.lean:52:15: `cond_false` has been deprecated: Use `Bool.cond_false` instead
+
+Note: The updated constant has a different type:
+  ∀ {α : Sort u} {a b : α}, (bif false then a else b) = b
+instead of
+  ∀ {α : Sort u_1} (a b : α), (bif false then a else b) = b
+warning: ClaudeL1/KC/Check.lean:54:15: `cond_true` has been deprecated: Use `Bool.cond_true` instead
+
+Note: The updated constant has a different type:
+  ∀ {α : Sort u} {a b : α}, (bif true then a else b) = a
+instead of
+  ∀ {α : Sort u_1} (a b : α), (bif true then a else b) = a
+warning: ClaudeL1/KC/Check.lean:142:17: `cond_false` has been deprecated: Use `Bool.cond_false` instead
+
+Note: The updated constant has a different type:
+  ∀ {α : Sort u} {a b : α}, (bif false then a else b) = b
+instead of
+  ∀ {α : Sort u_1} (a b : α), (bif false then a else b) = b
+warning: ClaudeL1/KC/Check.lean:151:17: `cond_true` has been deprecated: Use `Bool.cond_true` instead
+
+Note: The updated constant has a different type:
+  ∀ {α : Sort u} {a b : α}, (bif true then a else b) = a
+instead of
+  ∀ {α : Sort u_1} (a b : α), (bif true then a else b) = a
+warning: ClaudeL1/KC/Check.lean:209:36: `cond_true` has been deprecated: Use `Bool.cond_true` instead
+
+Note: The updated constant has a different type:
+  ∀ {α : Sort u} {a b : α}, (bif true then a else b) = a
+instead of
+  ∀ {α : Sort u_1} (a b : α), (bif true then a else b) = a
+warning: ClaudeL1/KC/Check.lean:210:31: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: ClaudeL1/KC/Check.lean:215:14: `cond_false` has been deprecated: Use `Bool.cond_false` instead
+
+Note: The updated constant has a different type:
+  ∀ {α : Sort u} {a b : α}, (bif false then a else b) = b
+instead of
+  ∀ {α : Sort u_1} (a b : α), (bif false then a else b) = b
+⚠ [1069/1092] Replayed ClaudeL1.Bridge
+warning: ClaudeL1/Bridge.lean:17:0: 'Mathlib.Data.Real.Basic' has been deprecated: please replace this import by
+
+import Mathlib.Basic.Real.Basic
+warning: ClaudeL1/Bridge.lean:254:65: This simp argument is unused:
+  Int.cast_negSucc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Data.gtree, w6, PTree.toPoly, eval_cons_R, eval_nil_R]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [1074/1092] Replayed ClaudeL1.Numbers
+warning: ClaudeL1/Numbers.lean:4:0: 'Mathlib.Data.Real.Basic' has been deprecated: please replace this import by
+
+import Mathlib.Basic.Real.Basic
+⚠ [1107/1107] Built ClaudeL1.Identity (7.9s)
+warning: ClaudeL1/Identity.lean:171:75: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ClaudeL1/Identity.lean:172:72: Unused tactic linter: `norm_num` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: ClaudeL1/Identity.lean:172:72: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: ClaudeL1/Identity.lean:173:69: Unused tactic linter: `norm_num` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: ClaudeL1/Identity.lean:173:69: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Build completed successfully (1107 jobs).

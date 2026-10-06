@@ -1,0 +1,749 @@
+% SPDX-License-Identifier: CC-BY-4.0
+% Copyright (c) 2026 Aravind Karthigeyan
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,booktabs,array,longtable}
+\usepackage{xurl}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\usepackage{microtype}
+\setlength{\emergencystretch}{1em}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newcommand{\R}{\mathbb R}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\ip}[2]{\langle #1,#2\rangle}
+\newcommand{\norm}[1]{\lVert #1\rVert}
+\newcommand{\code}[1]{{\small\nolinkurl{#1}}}
+\newcommand{\pathcode}[1]{\nolinkurl{#1}}
+\DeclareMathOperator{\tr}{tr}
+\title{Global Optimality and Uniqueness for Nine Coulomb Charges on the Sphere:\\
+An Exact-Certificate Proof in Lean 4}
+\author{Aravind Karthigeyan\\\small University of Illinois Urbana-Champaign}
+\date{October 6, 2026\\\small Review draft; not peer reviewed}
+\begin{document}
+\maketitle
+\begin{abstract}
+For nine distinct points on the unit sphere in real three-space, the sum of
+reciprocal Euclidean distances is minimized by a particular tricapped trigonal
+prism. We describe a computer-assisted proof of global optimality and uniqueness
+up to orthogonal transformations and relabeling, together with its Lean 4
+formalization. The candidate is defined by a radical stationarity equation and
+a rational isolating interval, not by numerical coordinates. A rational
+degree-20 three-point semidefinite certificate is nearly sharp, with its entire
+residual paid explicitly. Exact Bernstein certificates force pair inner products
+into narrow windows. Finite Gram-matrix classification gives one coherent
+relabeling, and a certified ambient Hessian bound completes the argument locally.
+The resulting Lean theorem has no certificate hypotheses. Its recorded axiom
+closure consists only of propositional extensionality, classical choice, and
+quotient soundness. A separately implemented kernel also accepted the exported
+complete theorem and its dependencies. The source development and this draft
+received substantial AI assistance. Independent human review and reproduction
+by another operator remain requested; no priority claim is made here.
+\end{abstract}
+
+\section{Statement and scope}
+Let
+\[
+ \mathcal C_9=\{(x_0,\ldots,x_8)\in(\R^3)^9:
+          \norm{x_i}=1\text{ for all }i,\quad x_i\ne x_j\text{ for }i\ne j\}.
+\]
+The energy convention throughout is
+\begin{equation}\label{eq:energy}
+ E(X)=\sum_{0\le i<j<9}\frac1{\norm{x_i-x_j}}
+     =\sum_{i<j} f(\ip{x_i}{x_j}),\qquad
+ f(t)=\frac1{\sqrt{2-2t}}.
+\end{equation}
+Thus there are 36 terms; neither ordered pairs nor reciprocal squared distances
+are used. Denote by $P=P(r_*)$ the configuration defined in Section~\ref{sec:candidate}.
+
+\begin{theorem}\label{thm:main}
+For every $X\in\mathcal C_9$, $E(X)\ge E(P)$. Moreover,
+\[
+ E(X)=E(P)\quad\Longleftrightarrow\quad
+ \exists Q\in O(3),\ \exists\sigma\in S_9,
+       \forall i,\quad x_i=Qp_{\sigma(i)}.
+\]
+The parameter $r_*$ exists and is uniquely determined by the exact
+characterization below, and $P\in\mathcal C_9$.
+\end{theorem}
+
+The formal statement is independent of the global proof: the root file
+\pathcode{lean/Challenge.lean} imports the candidate definitions, not the
+certificate assembly. It asks for parameter existence and uniqueness, global
+optimality, and both directions of the equality characterization. The final
+theorem is
+\begin{quote}
+\code{ThomsonN9.thomson_nine_complete :}\par
+\code{ThomsonN9.Challenge.CompleteTarget}.
+\end{quote}
+The configuration space uses Mathlib's \code{EuclideanSpace} indexed by
+\code{Fin 3}, with $\R$ as the scalar field. Congruence uses a real
+linear isometry equivalence and a permutation. In particular, reflections
+are allowed. Separate fixed-candidate theorems remove the parameter argument.
+
+This paper follows the \emph{selected formal route}: the reduced D60
+certificate, Bernstein positivity, finite Gram-window classification, and the
+ambient augmented Hessian. Earlier Hermite-remainder and higher-precision
+certificate routes remain in the research archive, but are not substituted
+for the proof checked here. Large finite data are part of the accompanying
+artifact, not printed as thousands of coefficients in this paper. We state
+their mathematical obligations and identify their checkers explicitly.
+In the publication repository, all proof-source, certificate, and verification
+paths below are relative to the \pathcode{proof/} directory unless explicitly
+identified as publication-level paths. The supplemental upstream challenge
+bridge is instead in the publication-level \pathcode{bridge/} directory.
+
+\subsection{Relationship to prior work}
+Cohn and Kumar's universal-optimality theorem gives a conceptual framework for
+several classical spherical energy minima, including the tetrahedron,
+octahedron, and icosahedron~\cite{cohnkumar}. Schwartz's five-electron proof
+combines global interval elimination with local analysis~\cite{schwartz}.
+For eight points, Kryvonos, Liehr, and Taylor establish Coulomb optimality and
+uniqueness of an optimized square antiprism using exact certificates, with a
+Lean formalization~\cite{klt,n8code}. Tran's seven-point development uses
+three-point bounds, geometric localization, and local rigidity~\cite{tran}.
+These works motivated the present architecture, especially the use of a
+nearly sharp global certificate followed by a quantitative local argument.
+
+The N9 implementation does not import the seven- or eight-point optimality
+theorems as premises. An Apache-2.0-licensed Schoenberg dependency closure from
+the \code{delsarte} project is vendored with attribution and compatibility
+changes recorded~\cite{delsarte}. The inspected upstream commits are specified
+in the bibliography and artifact. The separate full N8 project rebuilds were
+not completed in this investigation; source inspection is not presented as
+successful reproduction of those projects.
+
+\section{The exact candidate}\label{sec:candidate}
+Put
+\[
+ e_0=(1,0),\qquad e_1=(-1/2,\sqrt3/2),\qquad
+ e_2=(-1/2,-\sqrt3/2).
+\]
+For $0<r<1$, let $z=\sqrt{1-r^2}$ and define
+\begin{equation}\label{eq:candidate}
+ p_{k,+}=(re_k,z),\quad p_{k,-}=(re_k,-z),\quad
+ c_k=(-e_k,0),\qquad k=0,1,2.
+\end{equation}
+These are nine distinct unit vectors. Rotations through $2\pi/3$, reflection
+in the equatorial plane, and a vertical reflection preserve the configuration.
+They generate $D_{3h}$. Under this group the six prism points form one orbit
+and the three equatorial caps form the other. The cyclic rotation subgroup
+instead has three orbits of size three. Symmetry is a property of this
+candidate, not an assumption on a competing configuration.
+
+The six pair types give the following exact spectrum.
+\begin{center}
+\begin{tabular}{lcc}
+\toprule
+Pair type & Inner product & Multiplicity\\
+\midrule
+Same upper or lower triangle & $1-3r^2/2$ & 6\\
+Vertically opposite prism points & $2r^2-1$ & 3\\
+Other upper/lower pairs & $r^2/2-1$ & 6\\
+Two caps & $-1/2$ & 3\\
+Cap and opposite prism direction & $-r$ & 6\\
+Other cap/prism pairs & $r/2$ & 12\\
+\bottomrule
+\end{tabular}
+\end{center}
+Consequently,
+\begin{equation}\label{eq:familyenergy}
+ F(r)=E(P(r))=
+ \frac{2\sqrt3}{r}+\frac3{2\sqrt{1-r^2}}+
+ \frac6{\sqrt{4-r^2}}+\sqrt3+
+ \frac6{\sqrt{2+2r}}+\frac{12}{\sqrt{2-r}}.
+\end{equation}
+Define
+\begin{align}\label{eq:stationarity}
+ S(r)=F'(r)
+ &= -\frac{2\sqrt3}{r^2}+\frac{3r}{2(1-r^2)^{3/2}}
+    +\frac{6r}{(4-r^2)^{3/2}}\notag\\
+ &\hspace{15mm}-\frac6{(2+2r)^{3/2}}+\frac6{(2-r)^{3/2}}.
+\end{align}
+All square roots here are positive. Let
+\[
+ A=7105483340929538113277041792727912437680,\qquad
+ I=[A/10^{40},(A+1)/10^{40}].
+\]
+The exact definition of $r_*$ is the unique $r\in I$ with $S(r)=0$.
+
+\begin{lemma}\label{lem:parameter}
+There is exactly one zero $r_*$ of $S$ in $I$. It is in the interior of $I$
+and is the unique minimizer of $F$ on $(0,1)$.
+\end{lemma}
+\begin{proof}
+Continuity holds on $(0,1)$. Direct differentiation gives
+\[
+ S'(r)=\frac{4\sqrt3}{r^3}
+ +\frac{3(1+2r^2)}{2(1-r^2)^{5/2}}
+ +\frac{12(2+r^2)}{(4-r^2)^{5/2}}
+ +\frac{18}{(2+2r)^{5/2}}+\frac9{(2-r)^{5/2}}>0.
+\]
+Exact rational interval evaluations establish $S(A/10^{40})<0$ and
+$S((A+1)/10^{40})>0$. These two finite evaluations, including all denominator
+signs and square-root enclosures, are checked in the parameter certificate
+modules. The intermediate value theorem and strict monotonicity give the
+claim. Positivity of $S'$ also gives strict decrease of $F$ before the root
+and strict increase afterwards. See \code{parameter_exists_unique} and
+\pathcode{FamilyMinimum.lean} for the checked argument.
+\end{proof}
+
+The original radical equation is retained instead of replacing it by an
+unqualified polynomial equation obtained by squaring. The artifact contains
+a separate degree-104 integer elimination polynomial, but no irreducibility
+claim is needed and it is not the defining premise of the formal theorem.
+For orientation only,
+\begin{align*}
+ r_*&\approx0.7105483340929538113277041792727912437680,\\
+ E(P)&\approx25.7599865312698315640757022737604940.
+\end{align*}
+Neither decimal is a proof input.
+
+\section{Global scalar certificates}\label{sec:scalar}
+For the rest of the proof set
+\[
+ M=\frac{5593}{10000},\qquad \varepsilon=10^{-4},\qquad\delta=10^{-8}.
+\]
+An exact rational upper bound $U$ for $E(P)$ is defined in
+\pathcode{Certificates/ReducedEnergy.lean}:
+\[
+ U=\frac{
+ 5151997306253966312815140454752098805728382727295351889952429}
+ {200000000000000000000000000000000000000000000000000000000000}.
+\]
+It comes from interval evaluation of $F$ at a rational radius and
+Lemma~\ref{lem:parameter}. Thus $E(P)\le U$ uses only minimality within the
+symmetric family, not Theorem~\ref{thm:main}.
+
+\subsection{Separation by a two-point bound}
+\begin{lemma}[Separation]\label{lem:separation}
+If $X\in\mathcal C_9$ and $E(X)\le E(P)$, then
+$\ip{x_i}{x_j}<M$ for all $i\ne j$.
+\end{lemma}
+\begin{proof}[Certificate proof]
+The separation polynomial $q$ has a Legendre expansion
+$q(t)=\sum_k a_k P_k(t)$, with $P_k(1)=1$. Its nonzero coefficients are
+\[
+\begin{array}{c|rrrrr}
+k&0&1&2&3&7\\\hline
+10^{12}a_k&806045161636&460032960362&200888085899&63087598053&5677717462
+\end{array}
+\]
+\[
+\begin{array}{c|rrrr}
+k&12&17&22&27\\\hline
+10^{12}a_k&490951549&542566025&88576655&134439481
+\end{array}
+\]
+The scalar certificate proves $q(t)\le f(t)$ on $[-1,1)$.
+Schoenberg positivity gives
+\[
+ \sum_{i<j}q(\ip{x_i}{x_j})\ge B,
+ \qquad B=\frac{81a_0-9q(1)}2.
+\]
+The separate tail certificate proves, for $M\le t<1$,
+$f(t)-q(t)\ge T-B+10^{-8}$, where
+\[
+ T=\frac{6439996633}{250000000},\qquad
+ B=\frac{25728382789209}{10^{12}},\qquad E(P)\le T.
+\]
+If one pair were in this tail, summing its excess together with the
+nonnegative excesses of all other pairs would yield $E(X)>T$, a contradiction.
+The literal polynomial/Legendre linkage and both positivity certificates are
+checked in \pathcode{LP/ConcreteLinkage.lean} and
+\pathcode{ClaudeL2b/LPAdapterCodex.lean}; the application is
+\code{sublevel_separation}.
+\end{proof}
+
+\subsection{Three-point positivity and an explicit residual}
+For a triple of unit vectors write its three inner products as $u,v,t$.
+They belong to the capped Gram domain
+\[
+ \mathcal D_M=\{(u,v,t)\in[-1,M]^3:
+       g(u,v,t):=1+2uvt-u^2-v^2-t^2\ge0\}.
+\]
+The three-dimensional rooted kernels use the polynomial recurrence
+\[
+ Q_0=1,\quad Q_1=t-uv,\quad
+ Q_{k+2}=2(t-uv)Q_{k+1}-(1-u^2)(1-v^2)Q_k.
+\]
+Products with univariate features and rational rectangular Gram factors give
+positive moment blocks. After symmetrizing over the six edge orders, the
+repeated-index correction for nine points is
+\[
+ \mathcal K=7\mathcal S(u,v,t)+\mathcal S(u,u,1)
+       +\mathcal S(v,v,1)+\mathcal S(t,t,1)
+       +\mathcal S(1,1,1)/8.
+\]
+The proved positivity assertion is a nonnegative \emph{sum} of $\mathcal K$
+over ordered distinct triples of a configuration. Individual values of
+$\mathcal K(u,v,t)$ need not be nonnegative.
+
+The reduced certificate supplies a degree-20 rational polynomial $h$ and an
+identity on $\mathcal D_M$ of the form
+\begin{equation}\label{eq:sdpidentity}
+ \frac{h(u)+h(v)+h(t)}3-\frac U{36}
+ =\sum_b\mathcal K_b(u,v,t)+\sum_s w_s(u,v,t)q_s(u,v,t)^2
+        +\sum_\alpha c_\alpha u^{\alpha_1}v^{\alpha_2}t^{\alpha_3}.
+\end{equation}
+The weights are nonnegative rational multiples and permutations of
+$1$, $1+u$, $M-u$, $g$, $(1+u)(M-u)$, and $g(1+u)(M-u)$.
+The factor matrices are rational, so their positive semidefiniteness follows
+from their factored form, without a numerical eigenvalue test.
+
+Let $C$ be the rational value \code{Claude.L1.certifiedEnergyReduced} and
+$L=U-C$. The coefficient bound certifies
+$36\sum_\alpha|c_\alpha|\le L<10^{-46}$. Its approximate value is
+$2.396\cdot10^{-54}$; importantly, it is not zero.
+
+\begin{lemma}[Near-sharp pair bound]\label{lem:pairbound}
+For nine unit vectors whose distinct-pair inner products are at most $M$,
+\[
+ U-L\le\sum_{i<j}h(\ip{x_i}{x_j}).
+\]
+\end{lemma}
+\begin{proof}
+Sum~\eqref{eq:sdpidentity} over all $9\cdot8\cdot7=504$ ordered distinct
+triples. The left side becomes
+\[
+ 14\left(\sum_{i<j}h(\ip{x_i}{x_j})-U\right).
+\]
+The kernel sum and weighted squares are nonnegative. Every residual monomial
+has absolute value at most one, so the right side is at least
+$-504\sum_\alpha|c_\alpha|$. Dividing by 14 gives the claimed bound.
+\end{proof}
+
+The coefficient identity is a finite integer verification, not a comparison
+at sample points. Its degree box has $21^3=9261$ entries and covers all
+$\binom{23}{3}=1771$ monomials of total degree at most 20, including coefficients
+that must be zero. The final instantiation is
+\code{Claude.L1.reduced_pair_bound}. The D60 label refers to the $10^{60}$
+rational rounding scale, not to the polynomial degree.
+
+\subsection{Bernstein minorants and exterior gaps}
+Write $s_1(r),\ldots,s_6(r)$ for the six inner products in the candidate
+spectrum. The certificate establishes the following exact scalar assertions.
+\begin{lemma}[Minorant and gaps]\label{lem:gaps}
+The reduced polynomial satisfies $h(t)\le f(t)$ for $-1\le t<1$.
+For every $r\in I$:
+\begin{enumerate}
+\item If $-1+\varepsilon\le t\le M$ and
+      $|t-s_j(r)|\ge\varepsilon$ for all $j$, then
+      $f(t)-h(t)\ge10^{-46}$.
+\item If $-3/4\le t\le M$ and
+      $|t-s_j(r)|\ge\delta$ for all $j$, then
+      $f(t)-h(t)\ge10^{-33}$.
+\end{enumerate}
+\end{lemma}
+\begin{proof}[Exact finite verification]
+For a polynomial $a$ and a gap $\gamma$, substitute
+$y=\sqrt{(1-t)/2}$; then $0<y\le1$, $t=1-2y^2$, and $f(t)=1/(2y)$.
+It suffices to prove
+\[
+ 1-2y\bigl(a(1-2y^2)+\gamma\bigr)\ge0.
+\]
+For degree 20 this is a polynomial of degree at most 41. On a rational
+subinterval it is transformed affinely to $[0,1]$ and expanded in the
+Bernstein basis. Nonnegative Bernstein coefficients imply nonnegativity on
+that whole interval. Complete subdivision trees are checked, including their
+coverage; accepting a few selected leaves would not suffice.
+
+The implemented route first proves a rational precursor minorant and its
+coarse gaps, then proves an exact coefficient inequality transferring them
+downwards to $h$. Refined gaps are checked with their own finite data.
+Rational enclosures of $s_j(r)$ enlarge the exterior intervals to be checked,
+so no unexamined interval between contact windows is discarded.
+The checked endpoints are \code{Claude.L2b.hNew_le_inv_dist},
+\code{Claude.L2b.exterior_gap_new}, and
+\code{Claude.L2b.refined_gap_new}.
+\end{proof}
+
+For a configuration in the sublevel $E(X)\le E(P)$, Lemmas~\ref{lem:separation}
+and~\ref{lem:pairbound} imply
+\begin{equation}\label{eq:slack}
+ 0\le\sum_{i<j}\bigl(f(\ip{x_i}{x_j})-h(\ip{x_i}{x_j})\bigr)\le L<10^{-46}.
+\end{equation}
+Each summand is nonnegative. Hence a single exterior pair from the first gap
+assertion would contradict~\eqref{eq:slack}. Every pair therefore belongs to a
+contact window of radius $\varepsilon$ or the retained interval
+$[-1,-1+\varepsilon]$. Exclusion of that last interval is a geometric step,
+not an assumption of the minorant certificate.
+
+\section{Finite Gram rigidity and refined localization}\label{sec:gram}
+\begin{lemma}[Seven-window rigidity]\label{lem:rigidity}
+Let $r\in I$, and let $x_0,\ldots,x_8$ be unit vectors in $\R^3$. Suppose
+every distinct-pair inner product lies within $\varepsilon$ of some $s_j(r)$
+or lies in $[-1,-1+\varepsilon]$. Then the latter possibility never occurs.
+There is a permutation $\sigma$ such that
+\[
+ |\ip{x_{\sigma(i)}}{x_{\sigma(j)}}-
+             \ip{P(r)_i}{P(r)_j}|\le\varepsilon\qquad\text{for all }i,j.
+\]
+If the original six contact windows have a common radius
+$0\le\eta\le\varepsilon$, the same conclusion holds with $\eta$.
+\end{lemma}
+\begin{proof}[Finite classification with checked geometric soundness]
+The six rationally enclosed windows are pairwise disjoint, so they assign a
+unique color to each edge. First, for a near-antipodal pair and a third point,
+the two other edges lie in one of $7^2=49$ pairs of windows. Exact interval
+evaluation in each case contradicts nonnegativity of the three-point Gram
+determinant. Next, the six-window hypothesis forces a triple with Gram
+determinant greater than $1/100$. The anchor-free certificate checks the
+remaining colored four-point possibilities and uses the vanishing of their
+four-dimensional Gram determinant in $\R^3$.
+
+For an invertible anchor Gram matrix $G_A$ and another point with inner-product
+column $v$ against the anchor, the unit-norm condition gives
+\[
+ v^{\mathsf T}\operatorname{adj}(G_A)v=\det G_A.
+\]
+For two additional points with columns $v,w$ and mutual inner product $t$,
+\[
+ v^{\mathsf T}\operatorname{adj}(G_A)w=t\det G_A.
+\]
+Interval versions of these polynomial equalities reject impossible edge-color
+extensions. A finite coverage theorem checks all remaining anchor and extension
+records and shows that they have exactly the candidate's edge pattern up to
+one permutation. This step does not choose 36 independent nearest contacts.
+Its exact interval operations, geometric implications, exhaustive coverage,
+and reference-color identification are proved separately in the
+\pathcode{ClaudeWindow/} modules.
+
+For the narrower-window conclusion, uniqueness of the coarse colors ensures
+that the same color assigned by the classification is the one supplied by
+the narrow hypothesis. This transfers the smaller error without repeating
+the finite enumeration.
+\end{proof}
+
+\begin{proposition}[Refined sublevel localization]\label{prop:localization}
+If $X\in\mathcal C_9$ and $E(X)\le E(P)$, then there is one permutation
+$\sigma$ with
+\begin{equation}\label{eq:gramclose}
+ |\ip{x_{\sigma(i)}}{x_{\sigma(j)}}-\ip{p_i}{p_j}|\le10^{-8}
+ \quad\text{for all }i,j.
+\end{equation}
+\end{proposition}
+\begin{proof}
+Apply Lemma~\ref{lem:rigidity} to the coarse localization obtained from
+\eqref{eq:slack}. Its coherent pattern implies every pair inner product is at
+least $-3/4$: the smallest candidate contact is $r_*^2/2-1$, and its coarse
+window is above that bound. The second assertion of Lemma~\ref{lem:gaps} now
+applies. Since $L<10^{-46}<10^{-33}$, no pair can lie outside the windows of
+radius $\delta$. The narrow version of Lemma~\ref{lem:rigidity} gives the
+conclusion. The formal result is \code{sublevel_refined_gram}.
+\end{proof}
+
+\section{Alignment and the local energy gap}\label{sec:local}
+\begin{lemma}[Quantitative orthogonal alignment]\label{lem:alignment}
+Under~\eqref{eq:gramclose}, there exist $Q\in O(3)$ and the corresponding
+relabeling such that, with $y_i=Qx_{\sigma(i)}$, $b_i=y_i-p_i$, and
+$\rho^2=\sum_i\norm{b_i}^2$, one has
+\begin{equation}\label{eq:alignment}
+ \rho\le10^{-4},\qquad
+ \sum_i\bigl(b_i[a]p_i[c]-b_i[c]p_i[a]\bigr)=0
+       \quad(a,c\in\{0,1,2\}).
+\end{equation}
+\end{lemma}
+\begin{proof}[Structure of the checked estimate]
+The first three prism points give a nondegenerate reference frame. Constructing
+orthonormal frames and propagating entrywise Gram errors bounds the best
+orthogonal displacement by $10000\delta=10^{-4}$. The displacement minimum
+over $O(3)$ exists by compactness. Varying a minimizing transformation by
+planar rotations gives the second identity in~\eqref{eq:alignment}. Thus the
+rotation gauge is obtained for an arbitrary competitor, rather than imposed
+as an extra hypothesis on its coordinates. The quantitative frame inequalities
+are in \pathcode{GramAlignment.lean} and \pathcode{CandidateAlignment.lean};
+the minimizing-transformation argument is in \pathcode{Alignment.lean}.
+\end{proof}
+
+The local calculation is performed on 27 ambient coordinates, avoiding a
+numerically chosen basis for the 15 nonrotational tangent directions. For
+$d_{ij}=p_i-p_j$ put
+\[
+ B(d)=\frac{3dd^{\mathsf T}}{\norm d^5}-\frac{I_3}{\norm d^3},\qquad
+ \lambda_i=-\frac12\sum_{j\ne i}\frac1{\norm{d_{ij}}}.
+\]
+Let $H$ be the block Laplacian of the $B(d_{ij})$, minus the block diagonal
+matrix with blocks $\lambda_iI_3$. It is the constrained Hessian, with the
+radial Lagrange-multiplier correction included. Let $R$ be the $27\times3$
+matrix of infinitesimal rotation columns at $P$. The gauge in
+\eqref{eq:alignment} is precisely $R^{\mathsf T}b=0$.
+
+\begin{lemma}[Certified augmented Hessian]\label{lem:hessian}
+For the exact candidate parameter,
+\begin{equation}\label{eq:psd}
+ H+RR^{\mathsf T}-\frac7{50}I_{27}\succeq0.
+\end{equation}
+\end{lemma}
+\begin{proof}[Exact interval and congruence certificate]
+An arithmetic circuit evaluates enclosures for the entries of the matrix in
+\eqref{eq:psd}, uniformly for the entire rational interval $I$, using the
+integer scale $2^{180}$. The circuit contains 37,815 checked nodes. Separate
+semantic lemmas identify the circuit entries with the actual coordinates,
+distances, radial coefficients, pair Hessians, and rotation columns.
+
+For the resulting symmetric matrix $A$, a rational unit upper triangular
+matrix $C$ is supplied. The certificate evaluates $C^{\mathsf T}AC$ through
+1,458 dot products and 729 final enclosures. Its diagonal entries are at least
+$1/1000$ and its off-diagonal entries have absolute value at most $1/100000$.
+There are 26 off-diagonal entries in each row, so the diagonal-dominance
+margin is
+\[
+ \frac1{1000}-\frac{26}{100000}=\frac{37}{50000}>0.
+\]
+Strict diagonal dominance proves positivity; invertibility of the unit upper
+triangular $C$ transfers it to $A$. Denominator positivity and directions of
+all integer-to-rational enclosure comparisons are proved in the checking
+library. The final theorem is
+\code{Certificates.AmbientKernel.candidate_augmented_hessian_posSemidef}.
+No floating-point spectrum or condition-number estimate is a premise.
+\end{proof}
+
+Full candidate stationarity is proved from~\eqref{eq:stationarity} in
+\pathcode{LocalStationarity.lean}; it is not inferred just from a numerical
+gradient. In the above notation the energy gradient at $p_i$ is
+$\lambda_ip_i$. Also every candidate pair distance is at least one.
+
+\begin{lemma}[Local coercivity]\label{lem:coercivity}
+Suppose $Y\in\mathcal C_9$, $b_i=y_i-p_i$, $\rho^2=\sum_i\norm{b_i}^2$,
+$0\le\rho\le1/500$, and $R^{\mathsf T}b=0$. Then
+\begin{equation}\label{eq:localgap}
+ E(Y)-E(P)\ge\frac{\rho^2}{50}.
+\end{equation}
+\end{lemma}
+\begin{proof}
+An algebraic reciprocal-distance estimate, valid for $\norm d\ge1$ and
+$\norm w\le\norm d/200$, is
+\[
+ \frac1{\norm{d+w}}\ge\frac1{\norm{d}}-\frac{\ip{d}{w}}{\norm{d}^3}
+ +\frac{3(\ip{d}{w})^2-\norm{d}^2\norm{w}^2}{2\norm{d}^5}
+ -\frac{51}{50}\norm{w}^3.
+\]
+Apply this to $d=d_{ij}$ and $w=b_i-b_j$. The sphere identities
+$2\ip{p_i}{b_i}=-\norm{b_i}^2$ and stationarity convert the linear sum to
+the radial correction in $H$. Moreover,
+$\sum_{i<j}\norm{b_i-b_j}^3\le(27/2)\rho^3$.
+Thus the formal algebraic estimate is
+\[
+ E(Y)-E(P)\ge\frac12b^{\mathsf T}Hb-\frac{1377}{100}\rho^3.
+\]
+By Lemma~\ref{lem:hessian} and $R^{\mathsf T}b=0$,
+$b^{\mathsf T}Hb\ge(7/50)\rho^2$. Finally,
+$7/100-(1377/100)\rho\ge1/50$ for $0\le\rho\le1/500$.
+This proves~\eqref{eq:localgap}. All analytic-to-algebraic transitions are
+proved in \pathcode{LocalPotential.lean}, \pathcode{LocalEstimate.lean}, and
+\pathcode{LocalCoercivity.lean}; no numerical Taylor remainder is used.
+\end{proof}
+
+\section{Global conclusion and stability}
+\begin{proof}[Proof of Theorem~\ref{thm:main}]
+Consider any $X\in\mathcal C_9$. If $E(X)>E(P)$, the lower bound and the
+failure of equality are immediate. Otherwise Proposition~\ref{prop:localization}
+and Lemma~\ref{lem:alignment} give a congruent configuration $Y$ satisfying
+the gauge and $\rho\le10^{-4}<1/500$. Congruence preserves energy.
+Lemma~\ref{lem:coercivity} now gives
+\[
+ 0\ge E(X)-E(P)=E(Y)-E(P)\ge\rho^2/50\ge0.
+\]
+Hence $\rho=0$, $Y=P$, and $X$ is congruent to $P$. Conversely, any orthogonal
+image and relabeling of $P$ has its energy. Parameter existence and
+admissibility were established independently in Section~\ref{sec:candidate}.
+This completes all conjuncts of the formal target without an unproved
+localization, positivity, or symmetry hypothesis.
+\end{proof}
+
+The available certificate slack also gives a quantitative statement. Define
+the squared distance to the candidate orbit by
+\[
+ d_{\mathrm{orb}}(X,P)^2=
+ \min_{Q\in O(3),\sigma\in S_9}\sum_i\norm{Qx_{\sigma(i)}-p_i}^2.
+\]
+\begin{corollary}[Quantitative stability]\label{cor:stability}
+If $X\in\mathcal C_9$ and $E(X)\le E(P)+10^{-47}$, then
+\[
+ d_{\mathrm{orb}}(X,P)^2\le50\bigl(E(X)-E(P)\bigr).
+\]
+\end{corollary}
+The checked proof repeats the slack localization with the added $10^{-47}$
+budget and applies the same local bound. Its public theorem is
+\code{thomson_nine_quantitative_stability}. This corollary was checked in
+Lean, but the recorded separate-kernel export described next selected the
+complete optimality/uniqueness theorem, not this additional root.
+
+\section{Formalization, reproduction, and trust boundaries}\label{sec:verification}
+Paths in the following table are under \pathcode{lean/ThomsonN9/}, except the
+explicit root and \pathcode{Claude*/} entries. Names in the table are theorem
+or module identifiers, not additional mathematical assumptions.
+\begin{center}\small
+\begin{tabular}{p{.29\linewidth}p{.64\linewidth}}
+\toprule
+Mathematical component & Formal implementation\\
+\midrule
+Definition and target & \pathcode{Basic.lean}, \pathcode{Candidate.lean}, root \pathcode{Challenge.lean}\\
+Parameter and family & \pathcode{ParameterExists.lean}, \pathcode{CandidateEnergy.lean}, \pathcode{FamilyMinimum.lean}\\
+Separation and SDP & \pathcode{LP/Concrete.lean}, \pathcode{SDP/CertificateBound.lean}, \pathcode{ClaudeL1/Main.lean}\\
+Bernstein gaps & \pathcode{Bernstein/}, \pathcode{ClaudeL2b/ReducedMinorant.lean}, \pathcode{ClaudeL2b/RefinedWindows.lean}\\
+Finite Gram classification & \pathcode{ClaudeWindow/Main.lean}, \pathcode{ClaudeWindow/Bridge.lean}\\
+Refined localization & \pathcode{ScalarCertificates.lean}, \pathcode{GlobalReduction.lean}\\
+Coordinates and gauge & \pathcode{GramAlignment.lean}, \pathcode{CandidateAlignment.lean}, \pathcode{Alignment.lean}\\
+Actual Hessian and PSD & \pathcode{BlockHessian.lean}, \pathcode{Certificates/AmbientKernelAssembly.lean}, \pathcode{Certificates/AmbientHessian.lean}\\
+Local and global assembly & \pathcode{LocalEstimate.lean}, \pathcode{LocalCoercivity.lean}, \pathcode{Endgame.lean}, \pathcode{Completion.lean}\\
+Additional stability & \pathcode{QuantitativeStability.lean}\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{Supplemental bridge to the N7 project's N9 target}
+The publication-level \pathcode{bridge/UpstreamN7Bridge.lean} imports the
+actual definitions from the pinned N7 challenge and proves its N9 stretch
+target, rather than a paraphrase of that target in new definitions. The
+translation uses $z=\sqrt{1-r_*^2}$ and the explicit cap relabeling that sends
+upstream indices $(6,7,8)$ to candidate indices $(8,6,7)$. An explicit Lean
+audit confirmed that the new declaration
+\code{ThomsonN9.UpstreamN7Bridge.thomson_nine} has a type definitionally equal
+to the upstream N9 target. The isolated source compilation and audit completed
+with exit zero on October 6, 2026; the three reported axiom closures contain
+only the same standard axioms listed below.
+
+The imported upstream challenge contains unproved placeholders, which produce
+expected warnings when that file is compiled in isolation. None is invoked
+by the bridge, and no placeholder axiom appears in its proof dependency
+closure. The upstream source is obtained separately, not redistributed here.
+This is a supplemental Lean check: it is not a run of the separate Lean
+Comparator application, and the bridge was not included in the recorded
+nanoda export of the frozen N9 complete theorem. The publication-level
+\pathcode{bridge/README.md} and \pathcode{bridge/check-result.json} record the
+pins, source hashes, scope, and reproduction commands.
+
+\subsection{Finite artifacts}
+The exact data are inspectable independently of the numerical generators.
+The reduced polynomial and factored identity are in
+\pathcode{near_sharp/reduced/near-sharp-d10-reduced-D60.json}; their literal
+Lean data and integer checks are in \pathcode{lean/ClaudeL1/}. Its SHA-256 is
+\begin{quote}\footnotesize
+\pathcode{9816ae66f3b68caf4a03d6c6f7c514124c8cd8ba4415497a79443ce64f158781}.
+\end{quote}
+The corresponding reduced Bernstein and refined-window data are
+\pathcode{near_sharp/reduced/bernstein-reduced.json} and
+\pathcode{near_sharp/reduced/refined-windows-reduced.json}.
+Finite Gram tables are literal in \pathcode{lean/ClaudeWindow/WindowData.lean}.
+The ambient local certificate is accompanied by
+\pathcode{certificates/ambient-dd-k0.json}, while the selected Lean endpoint
+uses the literal interval circuit and congruence data in the
+\pathcode{Certificates/Ambient*} modules. The source manifests bind all data;
+the JSON file is not an unchecked oracle imported at proof time.
+
+Numerical SDP solvers, unrestricted numerical minimization, and certificate
+generation are discovery tools only. The separate exact Python replay command
+\begin{quote}\small
+\verb|python verify_global.py --reduced --refined|
+\end{quote}
+recomputes finite arithmetic premises. It is useful for independent checking,
+but a successful Python run is not equivalent to building the Lean proof.
+The authoritative, pinned Lean build and audit commands are in
+\pathcode{REPRODUCE.md}; final theorem statements, axiom reports, and rejected
+negative controls must be checked, not merely the existence of object files.
+
+\subsection{Recorded checks and limitations}
+The baseline source-only verification recorded successful checks for all
+181 selected project modules and 23 audit/control steps. Four false Lean
+mutations and a certificate coefficient corruption were rejected. The final
+axiom reports contain only \code{propext}, \code{Classical.choice}, and
+\code{Quot.sound}; there is no \code{sorryAx}, admitted theorem, or numerical
+oracle in the public theorem's dependency closure. Kernel-reduced finite
+reflection is used explicitly. The original build driver's metadata
+finalization was interrupted after the proof steps; a separate bound audit
+and finalization are disclosed in \pathcode{verification/BUILD_FINALIZATION.md}.
+They are not represented as an observed uninterrupted driver exit.
+
+The pinned environment is Lean 4.34.1 with Mathlib commit
+\begin{quote}\small
+\pathcode{d13f23b723b8a846827a245b89c10fc7d3f11612}.
+\end{quote}
+The second implementation, nanoda, accepted all 55,248 exported declarations
+in the dependency closure of \code{thomson_nine_complete}, printed the actual
+complete target, and permitted only the above three axioms. The checker is
+pinned to commit
+\pathcode{3a2407216ee84a75f9e1aead6803d0578be06ae7}, and the exporter to
+\pathcode{076e8e57707e813375e8f9da8bf989799ace9680}. The recorded run was on
+Windows. An earlier timeout remains an inconclusive attempt, not a proof
+rejection; the successful retry used the same exported proof. The optional
+POSIX recipe has not been executed. Full details and raw output are in
+\pathcode{verification/secondary/README.md}.
+
+Independent implementation checking reduces reliance on a single kernel,
+but still involves the exporter, implementations, compiler toolchains, and
+source-to-export binding. Neither it nor the primary Lean check replaces
+human examination of whether the statement captures the intended problem.
+No external referee's approval or independent operator's rebuild is claimed.
+The paper is a review draft; its explanatory text is not itself kernel checked.
+
+\paragraph{Artifact availability.}
+Version 0.1.0 repository:
+\url{https://github.com/aravindkarthigeyan/thomson-n9-lean}.
+Archive DOI: \href{https://doi.org/10.5281/zenodo.23192843}{10.5281/zenodo.23192843}
+(reserved during preparation; deposit and publication are not confirmed by
+reservation alone).
+
+\section*{Acknowledgments and assistance disclosure}
+This project received substantial assistance from Codex, Claude agents, and
+Astra in mathematical exploration, certificate generation, Lean development,
+code checking, and preparation of this manuscript. They are tools, not human
+coauthors or independent referees. Component reviews by Claude are recorded
+in the artifact; Claude stopped before final verification, so no final Claude
+approval is implied. The N7 and N8 authors' mathematical and formalization
+work was an important foundation for the strategy. Third-party source and
+license provenance are retained separately. This manuscript is licensed
+CC BY 4.0; original project code uses the license specified in the public
+repository, without overriding third-party licenses.
+
+\begin{thebibliography}{9}
+\bibitem{cohnkumar}
+H. Cohn and A. Kumar, \emph{Universally optimal distribution of points on
+spheres}, J. Amer. Math. Soc. \textbf{20} (2007), 99--148.
+\href{https://arxiv.org/abs/math/0607446}{arXiv:math/0607446}.
+
+\bibitem{schwartz}
+R. E. Schwartz, \emph{The 5 Electron Case of Thomson's Problem},
+Experimental Mathematics \textbf{22} (2013).
+\href{https://arxiv.org/abs/1001.3702}{arXiv:1001.3702}.
+
+\bibitem{klt}
+L. Kryvonos, L. Liehr, and M. A. Taylor,
+\emph{Energy minimization for eight points on the sphere} (2026).
+\href{https://arxiv.org/abs/2609.22077v1}{arXiv:2609.22077v1}.
+
+\bibitem{n8code}
+L. Liehr et al., \emph{Energy-Minimization-8-Points}, source repository.
+\url{https://github.com/lukasliehr/Energy-Minimization-8-Points}.
+Inspected commit \pathcode{50d14bc06bd41f61573eb6a36eedb8d00759af8f}.
+Also inspected: \emph{Thomson-N-8-Warrant},
+\url{https://github.com/jstoobysmith/Thomson-N-8-Warrant}, commit
+\pathcode{2c35d62e07d72686931da4bc3e062d668e858eda}.
+
+\bibitem{tran}
+H. Tran, \emph{thomson-n7-lean}, paper and formal source (2026).
+\url{https://github.com/huwngtran/thomson-n7-lean}.
+Inspected commit \pathcode{25f2fa53119273458cfbb3c4230904bffdd61e53}.
+The proved N7 endpoints and the separately unproved N9 challenge are
+distinguished in this source.
+
+\bibitem{delsarte}
+\emph{delsarte}, formal spherical-code and Schoenberg positivity library.
+\url{https://github.com/specialjcg/delsarte}.
+Vendored dependency commit \pathcode{f0724e16b01d4561ee6cda8cd56db4db03de0496};
+Apache-2.0, with compatibility changes documented in the artifact.
+
+\bibitem{nanoda}
+\emph{nanoda\_lib}, independent Lean proof-term checker.
+\url{https://github.com/ammkrn/nanoda_lib};
+commit \pathcode{3a2407216ee84a75f9e1aead6803d0578be06ae7}.
+Proof export: \url{https://github.com/leanprover/lean4export},
+commit \pathcode{076e8e57707e813375e8f9da8bf989799ace9680}.
+\end{thebibliography}
+\end{document}

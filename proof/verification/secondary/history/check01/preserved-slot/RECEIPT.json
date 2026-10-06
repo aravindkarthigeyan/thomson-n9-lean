@@ -1,0 +1,14 @@
+{
+  "status": "OWNED_TIMEOUT_SLOT_PRESERVED_AND_EMPTY_DIRECTORY_REMOVED",
+  "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\.lean_slot\\owner.txt",
+  "preserved": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\preserved-check01-slot\\owner.txt",
+  "bytes": 93,
+  "sha256": "ede448301280b34e72fd4f18ba716bd26550c4348436ccbbbc0abead36214ca5",
+  "timeoutResult": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-check-01\\process\\result.json",
+  "timeoutResultSha256": "f809dcdd18b4b13fe41b337a481704b04a06d5fec075dacbade56d7a790fa66f",
+  "ownedCleanupConfirmed": true,
+  "noRelevantProcessObservedTwice": true,
+  "recursiveDeletion": false,
+  "proofSourcesOrObjectsChanged": false,
+  "completedUtc": "2026-10-06T14:17:20.5425675Z"
+}

@@ -1,0 +1,7 @@
+ThomsonN9.thomson_nine_quantitative_stability : ∀ (r : ThomsonN9.CandidateParameter) (x : ThomsonN9.Configuration),
+  ThomsonN9.IsSphereConfiguration x →
+    ThomsonN9.coulombEnergy x ≤ ThomsonN9.coulombEnergy (ThomsonN9.candidate r) + 1 / 10 ^ 47 →
+      ∃ p Q,
+        ∑ i, ‖Q (x (p i)) - ThomsonN9.candidate r i‖ ^ 2 ≤
+          50 * (ThomsonN9.coulombEnergy x - ThomsonN9.coulombEnergy (ThomsonN9.candidate r))
+'ThomsonN9.thomson_nine_quantitative_stability' depends on axioms: [propext, Classical.choice, Quot.sound]

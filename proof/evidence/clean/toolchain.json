@@ -1,0 +1,14 @@
+{
+    "compilerThreadArgument":  "-j1",
+    "version":  [
+                    "Lean (version 4.34.1, x86_64-w64-windows-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)",
+                    "Lake version 5.0.0-src+5045d00 (Lean version 4.34.1)"
+                ],
+    "effectiveEnvironment":  {
+                                 "LEAN_NUM_THREADS":  "1"
+                             },
+    "leanSha256":  "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+    "resourceProfileSha256":  "cd52cdc7b589c71e366afa8e73a3d8eeeb387b9a46ed635ace292b32b58048c8",
+    "lakeSha256":  "9780a6abfb6d751c7958f2fd7f696154bdda8b46c0de9755c4080ffb8a8788e6",
+    "driverSha256":  "6ddcd40c4817da077a7329bb3839bbfca62aa0b1707e93750fb9ae32d3aa19b5"
+}

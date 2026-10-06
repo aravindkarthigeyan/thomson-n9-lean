@@ -1,0 +1,6 @@
+frozen-tests/MutAsm.lean:25:47: error: (kernel) application type mismatch
+  id (Eq.refl true)
+argument has type
+  true = true
+but function has type
+  decide (Assembly.checkL1 asm Lres = true) = true → decide (Assembly.checkL1 asm Lres = true) = true

@@ -1,0 +1,51 @@
+{
+  "name": "frozen-tests/MutC07.lean",
+  "executable": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\toolchains\\lean-4.34.1-windows\\bin\\lake.exe",
+  "arguments": [
+    "env",
+    "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\toolchains\\lean-4.34.1-windows\\bin\\lean.exe",
+    "-j1",
+    "frozen-tests/MutC07.lean"
+  ],
+  "exitCode": 1,
+  "expectation": "reject",
+  "passed": true,
+  "seconds": 29.3069505,
+  "sampledPeakPrivateBytes": 2520117248,
+  "sampledPeakWorkingBytes": 1797951488,
+  "sampledLargestOwnedPrivateBytes": 1519857664,
+  "resourcePolicy": {
+    "classification": "unprofiled-large",
+    "gateGiB": 11.75,
+    "physicalFloorGiB": 6.5,
+    "reason": "No exact named command and source-bound profile",
+    "module": null,
+    "sourceSha256": null,
+    "helperSha256": null,
+    "baselines": []
+  },
+  "resourceOutcome": "WITHIN_SAMPLED_PROFILE_OR_UNPROFILED",
+  "profileGrowthViolations": [],
+  "ownedProcessIdentities": [
+    {
+      "pid": 66396,
+      "creationUtcTicks": "639268649079794610"
+    },
+    {
+      "pid": 17544,
+      "creationUtcTicks": "639268649080045800"
+    },
+    {
+      "pid": 35068,
+      "creationUtcTicks": "639268649095880890"
+    }
+  ],
+  "stdout": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\fresh-evidence\\20261006T024511Z\\0201-frozen-tests_MutC07.lean.stdout.log",
+  "stderr": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\fresh-evidence\\20261006T024511Z\\0201-frozen-tests_MutC07.lean.stderr.log",
+  "stdoutSha256": "a3de33c9222a9ce33e196dd7c4765e77849d294458c7ffcfb2522ce86f389745",
+  "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "effectiveEnvironment": {
+    "LEAN_NUM_THREADS": "1"
+  },
+  "compilerThreadControl": "explicit -j1 for direct Lean; package moreLeanArgs=-j1 for Lake builds"
+}

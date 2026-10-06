@@ -1,0 +1,64 @@
+{
+  "verdict": "PASS",
+  "scope": "FINAL",
+  "aggregate": "PASS",
+  "scope_reasons": [],
+  "considered_checks": [
+    "preflight",
+    "export",
+    "bind",
+    "nanoda",
+    "statement",
+    "integrity"
+  ],
+  "required_checks": [
+    "preflight",
+    "export",
+    "bind",
+    "nanoda",
+    "statement",
+    "integrity"
+  ],
+  "requested_optional_checks": [],
+  "checks": {
+    "preflight": {
+      "status": "PASS",
+      "detail": "toolchain, tool record, inputs, disk, slot"
+    },
+    "export": {
+      "status": "PASS",
+      "detail": "saved export re-validated: sha256, bytes, meta, theorems, configuration, tools, scripts, objects"
+    },
+    "bind": {
+      "status": "PASS",
+      "detail": "codex-clean freeze 22bb7406fef5a437 build C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean"
+    },
+    "nanoda": {
+      "status": "PASS",
+      "detail": "Checked 55248 declarations with no errors"
+    },
+    "statement": {
+      "status": "PASS",
+      "detail": "statement /^theorem ThomsonN9\\.thomson_nine_complete : ThomsonN9\\.Challenge\\.CompleteTarget( |$)/ and all of: ThomsonN9.thomson_nine_complete ThomsonN9.Challenge.CompleteTarget ThomsonN9.Challenge.ParameterExistsUnique ThomsonN9.Challenge.GlobalOptimality ThomsonN9.Challenge.GlobalUniqueness printed by nanoda"
+    },
+    "integrity": {
+      "status": "PASS",
+      "detail": "binding, input objects, export, configuration and tools unchanged at the end"
+    }
+  },
+  "subverdicts": {
+    "source_provenance": "NOT-REQUESTED",
+    "clean_build": "PASS",
+    "axioms": "NOT-REQUESTED",
+    "statement_pins": "NOT-REQUESTED",
+    "project_kernel_replay": "NOT-REQUESTED",
+    "full_env_replay": "NOT-REQUESTED"
+  },
+  "preset": "final",
+  "stage": "check",
+  "run_id": "n9-complete-v4-20261006-export-01",
+  "modules": "Solution",
+  "theorems": "ThomsonN9.thomson_nine_complete",
+  "axioms": "propext Classical.choice Quot.sound",
+  "final_pins_sha256": "cddbfe242244383c592bcf187994ca3550e0c5c6749c53439c13b38ed3f6844a"
+}

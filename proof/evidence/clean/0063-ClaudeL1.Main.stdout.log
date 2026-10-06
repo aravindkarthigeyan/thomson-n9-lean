@@ -1,0 +1,102 @@
+⚠ [3162/3188] Replayed ThomsonN9.SDP.ProjectionComplex
+warning: ThomsonN9/SDP/ProjectionComplex.lean:30:4: Try `simp at ha` instead of `simpa using ha`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+info: ThomsonN9/SDP/ProjectionComplex.lean:96:0: 'ThomsonN9.SDP.anchorComplex_mul_star_re' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/SDP/ProjectionComplex.lean:97:0: 'ThomsonN9.SDP.anchorComplex_normSq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/SDP/ProjectionComplex.lean:98:0: 'ThomsonN9.SDP.anchorComplex_mul_star_normSq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/SDP/ProjectionComplex.lean:99:0: 'ThomsonN9.SDP.exists_anchorComplex' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/SDP/ProjectionComplex.lean:100:0: 'ThomsonN9.SDP.spherical_threePointKernel_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomsonN9/SDP/ProjectionComplex.lean:101:0: 'ThomsonN9.SDP.anchored_spherical_kernel_sum_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3163/3188] Replayed ThomsonN9.SDP.Counting
+warning: ThomsonN9/SDP/Counting.lean:107:56: `if_false` has been deprecated: Use `ite_false` instead
+warning: ThomsonN9/SDP/Counting.lean:120:19: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: ThomsonN9/SDP/Counting.lean:120:31: `if_neg` has been deprecated: Use `ite_eq_right` instead
+⚠ [3166/3188] Replayed ThomsonN9.SDP.FactoredKernels
+warning: ThomsonN9/SDP/FactoredKernels.lean:97:66: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3173/3188] Replayed ClaudeL1.KC.Check
+warning: ClaudeL1/KC/Check.lean:52:15: `cond_false` has been deprecated: Use `Bool.cond_false` instead
+
+Note: The updated constant has a different type:
+  ∀ {α : Sort u} {a b : α}, (bif false then a else b) = b
+instead of
+  ∀ {α : Sort u_1} (a b : α), (bif false then a else b) = b
+warning: ClaudeL1/KC/Check.lean:54:15: `cond_true` has been deprecated: Use `Bool.cond_true` instead
+
+Note: The updated constant has a different type:
+  ∀ {α : Sort u} {a b : α}, (bif true then a else b) = a
+instead of
+  ∀ {α : Sort u_1} (a b : α), (bif true then a else b) = a
+warning: ClaudeL1/KC/Check.lean:142:17: `cond_false` has been deprecated: Use `Bool.cond_false` instead
+
+Note: The updated constant has a different type:
+  ∀ {α : Sort u} {a b : α}, (bif false then a else b) = b
+instead of
+  ∀ {α : Sort u_1} (a b : α), (bif false then a else b) = b
+warning: ClaudeL1/KC/Check.lean:151:17: `cond_true` has been deprecated: Use `Bool.cond_true` instead
+
+Note: The updated constant has a different type:
+  ∀ {α : Sort u} {a b : α}, (bif true then a else b) = a
+instead of
+  ∀ {α : Sort u_1} (a b : α), (bif true then a else b) = a
+warning: ClaudeL1/KC/Check.lean:209:36: `cond_true` has been deprecated: Use `Bool.cond_true` instead
+
+Note: The updated constant has a different type:
+  ∀ {α : Sort u} {a b : α}, (bif true then a else b) = a
+instead of
+  ∀ {α : Sort u_1} (a b : α), (bif true then a else b) = a
+warning: ClaudeL1/KC/Check.lean:210:31: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: ClaudeL1/KC/Check.lean:215:14: `cond_false` has been deprecated: Use `Bool.cond_false` instead
+
+Note: The updated constant has a different type:
+  ∀ {α : Sort u} {a b : α}, (bif false then a else b) = b
+instead of
+  ∀ {α : Sort u_1} (a b : α), (bif false then a else b) = b
+⚠ [3179/3188] Replayed ClaudeL1.Bridge
+warning: ClaudeL1/Bridge.lean:17:0: 'Mathlib.Data.Real.Basic' has been deprecated: please replace this import by
+
+import Mathlib.Basic.Real.Basic
+warning: ClaudeL1/Bridge.lean:254:65: This simp argument is unused:
+  Int.cast_negSucc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Data.gtree, w6, PTree.toPoly, eval_cons_R, eval_nil_R]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3184/3188] Replayed ClaudeL1.Numbers
+warning: ClaudeL1/Numbers.lean:4:0: 'Mathlib.Data.Real.Basic' has been deprecated: please replace this import by
+
+import Mathlib.Basic.Real.Basic
+⚠ [3217/3218] Replayed ClaudeL1.Identity
+warning: ClaudeL1/Identity.lean:171:75: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ClaudeL1/Identity.lean:172:72: Unused tactic linter: `norm_num` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: ClaudeL1/Identity.lean:172:72: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: ClaudeL1/Identity.lean:173:69: Unused tactic linter: `norm_num` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: ClaudeL1/Identity.lean:173:69: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+ℹ [3218/3218] Built ClaudeL1.Main (11s)
+info: ClaudeL1/Main.lean:111:0: 'ThomsonN9.Claude.L1.reduced_pair_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL1/Main.lean:112:0: 'ThomsonN9.Claude.L1.l1_hidentity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL1/Main.lean:113:0: 'ThomsonN9.Claude.L1.kernel_block_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL1/Main.lean:114:0: 'ThomsonN9.Claude.L1.kernel_total_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL1/Main.lean:115:0: 'ThomsonN9.Claude.L1.sosWeight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL1/Main.lean:117:0: 'ThomsonN9.Claude.L1.l1_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL1/Main.lean:118:0: 'ThomsonN9.Claude.L1.res_l1_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL1/Main.lean:119:0: 'ThomsonN9.Claude.L1.expr_eq_corrected' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL1/Main.lean:120:0: 'ThomsonN9.Claude.L1.eval_eq_box' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL1/Main.lean:121:0: 'ThomsonN9.Claude.L1.Data.ktotal_ok' depends on axioms: [propext]
+info: ClaudeL1/Main.lean:122:0: 'ThomsonN9.Claude.L1.Data.asm_ok' depends on axioms: [propext]
+info: ClaudeL1/Main.lean:123:0: 'ThomsonN9.Claude.L1.Data.SOS.chunk01_ok' does not depend on any axioms
+info: ClaudeL1/Main.lean:124:0: 'ThomsonN9.Claude.L1.Data.SOS.sos_total' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3218 jobs).

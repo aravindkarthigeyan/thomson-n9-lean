@@ -1,0 +1,154 @@
+"""Audit completed v4 proof steps without running Lean or changing old evidence."""
+import hashlib
+import json
+import re
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[3]
+SNAPSHOT = ROOT / "work/clean-n9/20261006-adaptive-v4"
+RUN = SNAPSHOT / "fresh-evidence/20261006T024511Z"
+FREEZE_SHA = "22bb7406fef5a4379c856c8dbca26c8f964685e2bd036f24bdb45e0f5af3d10e"
+
+
+def sha(path):
+    with Path(path).open("rb") as handle:
+        return hashlib.file_digest(handle, "sha256").hexdigest()
+
+
+def read(path):
+    return json.loads(Path(path).read_text(encoding="utf-8-sig"))
+
+
+def text(path):
+    return Path(path).read_text(encoding="utf-8-sig")
+
+
+def requested(path):
+    return re.findall(r"^#print axioms\s+(\S+)\s*$", text(path), re.M)
+
+
+AXIOMS = {"propext", "Classical.choice", "Quot.sound"}
+ALIASES = {"Classical.choice.{u}": "Classical.choice", "Quot.sound.{u}": "Quot.sound"}
+AX = re.compile(r"^'([^\r\n]+)' (?:depends on axioms: \[([^\]]*)\]|does not depend on any axioms)\s*$", re.M)
+
+
+def check_axioms(log, names):
+    assert len(names) == len(set(names)), "Duplicate requested declaration"
+    matches = list(AX.finditer(log))
+    actual = [m.group(1) for m in matches]
+    assert len(actual) == len(set(actual)), "Duplicate axiom report"
+    assert set(actual) == set(names), (set(names)-set(actual), set(actual)-set(names))
+    for match in matches:
+        values = [x.strip() for x in (match.group(2) or "").split(",") if x.strip()]
+        assert len(values) == len(set(values))
+        assert {ALIASES.get(x, x) for x in values} <= AXIOMS, (match.group(1), values)
+    residue = AX.sub("", log)
+    assert "depends on axioms" not in residue and "does not depend on any axioms" not in residue
+    return len(matches)
+
+
+assert sha(SNAPSHOT / "FREEZE.json") == FREEZE_SHA
+freeze = read(SNAPSHOT / "FREEZE.json")
+assert Path(freeze["snapshotRoot"]) == SNAPSHOT
+files = freeze["files"]
+assert len(files) == 222 and len({r["path"] for r in files}) == 222
+for entry in files:
+    path = SNAPSHOT / entry["path"]
+    assert path.stat().st_size == entry["bytes"] and sha(path) == entry["sha256"], path
+targets = text(RUN / "targets.txt").splitlines()
+assert len(targets) == 181 and len(set(targets)) == 181
+tests = freeze["tests"]
+assert len(tests) == 17
+expected = targets + ["default-targets", "source-scanner-tests", "source-audit", "all-axioms",
+                      "final-target-types", "corrupt-coefficient"] + [x["path"] for x in tests]
+steps = read(RUN / "steps.json")
+assert len(steps) == 204 and [s["name"] for s in steps] == expected
+numbered = sorted(RUN.glob("[0-9][0-9][0-9][0-9]-*.json"))
+assert len(numbered) == 204
+by_name = {}
+all_bindings = []
+for index, (path, entry) in enumerate(zip(numbered, steps), 1):
+    assert int(path.name[:4]) == index
+    assert read(path) == entry
+    assert entry["passed"] is True
+    assert entry["profileGrowthViolations"] == []
+    assert entry["resourceOutcome"] == "WITHIN_SAMPLED_PROFILE_OR_UNPROFILED"
+    assert entry["effectiveEnvironment"] == {"LEAN_NUM_THREADS": "1"}
+    assert type(entry["exitCode"]) is int
+    for stream in ("stdout", "stderr"):
+        log = Path(entry[stream])
+        assert log.parent == RUN
+        assert sha(log) == entry[stream + "Sha256"]
+    body = text(entry["stdout"]) + text(entry["stderr"])
+    if entry["expectation"] == "pass":
+        assert entry["exitCode"] == 0
+        if entry["name"] != "corrupt-coefficient":
+            assert not re.search(r"(?m)^.*:\d+:\d+: error:", body), entry["name"]
+    else:
+        assert entry["expectation"] == "reject" and entry["exitCode"] != 0
+    if index <= 181:
+        assert entry["executable"] == freeze["lake"]
+        assert entry["arguments"] == ["build", "+" + entry["name"]]
+        assert "Build completed successfully" in body, entry["name"]
+    by_name[entry["name"]] = (entry, body)
+    all_bindings.append({"path": path.name, "sha256": sha(path),
+                         "stdoutSha256": entry["stdoutSha256"], "stderrSha256": entry["stderrSha256"]})
+
+all_count = check_axioms(by_name["all-axioms"][1], requested(SNAPSHOT / "Solution.lean"))
+assert all_count == 4056
+final_count = check_axioms(by_name["final-target-types"][1],
+                           requested(SNAPSHOT / "fresh-verification/FinalTargetAudit.lean"))
+assert final_count == 6
+assert by_name["final-target-types"][0]["arguments"] == [
+    "env", freeze["lean"], "-j1", "fresh-verification/FinalTargetAudit.lean"]
+assert "example : IsSphereConfiguration optimalConfiguration := optimalConfiguration_admissible" in text(
+    SNAPSHOT / "fresh-verification/FinalTargetAudit.lean")
+corruption = by_name["corrupt-coefficient"][1]
+assert "PASS: Lean rejected the corrupted certificate, exit code 1." in corruption
+assert "error: unsolved goals" in corruption and "False" in corruption
+assert "Changing only the first sqrt(3) lower-enclosure integer by +1." in corruption
+
+supplemental_count = 0
+negatives = []
+for test in tests:
+    entry, body = by_name[test["path"]]
+    assert entry["expectation"] == test["expectation"]
+    assert entry["arguments"] == ["env", freeze["lean"], "-j1", test["path"]]
+    if test["expectation"] == "pass":
+        supplemental_count += check_axioms(body, requested(SNAPSHOT / test["path"]))
+    else:
+        assert re.search(test["expectedDiagnostic"], body, re.I | re.S), test["path"]
+        assert not re.search(r"unknown module|unknown package|object file.*does not exist|out of memory|stack overflow|failed to create|maximum recursion depth", body, re.I)
+        errors = re.findall(r"(?m)^([^\r\n]+):(\d+):(\d+): error:", body)
+        assert errors
+        assert all(Path(name).name == Path(test["path"]).name and int(line) in test["expectedErrorLines"]
+                   for name, line, col in errors)
+        negatives.append({"fixture": test["path"], "exitCode": entry["exitCode"],
+                          "actualErrorLines": [int(line) for _, line, _ in errors],
+                          "diagnostic": body.strip()})
+assert supplemental_count == 169
+assert len(negatives) == 4
+assert "PASS: all 4056 requested declarations were checked" in by_name["all-axioms"][1]
+assert not (RUN / "RESULT.json").exists()
+
+report = {
+    "status": "COMPLETED_STEPS_AUDIT_PASS_NOT_A_FINAL_CLEAN_RESULT",
+    "scope": "Read-only source and204 step/log/axiom/type/negative audit; no compiler or object rehash",
+    "snapshot": str(SNAPSHOT), "run": str(RUN), "freezeSha256": FREEZE_SHA,
+    "stepsSha256": sha(RUN / "steps.json"), "targetsSha256": sha(RUN / "targets.txt"),
+    "frozenFiles": 222, "ordinaryModuleBuilds": 181, "steps": 204,
+    "allAxiomReports": all_count, "finalTypeAxiomReports": final_count,
+    "supplementalAxiomReports": supplemental_count, "negativeFixtures": negatives,
+    "corruptCoefficient": "actual false-goal rejection and wrapperPASS",
+    "individualStepBindings": all_bindings,
+    "missingFinalResult": True,
+    "missingExternalNewInventory": not (RUN / "external-objects-newly-built.json").exists(),
+}
+if len(sys.argv) == 2:
+    output = Path(sys.argv[1]).resolve()
+    assert output.parent == Path(__file__).resolve().parent
+    with output.open("x", encoding="utf-8") as handle:
+        json.dump(report, handle, indent=2)
+        handle.write("\n")
+print(json.dumps({k: v for k, v in report.items() if k != "individualStepBindings"}, indent=2))

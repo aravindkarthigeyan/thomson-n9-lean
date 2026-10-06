@@ -1,0 +1,142 @@
+{
+  "schema": 1,
+  "status": "PASS",
+  "errors": [],
+  "invocation_dir": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433",
+  "semantic_sites_sha256": "ff6fb1166da58ddb0af8f154ac284961c96371ff4d95be5d20e698ec903f4b2f",
+  "exe_sha256": {
+    "lean4export": "065218c1214642e01ad8e9660782df31af78537eb9ba7d5f3d47c0f3b347ed52",
+    "nanoda": "04493a1415eb07e638a76b5f3f02dd653fc415ec0d17992e51228fc3ef22eb11",
+    "lean": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b"
+  },
+  "checkout": {
+    "lean4export_head": "076e8e57707e813375e8f9da8bf989799ace9680",
+    "lean4export_porcelain": [
+      " M lean-toolchain"
+    ],
+    "nanoda_head": "3a2407216ee84a75f9e1aead6803d0578be06ae7",
+    "nanoda_porcelain": [],
+    "cargo_lock_sha256": "9b921e794ce5ed515eb31db9ada0c2f34df999b6c9b5135ad308a412872e42be",
+    "lean4export_toolchain": "leanprover/lean4:v4.34.1",
+    "lean4export_diff_sha256": "16e572448c2809ce14f408d0a3e34a43f9f752082f911ee5c68c3310d62ae6e9"
+  },
+  "controls": {
+    "accept_good": {
+      "expect": [
+        "ACCEPTED"
+      ],
+      "message_regex": null,
+      "expect_site": null,
+      "status": "ACCEPTED",
+      "cls": "accepted",
+      "site": null,
+      "message": "Checked 33 declarations with no errors",
+      "semantic_sites_sha256": "ff6fb1166da58ddb0af8f154ac284961c96371ff4d95be5d20e698ec903f4b2f",
+      "pass": true
+    },
+    "reject_projfromprop": {
+      "expect": [
+        "REJECTED"
+      ],
+      "message_regex": null,
+      "expect_site": "tc505-infer-proj-prop",
+      "status": "REJECTED",
+      "cls": "typecheck",
+      "site": "tc505-infer-proj-prop",
+      "message": "panic at src/tc.rs:505:21: infer_proj prop [whitelisted site tc505-infer-proj-prop]",
+      "semantic_sites_sha256": "ff6fb1166da58ddb0af8f154ac284961c96371ff4d95be5d20e698ec903f4b2f",
+      "pass": true
+    },
+    "missing_export": {
+      "expect": [
+        "ERROR"
+      ],
+      "message_regex": null,
+      "expect_site": null,
+      "status": "ERROR",
+      "cls": "input-or-config",
+      "site": null,
+      "message": "Error: Failed to open export file: Os { code: 2, kind: NotFound, message: \"The system cannot find the file specified.\" }",
+      "semantic_sites_sha256": "ff6fb1166da58ddb0af8f154ac284961c96371ff4d95be5d20e698ec903f4b2f",
+      "pass": true
+    },
+    "invalid_config_json": {
+      "expect": [
+        "ERROR"
+      ],
+      "message_regex": null,
+      "expect_site": null,
+      "status": "ERROR",
+      "cls": "unlisted-panic-site",
+      "site": null,
+      "message": "panic at src/util.rs:941:96: called `Result::unwrap()` on an `Err` value: Error(\"key must be a string\", line: 1, column: 28) (not a whitelisted semantic site)",
+      "semantic_sites_sha256": "ff6fb1166da58ddb0af8f154ac284961c96371ff4d95be5d20e698ec903f4b2f",
+      "pass": true
+    },
+    "wrong_format": {
+      "expect": [
+        "ERROR"
+      ],
+      "message_regex": null,
+      "expect_site": null,
+      "status": "ERROR",
+      "cls": "input-or-config",
+      "site": null,
+      "message": "Error: export format version is less than the minimum supported version. Found 2.0.0, but min supported is 3.1.0",
+      "semantic_sites_sha256": "ff6fb1166da58ddb0af8f154ac284961c96371ff4d95be5d20e698ec903f4b2f",
+      "pass": true
+    },
+    "malformed_export": {
+      "expect": [
+        "ERROR"
+      ],
+      "message_regex": null,
+      "expect_site": null,
+      "status": "ERROR",
+      "cls": "input-or-config",
+      "site": null,
+      "message": "Error: control character (\\u0000-\\u001F) found while parsing a string at line 2 column 0",
+      "semantic_sites_sha256": "ff6fb1166da58ddb0af8f154ac284961c96371ff4d95be5d20e698ec903f4b2f",
+      "pass": true
+    },
+    "missing_pp": {
+      "expect": [
+        "ERROR"
+      ],
+      "message_regex": null,
+      "expect_site": null,
+      "status": "ERROR",
+      "cls": "input-or-config",
+      "site": null,
+      "message": "Error: these pp_declars were not found in the exported environment: [",
+      "semantic_sites_sha256": "ff6fb1166da58ddb0af8f154ac284961c96371ff4d95be5d20e698ec903f4b2f",
+      "pass": true
+    },
+    "forced_resource": {
+      "expect": [
+        "INCONCLUSIVE"
+      ],
+      "message_regex": "memory allocation of [0-9]+ bytes failed|out of memory|0xC0000017|0xC000009A|0xC000012D",
+      "expect_site": null,
+      "status": "INCONCLUSIVE",
+      "cls": "resource",
+      "site": null,
+      "message": "process ended with 0xC0000017 STATUS_NO_MEMORY | ",
+      "semantic_sites_sha256": "ff6fb1166da58ddb0af8f154ac284961c96371ff4d95be5d20e698ec903f4b2f",
+      "pass": true
+    }
+  },
+  "required_controls": [
+    "accept_good",
+    "reject_projfromprop",
+    "missing_export",
+    "invalid_config_json",
+    "wrong_format",
+    "malformed_export",
+    "missing_pp",
+    "forced_resource"
+  ],
+  "nanoda_stack_reserve": "1073741824",
+  "final_pins_sha256": "cddbfe242244383c592bcf187994ca3550e0c5c6749c53439c13b38ed3f6844a",
+  "lean4export_local_diff": null
+}

@@ -1,0 +1,125 @@
+{
+ "schema": 1,
+ "purpose": "Exact whitelist of nanoda_lib 0.4.19 failure sites whose diagnostic counts as a semantic kernel rejection (sk_tool.classify_nanoda REJECTED). Anything not listed is ERROR or INCONCLUSIVE.",
+ "nanoda_lib_version": "0.4.19",
+ "nanoda_rev": "3a2407216ee84a75f9e1aead6803d0578be06ae7",
+ "source_root": "claude/verify_final/tools/second_kernel/src/nanoda_lib",
+ "hash_rule": "sha256 over the file bytes with CRLF normalised to LF; source_line is the exact line text",
+ "match_rule": "panic: exit 101, exactly one panic header, thread main, location <file>:<line>:<col> with the path relative to the crate root (\\ or /), the message line equal to `message`, no other non-blank stderr line except the RUST_BACKTRACE note, empty stdout; returned-error: exit 1, the first non-blank stderr line matching `message_regex`, followed only by nanoda's help line, empty stdout. The column is recorded and reported but not required.",
+ "generator": "claude/verify_final/tools/second_kernel/make_semantic_sites.py",
+ "files": {
+  "src/tc.rs": {
+   "sha256_lf": "59d8a7d5b4481a9038031fabe819d3e2384f2dd68eb343805fa946e3499b3fda",
+   "lines": 1363
+  },
+  "src/parser.rs": {
+   "sha256_lf": "51c0208cbb07660a3af5b26f54eeda012e2c983567aed779f1b8acacf5c14ada",
+   "lines": 1022
+  }
+ },
+ "sites": [
+  {
+   "id": "tc955-assert-def-eq",
+   "kind": "panic",
+   "cls": "typecheck",
+   "file": "src/tc.rs",
+   "line": 955,
+   "column": 71,
+   "message": "assertion failed: self.def_eq(u, v)",
+   "source_token": "assert!(self.def_eq(u, v))",
+   "source_line": "    pub fn assert_def_eq(&mut self, u: ExprPtr<'t>, v: ExprPtr<'t>) { assert!(self.def_eq(u, v)) }",
+   "source_line_sha256": "cbafe89879df1ed9b07b7aae1c4b21a4fed287f92929a632ea25bbaf2f75066d",
+   "meaning": "definitional-equality / type mismatch: TypeChecker::assert_def_eq, the only assert of tc.rs:955; its callers are the declaration value-vs-type check (tc.rs:92), application argument types (tc.rs:577), let values (tc.rs:688), and the inductive/quotient declaration comparisons (inductive.rs, quot.rs); the panic location is tc.rs:955 for every caller (no #[track_caller])",
+   "observed": [
+    "phase2-smoke-185459/negctl.out (smuggled false : False)",
+    "phase2-smoke-185459/tiny_tampered_lit.out (natVal 1225 -> 1226)"
+   ]
+  },
+  {
+   "id": "tc505-infer-proj-prop",
+   "kind": "panic",
+   "cls": "typecheck",
+   "file": "src/tc.rs",
+   "line": 505,
+   "column": 21,
+   "message": "infer_proj prop",
+   "source_token": "panic!(\"infer_proj prop\")",
+   "source_line": "                    panic!(\"infer_proj prop\")",
+   "source_line_sha256": "b7ff309f74b22c6f21866904541682c1a5f4020710403aa5145c6a382478148f",
+   "meaning": "projection out of a Prop-valued structure into a non-Prop field (large elimination of a proof), final field of TypeChecker::infer_proj",
+   "observed": [
+    "phase2-smoke-185459/neg_bundled.out (nanoda test_resources/ProjFromProp)"
+   ]
+  },
+  {
+   "id": "tc490-infer-proj-prop",
+   "kind": "panic",
+   "cls": "typecheck",
+   "file": "src/tc.rs",
+   "line": 490,
+   "column": 27,
+   "message": "infer_proj prop",
+   "source_token": "panic!(\"infer_proj prop\")",
+   "source_line": "                          panic!(\"infer_proj prop\")",
+   "source_line_sha256": "2b01740cbfca6e0c5c0c692464138d2e9a30f9009ca87faf1784247d9a8470e3",
+   "meaning": "the same projection-from-Prop check of TypeChecker::infer_proj on an earlier, dependent field",
+   "observed": []
+  },
+  {
+   "id": "tc285-ensure-sort",
+   "kind": "panic",
+   "cls": "typecheck",
+   "file": "src/tc.rs",
+   "line": 285,
+   "column": 18,
+   "message": "ensur_sort could not produce a sort",
+   "source_token": "panic!(\"ensur_sort could not produce a sort\")",
+   "source_line": "            _ => panic!(\"ensur_sort could not produce a sort\"),",
+   "source_line_sha256": "d6239d70b458f27ff9400905c6086f61e4f9470da98774c5341e7e5e582192f3",
+   "meaning": "inference failure: a declared type (or binder/inductive type) does not reduce to a sort",
+   "observed": []
+  },
+  {
+   "id": "tc296-ensure-pi",
+   "kind": "panic",
+   "cls": "typecheck",
+   "file": "src/tc.rs",
+   "line": 296,
+   "column": 18,
+   "message": "ensure_pi could not produce a pi",
+   "source_token": "panic!(\"ensure_pi could not produce a pi\")",
+   "source_line": "            _ => panic!(\"ensure_pi could not produce a pi\"),",
+   "source_line_sha256": "eca9acf0d921877cbfc452dd09d2b75787528bfa09005e3d72160fadebc5d6ea",
+   "meaning": "inference failure: the head of an application does not have a function (Pi) type",
+   "observed": []
+  },
+  {
+   "id": "tc304-infer-sort-of",
+   "kind": "panic",
+   "cls": "typecheck",
+   "file": "src/tc.rs",
+   "line": 304,
+   "column": 18,
+   "message": "infer_sort_of could not infer a sort",
+   "source_token": "panic!(\"infer_sort_of could not infer a sort\")",
+   "source_line": "            _ => panic!(\"infer_sort_of could not infer a sort\"),",
+   "source_line_sha256": "6d22d17ebbf2ddd9917ab1206b185a47f97014751c8ea40ff481f8b48c5a90b4",
+   "meaning": "inference failure: a binder domain / Pi codomain is not a type",
+   "observed": []
+  },
+  {
+   "id": "parser777-unpermitted-axiom",
+   "kind": "returned-error",
+   "cls": "axiom-policy",
+   "file": "src/parser.rs",
+   "line": 777,
+   "column": 54,
+   "message_regex": "^Error: export file declares unpermitted axiom \"(?:[^\"\\\\]|\\\\.)*\"$",
+   "source_token": "\"export file declares unpermitted axiom {:?}\"",
+   "source_line": "                        return Err(Box::from(format!(\"export file declares unpermitted axiom {:?}\", name_string)))",
+   "source_line_sha256": "4018ffdbb816d1c57e5e045c6bf217febaa5fc88102439c18d013934a220062e",
+   "meaning": "axiom policy: the export declares an axiom outside permitted_axioms with unpermitted_axiom_hard_error = true; nanoda returns Err (exit 1, message printed by Rust main as `Error: ...`)",
+   "observed": []
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+⚠ [1633/1659] Replayed Delsarte.Harmonic.Fischer
+warning: vendor/Delsarte/Harmonic/Fischer.lean:7:0: 'Mathlib.Data.Real.Basic' has been deprecated: please replace this import by
+
+import Mathlib.Basic.Real.Basic
+warning: vendor/Delsarte/Harmonic/Fischer.lean:136:47: `MvPolynomial.coeff_add` has been deprecated: Use `AddMonoidAlgebra.coeff_add` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] (x y : AddMonoidAlgebra R M), (x + y).coeff = x.coeff + y.coeff
+instead of
+  ∀ {R : Type u} {σ : Type u_1} [inst : CommSemiring R] (m : σ →₀ ℕ) (p q : MvPolynomial σ R),
+    (p + q).coeff m = p.coeff m + q.coeff m
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.coeff_add` to `AddMonoidAlgebra.coeff_add x`).
+warning: vendor/Delsarte/Harmonic/Fischer.lean:182:63: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/Delsarte/Harmonic/Fischer.lean:230:58: `MvPolynomial.monomial_mul` has been deprecated: Use `MvPolynomial.monomial_mul_monomial` instead
+warning: vendor/Delsarte/Harmonic/Fischer.lean:348:65: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/Delsarte/Harmonic/Fischer.lean:369:22: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/Delsarte/Harmonic/Fischer.lean:369:34: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: vendor/Delsarte/Harmonic/Fischer.lean:387:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: vendor/Delsarte/Harmonic/Fischer.lean:387:18: `if_neg` has been deprecated: Use `ite_eq_right` instead
+✔ [2457/2457] Built Delsarte.Harmonic.Zonal (12s)
+Build completed successfully (2457 jobs).

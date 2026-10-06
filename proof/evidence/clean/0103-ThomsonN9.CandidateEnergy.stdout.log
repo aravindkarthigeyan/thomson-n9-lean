@@ -1,0 +1,5 @@
+⚠ [3160/3160] Built ThomsonN9.CandidateEnergy (22s)
+warning: ThomsonN9/CandidateEnergy.lean:61:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Build completed successfully (3160 jobs).

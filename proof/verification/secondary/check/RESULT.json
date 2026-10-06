@@ -1,0 +1,17 @@
+{
+ "verdict": "PASS",
+ "steps": [
+  {
+   "step": "nanoda",
+   "invocation": "sk.1",
+   "exit_code": 0,
+   "stopped_before_start": null,
+   "launch_error": null,
+   "wall_seconds": 1128.72,
+   "cpu_seconds": 1046.38,
+   "peak_job_commit_gb": 2.849,
+   "peak_tree_working_set_gb_sampled": 0.0,
+   "min_free_physical_gb_sampled": 13.275
+  }
+ ]
+}

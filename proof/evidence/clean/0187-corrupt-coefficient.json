@@ -1,0 +1,58 @@
+{
+  "name": "corrupt-coefficient",
+  "executable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "arguments": [
+    "-NoProfile",
+    "-ExecutionPolicy",
+    "Bypass",
+    "-File",
+    "verification/RejectCorruptCoefficient.ps1",
+    "-Lake",
+    "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\toolchains\\lean-4.34.1-windows\\bin\\lake.exe"
+  ],
+  "exitCode": 0,
+  "expectation": "pass",
+  "passed": true,
+  "seconds": 27.9444436,
+  "sampledPeakPrivateBytes": 5312581632,
+  "sampledPeakWorkingBytes": 2437480448,
+  "sampledLargestOwnedPrivateBytes": 4240707584,
+  "resourcePolicy": {
+    "classification": "unprofiled-large",
+    "gateGiB": 11.75,
+    "physicalFloorGiB": 6.5,
+    "reason": "No exact named command and source-bound profile",
+    "module": null,
+    "sourceSha256": null,
+    "helperSha256": null,
+    "baselines": []
+  },
+  "resourceOutcome": "WITHIN_SAMPLED_PROFILE_OR_UNPROFILED",
+  "profileGrowthViolations": [],
+  "ownedProcessIdentities": [
+    {
+      "pid": 3524,
+      "creationUtcTicks": "639268645464682050"
+    },
+    {
+      "pid": 22108,
+      "creationUtcTicks": "639268645465078710"
+    },
+    {
+      "pid": 50972,
+      "creationUtcTicks": "639268645469144590"
+    },
+    {
+      "pid": 44816,
+      "creationUtcTicks": "639268645485213940"
+    }
+  ],
+  "stdout": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\fresh-evidence\\20261006T024511Z\\0187-corrupt-coefficient.stdout.log",
+  "stderr": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\fresh-evidence\\20261006T024511Z\\0187-corrupt-coefficient.stderr.log",
+  "stdoutSha256": "a8efd29631baed82ce6826f7dfa0c87cfff81f483113244628cbde20f6a072fa",
+  "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "effectiveEnvironment": {
+    "LEAN_NUM_THREADS": "1"
+  },
+  "compilerThreadControl": "explicit -j1 for direct Lean; package moreLeanArgs=-j1 for Lake builds"
+}

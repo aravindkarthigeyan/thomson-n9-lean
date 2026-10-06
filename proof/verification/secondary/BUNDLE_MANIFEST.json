@@ -1,0 +1,1717 @@
+{
+  "activeCheckScope": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-check-02",
+  "approvedPlan": {
+    "bytes": 99008,
+    "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-secondary-bundle\\final-v4-20261006-plan-01.json",
+    "sha256": "0f99fc21e402340da93736799fb7af382fc28adec470cc6c9f7a8f5f55b26ffb"
+  },
+  "authorization": {
+    "bytes": 1385,
+    "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-secondary-bundle\\ROOT_STAGE_AUTHORIZATION_01.json",
+    "sha256": "434a461e570515b415b0c37e8dc8de4f7811afdfc14d74adb4940e5f7309fb71"
+  },
+  "bytes": 11706955,
+  "completedOuterStage": true,
+  "files": [
+    {
+      "bytes": 44863,
+      "destination": "verification/secondary/sources/PREPARATION_AUDIT_5.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "f3fa828ed7ec24411be8dfcf2f7c77d98e7a98d0594b3b56464181d00501fa77",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\PREPARATION_AUDIT_5.json"
+    },
+    {
+      "bytes": 3293,
+      "destination": "verification/secondary/sources/tools/FINAL_PINS.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "cddbfe242244383c592bcf187994ca3550e0c5c6749c53439c13b38ed3f6844a",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\FINAL_PINS.json"
+    },
+    {
+      "bytes": 37287,
+      "destination": "verification/secondary/sources/tools/vf_common.py",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "b9dd60684ce318e29094e74a3dc35bb00f57791a82c69147945b3ffc8c80e96b",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\vf_common.py"
+    },
+    {
+      "bytes": 58414,
+      "destination": "verification/secondary/sources/tools/vf_tool.py",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "8ed5bcd7f71ec8b248fba311e5afae089716199ec3b267ad0de77282be631a9b",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\vf_tool.py"
+    },
+    {
+      "bytes": 11465,
+      "destination": "verification/secondary/sources/tools/run_step.py",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "52e307d0669b1f7cdceb92be6705497bb0368d9958f3c4719d9bffe42462e879",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\run_step.py"
+    },
+    {
+      "bytes": 1336,
+      "destination": "verification/secondary/sources/tools/resource_policy.py",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "1d8ae7abd34016b228e8c2776a17ceaaf22a5e300e2e265193496a5623c5b6be",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\resource_policy.py"
+    },
+    {
+      "bytes": 5656,
+      "destination": "verification/secondary/sources/tools/second_kernel/PINS.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "9e46c1ffda9cb5e78b605d18015eaf5c1bf867808eb332b5cc34029550c42bee",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\PINS.json"
+    },
+    {
+      "bytes": 6488,
+      "destination": "verification/secondary/sources/tools/second_kernel/env.sh",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "c994d3d975ea82b1a200f49d0a8faed53ca90062f4cdbd978514bd114b66bd5c",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\env.sh"
+    },
+    {
+      "bytes": 19769,
+      "destination": "verification/secondary/sources/tools/second_kernel/build_second_kernel.sh",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "78d0300ed810efcd14ff7376744f7e5d91a3bf3f8447bdb132149116f61a1ade",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build_second_kernel.sh"
+    },
+    {
+      "bytes": 29700,
+      "destination": "verification/secondary/sources/tools/second_kernel/run_second_kernel.sh",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "10ccd7c30c05108cd11c7e30aaf688f92562fdd7f8fb0288eb8c227aab56a0ec",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\run_second_kernel.sh"
+    },
+    {
+      "bytes": 67218,
+      "destination": "verification/secondary/sources/tools/second_kernel/sk_tool.py",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "b20645f1a745b8e54c52dcaac27bbc8310d7fbd22887d0acf5dcb23e82b2473d",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\sk_tool.py"
+    },
+    {
+      "bytes": 10358,
+      "destination": "verification/secondary/sources/tools/second_kernel/redirect.py",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "054a02a3a1f7e9d36e262ed37af4218a6e37b174805e9356ba0486d167805148",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\redirect.py"
+    },
+    {
+      "bytes": 10269,
+      "destination": "verification/secondary/sources/tools/second_kernel/make_semantic_sites.py",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "cbedb02d955400032747dad1f3685083321e4e52fa447074b0b9be29f3a707eb",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\make_semantic_sites.py"
+    },
+    {
+      "bytes": 5910,
+      "destination": "verification/secondary/sources/tools/second_kernel/nanoda_semantic_sites.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "ff6fb1166da58ddb0af8f154ac284961c96371ff4d95be5d20e698ec903f4b2f",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\nanoda_semantic_sites.json"
+    },
+    {
+      "bytes": 28553,
+      "destination": "verification/secondary/sources/supervision/supervise_stage_v5.py",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "4b92025fb9bf59657e5629c83a652a421fe33a239644ff3b471b7fee494fc94a",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\supervise_stage_v5.py"
+    },
+    {
+      "bytes": 5586,
+      "destination": "verification/secondary/sources/supervision/prepare_plan_v5.py",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "44685f374453b8debaa26ff2e25b2398a4e4db4fe2d6efaf81ce55caea347cc0",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\prepare_plan_v5.py"
+    },
+    {
+      "bytes": 7480,
+      "destination": "verification/secondary/sources/supervision/prepare_actual_v4_check.py",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "324df6c4fac567abb91aa8fc3db2113dd44d9f1e34bbcae171f6a95e06da9e1d",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\prepare_actual_v4_check.py"
+    },
+    {
+      "bytes": 13475,
+      "destination": "verification/secondary/sources/supervision/audit_actual_v4_check02.py",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "82cf13001913ee6741337d368c2e16e6dd0bd528c22342f334faa2e90518c8e5",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\audit_actual_v4_check02.py"
+    },
+    {
+      "bytes": 14811,
+      "destination": "verification/secondary/sources/supervision/prepare_secondary_bundle.py",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "f305dde2e51afcba8f65a42c41c0806f73db278fe74ae87952009380d012a94d",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-lean-drafts\\verification\\prepare_secondary_bundle.py"
+    },
+    {
+      "bytes": 19342,
+      "destination": "verification/secondary/sources/supervision/prepare_secondary_bundle_v2.py",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "0db993de94b1f7ccddf4b09aae50a1bbc508bc9b924ab7a3d423a73d08e1324a",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-lean-drafts\\verification\\prepare_secondary_bundle_v2.py"
+    },
+    {
+      "bytes": 19444,
+      "destination": "verification/secondary/sources/supervision/prepare_secondary_bundle_v3.py",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "3daa1560c90a9b3a862576467c8f7ed524dc1637369825ee6cefee63bdf34e77",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-lean-drafts\\verification\\prepare_secondary_bundle_v3.py"
+    },
+    {
+      "bytes": 23139,
+      "destination": "verification/secondary/sources/supervision/ordinary_job_guard.py",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "6def5e9bfd0209dcc7f02a8413b979b35fc32b2a266894625b31d2a5ff944b52",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n8_orchestration\\ordinary_job_guard.py"
+    },
+    {
+      "bytes": 11357,
+      "destination": "verification/secondary/licenses/lean4export.txt",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\src\\lean4export\\LICENSE"
+    },
+    {
+      "bytes": 10141,
+      "destination": "verification/secondary/licenses/nanoda_lib.txt",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "c8858a5a76440bbca484e134cf7df46385d090dd18b2c58e650f939258802e5b",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\src\\nanoda_lib\\LICENSE"
+    },
+    {
+      "bytes": 6444,
+      "destination": "verification/secondary/upstream/nanoda_lib/Cargo.lock",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "9b921e794ce5ed515eb31db9ada0c2f34df999b6c9b5135ad308a412872e42be",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\src\\nanoda_lib\\Cargo.lock"
+    },
+    {
+      "bytes": 58990,
+      "destination": "verification/secondary/upstream/nanoda_lib/src/tc.rs",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "59d8a7d5b4481a9038031fabe819d3e2384f2dd68eb343805fa946e3499b3fda",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\src\\nanoda_lib\\src\\tc.rs"
+    },
+    {
+      "bytes": 38690,
+      "destination": "verification/secondary/upstream/nanoda_lib/src/parser.rs",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "51c0208cbb07660a3af5b26f54eeda012e2c983567aed779f1b8acacf5c14ada",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\src\\nanoda_lib\\src\\parser.rs"
+    },
+    {
+      "bytes": 186,
+      "destination": "verification/secondary/tool-control/ProjFromProp/config.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "c898525fcb5347fc9f60961201d93d7663afb1867197a46a5753e21b24fc3cc8",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\src\\nanoda_lib\\test_resources\\ProjFromProp\\config.json"
+    },
+    {
+      "bytes": 4509,
+      "destination": "verification/secondary/tool-control/ProjFromProp/export",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "5fc8f25b717c2dd56880064e43d87489b1bea202f5b5ef96d0d06a6ba7ce2022",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\claude\\verify_final\\tools\\second_kernel\\src\\nanoda_lib\\test_resources\\ProjFromProp\\export"
+    },
+    {
+      "bytes": 4748,
+      "destination": "verification/secondary/tool-control/TOOL_BUILD_RECORD.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "c2ee08adb397c1495ff406f2ba122f8a6e00e6371ac3b57b0ce032f18e3ef9e9",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\TOOL_BUILD_RECORD.json"
+    },
+    {
+      "bytes": 1111,
+      "destination": "verification/secondary/tool-control/SUMMARY.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "891b00ba60edf5f4dba2cf6e5d0d9fe9806fa65a4b9ca697ff9ef2e69a9f6931",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\SUMMARY.json"
+    },
+    {
+      "bytes": 423,
+      "destination": "verification/secondary/tool-control/BINARIES.sha256",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "a7f3af0f0cefb97ddfc5a87a8ee8d6490660464b59076f35fc6e07a4a6238c5d",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\BINARIES.sha256"
+    },
+    {
+      "bytes": 462,
+      "destination": "verification/secondary/tool-control/checkout-pre.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "1e271efc5b46c48f29ddb9d9c013340333d7d4b05e3bb9340adc5fd2ed31b8aa",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\checkout-pre.json"
+    },
+    {
+      "bytes": 462,
+      "destination": "verification/secondary/tool-control/checkout-post.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "1e271efc5b46c48f29ddb9d9c013340333d7d4b05e3bb9340adc5fd2ed31b8aa",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\checkout-post.json"
+    },
+    {
+      "bytes": 2977,
+      "destination": "verification/secondary/tool-control/environment.txt",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "6251b84839f0c6f90fdd87aad6d0f606f59b9cba0f0da3c1cb601484227dc5aa",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\environment.txt"
+    },
+    {
+      "bytes": 22756,
+      "destination": "verification/secondary/tool-control/journal.jsonl",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "91d2ad563e46fd20eaf9f676f43252f8ed02b4044f5d046b710849e4883d72b7",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\journal.jsonl"
+    },
+    {
+      "bytes": 8484,
+      "destination": "verification/secondary/tool-control/build.log",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "93a0b491d9842551cbd2107789b502062cd190b36f6e606e9faa56566e0009fd",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\build.log"
+    },
+    {
+      "bytes": 137,
+      "destination": "verification/secondary/tool-control/selftest/accept_good.out",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "8f25a770e1b91864397b282cf0c471b7f0536c749acdbbf6b8bfbf8f0e92317e",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\accept_good.out"
+    },
+    {
+      "bytes": 0,
+      "destination": "verification/secondary/tool-control/selftest/accept_good.err",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\accept_good.err"
+    },
+    {
+      "bytes": 367,
+      "destination": "verification/secondary/tool-control/selftest/accept_good.result.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "dd0ff5d3e4838fb30145e3515b59810ab8544e8e25f6f824fc69f5b59f7bafdb",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\accept_good.result.json"
+    },
+    {
+      "bytes": 0,
+      "destination": "verification/secondary/tool-control/selftest/accept_good.runner.txt",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\accept_good.runner.txt"
+    },
+    {
+      "bytes": 0,
+      "destination": "verification/secondary/tool-control/selftest/reject_projfromprop.out",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\reject_projfromprop.out"
+    },
+    {
+      "bytes": 147,
+      "destination": "verification/secondary/tool-control/selftest/reject_projfromprop.err",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "f1dd4a8e188cc6a278572bf47805f455669e644c35846c2c0fa3053b1b832d54",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\reject_projfromprop.err"
+    },
+    {
+      "bytes": 461,
+      "destination": "verification/secondary/tool-control/selftest/reject_projfromprop.result.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "f97c06effb5646b493f92e08ad505a46180ca631d3cc8a52ac28823ad356b094",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\reject_projfromprop.result.json"
+    },
+    {
+      "bytes": 0,
+      "destination": "verification/secondary/tool-control/selftest/reject_projfromprop.runner.txt",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\reject_projfromprop.runner.txt"
+    },
+    {
+      "bytes": 0,
+      "destination": "verification/secondary/tool-control/selftest/missing_export.out",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\missing_export.out"
+    },
+    {
+      "bytes": 157,
+      "destination": "verification/secondary/tool-control/selftest/missing_export.err",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "3b098b9a4efa62ef12fde589c4a46200c86c142858365d80fdbb6a90ea6a3c32",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\missing_export.err"
+    },
+    {
+      "bytes": 457,
+      "destination": "verification/secondary/tool-control/selftest/missing_export.result.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "5c6d13abe514ca9defc8ca3bf7bb5b98e162d0c738124e6167688bcfb20fe0a1",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\missing_export.result.json"
+    },
+    {
+      "bytes": 0,
+      "destination": "verification/secondary/tool-control/selftest/missing_export.runner.txt",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\missing_export.runner.txt"
+    },
+    {
+      "bytes": 0,
+      "destination": "verification/secondary/tool-control/selftest/invalid_config_json.out",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\invalid_config_json.out"
+    },
+    {
+      "bytes": 229,
+      "destination": "verification/secondary/tool-control/selftest/invalid_config_json.err",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "6925e407595ec9d65cf6f26752ae618bf72b670b9d3211460380018e6d5ea33b",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\invalid_config_json.err"
+    },
+    {
+      "bytes": 500,
+      "destination": "verification/secondary/tool-control/selftest/invalid_config_json.result.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "021794629e595d1c1423672442e81c0ea70d23b9beab1529fae0f080888e3e50",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\invalid_config_json.result.json"
+    },
+    {
+      "bytes": 0,
+      "destination": "verification/secondary/tool-control/selftest/invalid_config_json.runner.txt",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\invalid_config_json.runner.txt"
+    },
+    {
+      "bytes": 0,
+      "destination": "verification/secondary/tool-control/selftest/wrong_format.out",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\wrong_format.out"
+    },
+    {
+      "bytes": 149,
+      "destination": "verification/secondary/tool-control/selftest/wrong_format.err",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "5167494149c4523a48cdc2e0eb6d1df0cbc28af3e62e74004f22d9a5b015b77a",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\wrong_format.err"
+    },
+    {
+      "bytes": 446,
+      "destination": "verification/secondary/tool-control/selftest/wrong_format.result.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "0cac4086a6c2f820cb9100b636c1a00230b3139c9fc288740b633eeb03457f34",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\wrong_format.result.json"
+    },
+    {
+      "bytes": 0,
+      "destination": "verification/secondary/tool-control/selftest/wrong_format.runner.txt",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\wrong_format.runner.txt"
+    },
+    {
+      "bytes": 0,
+      "destination": "verification/secondary/tool-control/selftest/malformed_export.out",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\malformed_export.out"
+    },
+    {
+      "bytes": 125,
+      "destination": "verification/secondary/tool-control/selftest/malformed_export.err",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "39cb6df322429f227abdc7287e91d3013d5ccf5c9ba04f922e99acd6da4b78ab",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\malformed_export.err"
+    },
+    {
+      "bytes": 424,
+      "destination": "verification/secondary/tool-control/selftest/malformed_export.result.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "bb8472efcfb2ce44f5f84353c7f964ba59c41a06bf4aa85b9250eb681d346786",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\malformed_export.result.json"
+    },
+    {
+      "bytes": 0,
+      "destination": "verification/secondary/tool-control/selftest/malformed_export.runner.txt",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\malformed_export.runner.txt"
+    },
+    {
+      "bytes": 0,
+      "destination": "verification/secondary/tool-control/selftest/missing_pp.out",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\missing_pp.out"
+    },
+    {
+      "bytes": 146,
+      "destination": "verification/secondary/tool-control/selftest/missing_pp.err",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "458eccd27f89cc28908131fcb55d2cbafcde4b96f3fe9b1fd1243d4886d45edd",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\missing_pp.err"
+    },
+    {
+      "bytes": 403,
+      "destination": "verification/secondary/tool-control/selftest/missing_pp.result.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "143d18ff32c3896529ced4f6a87052f4397dd1b8bfd717da47a1fe596794ace0",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\missing_pp.result.json"
+    },
+    {
+      "bytes": 0,
+      "destination": "verification/secondary/tool-control/selftest/missing_pp.runner.txt",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\missing_pp.runner.txt"
+    },
+    {
+      "bytes": 555,
+      "destination": "verification/secondary/tool-control/selftest/accept_good.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "f28d4fad86df4a5d9bf4f5538769fe351f7a75905f65a48940717d86845af9d1",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\accept_good.json"
+    },
+    {
+      "bytes": 557,
+      "destination": "verification/secondary/tool-control/selftest/missing_export.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "c6f75a9876777ec814d5d52ffba4d81ba4cc4d3491653f4276b57504a0ca1a18",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\missing_export.json"
+    },
+    {
+      "bytes": 43,
+      "destination": "verification/secondary/tool-control/selftest/invalid_config.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "a85a23b37c489e394c96ca7527d89da43cfdecef4c3f4ee495c349ef71517478",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\invalid_config.json"
+    },
+    {
+      "bytes": 555,
+      "destination": "verification/secondary/tool-control/selftest/wrong_format.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "6468a2173cdab48fe74a83b23208bf3045063881f2bda85dfade6d68b1135b45",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\wrong_format.json"
+    },
+    {
+      "bytes": 552,
+      "destination": "verification/secondary/tool-control/selftest/malformed_export.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "8e46f6ddec60329bc55780cdd82056eddb9779934695e1b99b51778a337187d4",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\malformed_export.json"
+    },
+    {
+      "bytes": 592,
+      "destination": "verification/secondary/tool-control/selftest/missing_pp.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "bd8ff5e33c28169f3813f7dd80c301e2afcc5b6b266852d041b8b0d12de45e16",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\missing_pp.json"
+    },
+    {
+      "bytes": 555,
+      "destination": "verification/secondary/tool-control/selftest/forced_resource.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "f28d4fad86df4a5d9bf4f5538769fe351f7a75905f65a48940717d86845af9d1",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\forced_resource.json"
+    },
+    {
+      "bytes": 3223,
+      "destination": "verification/secondary/tool-control/selftest/controls.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "f5be7b17a4191e186df220df5c23389b9ed2706562ac12fbbd39e3f0480420a2",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\controls.json"
+    },
+    {
+      "bytes": 32588,
+      "destination": "verification/secondary/tool-control/selftest/nat_add_succ.ndjson",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "08f7eb14df195ba592bc6b807fd7e518e361ac5b20b180fdd9f5a5459a3c2b83",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\nat_add_succ.ndjson"
+    },
+    {
+      "bytes": 32601,
+      "destination": "verification/secondary/tool-control/selftest/wrong_format.ndjson",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "93b98f217e93353cae5464e6db48fb7698ad82f1a8d989952afad34758b5a348",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\wrong_format.ndjson"
+    },
+    {
+      "bytes": 32570,
+      "destination": "verification/secondary/tool-control/selftest/malformed.ndjson",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "64956bd9eb1ba4beffbf0a42b6b6fe89fb5d84d869a882982e80989aaa62942a",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\malformed.ndjson"
+    },
+    {
+      "bytes": 394,
+      "destination": "verification/secondary/tool-control/selftest/forced_resource.result.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "b410895429193c01242abb4d5347e18eae65a0d2cf048df2bff84fba8960d944",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\forced_resource.result.json"
+    },
+    {
+      "bytes": 0,
+      "destination": "verification/secondary/tool-control/selftest/export.err",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\export.err"
+    },
+    {
+      "bytes": 0,
+      "destination": "verification/secondary/tool-control/selftest/export.runner.txt",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\export.runner.txt"
+    },
+    {
+      "bytes": 322,
+      "destination": "verification/secondary/tool-control/selftest/export.stats.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "ef24c19cafc700c2f62c278748413b95953410e47d6f85ee3d48fa1b839eab15",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\export.stats.json"
+    },
+    {
+      "bytes": 137,
+      "destination": "verification/secondary/tool-control/selftest/forced_resource_16777216bytes.out",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "8f25a770e1b91864397b282cf0c471b7f0536c749acdbbf6b8bfbf8f0e92317e",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\forced_resource_16777216bytes.out"
+    },
+    {
+      "bytes": 0,
+      "destination": "verification/secondary/tool-control/selftest/forced_resource_16777216bytes.err",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\forced_resource_16777216bytes.err"
+    },
+    {
+      "bytes": 367,
+      "destination": "verification/secondary/tool-control/selftest/forced_resource_16777216bytes.result.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "ab3f9cf52b7c4dc466af4c1515ff2c6dfc4207a92c52bc731c8bc1a187afd12e",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\forced_resource_16777216bytes.result.json"
+    },
+    {
+      "bytes": 0,
+      "destination": "verification/secondary/tool-control/selftest/forced_resource_16777216bytes.runner.txt",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\forced_resource_16777216bytes.runner.txt"
+    },
+    {
+      "bytes": 1016,
+      "destination": "verification/secondary/tool-control/selftest/forced_resource_16777216bytes.err.limit.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "06a9ed044ceda2db769cdf4c0cf02e7bb1ee4949099e6fb179f991a239cc7aa5",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\forced_resource_16777216bytes.err.limit.json"
+    },
+    {
+      "bytes": 137,
+      "destination": "verification/secondary/tool-control/selftest/forced_resource_4194304bytes.out",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "8f25a770e1b91864397b282cf0c471b7f0536c749acdbbf6b8bfbf8f0e92317e",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\forced_resource_4194304bytes.out"
+    },
+    {
+      "bytes": 0,
+      "destination": "verification/secondary/tool-control/selftest/forced_resource_4194304bytes.err",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\forced_resource_4194304bytes.err"
+    },
+    {
+      "bytes": 368,
+      "destination": "verification/secondary/tool-control/selftest/forced_resource_4194304bytes.result.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "a2b1820b7885655c2b4eb4510dbda95c1fc7ebb6e58f7ed6943d35f54abb0fa1",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\forced_resource_4194304bytes.result.json"
+    },
+    {
+      "bytes": 0,
+      "destination": "verification/secondary/tool-control/selftest/forced_resource_4194304bytes.runner.txt",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\forced_resource_4194304bytes.runner.txt"
+    },
+    {
+      "bytes": 1012,
+      "destination": "verification/secondary/tool-control/selftest/forced_resource_4194304bytes.err.limit.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "b7e06a150ff4fdd3edba98cf5e3f5d45aee2f2d1aab8dd2b66aa9dfb3406d45f",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\forced_resource_4194304bytes.err.limit.json"
+    },
+    {
+      "bytes": 137,
+      "destination": "verification/secondary/tool-control/selftest/forced_resource_1048576bytes.out",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "8f25a770e1b91864397b282cf0c471b7f0536c749acdbbf6b8bfbf8f0e92317e",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\forced_resource_1048576bytes.out"
+    },
+    {
+      "bytes": 0,
+      "destination": "verification/secondary/tool-control/selftest/forced_resource_1048576bytes.err",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\forced_resource_1048576bytes.err"
+    },
+    {
+      "bytes": 368,
+      "destination": "verification/secondary/tool-control/selftest/forced_resource_1048576bytes.result.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "46bd19d87ccf7e32bee663a41bba20aab76a947a396cb4b4d1922d8d700e25a7",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\forced_resource_1048576bytes.result.json"
+    },
+    {
+      "bytes": 0,
+      "destination": "verification/secondary/tool-control/selftest/forced_resource_1048576bytes.runner.txt",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\forced_resource_1048576bytes.runner.txt"
+    },
+    {
+      "bytes": 1011,
+      "destination": "verification/secondary/tool-control/selftest/forced_resource_1048576bytes.err.limit.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "29d8fe5839f31dd95e08ae85d603539b69a338ee52667407fcec6fba8a3f4a64",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\forced_resource_1048576bytes.err.limit.json"
+    },
+    {
+      "bytes": 0,
+      "destination": "verification/secondary/tool-control/selftest/forced_resource_524288bytes.out",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\forced_resource_524288bytes.out"
+    },
+    {
+      "bytes": 0,
+      "destination": "verification/secondary/tool-control/selftest/forced_resource_524288bytes.err",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\forced_resource_524288bytes.err"
+    },
+    {
+      "bytes": 394,
+      "destination": "verification/secondary/tool-control/selftest/forced_resource_524288bytes.result.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "b410895429193c01242abb4d5347e18eae65a0d2cf048df2bff84fba8960d944",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\forced_resource_524288bytes.result.json"
+    },
+    {
+      "bytes": 0,
+      "destination": "verification/secondary/tool-control/selftest/forced_resource_524288bytes.runner.txt",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\forced_resource_524288bytes.runner.txt"
+    },
+    {
+      "bytes": 1017,
+      "destination": "verification/secondary/tool-control/selftest/forced_resource_524288bytes.err.limit.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "08ddc46aa544e47f1b99dc517af5e8813b5bc82d2834cce7a4a2cb7a9b8076e6",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\build\\runs\\20261005-224433\\selftest\\forced_resource_524288bytes.err.limit.json"
+    },
+    {
+      "bytes": 3360,
+      "destination": "verification/secondary/export/RUN_MANIFEST.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "2f82f92d9dc35e309bd4508970ca308354bee5714fb0be5cce780bfb91ce140e",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\RUN_MANIFEST.json"
+    },
+    {
+      "bytes": 725,
+      "destination": "verification/secondary/export/nanoda.config.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "95392725424189d9a706753101b7d0e291919e606563758485149c0df5cfc6be",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\nanoda.config.json"
+    },
+    {
+      "bytes": 324,
+      "destination": "verification/secondary/export/export.stats.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "87c7217f9ffa5cdde335d05a9c40f74318808854cfbc3599c9447c9e0936a1fd",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\export.stats.json"
+    },
+    {
+      "bytes": 37819,
+      "destination": "verification/secondary/export/OLEAN_SHA256.txt",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "8b134d0d775af5ed4b892afcb92b3a8b2903244f5823a2164255951fc9f696a1",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\OLEAN_SHA256.txt"
+    },
+    {
+      "bytes": 1319,
+      "destination": "verification/secondary/export/bind.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "8397565b7e3ee1aa54ed849e5c5cdd9696671d11a8c54c02acc319451a661bf3",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\bind.json"
+    },
+    {
+      "bytes": 2523,
+      "destination": "verification/secondary/export/environment.txt",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "72f375bb21c625cb7c6eac25c5b77328e8c0b332172cdba4e51c40f8f5d929ab",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\environment.txt"
+    },
+    {
+      "bytes": 1736,
+      "destination": "verification/secondary/export/journal.jsonl",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "0fdfa7cc435521941b58c3397d531fc4e595e7ab54b790e45809a3a473f6db92",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\journal.jsonl"
+    },
+    {
+      "bytes": 351,
+      "destination": "verification/secondary/export/RESULT.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "6b47fca37251abcd61bf53f0bfcbe841c83b43a0ad7951aed9ad6d6fe06f9a11",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\RESULT.json"
+    },
+    {
+      "bytes": 296,
+      "destination": "verification/secondary/export/STATUS.tsv",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "7ba953aceff7783d32624a2242f6a607a8da317e44c7fdb89ee033106b6a8806",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\STATUS.tsv"
+    },
+    {
+      "bytes": 17,
+      "destination": "verification/secondary/export/VERDICT",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "65715825d8a94f5ade22bbd3af167c5180c2444fb94860438dab6950d76ea913",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\VERDICT"
+    },
+    {
+      "bytes": 1252,
+      "destination": "verification/secondary/export/VERDICT.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "0c467d078ae91e98957655b98011f19a86bc2fb2749f3f22aeaf45527b63dab2",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\VERDICT.json"
+    },
+    {
+      "bytes": 5074,
+      "destination": "verification/secondary/export/run.log",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "df9007939b7077eb1aa549fcf2e90cd5f6c1f978f84e71d3c48d9e11283b942d",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\run.log"
+    },
+    {
+      "bytes": 0,
+      "destination": "verification/secondary/export/export.err",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\export.err"
+    },
+    {
+      "bytes": 0,
+      "destination": "verification/secondary/export/runner-export.txt",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\runner-export.txt"
+    },
+    {
+      "bytes": 26,
+      "destination": "verification/secondary/export/tool-record-check.txt",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "44af2d3f885eedfa8343b4dc5b24396c9ca48c4ea4ac738b6803ea8096f9bd75",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\tool-record-check.txt"
+    },
+    {
+      "bytes": 2134,
+      "destination": "verification/secondary/export/actual-v4-export-audit-20261006.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "26a5248e97e78ddc9147f49838bea82311dd2dd70f1c43b3eac8e427f883a57e",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\actual-v4-export-audit-20261006.json"
+    },
+    {
+      "bytes": 3683,
+      "destination": "verification/secondary/history/check01/supervision/summary.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "f936398ec3e978fb8265aac7d9cc1f9eb846e01be3e3e9127d4ebfb31458d1cd",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-check-01\\summary.json"
+    },
+    {
+      "bytes": 94992,
+      "destination": "verification/secondary/history/check01/supervision/process/manifest.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "5f359019830f22d65c26d75cb8caa6878f611785768fe35fcdb23e2eab1968d3",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-check-01\\process\\manifest.json"
+    },
+    {
+      "bytes": 3895,
+      "destination": "verification/secondary/history/check01/supervision/process/result.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "f809dcdd18b4b13fe41b337a481704b04a06d5fec075dacbade56d7a790fa66f",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-check-01\\process\\result.json"
+    },
+    {
+      "bytes": 4421040,
+      "destination": "verification/secondary/history/check01/supervision/process/events.jsonl",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "d25debdb5e49dc7ed23a4d4bc2498de952c47e86899321e0f3447b001a9a6e73",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-check-01\\process\\events.jsonl"
+    },
+    {
+      "bytes": 4173,
+      "destination": "verification/secondary/history/check01/supervision/process/stdout.log",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "a4d57b76c1c45be52ca23ee01dd141d8694f0422c721785424cf13aa39436616",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-check-01\\process\\stdout.log"
+    },
+    {
+      "bytes": 0,
+      "destination": "verification/secondary/history/check01/supervision/process/stderr.log",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-check-01\\process\\stderr.log"
+    },
+    {
+      "bytes": 143461,
+      "destination": "verification/secondary/history/check01/check-plan-v4-20261006-01.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "7d1b286b4bf325a1d9b35c0ff2afb5a773647c3688a9ca2f51248aa24e2db9e3",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\check-plan-v4-20261006-01.json"
+    },
+    {
+      "bytes": 1543,
+      "destination": "verification/secondary/history/check01/ROOT_CHECK_AUTHORIZATION_01.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "542e9f9850106e133fd7b437a97ff2740c62c2f1b976d08b322a8d60441c214a",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\ROOT_CHECK_AUTHORIZATION_01.json"
+    },
+    {
+      "bytes": 7207,
+      "destination": "verification/secondary/history/check01/actual-v4-check01-timeout-audit.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "107e26448de73fb4b3a2a65fc6042c0ce66deaa40a7c9118d8c5e22a14649ea2",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\actual-v4-check01-timeout-audit.json"
+    },
+    {
+      "bytes": 6974,
+      "destination": "verification/secondary/history/check01/prepare_actual_v4_retry.py",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "a06999b66ab2f26227ec1027dd2b2a5af9003254050b82d48898f1976626b62a",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\prepare_actual_v4_retry.py"
+    },
+    {
+      "bytes": 2527,
+      "destination": "verification/secondary/history/check01/bind_retry_slot_receipt.py",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "2975f8780745ec38fc02e28a74a56727facc0fa42cc3a0c66c4adafe9035c5f2",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\bind_retry_slot_receipt.py"
+    },
+    {
+      "bytes": 3949,
+      "destination": "verification/secondary/history/check01/PreserveCheck01Slot.ps1",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "879ad6f93e7a7e49fd14e1818c2c746b421b0c96e7d995314454a543f17d2f9e",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\PreserveCheck01Slot.ps1"
+    },
+    {
+      "bytes": 944,
+      "destination": "verification/secondary/history/check01/preserved-slot/RECEIPT.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "97765e4552bc278d755ab2e1039830350c265b1cf11bc80c6489769fe8fa445a",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\preserved-check01-slot\\RECEIPT.json"
+    },
+    {
+      "bytes": 93,
+      "destination": "verification/secondary/history/check01/preserved-slot/owner.txt",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "ede448301280b34e72fd4f18ba716bd26550c4348436ccbbbc0abead36214ca5",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\preserved-check01-slot\\owner.txt"
+    },
+    {
+      "bytes": 2522,
+      "destination": "verification/secondary/history/check01/pipeline/environment.txt",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "fd0666d44cf59eba7d6284e93e9d3cd0822afe02a6ef0272dc6935fecedbeb45",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-095413\\environment.txt"
+    },
+    {
+      "bytes": 725,
+      "destination": "verification/secondary/history/check01/pipeline/nanoda.config.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "95392725424189d9a706753101b7d0e291919e606563758485149c0df5cfc6be",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-095413\\nanoda.config.json"
+    },
+    {
+      "bytes": 0,
+      "destination": "verification/secondary/history/check01/pipeline/nanoda.out",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-095413\\nanoda.out"
+    },
+    {
+      "bytes": 0,
+      "destination": "verification/secondary/history/check01/pipeline/nanoda.err",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-095413\\nanoda.err"
+    },
+    {
+      "bytes": 0,
+      "destination": "verification/secondary/history/check01/pipeline/runner-nanoda.txt",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-095413\\runner-nanoda.txt"
+    },
+    {
+      "bytes": 37819,
+      "destination": "verification/secondary/history/check01/pipeline/OLEAN_SHA256.txt",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "8b134d0d775af5ed4b892afcb92b3a8b2903244f5823a2164255951fc9f696a1",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-095413\\OLEAN_SHA256.txt"
+    },
+    {
+      "bytes": 4173,
+      "destination": "verification/secondary/history/check01/pipeline/run.log",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "a4d57b76c1c45be52ca23ee01dd141d8694f0422c721785424cf13aa39436616",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-095413\\run.log"
+    },
+    {
+      "bytes": 334,
+      "destination": "verification/secondary/history/check01/pipeline/STATUS.tsv",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "28332bc6504b5034f30e12aae019ea21ac70ad189417a019e4fb2f0628c8b673",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-095413\\STATUS.tsv"
+    },
+    {
+      "bytes": 11,
+      "destination": "verification/secondary/history/check01/pipeline/VERDICT",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "dbf7a5c672e5f677d0ed72b585dc3670286030d253e2a67c622a2f8d31025164",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-095413\\VERDICT"
+    },
+    {
+      "bytes": 26,
+      "destination": "verification/secondary/history/check01/pipeline/tool-record-check.txt",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "44af2d3f885eedfa8343b4dc5b24396c9ca48c4ea4ac738b6803ea8096f9bd75",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-095413\\tool-record-check.txt"
+    },
+    {
+      "bytes": 7528,
+      "destination": "verification/secondary/supervision/export/summary.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "2bfb704376e465700fc96e3a77056c7edeca9e8956d0e5caf33cf0c62398ed60",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-export-01\\summary.json"
+    },
+    {
+      "bytes": 92486,
+      "destination": "verification/secondary/supervision/export/process/manifest.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "125ed1c8127abc584d58781e6c96691afa0639ed608aabfef5547ef69657b343",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-export-01\\process\\manifest.json"
+    },
+    {
+      "bytes": 3969,
+      "destination": "verification/secondary/supervision/export/process/result.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "6df6fa7c87a5d99b311bea7acac2848287c31ef9547617e2d5ea12dc1e172b1a",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-export-01\\process\\result.json"
+    },
+    {
+      "bytes": 776455,
+      "destination": "verification/secondary/supervision/export/process/events.jsonl",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "8dbf5e6fae81a4a467fac95e83952a92c815a34781b04c989f8cc8f6131c0277",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-export-01\\process\\events.jsonl"
+    },
+    {
+      "bytes": 5074,
+      "destination": "verification/secondary/supervision/export/process/stdout.log",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "df9007939b7077eb1aa549fcf2e90cd5f6c1f978f84e71d3c48d9e11283b942d",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-export-01\\process\\stdout.log"
+    },
+    {
+      "bytes": 0,
+      "destination": "verification/secondary/supervision/export/process/stderr.log",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-export-01\\process\\stderr.log"
+    },
+    {
+      "bytes": 7574,
+      "destination": "verification/secondary/supervision/check/summary.json",
+      "liveUntilCompletion": true,
+      "required": true,
+      "sha256": "c166499609b72d83d9f669490449e7866ec30d49caa61c944ca0c6f222b93cc1",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-check-02\\summary.json"
+    },
+    {
+      "bytes": 102023,
+      "destination": "verification/secondary/supervision/check/process/manifest.json",
+      "liveUntilCompletion": true,
+      "required": true,
+      "sha256": "d54e7a41523ad831c25eb231fef1b32ea251d6b285e8f2548585aa4cf2502c7e",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-check-02\\process\\manifest.json"
+    },
+    {
+      "bytes": 4657,
+      "destination": "verification/secondary/supervision/check/process/result.json",
+      "liveUntilCompletion": true,
+      "required": true,
+      "sha256": "ff741d2c5719dbd4670f7112a2f67c56de79c2cf8d62933b6ef0b7175b3b24cf",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-check-02\\process\\result.json"
+    },
+    {
+      "bytes": 4765858,
+      "destination": "verification/secondary/supervision/check/process/events.jsonl",
+      "liveUntilCompletion": true,
+      "required": true,
+      "sha256": "6a7bda1be2e4e5a77ee949dab47c5a034db310facc17dfeb02d26f74f3c5d875",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-check-02\\process\\events.jsonl"
+    },
+    {
+      "bytes": 8348,
+      "destination": "verification/secondary/supervision/check/process/stdout.log",
+      "liveUntilCompletion": true,
+      "required": true,
+      "sha256": "f0b78f3ef70740713c7afeb16392cc3ab210850df2c71ccbe0bf6e87d475a410",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-check-02\\process\\stdout.log"
+    },
+    {
+      "bytes": 0,
+      "destination": "verification/secondary/supervision/check/process/stderr.log",
+      "liveUntilCompletion": true,
+      "required": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-check-02\\process\\stderr.log"
+    },
+    {
+      "bytes": 2522,
+      "destination": "verification/secondary/check/environment.txt",
+      "liveUntilCompletion": true,
+      "required": true,
+      "sha256": "f3b6daa28c2fc94b81e4f53a835572050005013e02458d8daa5e99fbda207034",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\environment.txt"
+    },
+    {
+      "bytes": 725,
+      "destination": "verification/secondary/check/nanoda.config.json",
+      "liveUntilCompletion": true,
+      "required": true,
+      "sha256": "95392725424189d9a706753101b7d0e291919e606563758485149c0df5cfc6be",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\nanoda.config.json"
+    },
+    {
+      "bytes": 1357,
+      "destination": "verification/secondary/check/nanoda.out",
+      "liveUntilCompletion": true,
+      "required": true,
+      "sha256": "ffb9b96aa21dcf464f04b440bccb03630787d74de42674dc6242ab5f7c5ceec3",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\nanoda.out"
+    },
+    {
+      "bytes": 0,
+      "destination": "verification/secondary/check/nanoda.err",
+      "liveUntilCompletion": true,
+      "required": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\nanoda.err"
+    },
+    {
+      "bytes": 0,
+      "destination": "verification/secondary/check/runner-nanoda.txt",
+      "liveUntilCompletion": true,
+      "required": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\runner-nanoda.txt"
+    },
+    {
+      "bytes": 37819,
+      "destination": "verification/secondary/check/OLEAN_SHA256.txt",
+      "liveUntilCompletion": true,
+      "required": true,
+      "sha256": "8b134d0d775af5ed4b892afcb92b3a8b2903244f5823a2164255951fc9f696a1",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\OLEAN_SHA256.txt"
+    },
+    {
+      "bytes": 37819,
+      "destination": "verification/secondary/check/OLEAN_SHA256.end.txt",
+      "liveUntilCompletion": true,
+      "required": true,
+      "sha256": "8b134d0d775af5ed4b892afcb92b3a8b2903244f5823a2164255951fc9f696a1",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\OLEAN_SHA256.end.txt"
+    },
+    {
+      "bytes": 8348,
+      "destination": "verification/secondary/check/run.log",
+      "liveUntilCompletion": true,
+      "required": true,
+      "sha256": "f0b78f3ef70740713c7afeb16392cc3ab210850df2c71ccbe0bf6e87d475a410",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\run.log"
+    },
+    {
+      "bytes": 806,
+      "destination": "verification/secondary/check/STATUS.tsv",
+      "liveUntilCompletion": true,
+      "required": true,
+      "sha256": "2d5f899b1d8be7c0103aaed24670209d4e1f8e6fd57b8725baac4dad47b45395",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\STATUS.tsv"
+    },
+    {
+      "bytes": 5,
+      "destination": "verification/secondary/check/VERDICT",
+      "liveUntilCompletion": true,
+      "required": true,
+      "sha256": "c26de83abdc9496cd1301470918ec39ecca1cf389ef0ae1c6504da1800d1c431",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\VERDICT"
+    },
+    {
+      "bytes": 26,
+      "destination": "verification/secondary/check/tool-record-check.txt",
+      "liveUntilCompletion": true,
+      "required": true,
+      "sha256": "44af2d3f885eedfa8343b4dc5b24396c9ca48c4ea4ac738b6803ea8096f9bd75",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\tool-record-check.txt"
+    },
+    {
+      "bytes": 1980,
+      "destination": "verification/secondary/check/journal.jsonl",
+      "liveUntilCompletion": true,
+      "required": false,
+      "sha256": "af604039c65caa3a55022d88c6c4451f9c3ca921f3dda76aec552584fb63485c",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\journal.jsonl"
+    },
+    {
+      "bytes": 343,
+      "destination": "verification/secondary/check/RESULT.json",
+      "liveUntilCompletion": true,
+      "required": false,
+      "sha256": "05a259d944e0891f3c61369da08f1426ccb2b66726006836327ad76a46e1908b",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\RESULT.json"
+    },
+    {
+      "bytes": 1959,
+      "destination": "verification/secondary/check/VERDICT.json",
+      "liveUntilCompletion": true,
+      "required": false,
+      "sha256": "edb08cd643012dab1d45da556ac59ac3274ed58df4fe40c249290407a99e94bc",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\VERDICT.json"
+    },
+    {
+      "bytes": 430,
+      "destination": "verification/secondary/check/nanoda.result.json",
+      "liveUntilCompletion": true,
+      "required": false,
+      "sha256": "613e6426a6c942c732faa9924f921704cd949affe49e6cdcd9909458b977023d",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\nanoda.result.json"
+    },
+    {
+      "bytes": 139185,
+      "destination": "verification/secondary/supervision/export/plan.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "d88103ee3aeb675031b2a95bf85dbf6747d82abc71a768ebd3e49c5fdcbda8dd",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\export-plan-v4-20261006-01.json"
+    },
+    {
+      "bytes": 1527,
+      "destination": "verification/secondary/supervision/export/authorization.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "70551d2402e55b6ec074f960b21f7c2892fbe0cacbae050d291d5ac34a598249",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\ROOT_EXPORT_AUTHORIZATION_01.json"
+    },
+    {
+      "bytes": 155754,
+      "destination": "verification/secondary/supervision/check/plan.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "d79119e1be3d15bf3886712a9b5233bed567a4d7b5d9672f8dafbe8265be17b6",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\check-plan-v4-20261006-02-slot-bound.json"
+    },
+    {
+      "bytes": 1592,
+      "destination": "verification/secondary/supervision/check/authorization.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "e52da5ec504910d57dff244d3f6aa2685e27ebb2582f4f21559099ee8f37bc83",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\ROOT_CHECK_AUTHORIZATION_02.json"
+    },
+    {
+      "bytes": 12924,
+      "destination": "verification/secondary/independent-check-audit.json",
+      "liveUntilCompletion": false,
+      "required": true,
+      "sha256": "e305f1e6fc5884fa6bdf13285edcffb32fabb7bd62ae837f21ced35ac859bac7",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\actual-v4-check02-independent-audit.json"
+    }
+  ],
+  "historicalCheck01": {
+    "all18OriginalArtifactsAndSixAddedBindingsMatch": true,
+    "cleanupConfirmed": true,
+    "kernelAcceptance": false,
+    "kernelRejection": false,
+    "outcome": "INCONCLUSIVE_TIMEOUT",
+    "resultSha256": "f809dcdd18b4b13fe41b337a481704b04a06d5fec075dacbade56d7a790fa66f",
+    "summarySha256": "f936398ec3e978fb8265aac7d9cc1f9eb846e01be3e3e9127d4ebfb31458d1cd"
+  },
+  "independentAudit": {
+    "bytes": 12924,
+    "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\actual-v4-check02-independent-audit.json",
+    "sha256": "e305f1e6fc5884fa6bdf13285edcffb32fabb7bd62ae837f21ced35ac859bac7"
+  },
+  "liveDocsNotIncluded": "Root supplies finalized README/portable recipe separately after outcome audit",
+  "mathematicalClassification": "NONE",
+  "metadataAllowlist": [
+    "verification/secondary/sources/PREPARATION_AUDIT_5.json",
+    "verification/secondary/sources/tools/FINAL_PINS.json",
+    "verification/secondary/sources/tools/vf_common.py",
+    "verification/secondary/sources/tools/vf_tool.py",
+    "verification/secondary/sources/tools/run_step.py",
+    "verification/secondary/sources/tools/resource_policy.py",
+    "verification/secondary/sources/tools/second_kernel/PINS.json",
+    "verification/secondary/sources/tools/second_kernel/env.sh",
+    "verification/secondary/sources/tools/second_kernel/build_second_kernel.sh",
+    "verification/secondary/sources/tools/second_kernel/run_second_kernel.sh",
+    "verification/secondary/sources/tools/second_kernel/sk_tool.py",
+    "verification/secondary/sources/tools/second_kernel/redirect.py",
+    "verification/secondary/sources/tools/second_kernel/make_semantic_sites.py",
+    "verification/secondary/sources/tools/second_kernel/nanoda_semantic_sites.json",
+    "verification/secondary/sources/supervision/supervise_stage_v5.py",
+    "verification/secondary/sources/supervision/prepare_plan_v5.py",
+    "verification/secondary/sources/supervision/prepare_actual_v4_check.py",
+    "verification/secondary/sources/supervision/audit_actual_v4_check02.py",
+    "verification/secondary/sources/supervision/prepare_secondary_bundle.py",
+    "verification/secondary/sources/supervision/prepare_secondary_bundle_v2.py",
+    "verification/secondary/sources/supervision/prepare_secondary_bundle_v3.py",
+    "verification/secondary/sources/supervision/ordinary_job_guard.py",
+    "verification/secondary/licenses/lean4export.txt",
+    "verification/secondary/licenses/nanoda_lib.txt",
+    "verification/secondary/upstream/nanoda_lib/Cargo.lock",
+    "verification/secondary/upstream/nanoda_lib/src/tc.rs",
+    "verification/secondary/upstream/nanoda_lib/src/parser.rs",
+    "verification/secondary/tool-control/ProjFromProp/config.json",
+    "verification/secondary/tool-control/ProjFromProp/export",
+    "verification/secondary/tool-control/TOOL_BUILD_RECORD.json",
+    "verification/secondary/tool-control/SUMMARY.json",
+    "verification/secondary/tool-control/BINARIES.sha256",
+    "verification/secondary/tool-control/checkout-pre.json",
+    "verification/secondary/tool-control/checkout-post.json",
+    "verification/secondary/tool-control/environment.txt",
+    "verification/secondary/tool-control/journal.jsonl",
+    "verification/secondary/tool-control/build.log",
+    "verification/secondary/tool-control/selftest/accept_good.out",
+    "verification/secondary/tool-control/selftest/accept_good.err",
+    "verification/secondary/tool-control/selftest/accept_good.result.json",
+    "verification/secondary/tool-control/selftest/accept_good.runner.txt",
+    "verification/secondary/tool-control/selftest/reject_projfromprop.out",
+    "verification/secondary/tool-control/selftest/reject_projfromprop.err",
+    "verification/secondary/tool-control/selftest/reject_projfromprop.result.json",
+    "verification/secondary/tool-control/selftest/reject_projfromprop.runner.txt",
+    "verification/secondary/tool-control/selftest/missing_export.out",
+    "verification/secondary/tool-control/selftest/missing_export.err",
+    "verification/secondary/tool-control/selftest/missing_export.result.json",
+    "verification/secondary/tool-control/selftest/missing_export.runner.txt",
+    "verification/secondary/tool-control/selftest/invalid_config_json.out",
+    "verification/secondary/tool-control/selftest/invalid_config_json.err",
+    "verification/secondary/tool-control/selftest/invalid_config_json.result.json",
+    "verification/secondary/tool-control/selftest/invalid_config_json.runner.txt",
+    "verification/secondary/tool-control/selftest/wrong_format.out",
+    "verification/secondary/tool-control/selftest/wrong_format.err",
+    "verification/secondary/tool-control/selftest/wrong_format.result.json",
+    "verification/secondary/tool-control/selftest/wrong_format.runner.txt",
+    "verification/secondary/tool-control/selftest/malformed_export.out",
+    "verification/secondary/tool-control/selftest/malformed_export.err",
+    "verification/secondary/tool-control/selftest/malformed_export.result.json",
+    "verification/secondary/tool-control/selftest/malformed_export.runner.txt",
+    "verification/secondary/tool-control/selftest/missing_pp.out",
+    "verification/secondary/tool-control/selftest/missing_pp.err",
+    "verification/secondary/tool-control/selftest/missing_pp.result.json",
+    "verification/secondary/tool-control/selftest/missing_pp.runner.txt",
+    "verification/secondary/tool-control/selftest/accept_good.json",
+    "verification/secondary/tool-control/selftest/missing_export.json",
+    "verification/secondary/tool-control/selftest/invalid_config.json",
+    "verification/secondary/tool-control/selftest/wrong_format.json",
+    "verification/secondary/tool-control/selftest/malformed_export.json",
+    "verification/secondary/tool-control/selftest/missing_pp.json",
+    "verification/secondary/tool-control/selftest/forced_resource.json",
+    "verification/secondary/tool-control/selftest/controls.json",
+    "verification/secondary/tool-control/selftest/nat_add_succ.ndjson",
+    "verification/secondary/tool-control/selftest/wrong_format.ndjson",
+    "verification/secondary/tool-control/selftest/malformed.ndjson",
+    "verification/secondary/tool-control/selftest/forced_resource.result.json",
+    "verification/secondary/tool-control/selftest/export.err",
+    "verification/secondary/tool-control/selftest/export.runner.txt",
+    "verification/secondary/tool-control/selftest/export.stats.json",
+    "verification/secondary/tool-control/selftest/forced_resource_16777216bytes.out",
+    "verification/secondary/tool-control/selftest/forced_resource_16777216bytes.err",
+    "verification/secondary/tool-control/selftest/forced_resource_16777216bytes.result.json",
+    "verification/secondary/tool-control/selftest/forced_resource_16777216bytes.runner.txt",
+    "verification/secondary/tool-control/selftest/forced_resource_16777216bytes.err.limit.json",
+    "verification/secondary/tool-control/selftest/forced_resource_4194304bytes.out",
+    "verification/secondary/tool-control/selftest/forced_resource_4194304bytes.err",
+    "verification/secondary/tool-control/selftest/forced_resource_4194304bytes.result.json",
+    "verification/secondary/tool-control/selftest/forced_resource_4194304bytes.runner.txt",
+    "verification/secondary/tool-control/selftest/forced_resource_4194304bytes.err.limit.json",
+    "verification/secondary/tool-control/selftest/forced_resource_1048576bytes.out",
+    "verification/secondary/tool-control/selftest/forced_resource_1048576bytes.err",
+    "verification/secondary/tool-control/selftest/forced_resource_1048576bytes.result.json",
+    "verification/secondary/tool-control/selftest/forced_resource_1048576bytes.runner.txt",
+    "verification/secondary/tool-control/selftest/forced_resource_1048576bytes.err.limit.json",
+    "verification/secondary/tool-control/selftest/forced_resource_524288bytes.out",
+    "verification/secondary/tool-control/selftest/forced_resource_524288bytes.err",
+    "verification/secondary/tool-control/selftest/forced_resource_524288bytes.result.json",
+    "verification/secondary/tool-control/selftest/forced_resource_524288bytes.runner.txt",
+    "verification/secondary/tool-control/selftest/forced_resource_524288bytes.err.limit.json",
+    "verification/secondary/export/RUN_MANIFEST.json",
+    "verification/secondary/export/nanoda.config.json",
+    "verification/secondary/export/export.stats.json",
+    "verification/secondary/export/OLEAN_SHA256.txt",
+    "verification/secondary/export/bind.json",
+    "verification/secondary/export/environment.txt",
+    "verification/secondary/export/journal.jsonl",
+    "verification/secondary/export/RESULT.json",
+    "verification/secondary/export/STATUS.tsv",
+    "verification/secondary/export/VERDICT",
+    "verification/secondary/export/VERDICT.json",
+    "verification/secondary/export/run.log",
+    "verification/secondary/export/export.err",
+    "verification/secondary/export/runner-export.txt",
+    "verification/secondary/export/tool-record-check.txt",
+    "verification/secondary/export/actual-v4-export-audit-20261006.json",
+    "verification/secondary/history/check01/supervision/summary.json",
+    "verification/secondary/history/check01/supervision/process/manifest.json",
+    "verification/secondary/history/check01/supervision/process/result.json",
+    "verification/secondary/history/check01/supervision/process/events.jsonl",
+    "verification/secondary/history/check01/supervision/process/stdout.log",
+    "verification/secondary/history/check01/supervision/process/stderr.log",
+    "verification/secondary/history/check01/check-plan-v4-20261006-01.json",
+    "verification/secondary/history/check01/ROOT_CHECK_AUTHORIZATION_01.json",
+    "verification/secondary/history/check01/actual-v4-check01-timeout-audit.json",
+    "verification/secondary/history/check01/prepare_actual_v4_retry.py",
+    "verification/secondary/history/check01/bind_retry_slot_receipt.py",
+    "verification/secondary/history/check01/PreserveCheck01Slot.ps1",
+    "verification/secondary/history/check01/preserved-slot/RECEIPT.json",
+    "verification/secondary/history/check01/preserved-slot/owner.txt",
+    "verification/secondary/history/check01/pipeline/environment.txt",
+    "verification/secondary/history/check01/pipeline/nanoda.config.json",
+    "verification/secondary/history/check01/pipeline/nanoda.out",
+    "verification/secondary/history/check01/pipeline/nanoda.err",
+    "verification/secondary/history/check01/pipeline/runner-nanoda.txt",
+    "verification/secondary/history/check01/pipeline/OLEAN_SHA256.txt",
+    "verification/secondary/history/check01/pipeline/run.log",
+    "verification/secondary/history/check01/pipeline/STATUS.tsv",
+    "verification/secondary/history/check01/pipeline/VERDICT",
+    "verification/secondary/history/check01/pipeline/tool-record-check.txt",
+    "verification/secondary/supervision/export/summary.json",
+    "verification/secondary/supervision/export/process/manifest.json",
+    "verification/secondary/supervision/export/process/result.json",
+    "verification/secondary/supervision/export/process/events.jsonl",
+    "verification/secondary/supervision/export/process/stdout.log",
+    "verification/secondary/supervision/export/process/stderr.log",
+    "verification/secondary/supervision/check/summary.json",
+    "verification/secondary/supervision/check/process/manifest.json",
+    "verification/secondary/supervision/check/process/result.json",
+    "verification/secondary/supervision/check/process/events.jsonl",
+    "verification/secondary/supervision/check/process/stdout.log",
+    "verification/secondary/supervision/check/process/stderr.log",
+    "verification/secondary/check/environment.txt",
+    "verification/secondary/check/nanoda.config.json",
+    "verification/secondary/check/nanoda.out",
+    "verification/secondary/check/nanoda.err",
+    "verification/secondary/check/runner-nanoda.txt",
+    "verification/secondary/check/OLEAN_SHA256.txt",
+    "verification/secondary/check/OLEAN_SHA256.end.txt",
+    "verification/secondary/check/run.log",
+    "verification/secondary/check/STATUS.tsv",
+    "verification/secondary/check/VERDICT",
+    "verification/secondary/check/tool-record-check.txt",
+    "verification/secondary/check/journal.jsonl",
+    "verification/secondary/check/RESULT.json",
+    "verification/secondary/check/VERDICT.json",
+    "verification/secondary/check/nanoda.result.json",
+    "verification/secondary/supervision/export/plan.json",
+    "verification/secondary/supervision/export/authorization.json",
+    "verification/secondary/supervision/check/plan.json",
+    "verification/secondary/supervision/check/authorization.json",
+    "verification/secondary/independent-check-audit.json",
+    "verification/secondary/BUNDLE_MANIFEST.json"
+  ],
+  "missingOptionalFiles": [
+    {
+      "destination": "verification/secondary/check/bind-check.log",
+      "liveUntilCompletion": true,
+      "required": false,
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\bind-check.log"
+    },
+    {
+      "destination": "verification/secondary/check/integrity.log",
+      "liveUntilCompletion": true,
+      "required": false,
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\integrity.log"
+    },
+    {
+      "destination": "verification/secondary/check/bind-check.txt",
+      "liveUntilCompletion": true,
+      "required": false,
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\bind-check.txt"
+    },
+    {
+      "destination": "verification/secondary/check/integrity.txt",
+      "liveUntilCompletion": true,
+      "required": false,
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\integrity.txt"
+    },
+    {
+      "destination": "verification/secondary/check/positive/export.err",
+      "liveUntilCompletion": true,
+      "required": false,
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\positive\\export.err"
+    },
+    {
+      "destination": "verification/secondary/check/positive/export.stats.json",
+      "liveUntilCompletion": true,
+      "required": false,
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\positive\\export.stats.json"
+    },
+    {
+      "destination": "verification/secondary/check/positive/runner-export-positive.txt",
+      "liveUntilCompletion": true,
+      "required": false,
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\positive\\runner-export-positive.txt"
+    },
+    {
+      "destination": "verification/secondary/check/positive/nanoda.config.json",
+      "liveUntilCompletion": true,
+      "required": false,
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\positive\\nanoda.config.json"
+    },
+    {
+      "destination": "verification/secondary/check/positive/nanoda-positive.out",
+      "liveUntilCompletion": true,
+      "required": false,
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\positive\\nanoda-positive.out"
+    },
+    {
+      "destination": "verification/secondary/check/positive/nanoda-positive.err",
+      "liveUntilCompletion": true,
+      "required": false,
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\positive\\nanoda-positive.err"
+    },
+    {
+      "destination": "verification/secondary/check/positive/nanoda-positive.result.json",
+      "liveUntilCompletion": true,
+      "required": false,
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\positive\\nanoda-positive.result.json"
+    },
+    {
+      "destination": "verification/secondary/check/positive/runner-nanoda-positive.txt",
+      "liveUntilCompletion": true,
+      "required": false,
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\positive\\runner-nanoda-positive.txt"
+    },
+    {
+      "destination": "verification/secondary/check/tamper/nanoda.config.json",
+      "liveUntilCompletion": true,
+      "required": false,
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\tamper\\nanoda.config.json"
+    },
+    {
+      "destination": "verification/secondary/check/tamper/nanoda-tampered.out",
+      "liveUntilCompletion": true,
+      "required": false,
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\tamper\\nanoda-tampered.out"
+    },
+    {
+      "destination": "verification/secondary/check/tamper/nanoda-tampered.err",
+      "liveUntilCompletion": true,
+      "required": false,
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\tamper\\nanoda-tampered.err"
+    },
+    {
+      "destination": "verification/secondary/check/tamper/nanoda-tampered.result.json",
+      "liveUntilCompletion": true,
+      "required": false,
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\tamper\\nanoda-tampered.result.json"
+    },
+    {
+      "destination": "verification/secondary/check/tamper/runner-nanoda-tampered.txt",
+      "liveUntilCompletion": true,
+      "required": false,
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\tamper\\runner-nanoda-tampered.txt"
+    },
+    {
+      "destination": "verification/secondary/check/tamper/mutation.json",
+      "liveUntilCompletion": true,
+      "required": false,
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\check-20261006-102019\\tamper\\mutation.json"
+    }
+  ],
+  "omittedLargeArtifact": {
+    "bytes": 514465728,
+    "declarations": 55248,
+    "included": false,
+    "lines": 9727409,
+    "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\export.ndjson",
+    "reason": "Large locally retained proof-term artifact; regenerate from pinned sources",
+    "sha256": "6ea32a64e1aabdfbf06dc731537de0083f7e60e5eb76b408e5c418ccf1a93b3c"
+  },
+  "oversizedFilesNeedingExplicitApproval": {
+    "verification/secondary/history/check01/supervision/process/events.jsonl": 4421040,
+    "verification/secondary/supervision/check/process/events.jsonl": 4765858
+  },
+  "pendingFilesNotHashed": [],
+  "producerSha256": "3daa1560c90a9b3a862576467c8f7ed524dc1637369825ee6cefee63bdf34e77",
+  "schema": "n9-small-secondary-evidence-plan-v2",
+  "staging": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-secondary-bundle\\final-v4-20261006-01",
+  "stagingHelper": {
+    "bytes": 19444,
+    "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-lean-drafts\\verification\\prepare_secondary_bundle_v3.py",
+    "sha256": "3daa1560c90a9b3a862576467c8f7ed524dc1637369825ee6cefee63bdf34e77"
+  },
+  "status": "WORK_STAGING_BYTES_VERIFIED_NOT_RELEASED"
+}

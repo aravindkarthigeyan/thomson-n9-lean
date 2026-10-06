@@ -1,0 +1,1478 @@
+{
+  "afterBroadArtifactCount": 543,
+  "beforeBroadArtifactCount": 724,
+  "compilerOrExporterRun": false,
+  "completedUtc": "2026-10-06T13:35:56.462892Z",
+  "consumerSha256": "b20645f1a745b8e54c52dcaac27bbc8310d7fbd22887d0acf5dcb23e82b2473d",
+  "createdUtc": "2026-10-06T13:35:46.124386Z",
+  "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01",
+  "driverSha256": "6ddcd40c4817da077a7329bb3839bbfca62aa0b1707e93750fb9ae32d3aa19b5",
+  "eventsSha256": "e36e1ca932fb415355514ab0730db771f8f3d3be933acfd321fefc47a9145dac",
+  "freezeSha256": "22bb7406fef5a4379c856c8dbca26c8f964685e2bd036f24bdb45e0f5af3d10e",
+  "frozenSourcesUnchanged": true,
+  "localObjectsSha256": "72fb2993cf28d5c00a71ffe8b21b6743e43a3241054620e3564f1581b2c1b309",
+  "originalEvidenceFiles": 632,
+  "originalResultAndEvidenceUnchanged": true,
+  "planSha256": "02bcb10b091e1287cc2899e196ce4b7db6787cbefa3703a441c3970b53f16335",
+  "recordedArtifacts": 543,
+  "recordedArtifactsUnchanged": true,
+  "resultSha256": "1e10416d6f0e6abfd4c60dc12acf3fc8ba1d97c73c12d3078bcbe7076b25214f",
+  "run": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\fresh-evidence\\20261006T024511Z",
+  "schema": 1,
+  "scriptSha256": "d9e7ddcf5ce08cdb34838a93893980caf829b35154a37aa7e78b53922c6b73c4",
+  "sidecarBytes": 2896,
+  "sidecars": [
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\Challenge.ilean.hash",
+      "originalBytesHex": "64636363626666323037643032313065",
+      "path": "Challenge.ilean.hash",
+      "sha256": "bcb774aa2ff10da6853ceaf65a443b783979c00225f7a6930d982684838bb753",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\Challenge.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Bridge.ilean.hash",
+      "originalBytesHex": "36366636313662646663313436323130",
+      "path": "ClaudeL1/Bridge.ilean.hash",
+      "sha256": "52b7f9aebf5d5496292fbcd6658ee8b041fe95475699f66f581bf4ec7b3ea7b5",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\Bridge.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\Assembly.ilean.hash",
+      "originalBytesHex": "33303066326361653366376664643731",
+      "path": "ClaudeL1/Data/Assembly.ilean.hash",
+      "sha256": "5f9599e9752f2c5c6c2149e3092295a60027a1c02b6048b5c6754de884f26a39",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\Data\\Assembly.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\Kernel.ilean.hash",
+      "originalBytesHex": "64386362346162653039356635323530",
+      "path": "ClaudeL1/Data/Kernel.ilean.hash",
+      "sha256": "0e4b4dbacca5b0dfb4c85abc6b8dfa3ed60a3ce1904a019aca6805566d21f590",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\Data\\Kernel.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\Mult.ilean.hash",
+      "originalBytesHex": "32343461643838636465656265343731",
+      "path": "ClaudeL1/Data/Mult.ilean.hash",
+      "sha256": "2fc1bea6418331997d1d0157b75cc86b18fe3a3241081b7d6c7634f6a4e416df",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\Data\\Mult.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\C01.ilean.hash",
+      "originalBytesHex": "34306534343235633735363638306165",
+      "path": "ClaudeL1/Data/SOS/C01.ilean.hash",
+      "sha256": "2eff868e15851ec76a767707c0e92b4965b7e7ab180df0231f1ef88421457746",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\Data\\SOS\\C01.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\C02.ilean.hash",
+      "originalBytesHex": "33393231346137646639363036356265",
+      "path": "ClaudeL1/Data/SOS/C02.ilean.hash",
+      "sha256": "ac762e15b108e83a9381e40e965c930fac2ff8203b980cc65c09434085160485",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\Data\\SOS\\C02.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\C03.ilean.hash",
+      "originalBytesHex": "34393166623333303165633131353836",
+      "path": "ClaudeL1/Data/SOS/C03.ilean.hash",
+      "sha256": "1bc06e998f614f81300c6e168d6c113b05f17f4de0c9573b49f0ac281f92829d",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\Data\\SOS\\C03.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\C04.ilean.hash",
+      "originalBytesHex": "61303232313530333636393130383062",
+      "path": "ClaudeL1/Data/SOS/C04.ilean.hash",
+      "sha256": "0379f3b431ff69806a774422663808b1d9f4243f29d1eb17deaeb134ccc04ba8",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\Data\\SOS\\C04.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\C05.ilean.hash",
+      "originalBytesHex": "34323766353139313438636130613530",
+      "path": "ClaudeL1/Data/SOS/C05.ilean.hash",
+      "sha256": "f2c71b50a63702303c803aaf99ec5f9139dd85aefa950cafbab162c04a8ab344",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\Data\\SOS\\C05.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\C06.ilean.hash",
+      "originalBytesHex": "63303631306631616463353734373635",
+      "path": "ClaudeL1/Data/SOS/C06.ilean.hash",
+      "sha256": "47bd3d521a800ef540c0edcfc8e27c9b7a19adbdfcfa678853347de3014dff5e",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\Data\\SOS\\C06.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\C07.ilean.hash",
+      "originalBytesHex": "35346263383363613932396533356162",
+      "path": "ClaudeL1/Data/SOS/C07.ilean.hash",
+      "sha256": "d428f72f54e7a263c6b1d7d7fe9db6a92b108cdc6408f3a5a5b834646c6b4496",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\Data\\SOS\\C07.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\C08.ilean.hash",
+      "originalBytesHex": "64333536383165653932653536366466",
+      "path": "ClaudeL1/Data/SOS/C08.ilean.hash",
+      "sha256": "09ebf8e26e30466702d06259b2d8488e194c70d4c773feca47880d7ee1bdce68",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\Data\\SOS\\C08.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\C09.ilean.hash",
+      "originalBytesHex": "64653636356163623735626561396665",
+      "path": "ClaudeL1/Data/SOS/C09.ilean.hash",
+      "sha256": "bf33ea6d51c6fbce9a7c727d0a4b851789033eb9d6c30f1dbce20e3f48673136",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\Data\\SOS\\C09.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\C10.ilean.hash",
+      "originalBytesHex": "32656633303062316633323838616534",
+      "path": "ClaudeL1/Data/SOS/C10.ilean.hash",
+      "sha256": "56b4e3d3afa7c65e9652ae2ffd54a91fac2a53a9fb92e879d0e1480049483067",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\Data\\SOS\\C10.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\C11.ilean.hash",
+      "originalBytesHex": "32613564356663343030653036633661",
+      "path": "ClaudeL1/Data/SOS/C11.ilean.hash",
+      "sha256": "cb68abe1c4aff93be1930187780c031dd9a64c46c3eebc9f93b319ed326cb571",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\Data\\SOS\\C11.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\C12.ilean.hash",
+      "originalBytesHex": "32363237663535396531343561313238",
+      "path": "ClaudeL1/Data/SOS/C12.ilean.hash",
+      "sha256": "c524ade8a25939c483a649af05137371dd7e4595db385aec9a69aba5b3f8a405",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\Data\\SOS\\C12.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\C13.ilean.hash",
+      "originalBytesHex": "35303032623864653263613665613965",
+      "path": "ClaudeL1/Data/SOS/C13.ilean.hash",
+      "sha256": "d0266c49d22daaf79facec9f74e17f22141d983b286a1d22f48e63ffd3c8f1de",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\Data\\SOS\\C13.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\C14.ilean.hash",
+      "originalBytesHex": "63653566656630633438383564393965",
+      "path": "ClaudeL1/Data/SOS/C14.ilean.hash",
+      "sha256": "c371e4ec7821817b21c0cbc28e5a2e22202dcfa14249ac12931335ff18b806c1",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\Data\\SOS\\C14.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\C15.ilean.hash",
+      "originalBytesHex": "37656636333362363039353434333261",
+      "path": "ClaudeL1/Data/SOS/C15.ilean.hash",
+      "sha256": "2613a3fb93653e7be6bb63c55f233745c7020cd8c300983bab567ccc92870a1d",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\Data\\SOS\\C15.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\Glue.ilean.hash",
+      "originalBytesHex": "38653566373136316265333438656233",
+      "path": "ClaudeL1/Data/SOS/Glue.ilean.hash",
+      "sha256": "486d29726edbbc86687afc2db8c94c2668720967ad615839e980e1ef2f4596ff",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\Data\\SOS\\Glue.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\Last.ilean.hash",
+      "originalBytesHex": "36376639313733623432333465656437",
+      "path": "ClaudeL1/Data/SOS/Last.ilean.hash",
+      "sha256": "8c3de577abb3319a2e02db208596baea6fc482db67e06c9ca34f1f3a76c42e1a",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\Data\\SOS\\Last.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\T00.ilean.hash",
+      "originalBytesHex": "32356661353334323665613762656662",
+      "path": "ClaudeL1/Data/SOS/T00.ilean.hash",
+      "sha256": "8154f7ac941edc1e7497351aa071d82bca5f59019a3e21d3c93f8c45de19d1ba",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\Data\\SOS\\T00.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\T01.ilean.hash",
+      "originalBytesHex": "30613734303731393530633435313239",
+      "path": "ClaudeL1/Data/SOS/T01.ilean.hash",
+      "sha256": "cde140901174b831e92db3285f8a463178837ec331813dd53f7a0d5e4a362bed",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\Data\\SOS\\T01.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\T02.ilean.hash",
+      "originalBytesHex": "62663066373633626630623238323739",
+      "path": "ClaudeL1/Data/SOS/T02.ilean.hash",
+      "sha256": "fa44d292eaf862713b6bcf0105a6ac591a5321892c91cd6ff2b559284a014d9e",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\Data\\SOS\\T02.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\T03.ilean.hash",
+      "originalBytesHex": "33633039376166623864633639666166",
+      "path": "ClaudeL1/Data/SOS/T03.ilean.hash",
+      "sha256": "8c20071a56e9c101d465cb5e9c21be85440703bd8113066b4987fc6bf1368184",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\Data\\SOS\\T03.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\T04.ilean.hash",
+      "originalBytesHex": "31306339653733333830343939393934",
+      "path": "ClaudeL1/Data/SOS/T04.ilean.hash",
+      "sha256": "8d3e05ee236433317fb89119a8ddfafaa2298bc450323c3448c04fbaaa4724fc",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\Data\\SOS\\T04.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\T05.ilean.hash",
+      "originalBytesHex": "38386634366130356331616234373231",
+      "path": "ClaudeL1/Data/SOS/T05.ilean.hash",
+      "sha256": "6c26c45436188fc8bfafb73273048d1c9e7008ff2a0e04e444901242693993d9",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\Data\\SOS\\T05.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\T06.ilean.hash",
+      "originalBytesHex": "30356365353333663836336461653662",
+      "path": "ClaudeL1/Data/SOS/T06.ilean.hash",
+      "sha256": "38767c9edda0dad49e1e1b5922744c6c3fd91d334f1db8f73801b34b29ec2bd2",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\Data\\SOS\\T06.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\T07.ilean.hash",
+      "originalBytesHex": "64623366306162663131363635386465",
+      "path": "ClaudeL1/Data/SOS/T07.ilean.hash",
+      "sha256": "2f70a71d5888ebb023288a216c6b2369dd0c31b11bb11923785ea6ebc8d1ee27",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\Data\\SOS\\T07.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\T08.ilean.hash",
+      "originalBytesHex": "38343562393064616539303436643935",
+      "path": "ClaudeL1/Data/SOS/T08.ilean.hash",
+      "sha256": "951178f89f41b9380a76e63fc36ffe7c9702cf63a0e7e379e811231beef8a61f",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\Data\\SOS\\T08.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\T09.ilean.hash",
+      "originalBytesHex": "33356437306666646330353439326130",
+      "path": "ClaudeL1/Data/SOS/T09.ilean.hash",
+      "sha256": "d04a9da485c4eff2ac932facf97423ecab879fb7f2501722cd95e16d17e8d94a",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\Data\\SOS\\T09.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\T10.ilean.hash",
+      "originalBytesHex": "34643638646432363734343432356631",
+      "path": "ClaudeL1/Data/SOS/T10.ilean.hash",
+      "sha256": "5ff2b66dac39657f7f41b9030cc29e580ad904de478daf65579764cad7e05ae4",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\Data\\SOS\\T10.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\T11.ilean.hash",
+      "originalBytesHex": "38346639326339633530663039643364",
+      "path": "ClaudeL1/Data/SOS/T11.ilean.hash",
+      "sha256": "286ce661d8caf0c46fba50b3195719371f3c4886bfa58c8ddb33793192b1a29b",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\Data\\SOS\\T11.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\T12.ilean.hash",
+      "originalBytesHex": "32663861306162353166646435653565",
+      "path": "ClaudeL1/Data/SOS/T12.ilean.hash",
+      "sha256": "cc7f5fb6cd99b54e635c44b71ca4c24635b99bdefb180aa0f161db1235a04f2f",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\Data\\SOS\\T12.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\T13.ilean.hash",
+      "originalBytesHex": "63656139303933383238643232353665",
+      "path": "ClaudeL1/Data/SOS/T13.ilean.hash",
+      "sha256": "ed355f32fedb3482c94f1ae4894cf50b0211f178551a850f4d6055464eda2601",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\Data\\SOS\\T13.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\T14.ilean.hash",
+      "originalBytesHex": "37613538623830376434336466363035",
+      "path": "ClaudeL1/Data/SOS/T14.ilean.hash",
+      "sha256": "78ed349e0253ae40ad9add997c63f31ea61373cf9ba25a530ac3cf1930c2dcb7",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\Data\\SOS\\T14.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Data\\SOS\\T15.ilean.hash",
+      "originalBytesHex": "35356263373535633461623266616433",
+      "path": "ClaudeL1/Data/SOS/T15.ilean.hash",
+      "sha256": "de35915b3a43741a8295079bb775229bb6b02af2c4d1ed64ee99a3cf17a4786e",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\Data\\SOS\\T15.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Identity.ilean.hash",
+      "originalBytesHex": "34353961323738656433386532636338",
+      "path": "ClaudeL1/Identity.ilean.hash",
+      "sha256": "a7a5c7b1aa2e91d2829f5e607f701cb53c370598308ee899670d19590de75bbd",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\Identity.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\KC\\Assembly.ilean.hash",
+      "originalBytesHex": "31666364666531343635396265656262",
+      "path": "ClaudeL1/KC/Assembly.ilean.hash",
+      "sha256": "e4c0958eab5d21e660c6bd46f31888cb7ff11f79277a3ced0eb7257bbf6105fc",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\KC\\Assembly.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\KC\\Chain.ilean.hash",
+      "originalBytesHex": "35356331393865633439396430346365",
+      "path": "ClaudeL1/KC/Chain.ilean.hash",
+      "sha256": "48a2600fcfaf7499a0facc1ae17588084d1be96d4e9825cd76299a8ba0359b36",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\KC\\Chain.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\KC\\Check.ilean.hash",
+      "originalBytesHex": "38656338303331616431313832333334",
+      "path": "ClaudeL1/KC/Check.ilean.hash",
+      "sha256": "9c32df056ce2a01531095dd00da9346ef2f6206723c13aa3e657b852b160b750",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\KC\\Check.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\KC\\Extra.ilean.hash",
+      "originalBytesHex": "34306638383632346561356632646632",
+      "path": "ClaudeL1/KC/Extra.ilean.hash",
+      "sha256": "59deb2ec0f7c9489b3a08ef374444163fcced74f1ad5a4d52339636468797b47",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\KC\\Extra.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\KC\\Kernel.ilean.hash",
+      "originalBytesHex": "61663561613932643136613037623732",
+      "path": "ClaudeL1/KC/Kernel.ilean.hash",
+      "sha256": "2343c0cf4222569e6a64842d2ba3a7bafc74435907fde0dd884f93a85f6c5b5e",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\KC\\Kernel.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\KC\\Kronecker.ilean.hash",
+      "originalBytesHex": "31383939316433386436393836353438",
+      "path": "ClaudeL1/KC/Kronecker.ilean.hash",
+      "sha256": "7e4d71f3ffd0598c267b1bff9ffa0f0627a89d4343569f56f087672459a03839",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\KC\\Kronecker.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\KC\\Ops.ilean.hash",
+      "originalBytesHex": "39646639643761343537623036343730",
+      "path": "ClaudeL1/KC/Ops.ilean.hash",
+      "sha256": "07ed929574cac7ec0cfb60691c9f853ba96267d7358224bcddbcc34dba1533de",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\KC\\Ops.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\KC\\Poly.ilean.hash",
+      "originalBytesHex": "32393337346439303730643761323664",
+      "path": "ClaudeL1/KC/Poly.ilean.hash",
+      "sha256": "2bac2d40046050d6d2d492ea200ade332162d0afdad976f770a4b331ba5b1da4",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\KC\\Poly.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Main.ilean.hash",
+      "originalBytesHex": "66353338393630353866663063656165",
+      "path": "ClaudeL1/Main.ilean.hash",
+      "sha256": "af69386f46728a9fbbd40d71eb20649b62add1afcd25b71cf042ee0063e2b0b1",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\Main.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Numbers.ilean.hash",
+      "originalBytesHex": "31363739386466363538613432306265",
+      "path": "ClaudeL1/Numbers.ilean.hash",
+      "sha256": "662fd667631c4b155df2d98eaa4194ba2b287f9efa9395bda86fd49a6ddbbad3",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\Numbers.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL1\\Test\\Negative.ilean.hash",
+      "originalBytesHex": "37656633643536616631336236323436",
+      "path": "ClaudeL1/Test/Negative.ilean.hash",
+      "sha256": "fca1f4b3af4a5d64789e4bf0e00e121bd5a4525ef84654b8f8f17d5a0aea6139",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL1\\Test\\Negative.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL2b\\Integration.ilean.hash",
+      "originalBytesHex": "33666263356263313336306663363237",
+      "path": "ClaudeL2b/Integration.ilean.hash",
+      "sha256": "5c09423d188ca923a0496e9432bbf9423df58601f4b0e7ec6bce471426ad4789",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL2b\\Integration.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL2b\\LPAdapterCodex.ilean.hash",
+      "originalBytesHex": "39663335323332643038623033336334",
+      "path": "ClaudeL2b/LPAdapterCodex.ilean.hash",
+      "sha256": "f8718b637055ab50a06cf90757e835461b8ddd528b766f419b534a287c4642a3",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL2b\\LPAdapterCodex.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL2b\\LPCovers.ilean.hash",
+      "originalBytesHex": "35303962393762656561626438656266",
+      "path": "ClaudeL2b/LPCovers.ilean.hash",
+      "sha256": "6e9a79c091c8d6a8b103614b7e915fbb20f279c6e263621cd39aa740aa2377c1",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL2b\\LPCovers.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL2b\\LPData.ilean.hash",
+      "originalBytesHex": "61323065616637616161363062383939",
+      "path": "ClaudeL2b/LPData.ilean.hash",
+      "sha256": "ebcbc1e4ab160e5992395262b6e5085ba10f5565f28bd632eca19c7088f6c6fe",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL2b\\LPData.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL2b\\ReducedData.ilean.hash",
+      "originalBytesHex": "33363966303431386234363466373833",
+      "path": "ClaudeL2b/ReducedData.ilean.hash",
+      "sha256": "d070e5285869cd66638839d84c47abbccb3da9e677e70e0d69bc734bc2c68fba",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL2b\\ReducedData.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL2b\\ReducedMinorant.ilean.hash",
+      "originalBytesHex": "33313039393765666136626465306563",
+      "path": "ClaudeL2b/ReducedMinorant.ilean.hash",
+      "sha256": "f6842198c9fa3780366a2dae236684b0f19eed22f827c1569ec3e657073e3b88",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL2b\\ReducedMinorant.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL2b\\RefinedData.ilean.hash",
+      "originalBytesHex": "62316431643334633135656535653634",
+      "path": "ClaudeL2b/RefinedData.ilean.hash",
+      "sha256": "e0eeb437e4ddf3a17f46585c1e268da9c4c5f3cb56fb3c97fda758372f594c87",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL2b\\RefinedData.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL2b\\RefinedWindows.ilean.hash",
+      "originalBytesHex": "33663935366535373739393334306364",
+      "path": "ClaudeL2b/RefinedWindows.ilean.hash",
+      "sha256": "98b3f341493926a882980888c86de403917ca9a69046c7d2b03e1084f3615a70",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL2b\\RefinedWindows.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeL2b\\WindowAdapter.ilean.hash",
+      "originalBytesHex": "31646137636266303365336561663634",
+      "path": "ClaudeL2b/WindowAdapter.ilean.hash",
+      "sha256": "dc0a4e1c78a142f53bd3bcfd58d26ea34abc18d409d3ea5bd682c08209fddfa1",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeL2b\\WindowAdapter.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeWindow\\AnchorFree.ilean.hash",
+      "originalBytesHex": "64336437623634613838353138613132",
+      "path": "ClaudeWindow/AnchorFree.ilean.hash",
+      "sha256": "8dfc6254b29d8632ca6383de279f8a9c513fb925c6d7aed15ec737af83231a75",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeWindow\\AnchorFree.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeWindow\\Antipodal.ilean.hash",
+      "originalBytesHex": "65396132666530613562636363626331",
+      "path": "ClaudeWindow/Antipodal.ilean.hash",
+      "sha256": "f95876d54e23b25b0bb56551de37dac270f78c270870249da8bf7d0d5be75266",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeWindow\\Antipodal.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeWindow\\Bridge.ilean.hash",
+      "originalBytesHex": "30653134356433313663633339656665",
+      "path": "ClaudeWindow/Bridge.ilean.hash",
+      "sha256": "67b68ceb75c7348218d1a396e878d7d85814ddc263ff60e8613bae3a90d6adc9",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeWindow\\Bridge.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeWindow\\CandidateGram.ilean.hash",
+      "originalBytesHex": "34303033336233306563663731626134",
+      "path": "ClaudeWindow/CandidateGram.ilean.hash",
+      "sha256": "c5eddde1fd9ba347aafee73bc94cc1425c0a49b3182a566240418f1ec6d6894c",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeWindow\\CandidateGram.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeWindow\\FormulaSound.ilean.hash",
+      "originalBytesHex": "65306465383166366462656164613335",
+      "path": "ClaudeWindow/FormulaSound.ilean.hash",
+      "sha256": "9d0dee97823ff4319dbd0b19d7f3172d5f6f78c7f72c88c51f9436c468ea5684",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeWindow\\FormulaSound.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeWindow\\Geometry.ilean.hash",
+      "originalBytesHex": "61663234613638363064343063323830",
+      "path": "ClaudeWindow/Geometry.ilean.hash",
+      "sha256": "521b0af5686fa8c77e52ad5eafd70236c2da1e8941f500cd2dc8e889d8d1d5ca",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeWindow\\Geometry.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeWindow\\Interval.ilean.hash",
+      "originalBytesHex": "31623536653631323033366563616632",
+      "path": "ClaudeWindow/Interval.ilean.hash",
+      "sha256": "57c676abba735142da2edd190094a0392dd3297313bde5f7beb6cbc4478e7fe6",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeWindow\\Interval.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeWindow\\Main.ilean.hash",
+      "originalBytesHex": "65643331613030623034383534613461",
+      "path": "ClaudeWindow/Main.ilean.hash",
+      "sha256": "61f38f0c92a7e3ca178419eef5f4eaf42d1620a66725d754630753acc19d3a51",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeWindow\\Main.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeWindow\\Soundness.ilean.hash",
+      "originalBytesHex": "32623036626639633437626534376662",
+      "path": "ClaudeWindow/Soundness.ilean.hash",
+      "sha256": "bf9743da54c51595d1ca53a7df84845f42da5bca22225c75120a648366a7dc43",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeWindow\\Soundness.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeWindow\\WindowBoxes.ilean.hash",
+      "originalBytesHex": "32386331663961613233343137346661",
+      "path": "ClaudeWindow/WindowBoxes.ilean.hash",
+      "sha256": "fca178b95d1c9ede7672850a3bd6b0ade7f1ad12fe3fe5bc9469cd1d73f7de8b",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeWindow\\WindowBoxes.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeWindow\\WindowCheck.ilean.hash",
+      "originalBytesHex": "64313965353363373839623834643162",
+      "path": "ClaudeWindow/WindowCheck.ilean.hash",
+      "sha256": "657f6bab3f450cc563051532c4ecf05d0c480ff20c40455fc41d8274f1efa71a",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeWindow\\WindowCheck.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeWindow\\WindowData.ilean.hash",
+      "originalBytesHex": "30623061393861623432653631333937",
+      "path": "ClaudeWindow/WindowData.ilean.hash",
+      "sha256": "5d38c38b924eab43a929ec9d51cbc7722710675d6fb7f299c048c9979f444519",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeWindow\\WindowData.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeWindow\\WindowKernel.ilean.hash",
+      "originalBytesHex": "35373861393533613833666466666532",
+      "path": "ClaudeWindow/WindowKernel.ilean.hash",
+      "sha256": "e6e0793c2d841a37d7233e638d4e14243f2a69a6145d30e5a5e7c119a76cf29e",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeWindow\\WindowKernel.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeWindow\\WindowKernelA.ilean.hash",
+      "originalBytesHex": "34363437306163323536336236313539",
+      "path": "ClaudeWindow/WindowKernelA.ilean.hash",
+      "sha256": "118c40d72557dc48f5e04ba0e80736dc3a61e1bf5815670b5e0bf017c4bc36f3",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeWindow\\WindowKernelA.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ClaudeWindow\\WindowKernelB.ilean.hash",
+      "originalBytesHex": "31616638323234643034613632616336",
+      "path": "ClaudeWindow/WindowKernelB.ilean.hash",
+      "sha256": "19e04dd35d72a19485e45eec55e13645aba8aea432cd4ce17f1ee12c15015dfe",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ClaudeWindow\\WindowKernelB.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\Delsarte\\Certificate\\Interval.ilean.hash",
+      "originalBytesHex": "35353262326331343635633731333237",
+      "path": "Delsarte/Certificate/Interval.ilean.hash",
+      "sha256": "1734d7e972b55909eee35bb7312b838ce4d8f98d01916dbe9fb31b17dbde6f68",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\Delsarte\\Certificate\\Interval.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\Delsarte\\Gegenbauer\\Basic.ilean.hash",
+      "originalBytesHex": "32363533336664363665393566653664",
+      "path": "Delsarte/Gegenbauer/Basic.ilean.hash",
+      "sha256": "a130d8d207ff9de78008d49210e7afccd705e9cb5ff76559ffe9a2d22f4aba6f",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\Delsarte\\Gegenbauer\\Basic.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\Delsarte\\Harmonic\\Fischer.ilean.hash",
+      "originalBytesHex": "35326235383038313536623131316261",
+      "path": "Delsarte/Harmonic/Fischer.ilean.hash",
+      "sha256": "b5e54712176b47ed0f4d705362a120bb8ad7b5173285813d27792a00fa9292db",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\Delsarte\\Harmonic\\Fischer.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\Delsarte\\Harmonic\\Zonal.ilean.hash",
+      "originalBytesHex": "36666635633563613836323763653962",
+      "path": "Delsarte/Harmonic/Zonal.ilean.hash",
+      "sha256": "19ecca17cb84ead858bd5d83e8c51875409812c598e8db42f56d5abfd1148427",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\Delsarte\\Harmonic\\Zonal.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\Delsarte\\Sphere\\DegreeThree.ilean.hash",
+      "originalBytesHex": "31616230333236616364313839396436",
+      "path": "Delsarte/Sphere/DegreeThree.ilean.hash",
+      "sha256": "3c2f10ecb246df753504143e54e6660b32a495843dc2c1e2964bad8a17c47358",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\Delsarte\\Sphere\\DegreeThree.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\Delsarte\\Sphere\\DegreeTwo.ilean.hash",
+      "originalBytesHex": "63326634333333646565316563343233",
+      "path": "Delsarte/Sphere/DegreeTwo.ilean.hash",
+      "sha256": "5545076977b757da08ae47d867a8c1c9e5a40c2dbd45a062282816099c6f5f99",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\Delsarte\\Sphere\\DegreeTwo.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\Delsarte\\Sphere\\LP.ilean.hash",
+      "originalBytesHex": "61363961333461313662313563666437",
+      "path": "Delsarte/Sphere/LP.ilean.hash",
+      "sha256": "ae76ec7b8a3a1cfb0c8c5f49bdf7490964f5d4d6ade58d49ce235a7dd290b893",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\Delsarte\\Sphere\\LP.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\Delsarte\\Sphere\\Schoenberg.ilean.hash",
+      "originalBytesHex": "30346231313565363932393366666634",
+      "path": "Delsarte/Sphere/Schoenberg.ilean.hash",
+      "sha256": "0d04239276d3ec254ccbdf66af1027d94cb47f9c42500c8ae36d2950fc14d084",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\Delsarte\\Sphere\\Schoenberg.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\Solution.ilean.hash",
+      "originalBytesHex": "65373634623239343532616665653237",
+      "path": "Solution.ilean.hash",
+      "sha256": "e788352501dc4669ce22a303a6f9b1fe2c71beca1865628a3356edc9c6d876c6",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\Solution.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9.ilean.hash",
+      "originalBytesHex": "37646134393332396335626266363962",
+      "path": "ThomsonN9.ilean.hash",
+      "sha256": "200dfd5398935e0647778556f6a5654c56860a52bc7a4fb1404ee41827b4061d",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Alignment.ilean.hash",
+      "originalBytesHex": "36613537313463376261336661353434",
+      "path": "ThomsonN9/Alignment.ilean.hash",
+      "sha256": "d8ebf90a167e941b6a0814ba740da178e876d3c5046bb381f7ae72deac59984e",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Alignment.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Basic.ilean.hash",
+      "originalBytesHex": "63613037316539666564653530613935",
+      "path": "ThomsonN9/Basic.ilean.hash",
+      "sha256": "c33d94aac73153da9468f45ef22f6f3eeea4e62aa5d2131481242dc4f2dcddef",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Basic.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Bernstein\\Checker.ilean.hash",
+      "originalBytesHex": "66656164376539646230373662613166",
+      "path": "ThomsonN9/Bernstein/Checker.ilean.hash",
+      "sha256": "3862fe5d3244d84476b800db2a115c4579354e3f67facbe991f253b9ffeb69c5",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Bernstein\\Checker.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Bernstein\\Minorant.ilean.hash",
+      "originalBytesHex": "30383933663365626430356234636462",
+      "path": "ThomsonN9/Bernstein/Minorant.ilean.hash",
+      "sha256": "069095d06c1806d8747a3fdcd6d6cbe199183046d36302f566b462ed2b745e62",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Bernstein\\Minorant.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Bernstein\\MinorantCert.ilean.hash",
+      "originalBytesHex": "31646466653032636335363133393138",
+      "path": "ThomsonN9/Bernstein/MinorantCert.ilean.hash",
+      "sha256": "d0c9c324798b2e698c36354b4a08930127388d78a679bd3a2da50eeb76eacaee",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Bernstein\\MinorantCert.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Bernstein\\MinorantData.ilean.hash",
+      "originalBytesHex": "37313835633234613634613938663839",
+      "path": "ThomsonN9/Bernstein/MinorantData.ilean.hash",
+      "sha256": "1fe07894d693106b81b13aa4a40ce22b9c3d64f4c3cd719627114e14aa0f8384",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Bernstein\\MinorantData.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\BlockHessian.ilean.hash",
+      "originalBytesHex": "62326136303861616633633433626562",
+      "path": "ThomsonN9/BlockHessian.ilean.hash",
+      "sha256": "61064d2b3a93a27bf889d5d1bee9b5b00845414e69652580cbcae5e0a207aee6",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\BlockHessian.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Candidate.ilean.hash",
+      "originalBytesHex": "61386133376565396663323832366363",
+      "path": "ThomsonN9/Candidate.ilean.hash",
+      "sha256": "aa70d6c97019bd8f5b1ac47f7e9ae3178cd67936fa23f73a256b1c09d284e186",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Candidate.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\CandidateAlignment.ilean.hash",
+      "originalBytesHex": "32623737393436613765383036356134",
+      "path": "ThomsonN9/CandidateAlignment.ilean.hash",
+      "sha256": "50d6fd4afe414452cce9148700140f78837edb89b69de7c75d135212a474ea2b",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\CandidateAlignment.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\CandidateEnergy.ilean.hash",
+      "originalBytesHex": "37316135343330366565626630313061",
+      "path": "ThomsonN9/CandidateEnergy.ilean.hash",
+      "sha256": "97c76ca299fa6ed6e933a870eff8ce3eaa2c95950145a820a63dbe0391472bdf",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\CandidateEnergy.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\CentroidBound.ilean.hash",
+      "originalBytesHex": "65356365386531633937356337613965",
+      "path": "ThomsonN9/CentroidBound.ilean.hash",
+      "sha256": "3de4c13266d17c61820cd3eb835c54c2a4cbbdeff0733bdbfab69fe3eebdc263",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\CentroidBound.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientCongruence.ilean.hash",
+      "originalBytesHex": "32366663383538653634343037346135",
+      "path": "ThomsonN9/Certificates/AmbientCongruence.ilean.hash",
+      "sha256": "9d1c696c7a0dffc2bc5ff6c3b45415776fc20e4534ca4d03c8c95488ce782e2e",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\AmbientCongruence.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientCongruenceChecks00.ilean.hash",
+      "originalBytesHex": "63313132393236623731613366613563",
+      "path": "ThomsonN9/Certificates/AmbientCongruenceChecks00.ilean.hash",
+      "sha256": "977823672b87b731eaf9230cebd85610cf4c67767e4f7c6fcd983986d7b5233a",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\AmbientCongruenceChecks00.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientCongruenceChecks01.ilean.hash",
+      "originalBytesHex": "30303233623335343462333033366133",
+      "path": "ThomsonN9/Certificates/AmbientCongruenceChecks01.ilean.hash",
+      "sha256": "5b28623277ddf03c6f64cccc8e22cb64421a433758ba75570ab9b6e7d40edc5e",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\AmbientCongruenceChecks01.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientCongruenceChecks02.ilean.hash",
+      "originalBytesHex": "39366364363663366462383863623334",
+      "path": "ThomsonN9/Certificates/AmbientCongruenceChecks02.ilean.hash",
+      "sha256": "54d3cf8fcadeac936a09be4813763b35f0934b229fedcd011e103a0ce0965488",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\AmbientCongruenceChecks02.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientCongruenceChecks03.ilean.hash",
+      "originalBytesHex": "32303066386666643966373965313861",
+      "path": "ThomsonN9/Certificates/AmbientCongruenceChecks03.ilean.hash",
+      "sha256": "51464268eace74a252678cc48bc9df09d9ff847b5d6f2fb69aae09a524cd335f",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\AmbientCongruenceChecks03.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientCongruenceChecks04.ilean.hash",
+      "originalBytesHex": "33633866396661613232373932356366",
+      "path": "ThomsonN9/Certificates/AmbientCongruenceChecks04.ilean.hash",
+      "sha256": "68776fe0812cdd498395c55aaad6494093886e17a0bec67fe249358961e28f66",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\AmbientCongruenceChecks04.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientCongruenceChecks05.ilean.hash",
+      "originalBytesHex": "36323238386332366230346438656535",
+      "path": "ThomsonN9/Certificates/AmbientCongruenceChecks05.ilean.hash",
+      "sha256": "538fee91c02727541847abc000a188823872d838406b6f9c52c1b3bd29baee1e",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\AmbientCongruenceChecks05.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientCongruenceChecks06.ilean.hash",
+      "originalBytesHex": "37316364633664626633656566646463",
+      "path": "ThomsonN9/Certificates/AmbientCongruenceChecks06.ilean.hash",
+      "sha256": "91b40e71bc7d1ef09b398901126706758e24199d872007bfc6c9f9e60a7bef23",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\AmbientCongruenceChecks06.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientCongruenceChecks07.ilean.hash",
+      "originalBytesHex": "37303536356632663361383435663436",
+      "path": "ThomsonN9/Certificates/AmbientCongruenceChecks07.ilean.hash",
+      "sha256": "f166d214fc15a1b0e074705b375bfddf28c6e743cb82b52f9b7b0194af9fac02",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\AmbientCongruenceChecks07.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientCongruenceChecks08.ilean.hash",
+      "originalBytesHex": "38353636393834626531376363383530",
+      "path": "ThomsonN9/Certificates/AmbientCongruenceChecks08.ilean.hash",
+      "sha256": "262493334c3b383ec1c08087707951560d75ebdc898777ba41db78dfd4316ec4",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\AmbientCongruenceChecks08.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientCongruenceData.ilean.hash",
+      "originalBytesHex": "64656433313663356135373634653732",
+      "path": "ThomsonN9/Certificates/AmbientCongruenceData.ilean.hash",
+      "sha256": "e0bdc86da6e1c0fbb539d37474c0e7583639d431ae07065cf559d1f671cb06dc",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\AmbientCongruenceData.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientHessian.ilean.hash",
+      "originalBytesHex": "33303738666262656635336438633134",
+      "path": "ThomsonN9/Certificates/AmbientHessian.ilean.hash",
+      "sha256": "3628ff59aafcd5be782e5830653090edf8621b137ba506b425b6f43f259b7be5",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\AmbientHessian.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientKernelAll.ilean.hash",
+      "originalBytesHex": "30646339643736613962303235316430",
+      "path": "ThomsonN9/Certificates/AmbientKernelAll.ilean.hash",
+      "sha256": "60ff8e8f0300be326ed3cfcfedbfe0eb213f19df3c3dcf4dd6383c6174ed6db3",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\AmbientKernelAll.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientKernelAssembly.ilean.hash",
+      "originalBytesHex": "64333763303237366534653331366666",
+      "path": "ThomsonN9/Certificates/AmbientKernelAssembly.ilean.hash",
+      "sha256": "6f161b243d75ad08f5ffe86b0e71e2d41fc2080182cfab0981aa33b2abe680c8",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\AmbientKernelAssembly.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientKernelBounds.ilean.hash",
+      "originalBytesHex": "33626233613234656466393166663231",
+      "path": "ThomsonN9/Certificates/AmbientKernelBounds.ilean.hash",
+      "sha256": "0ca99b17fe297310d2dbf268706cbdba3aad98edeb1f5ea41d0ee289aa062e1f",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\AmbientKernelBounds.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientKernelChecks00.ilean.hash",
+      "originalBytesHex": "39626135653938393733616361323366",
+      "path": "ThomsonN9/Certificates/AmbientKernelChecks00.ilean.hash",
+      "sha256": "6d4f20c08532f74447c9b8c35a634ea3dda1c966d00b8dcbea4ebb8d938600e0",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\AmbientKernelChecks00.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientKernelChecks01.ilean.hash",
+      "originalBytesHex": "64363065323061373565336662626136",
+      "path": "ThomsonN9/Certificates/AmbientKernelChecks01.ilean.hash",
+      "sha256": "08a2b1f1f9154ba3daccfd48427f5f2cda9253ac0a19af48cc503d3667ab8783",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\AmbientKernelChecks01.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientKernelChecks02.ilean.hash",
+      "originalBytesHex": "30623032313735333734663462373862",
+      "path": "ThomsonN9/Certificates/AmbientKernelChecks02.ilean.hash",
+      "sha256": "e7a2bbda586be124faad7b32573b6d8377ee5ddaa2e5bc63f8b8aed36d9fafc3",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\AmbientKernelChecks02.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientKernelChecks03.ilean.hash",
+      "originalBytesHex": "38343139393065646566393336363061",
+      "path": "ThomsonN9/Certificates/AmbientKernelChecks03.ilean.hash",
+      "sha256": "7e1d144d3b8c1a79139b932c30ecd1344577dffd7a6430a9a9c517cdf3798376",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\AmbientKernelChecks03.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientKernelChecks04.ilean.hash",
+      "originalBytesHex": "34656234663961633735356264633539",
+      "path": "ThomsonN9/Certificates/AmbientKernelChecks04.ilean.hash",
+      "sha256": "d1817fdcd5a6afb69b88712b1a8e15ba86fd2241e647a84f5b1fb29d7af0487d",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\AmbientKernelChecks04.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientKernelChecks05.ilean.hash",
+      "originalBytesHex": "36323735333236623632626264313763",
+      "path": "ThomsonN9/Certificates/AmbientKernelChecks05.ilean.hash",
+      "sha256": "c164ac05ec70da11933ad95a1d65bc64a78f43cd23a8dc17104444612cbc501f",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\AmbientKernelChecks05.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientKernelChecks06.ilean.hash",
+      "originalBytesHex": "31636365626235333464393362326236",
+      "path": "ThomsonN9/Certificates/AmbientKernelChecks06.ilean.hash",
+      "sha256": "480c25f34c8568b9594a22964d647c7c70fa947e624d3731198c92e68bf0c7bf",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\AmbientKernelChecks06.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientKernelChecks07.ilean.hash",
+      "originalBytesHex": "62376662343935623436643832373331",
+      "path": "ThomsonN9/Certificates/AmbientKernelChecks07.ilean.hash",
+      "sha256": "ad6bc70f29f3d8399a60011ba69b9f97740bae2d29a6a68f30ff618d8ce705d1",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\AmbientKernelChecks07.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientKernelChecks08.ilean.hash",
+      "originalBytesHex": "37336633656331613537646664653133",
+      "path": "ThomsonN9/Certificates/AmbientKernelChecks08.ilean.hash",
+      "sha256": "c6ddf5ee22e92b9200ded4ce639827035965103496bfb38e67803096ba27df41",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\AmbientKernelChecks08.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientKernelChecks09.ilean.hash",
+      "originalBytesHex": "32336230633933373161396165373335",
+      "path": "ThomsonN9/Certificates/AmbientKernelChecks09.ilean.hash",
+      "sha256": "4652bc25373ab9de1be1d6a116202d29056cf9be0dcaf3385671092ce9b3e823",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\AmbientKernelChecks09.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientKernelData.ilean.hash",
+      "originalBytesHex": "66663866313036623532303761383539",
+      "path": "ThomsonN9/Certificates/AmbientKernelData.ilean.hash",
+      "sha256": "bd34fe6614e9fc285a1fb3054994ee094c39518a29f900a8518475d82d9b7c0a",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\AmbientKernelData.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\AmbientKernelGeometry.ilean.hash",
+      "originalBytesHex": "37633830383637316162353438346137",
+      "path": "ThomsonN9/Certificates/AmbientKernelGeometry.ilean.hash",
+      "sha256": "891ff3a18d4df92a61b29d4128644770d30679328edfc6d449355a3a1c93008b",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\AmbientKernelGeometry.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\CircuitAlgebra.ilean.hash",
+      "originalBytesHex": "62323637643565326363663966363466",
+      "path": "ThomsonN9/Certificates/CircuitAlgebra.ilean.hash",
+      "sha256": "c9d40aeec8e08a8b8b828ec6905f5318ab0a13a43c080212595ea3b5a3272a81",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\CircuitAlgebra.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\CircuitConstants.ilean.hash",
+      "originalBytesHex": "34393332353261636239653139376531",
+      "path": "ThomsonN9/Certificates/CircuitConstants.ilean.hash",
+      "sha256": "4bf3c6f13122ffffee745840a3ea7bdd912fd59b560ff9a61821676fbd756f54",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\CircuitConstants.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\CircuitCoordinates.ilean.hash",
+      "originalBytesHex": "34343437336565663532383564333232",
+      "path": "ThomsonN9/Certificates/CircuitCoordinates.ilean.hash",
+      "sha256": "148a01f72894f9ff3cd939f3a8dec92de39b7ebe1c4e882be5badc45c9903467",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\CircuitCoordinates.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\CircuitDifferences.ilean.hash",
+      "originalBytesHex": "64306132643164663831323366643433",
+      "path": "ThomsonN9/Certificates/CircuitDifferences.ilean.hash",
+      "sha256": "664de678eac28ff98f85f5f8bcf15d1f1799ce1f2ac23300c38b6a342e922797",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\CircuitDifferences.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\CircuitMatrices.ilean.hash",
+      "originalBytesHex": "34613765323833346436326630626333",
+      "path": "ThomsonN9/Certificates/CircuitMatrices.ilean.hash",
+      "sha256": "dc566bda15d2b09b7c6bc698aa8b14e4154e174639f795e81f6ff8e84365255e",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\CircuitMatrices.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\CircuitPairBlock.ilean.hash",
+      "originalBytesHex": "64306361346334316637376530313765",
+      "path": "ThomsonN9/Certificates/CircuitPairBlock.ilean.hash",
+      "sha256": "b9a5f72d7670d84202f41df4f8c11e021fe1e05a5ce1570f478349abf49d1671",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\CircuitPairBlock.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\CircuitRadial.ilean.hash",
+      "originalBytesHex": "65633939633263393139636535396637",
+      "path": "ThomsonN9/Certificates/CircuitRadial.ilean.hash",
+      "sha256": "3635e59e7df0b9e816d45d9ecf6fc7fb510e2963db5733c64ffee4139e4bb911",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\CircuitRadial.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\CircuitRotation.ilean.hash",
+      "originalBytesHex": "36636164313937613661393139376334",
+      "path": "ThomsonN9/Certificates/CircuitRotation.ilean.hash",
+      "sha256": "99d32d21f752fab09c0401b111c7eeea7cb8c51f48aa4379773171ef1b5f5b68",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\CircuitRotation.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\CircuitSums.ilean.hash",
+      "originalBytesHex": "36623731623233633331613831646161",
+      "path": "ThomsonN9/Certificates/CircuitSums.ilean.hash",
+      "sha256": "0ddc16f394f02524b6385ca8c36e8df31c31a13464810faf1aab5f8780cbe511",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\CircuitSums.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\DiagonalDominance.ilean.hash",
+      "originalBytesHex": "33663237623264383937343731653463",
+      "path": "ThomsonN9/Certificates/DiagonalDominance.ilean.hash",
+      "sha256": "866b8026a7d9c7d9ce6918969d95efeb97d201cc7f2a86b27774d83b47adef93",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\DiagonalDominance.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\EnergyControls.ilean.hash",
+      "originalBytesHex": "66336433633731613964323862316536",
+      "path": "ThomsonN9/Certificates/EnergyControls.ilean.hash",
+      "sha256": "b68250bd009c16fcaf3743d9ffdaa20bc849f87b84f0b9cc06e73730bd383259",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\EnergyControls.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\HessianTransport.ilean.hash",
+      "originalBytesHex": "39623463653831376166663330353632",
+      "path": "ThomsonN9/Certificates/HessianTransport.ilean.hash",
+      "sha256": "c1cb80f70c276df539628e0865fac5861f9d0b816b017b0a36ea371063659837",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\HessianTransport.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\Interval.ilean.hash",
+      "originalBytesHex": "37336434646138346637326363333631",
+      "path": "ThomsonN9/Certificates/Interval.ilean.hash",
+      "sha256": "2e83b6b7cedbb5e9a1f8758b59f2248e88ad5d2b3b9aa0fa8c83cc32becfb9bd",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\Interval.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\IntervalCircuit.ilean.hash",
+      "originalBytesHex": "32336130633462346463303232643263",
+      "path": "ThomsonN9/Certificates/IntervalCircuit.ilean.hash",
+      "sha256": "d4b8003acacec3addac698efd4ce51246ea543fc6525f4ddf4df4c7bfb951a13",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\IntervalCircuit.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\ReducedEnergy.ilean.hash",
+      "originalBytesHex": "66636634643436623230373832353635",
+      "path": "ThomsonN9/Certificates/ReducedEnergy.ilean.hash",
+      "sha256": "2cbb98a706d995390c34b4c9a0306309d04f90fe06034f7e1531483868b0e89b",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\ReducedEnergy.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\ScaledInterval.ilean.hash",
+      "originalBytesHex": "66363166656133356662343864373530",
+      "path": "ThomsonN9/Certificates/ScaledInterval.ilean.hash",
+      "sha256": "c3f7c1d64f7835c3ac3d2b3cfb89c77d665d30534acbcedcb919e5737a8743ee",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\ScaledInterval.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Certificates\\ZeroPenalty.ilean.hash",
+      "originalBytesHex": "38393131356664623232383763323635",
+      "path": "ThomsonN9/Certificates/ZeroPenalty.ilean.hash",
+      "sha256": "836d8fba2d6d9715845a3901f62ba8c4507ae911b390bc494f6805d50ac92884",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Certificates\\ZeroPenalty.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Completion.ilean.hash",
+      "originalBytesHex": "39363731373462376531346165393335",
+      "path": "ThomsonN9/Completion.ilean.hash",
+      "sha256": "30a502190b4e895cd40e48aa7912bde39e6d8dd993330e7c7c8ba5307b2210ec",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Completion.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Endgame.ilean.hash",
+      "originalBytesHex": "35363232303031333166313066393864",
+      "path": "ThomsonN9/Endgame.ilean.hash",
+      "sha256": "e3a134aa43f9350fcedd5e39cfaccaa930af7aeb6fe56626b6f45a79b294932d",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Endgame.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\Energy.ilean.hash",
+      "originalBytesHex": "34633430666239333064386662333464",
+      "path": "ThomsonN9/Energy.ilean.hash",
+      "sha256": "4f0bff9c1329e074dd64d978433bdd8c9984f462874e175e409076f1af49ff59",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\Energy.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\FamilyEnergy.ilean.hash",
+      "originalBytesHex": "36623165303131626534663634616637",
+      "path": "ThomsonN9/FamilyEnergy.ilean.hash",
+      "sha256": "616313aba71a62ed15d83460cc90f3674b29ad556d6aa408c5e1c36cc334982d",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\FamilyEnergy.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\FamilyMinimum.ilean.hash",
+      "originalBytesHex": "37343334376333616562336136623131",
+      "path": "ThomsonN9/FamilyMinimum.ilean.hash",
+      "sha256": "e37e3097d720d8fb6325048302c2505dd0b71c65f3ee7953427ba70454917a22",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\FamilyMinimum.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\GlobalReduction.ilean.hash",
+      "originalBytesHex": "33333161393636383639623134363133",
+      "path": "ThomsonN9/GlobalReduction.ilean.hash",
+      "sha256": "f33aee5986c02c082d1030458983f4d2c8691ddc847044ef237e13b0bee2a8f9",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\GlobalReduction.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\GramAlignment.ilean.hash",
+      "originalBytesHex": "64393232396530636564383563356235",
+      "path": "ThomsonN9/GramAlignment.ilean.hash",
+      "sha256": "1f1a11e9b838ecb81dc184a7a15080effd4f01ad8893bd8a6eb4f33ad48f59ee",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\GramAlignment.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\GramSchmidtFrame.ilean.hash",
+      "originalBytesHex": "31396665643731663035366635353163",
+      "path": "ThomsonN9/GramSchmidtFrame.ilean.hash",
+      "sha256": "be5efd44e73eed0ee3d94e33293f78d3a9bd43f0bf6029294938c7bb202af07d",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\GramSchmidtFrame.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\GramStability.ilean.hash",
+      "originalBytesHex": "66623531353139376236343238383363",
+      "path": "ThomsonN9/GramStability.ilean.hash",
+      "sha256": "1d05ab06520ad830439b3d4a1d824dc80d227035b0da8cffc579df6aec6c065b",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\GramStability.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\HessianSymmetry.ilean.hash",
+      "originalBytesHex": "66363865646262373161656631636635",
+      "path": "ThomsonN9/HessianSymmetry.ilean.hash",
+      "sha256": "617a025a4ab4afa8cf5e33322a2f8400637130dd223dad98209f0e01e836bb0c",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\HessianSymmetry.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\LP\\Anchor.ilean.hash",
+      "originalBytesHex": "62383936643938363036316337636135",
+      "path": "ThomsonN9/LP/Anchor.ilean.hash",
+      "sha256": "64190af19bdca4bc286f29bd7d6bf2eb561423b98f46a7b1a42f6c5f7e6f082d",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\LP\\Anchor.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\LP\\Concrete.ilean.hash",
+      "originalBytesHex": "66383237303364323262313136333932",
+      "path": "ThomsonN9/LP/Concrete.ilean.hash",
+      "sha256": "5341dba741ad3c95e77b6d99631a20018149f771c6f70ee50d9462687d119aaf",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\LP\\Concrete.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\LP\\ConcreteLinkage.ilean.hash",
+      "originalBytesHex": "33306631326662333734396164376333",
+      "path": "ThomsonN9/LP/ConcreteLinkage.ilean.hash",
+      "sha256": "92ffa8a8d5a10cac62f2e44fd8318ca7ae1ae701debf9282c72119fc04b4edf3",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\LP\\ConcreteLinkage.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\LP\\Covariance.ilean.hash",
+      "originalBytesHex": "64336434376462633739383661383834",
+      "path": "ThomsonN9/LP/Covariance.ilean.hash",
+      "sha256": "e22f2523a41fc62e16e6687c899d5b8f1b93787ac7cd8326e561624dbf1fcbe0",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\LP\\Covariance.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\LP\\EnergyBound.ilean.hash",
+      "originalBytesHex": "64653335356537306431303763333165",
+      "path": "ThomsonN9/LP/EnergyBound.ilean.hash",
+      "sha256": "03aed467a537df82a848e09110711d9cb19121b40c6a4c72ad609ac3511c6654",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\LP\\EnergyBound.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\LP\\PolynomialLinkage.ilean.hash",
+      "originalBytesHex": "34663964346339663935303064323832",
+      "path": "ThomsonN9/LP/PolynomialLinkage.ilean.hash",
+      "sha256": "84b49f3b5875ba609d9e9f966223c838d74c71cbf3050ecdb122fb5235a05895",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\LP\\PolynomialLinkage.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\LP\\Schoenberg.ilean.hash",
+      "originalBytesHex": "38396666383537363239656331386261",
+      "path": "ThomsonN9/LP/Schoenberg.ilean.hash",
+      "sha256": "d346f799e991f7412817a2c5c450efd9786318b991db3bf6a2823ceecaf7a118",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\LP\\Schoenberg.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\LocalCoercivity.ilean.hash",
+      "originalBytesHex": "66626438336161333538376536366265",
+      "path": "ThomsonN9/LocalCoercivity.ilean.hash",
+      "sha256": "44705de17ccec534bfea67ac0ada6e0ecd2aaf62ae03ff29618a43d9688be9dd",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\LocalCoercivity.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\LocalEnergy.ilean.hash",
+      "originalBytesHex": "63376135303135353465313135643531",
+      "path": "ThomsonN9/LocalEnergy.ilean.hash",
+      "sha256": "3f00742fd2306917ffe90d0855e39378c79fd98f3eb3ce8e05037d85f70fc634",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\LocalEnergy.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\LocalEstimate.ilean.hash",
+      "originalBytesHex": "63383564333234363333396337643838",
+      "path": "ThomsonN9/LocalEstimate.ilean.hash",
+      "sha256": "127121fddec9276c06a94bbeb028a27ce1db91a69d292e1bbd09356167a69664",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\LocalEstimate.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\LocalGeometry.ilean.hash",
+      "originalBytesHex": "66653865613837613362633835373063",
+      "path": "ThomsonN9/LocalGeometry.ilean.hash",
+      "sha256": "294dd6b453c2826f1156054b8c605a46a5f10cd9b580fb0e314930136f942df7",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\LocalGeometry.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\LocalPotential.ilean.hash",
+      "originalBytesHex": "31393331626361306463353539353963",
+      "path": "ThomsonN9/LocalPotential.ilean.hash",
+      "sha256": "971b0dc0153c8ec26cfafda9278816cdc73e4b3487b390b94512e5c9be67711e",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\LocalPotential.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\LocalRigidity.ilean.hash",
+      "originalBytesHex": "66636236396165613236336432393130",
+      "path": "ThomsonN9/LocalRigidity.ilean.hash",
+      "sha256": "bc371f6f584eb30c76be961f0ce0c3287f9ae106ee02bf48ee0cc9c858a7d34e",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\LocalRigidity.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\LocalStationarity.ilean.hash",
+      "originalBytesHex": "65356339373633333131333337656131",
+      "path": "ThomsonN9/LocalStationarity.ilean.hash",
+      "sha256": "35eeed15491bd2dedcddeed234adbc0e0b4e740c7f6e8979fc31367815543654",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\LocalStationarity.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\LocalTarget.ilean.hash",
+      "originalBytesHex": "61633034316432653561346361333265",
+      "path": "ThomsonN9/LocalTarget.ilean.hash",
+      "sha256": "a095453defbd0d9c6e610819793bc45daeeefc2ecd9e343a4477a44c8e7754a1",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\LocalTarget.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\MainTheorem.ilean.hash",
+      "originalBytesHex": "37393332633131663031613135313466",
+      "path": "ThomsonN9/MainTheorem.ilean.hash",
+      "sha256": "fc40de77b5aca7c138a5cebb5d0ce4f3291bb7ca1801dd9452e0f74c3ba91c25",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\MainTheorem.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\ParameterExists.ilean.hash",
+      "originalBytesHex": "35353132383434363634306635323761",
+      "path": "ThomsonN9/ParameterExists.ilean.hash",
+      "sha256": "998bbb354f9c3ed249d0c9f68c8d83846e4405bfb277ef43367560808e2e737a",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\ParameterExists.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\ParameterSigns.ilean.hash",
+      "originalBytesHex": "64656462363938353536333036313833",
+      "path": "ThomsonN9/ParameterSigns.ilean.hash",
+      "sha256": "6560977a4b3b03dda801032711b00471ab7f8bd8642571b33e051c3fc2184d98",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\ParameterSigns.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\QuantitativeStability.ilean.hash",
+      "originalBytesHex": "36333437306237373632346630613162",
+      "path": "ThomsonN9/QuantitativeStability.ilean.hash",
+      "sha256": "9b73825c46e94e466efd6aa92006f0c54fecd124a9546796aad29ddecf6493fc",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\QuantitativeStability.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\SDP\\CertificateBound.ilean.hash",
+      "originalBytesHex": "30636330393366333465363566613438",
+      "path": "ThomsonN9/SDP/CertificateBound.ilean.hash",
+      "sha256": "05038b6a3ebe4dcf2ac3fa02e48d1bd7353272b75c8455a9406f019ea05d8550",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\SDP\\CertificateBound.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\SDP\\CircleKernel.ilean.hash",
+      "originalBytesHex": "62616332333965663561623333353438",
+      "path": "ThomsonN9/SDP/CircleKernel.ilean.hash",
+      "sha256": "7d5eacfd7272739eedc143da99804909e9cd7af7c1e8402c9ee414894c7e0ce5",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\SDP\\CircleKernel.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\SDP\\Counting.ilean.hash",
+      "originalBytesHex": "36643433356565623131643530393162",
+      "path": "ThomsonN9/SDP/Counting.ilean.hash",
+      "sha256": "99aac6c63655f536a0cdb13c7c95c116051dca1d6a499e48d2fcf88123fdc8d8",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\SDP\\Counting.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\SDP\\FactoredKernels.ilean.hash",
+      "originalBytesHex": "35323763316630333131346631363738",
+      "path": "ThomsonN9/SDP/FactoredKernels.ilean.hash",
+      "sha256": "6a428405456ae442a196fbe92966f3233cbf61394a6e36953d581ae0b8d03e62",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\SDP\\FactoredKernels.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\SDP\\GeometryBounds.ilean.hash",
+      "originalBytesHex": "62633731313238336334353936643336",
+      "path": "ThomsonN9/SDP/GeometryBounds.ilean.hash",
+      "sha256": "ec5a0f2a07d0c0e1f744650c6ae5e880860ac6f10a57698fcd7bb255078f8854",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\SDP\\GeometryBounds.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\SDP\\PolynomialKernel.ilean.hash",
+      "originalBytesHex": "34613530626337343735336635333365",
+      "path": "ThomsonN9/SDP/PolynomialKernel.ilean.hash",
+      "sha256": "cd603f36788ebb44b209828bc9f9869883f2cdec9ee9b40c3aaec941486d9c8f",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\SDP\\PolynomialKernel.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\SDP\\ProjectionComplex.ilean.hash",
+      "originalBytesHex": "64666332316333343066366263313562",
+      "path": "ThomsonN9/SDP/ProjectionComplex.ilean.hash",
+      "sha256": "b16c5c5a03b54ad00fc88cee084c236373a9c5b51b18d6f68f8ee66ff0b32674",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\SDP\\ProjectionComplex.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\SDP\\RepeatedIndices.ilean.hash",
+      "originalBytesHex": "63633665393939643065656134653632",
+      "path": "ThomsonN9/SDP/RepeatedIndices.ilean.hash",
+      "sha256": "fc2b1b13623cac3d8219a65094a21f08c24b6af704c9dd55c457692822983a10",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\SDP\\RepeatedIndices.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\SDP\\ResidualBound.ilean.hash",
+      "originalBytesHex": "38393334383065353936373762313238",
+      "path": "ThomsonN9/SDP/ResidualBound.ilean.hash",
+      "sha256": "6193c8deb15670b871e23d4438964848d07137922d8857123373cb3a746924d8",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\SDP\\ResidualBound.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\SDP\\Summation.ilean.hash",
+      "originalBytesHex": "66623634656263336633626262666438",
+      "path": "ThomsonN9/SDP/Summation.ilean.hash",
+      "sha256": "21e7f56b067f29f5812ee3debae103069486c2ba83b034ff7af33608760897ba",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\SDP\\Summation.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\SDP\\Symmetrization.ilean.hash",
+      "originalBytesHex": "36633738666435313134653365343364",
+      "path": "ThomsonN9/SDP/Symmetrization.ilean.hash",
+      "sha256": "5573b360e7ef14ab1a6477acdd50a30d82c0d026ec6f0a54cd68f4e1020d4d26",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\SDP\\Symmetrization.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\ScalarCertificates.ilean.hash",
+      "originalBytesHex": "30376335643433633739326139373661",
+      "path": "ThomsonN9/ScalarCertificates.ilean.hash",
+      "sha256": "b1814e8f92e5c4182366727ffada27c5c909e0c365539f6437398f59dcc3dce1",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\ScalarCertificates.ilean.hash"
+    },
+    {
+      "bytes": 16,
+      "destination": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-metadata-preservation\\preserved\\v4-sidecars-20261006-01\\files\\ThomsonN9\\WindowLocalization.ilean.hash",
+      "originalBytesHex": "33303961663430663633616666616531",
+      "path": "ThomsonN9/WindowLocalization.ilean.hash",
+      "sha256": "dee9be901c0ab7fe6fefa50d9e5e4354da3e8f41eb7c167eede1523ed33b8909",
+      "source": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4\\.lake\\build\\lib\\lean\\ThomsonN9\\WindowLocalization.ilean.hash"
+    }
+  ],
+  "snapshot": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\clean-n9\\20261006-adaptive-v4",
+  "sourceFiles": 222,
+  "status": "EXACT_ILEAN_HASH_SIDECARS_PRESERVED",
+  "targetsSha256": "a61fcf0bce0218b67dc81133936ecf82f7defdf2a3961dd1d3f99dfe9e44ad5e"
+}

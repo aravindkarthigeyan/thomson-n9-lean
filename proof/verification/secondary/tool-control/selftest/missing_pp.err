@@ -1,0 +1,5 @@
+Error: these pp_declars were not found in the exported environment: [
+    "VFSelftest.no_such_declaration",
+]
+
+run with `-h` or `--help` for help

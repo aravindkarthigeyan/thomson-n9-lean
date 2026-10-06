@@ -1,0 +1,30 @@
+⚠ [3163/3175] Replayed ClaudeWindow.WindowBoxes
+warning: ClaudeWindow/WindowBoxes.lean:65:48: This simp argument is unused:
+  Rat.cast_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [palette, plo, phi, Rat.cast_sub, Rat.cast_mul, Rat.cast_pow, Rat.cast_div, Rat.cast_neg,
+    Rat.cast_one, Rat.cast_ofNat]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3169/3175] Replayed ClaudeWindow.Soundness
+warning: ClaudeWindow/Soundness.lean:199:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: ClaudeWindow/Soundness.lean:201:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+⚠ [3173/3175] Replayed ClaudeWindow.Main
+warning: ClaudeWindow/Main.lean:79:16: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: ClaudeWindow/Main.lean:82:16: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: ClaudeWindow/Main.lean:115:22: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: ClaudeWindow/Main.lean:116:22: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+warning: ClaudeWindow/Main.lean:119:20: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: ClaudeWindow/Main.lean:144:20: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+ℹ [3175/3175] Built ClaudeL2b.WindowAdapter (11s)
+info: ClaudeL2b/WindowAdapter.lean:157:0: 'ThomsonN9.Claude.L2b.window_rigidity_candidateAt_of_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/WindowAdapter.lean:158:0: 'ThomsonN9.Claude.L2b.window_rigidity_candidateAt_eta_of_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/WindowAdapter.lean:159:0: 'ThomsonN9.Claude.L2b.window_rigidity_candidate_of_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/WindowAdapter.lean:160:0: 'ThomsonN9.Claude.L2b.window_rigidity_candidate_relabel_of_lt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ClaudeL2b/WindowAdapter.lean:161:0: 'ThomsonN9.Claude.L2b.contactL3_eq_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/WindowAdapter.lean:162:0: 'ThomsonN9.Claude.L2b.window_rigidity_contact_of_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClaudeL2b/WindowAdapter.lean:163:0: 'ThomsonN9.Claude.L2b.window_rigidity_contact_relabel_of_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3175 jobs).

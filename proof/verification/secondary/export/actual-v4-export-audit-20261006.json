@@ -1,0 +1,50 @@
+{
+  "status": "EXPORT_ONLY_INDEPENDENT_AUDIT_PASS_NOT_KERNEL_CHECK",
+  "priorSummary": {
+    "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\runs\\n9-complete-v4-20261006-export-01\\summary.json",
+    "sha256": "2bfb704376e465700fc96e3a77056c7edeca9e8956d0e5caf33cf0c62398ed60",
+    "bytes": 7528
+  },
+  "export": {
+    "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\export.ndjson",
+    "sha256": "6ea32a64e1aabdfbf06dc731537de0083f7e60e5eb76b408e5c418ccf1a93b3c",
+    "bytes": 514465728
+  },
+  "lines": 9727409,
+  "declarations": 55248,
+  "counts": {
+    "inductive_items": 2693,
+    "def": 16850,
+    "thm": 35665,
+    "axiom": 3,
+    "quot": 4,
+    "opaque": 33
+  },
+  "requiredDeclarations": {
+    "ThomsonN9.Challenge.ParameterExistsUnique": "def",
+    "ThomsonN9.Challenge.GlobalOptimality": "def",
+    "ThomsonN9.Challenge.GlobalUniqueness": "def",
+    "ThomsonN9.Challenge.CompleteTarget": "def",
+    "ThomsonN9.thomson_nine_complete": "thm"
+  },
+  "exportedAxioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "completeTheoremTypeIsCompleteTarget": true,
+  "config": {
+    "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-verification\\tools\\second_kernel\\runs\\n9-complete-v4-20261006-export-01\\nanoda.config.json",
+    "sha256": "95392725424189d9a706753101b7d0e291919e606563758485149c0df5cfc6be",
+    "bytes": 725
+  },
+  "rawProcessOutcome": "INCONCLUSIVE_PROCESS_FAILURE",
+  "stageCompletion": "EXPORT_ONLY_COMPLETED",
+  "priorSupervisionValidation": "unchanged v5 verify_prior_export PASS through prepare/validate_plan",
+  "auditSource": {
+    "path": "C:\\Users\\REDACTED\\Documents\\Codex\\2026-10-05\\analyze-what-s-u\\work\\n9-independent-supervision\\prepare_actual_v4_check.py",
+    "sha256": "324df6c4fac567abb91aa8fc3db2113dd44d9f1e34bbcae171f6a95e06da9e1d",
+    "bytes": 7480
+  },
+  "kernelLaunched": false
+}
